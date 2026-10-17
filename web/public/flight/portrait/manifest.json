@@ -1,0 +1,24 @@
+{
+ "set": "portrait",
+ "fps": 48,
+ "frames": 505,
+ "waypoints": [
+  1,
+  97,
+  313,
+  409,
+  505
+ ],
+ "tiers": [
+  {
+   "name": "p",
+   "width": 720,
+   "height": 1280
+  },
+  {
+   "name": "s",
+   "width": 480,
+   "height": 853
+  }
+ ]
+}

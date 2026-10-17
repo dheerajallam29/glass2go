@@ -1,0 +1,24 @@
+{
+ "set": "landscape",
+ "fps": 48,
+ "frames": 505,
+ "waypoints": [
+  1,
+  97,
+  313,
+  409,
+  505
+ ],
+ "tiers": [
+  {
+   "name": "xl",
+   "width": 1920,
+   "height": 1200
+  },
+  {
+   "name": "m",
+   "width": 1280,
+   "height": 800
+  }
+ ]
+}
