@@ -1,0 +1,962 @@
+[
+ {
+  "id": "deca-core-customer-relations-002",
+  "ratio": "1.53",
+  "right": "Apologize, check the return policy, and offer a replacement or refund",
+  "wrong": [
+   "Suggest buying a second blender at a discount",
+   "Say that cracked lids are normal wear",
+   "Ask for a written complaint before helping"
+  ]
+ },
+ {
+  "id": "deca-core-economics-005",
+  "ratio": "1.51",
+  "right": "A new bicycle produced and sold by a local manufacturer this year",
+  "wrong": [
+   "Shares of stock bought on an exchange",
+   "A government pension payment",
+   "A used bicycle resold between two neighbors"
+  ]
+ },
+ {
+  "id": "deca-core-emotional-intelligence-004",
+  "ratio": "1.55",
+  "right": "Noticing that tight deadlines make you short-tempered and planning around it",
+  "wrong": [
+   "Blaming teammates when a deadline is missed",
+   "Copying the habits of the most confident teammate",
+   "Hiding a mistake so the team stays confident"
+  ]
+ },
+ {
+  "id": "deca-core-information-management-004",
+  "ratio": "1.91",
+  "right": "Data analysis software such as a pivot table",
+  "wrong": [
+   "A word processor",
+   "An email client",
+   "A slide design template"
+  ]
+ },
+ {
+  "id": "deca-core-information-management-005",
+  "ratio": "1.91",
+  "right": "Loss of data from failure, error or attack",
+  "wrong": [
+   "Rising supplier prices",
+   "Slow internet speeds",
+   "Customer complaints"
+  ]
+ },
+ {
+  "id": "deca-core-strategic-management-005",
+  "ratio": "1.96",
+  "right": "Increase online sales by 10 percent within six months",
+  "wrong": [
+   "Grow as much as possible",
+   "Make customers happy",
+   "Be the best company in town"
+  ]
+ },
+ {
+  "id": "deca-bma-compliance-004",
+  "ratio": "2.00",
+  "right": "To prove compliance with wage and hour laws in an audit or dispute",
+  "wrong": [
+   "To qualify for shipping discounts",
+   "To meet advertising requirements",
+   "To set next year's product prices"
+  ]
+ },
+ {
+  "id": "deca-bma-compliance-005",
+  "ratio": "2.17",
+  "right": "Making sure policies and operations follow laws and regulations",
+  "wrong": [
+   "Recruiting new employees",
+   "Setting monthly sales targets",
+   "Designing product packaging"
+  ]
+ },
+ {
+  "id": "deca-bma-project-management-004",
+  "ratio": "1.68",
+  "right": "Assess the effect on time and cost and agree any changes before proceeding",
+  "wrong": [
+   "Pause the project until the client leaves",
+   "Add the features without telling anyone",
+   "Refuse all changes regardless of their value"
+  ]
+ },
+ {
+  "id": "deca-bma-project-management-006",
+  "ratio": "1.62",
+  "right": "Possible problems, how likely they are and planned responses",
+  "wrong": [
+   "Only the contact details of suppliers",
+   "The final results of the project",
+   "The salaries of team members"
+  ]
+ },
+ {
+  "id": "deca-shared-knowledge-management-001",
+  "ratio": "1.66",
+  "right": "Capturing and sharing what an organization knows",
+  "wrong": [
+   "Hiring new employees",
+   "Auditing financial statements",
+   "Setting product prices"
+  ]
+ },
+ {
+  "id": "deca-shared-knowledge-management-002",
+  "ratio": "2.16",
+  "right": "A veteran technician's instinct for diagnosing a fault",
+  "wrong": [
+   "A posted safety checklist",
+   "A database of past orders",
+   "A written user manual"
+  ]
+ },
+ {
+  "id": "deca-shared-knowledge-management-003",
+  "ratio": "2.06",
+  "right": "An internal searchable knowledge base",
+  "wrong": [
+   "An annual report",
+   "A paper time sheet",
+   "A supplier invoice"
+  ]
+ },
+ {
+  "id": "deca-shared-quality-management-001",
+  "ratio": "1.55",
+  "right": "Checking products or services against set standards",
+  "wrong": [
+   "Setting the price of products",
+   "Hiring temporary staff",
+   "Advertising to find new customers"
+  ]
+ },
+ {
+  "id": "deca-shared-risk-management-003",
+  "ratio": "3.94",
+  "right": "Investing in a new product that may earn a profit or lose money",
+  "wrong": [
+   "A warehouse fire",
+   "A flood",
+   "A car accident"
+  ]
+ },
+ {
+  "id": "deca-finance-financial-information-management-001",
+  "ratio": "2.17",
+  "right": "A record of a business's accounts and transactions",
+  "wrong": [
+   "A tax form",
+   "A marketing report",
+   "A type of business loan"
+  ]
+ },
+ {
+  "id": "deca-marketing-channel-management-001",
+  "ratio": "1.52",
+  "right": "The path a product takes from producer to consumer",
+  "wrong": [
+   "A television advertising network",
+   "A set of rules for setting prices",
+   "A company's customer database"
+  ]
+ },
+ {
+  "id": "deca-marketing-marketing-information-management-001",
+  "ratio": "2.13",
+  "right": "Collecting and analyzing information about customers and markets",
+  "wrong": [
+   "Setting the price of a product",
+   "Training sales staff",
+   "Designing a store layout"
+  ]
+ },
+ {
+  "id": "deca-marketing-marketing-information-management-002",
+  "ratio": "1.63",
+  "right": "Survey answers collected directly from customers for the study",
+  "wrong": [
+   "A competitor's published annual report",
+   "A government census report",
+   "A magazine article about the industry"
+  ]
+ },
+ {
+  "id": "deca-marketing-market-planning-001",
+  "ratio": "1.87",
+  "right": "The specific group of customers a business aims to serve",
+  "wrong": [
+   "The location of a store",
+   "The group of all competitors",
+   "A company's total yearly sales"
+  ]
+ },
+ {
+  "id": "deca-marketing-market-planning-004",
+  "ratio": "1.61",
+  "right": "Strategies and actions to reach the objective",
+  "wrong": [
+   "A list of employee birthdays",
+   "A lower number of products",
+   "A new company logo"
+  ]
+ },
+ {
+  "id": "deca-marketing-market-planning-005",
+  "ratio": "1.88",
+  "right": "A company's percentage of total sales in a market",
+  "wrong": [
+   "The size of the warehouse",
+   "The company's total profit",
+   "The number of employees"
+  ]
+ },
+ {
+  "id": "deca-marketing-product-service-management-001",
+  "ratio": "1.62",
+  "right": "A group of related products sold by one company",
+  "wrong": [
+   "A list of company debts",
+   "A queue at a checkout",
+   "The route of a delivery truck"
+  ]
+ },
+ {
+  "id": "deca-marketing-product-service-management-006",
+  "ratio": "1.56",
+  "right": "Give buyers confidence the product will work as promised",
+  "wrong": [
+   "Stop customers from returning goods",
+   "Raise the product's cost permanently",
+   "Limit how many units can be sold"
+  ]
+ },
+ {
+  "id": "deca-marketing-promotion-005",
+  "ratio": "3.61",
+  "right": "Building goodwill through communication with the public and press",
+  "wrong": [
+   "Setting prices",
+   "Packaging products",
+   "Managing inventory"
+  ]
+ },
+ {
+  "id": "deca-marketing-selling-002",
+  "ratio": "1.67",
+  "right": "Acknowledge the concern and explain the product's value",
+  "wrong": [
+   "End the conversation immediately",
+   "Argue that the customer is wrong",
+   "Raise the price to seem exclusive"
+  ]
+ },
+ {
+  "id": "deca-marketing-selling-005",
+  "ratio": "2.44",
+  "right": "To make sure customers are satisfied and encourage repeat business",
+  "wrong": [
+   "To avoid future contact",
+   "To reduce product quality",
+   "To raise the original price"
+  ]
+ },
+ {
+  "id": "deca-pfl-investing-001",
+  "ratio": "1.68",
+  "right": "A unit of ownership in a company",
+  "wrong": [
+   "A savings account",
+   "An insurance policy",
+   "A loan to a company"
+  ]
+ },
+ {
+  "id": "deca-pfl-investing-002",
+  "ratio": "1.86",
+  "right": "A loan to a company or government that pays interest",
+  "wrong": [
+   "A bank account fee",
+   "A share of company ownership",
+   "A type of tax"
+  ]
+ },
+ {
+  "id": "deca-pfl-investing-003",
+  "ratio": "1.75",
+  "right": "The risk from any single investment",
+  "wrong": [
+   "All taxes owed",
+   "Inflation completely",
+   "Every kind of risk"
+  ]
+ },
+ {
+  "id": "deca-pfl-investing-006",
+  "ratio": "2.63",
+  "right": "A pool of money from many investors used to buy many securities",
+  "wrong": [
+   "A government grant",
+   "A bank loan",
+   "A single company's share"
+  ]
+ },
+ {
+  "id": "deca-pfl-managing-credit-007",
+  "ratio": "1.88",
+  "right": "A loan backed by collateral the lender can claim if the borrower does not repay",
+  "wrong": [
+   "A loan with no interest",
+   "A loan guaranteed only by a verbal promise",
+   "A loan that must be repaid in one day"
+  ]
+ },
+ {
+  "id": "deca-pfl-managing-risk-001",
+  "ratio": "1.79",
+  "right": "A way to transfer financial risk to a company in return for premiums",
+  "wrong": [
+   "A savings plan with guaranteed returns",
+   "A type of loan",
+   "A tax refund"
+  ]
+ },
+ {
+  "id": "deca-pfl-managing-risk-002",
+  "ratio": "1.56",
+  "right": "The amount you pay before the insurance begins to pay",
+  "wrong": [
+   "A refund for unused coverage",
+   "The monthly payment to the insurer",
+   "The maximum the insurer will pay"
+  ]
+ },
+ {
+  "id": "deca-pfl-managing-risk-007",
+  "ratio": "1.53",
+  "right": "To cover unexpected expenses without borrowing",
+  "wrong": [
+   "To invest in risky stocks",
+   "To pay for planned vacations",
+   "To avoid ever buying insurance"
+  ]
+ },
+ {
+  "id": "deca-pfl-saving-004",
+  "ratio": "1.61",
+  "right": "Set a target and transfer a fixed amount automatically each payday",
+  "wrong": [
+   "Spend first and save whatever remains",
+   "Put everything into one risky stock",
+   "Wait until you have extra money left over"
+  ]
+ },
+ {
+  "id": "deca-pfl-saving-006",
+  "ratio": "2.00",
+  "right": "How long it takes money to double at a given interest rate",
+  "wrong": [
+   "How much tax is owed",
+   "The monthly payment on a loan",
+   "The best age to retire"
+  ]
+ },
+ {
+  "id": "deca-pfl-saving-007",
+  "ratio": "2.87",
+  "right": "Save $600 for a laptop in six months by setting aside $100 a month",
+  "wrong": [
+   "Save more money someday",
+   "Spend less on things",
+   "Be rich"
+  ]
+ },
+ {
+  "id": "deca-pfl-spending-005",
+  "ratio": "2.17",
+  "right": "Checking prices and features from several sellers before buying",
+  "wrong": [
+   "Buying the first item you see",
+   "Paying only in cash",
+   "Buying on impulse"
+  ]
+ },
+ {
+  "id": "deca-pfl-spending-006",
+  "ratio": "1.92",
+  "right": "Waiting 24 hours before a non-essential purchase",
+  "wrong": [
+   "Browsing sale sites daily",
+   "Shopping while hungry",
+   "Using store credit freely"
+  ]
+ },
+ {
+  "id": "deca-pfl-spending-007",
+  "ratio": "1.74",
+  "right": "Cover needs like lunch first, then use anything left on wants",
+  "wrong": [
+   "Buy the headphones first",
+   "Put everything on a credit card",
+   "Split the money evenly between both"
+  ]
+ },
+ {
+  "id": "fbla-accounting-foundations-of-accounting-004",
+  "ratio": "1.61",
+  "right": "One asset increases and another asset decreases by the same amount",
+  "wrong": [
+   "Total assets decrease",
+   "Assets and liabilities both increase",
+   "Liabilities decrease and equity increases"
+  ]
+ },
+ {
+  "id": "fbla-accounting-the-accounting-cycle-003",
+  "ratio": "1.57",
+  "right": "Transferring journal entries to ledger accounts",
+  "wrong": [
+   "Sending invoices to customers",
+   "Reviewing bank statements",
+   "Preparing financial statements"
+  ]
+ },
+ {
+  "id": "fbla-accounting-accounts-payable-and-receivable-003",
+  "ratio": "1.81",
+  "right": "A 2 percent discount if paid within 10 days; the full amount is due in 30 days",
+  "wrong": [
+   "A 10 percent discount if paid within 2 days",
+   "The invoice is due in 2 days or 10 days",
+   "A $2 fee if paid after 10 days"
+  ]
+ },
+ {
+  "id": "fbla-accounting-tax-accounting-001",
+  "ratio": "2.83",
+  "right": "Social Security and Medicare taxes",
+  "wrong": [
+   "Sales tax",
+   "Estate tax",
+   "Property tax"
+  ]
+ },
+ {
+  "id": "fbla-accounting-technology-and-accounting-002",
+  "ratio": "2.22",
+  "right": "Authorized users can reach the records from anywhere with an internet connection",
+  "wrong": [
+   "It works only on one computer",
+   "It removes the need for any security",
+   "It makes accounting rules optional"
+  ]
+ },
+ {
+  "id": "fbla-accounting-career-opportunities-005",
+  "ratio": "1.70",
+  "right": "Investigate financial records for fraud",
+  "wrong": [
+   "Plan employee schedules",
+   "Sell insurance policies",
+   "Design company logos"
+  ]
+ },
+ {
+  "id": "fbla-business-law-legal-foundations-007",
+  "ratio": "1.87",
+  "right": "A civil wrong, other than breach of contract, that causes harm to someone",
+  "wrong": [
+   "A type of business license",
+   "A written agreement between two parties",
+   "A crime punished by the state"
+  ]
+ },
+ {
+  "id": "fbla-business-law-commercial-law-002",
+  "ratio": "2.42",
+  "right": "A counteroffer that rejects the original offer",
+  "wrong": [
+   "A binding agreement",
+   "A revocation",
+   "An acceptance"
+  ]
+ },
+ {
+  "id": "fbla-business-law-commercial-law-004",
+  "ratio": "1.51",
+  "right": "Goods sold by a merchant are fit for their ordinary purpose",
+  "wrong": [
+   "The goods can never be returned",
+   "The buyer must test goods before buying",
+   "The seller guarantees the lowest price"
+  ]
+ },
+ {
+  "id": "fbla-business-law-employment-law-003",
+  "ratio": "1.56",
+  "right": "Reasonable accommodations for qualified employees with disabilities",
+  "wrong": [
+   "A guaranteed promotion after one year",
+   "Higher pay to all workers with disabilities",
+   "Free housing"
+  ]
+ },
+ {
+  "id": "fbla-business-law-business-ethics-002",
+  "ratio": "1.52",
+  "right": "Report it through the proper company channel",
+  "wrong": [
+   "Post about it on social media",
+   "Copy the practice to keep up",
+   "Ignore it to avoid conflict"
+  ]
+ },
+ {
+  "id": "fbla-business-law-business-ethics-003",
+  "ratio": "1.61",
+  "right": "A buyer awards a contract to a company owned by their sibling",
+  "wrong": [
+   "A manager thanks a team for good work",
+   "A sales rep meets a monthly target",
+   "An employee takes a scheduled vacation"
+  ]
+ },
+ {
+  "id": "fbla-business-law-business-ethics-004",
+  "ratio": "2.14",
+  "right": "To protect employees who report illegal or unethical conduct from retaliation",
+  "wrong": [
+   "To reward employees who gossip",
+   "To stop any report against a company",
+   "To limit who can hold a job"
+  ]
+ },
+ {
+  "id": "fbla-business-law-business-ethics-005",
+  "ratio": "2.00",
+  "right": "A written set of standards for behavior in an organization",
+  "wrong": [
+   "A schedule of employee shifts",
+   "A tax form",
+   "A list of company prices"
+  ]
+ },
+ {
+  "id": "fbla-business-law-international-trade-commerce-law-002",
+  "ratio": "1.72",
+  "right": "Limits the quantity of a good that may be imported",
+  "wrong": [
+   "Pays companies to export",
+   "Bans all trade with a country",
+   "Taxes imported goods"
+  ]
+ },
+ {
+  "id": "fbla-economics-nature-of-business-006",
+  "ratio": "2.19",
+  "right": "It uses surplus funds to support its mission rather than paying profits to owners",
+  "wrong": [
+   "It is owned by shareholders",
+   "It pays no employees",
+   "It is not allowed to earn any revenue"
+  ]
+ },
+ {
+  "id": "fbla-economics-government-s-impact-on-business-002",
+  "ratio": "1.62",
+  "right": "Influencing interest rates and the money supply",
+  "wrong": [
+   "Setting tax rates",
+   "Setting prices for most goods",
+   "Passing laws for businesses"
+  ]
+ },
+ {
+  "id": "fbla-economics-government-s-impact-on-business-005",
+  "ratio": "1.54",
+  "right": "Government financial support to a business or industry",
+  "wrong": [
+   "A tax on goods from other countries",
+   "A limit on production",
+   "A fine for breaking a regulation"
+  ]
+ },
+ {
+  "id": "fbla-economics-cost-profit-relationships-005",
+  "ratio": "2.28",
+  "right": "The annual insurance premium on a factory",
+  "wrong": [
+   "Sales commissions",
+   "Raw materials",
+   "Packaging supplies"
+  ]
+ },
+ {
+  "id": "fbla-economics-economic-indicators-001",
+  "ratio": "2.48",
+  "right": "The total value of final goods and services produced in a country in a period",
+  "wrong": [
+   "The average price of goods",
+   "The number of people with jobs",
+   "The government's total spending"
+  ]
+ },
+ {
+  "id": "fbla-economics-economic-indicators-004",
+  "ratio": "1.97",
+  "right": "The change in prices of a basket of goods and services households buy",
+  "wrong": [
+   "The total value of exports",
+   "The interest rate on loans",
+   "The number of businesses in an area"
+  ]
+ },
+ {
+  "id": "fbla-economics-economic-indicators-005",
+  "ratio": "2.15",
+  "right": "A significant decline in economic activity lasting several months or more",
+  "wrong": [
+   "A period of rapid price increases",
+   "A one-day fall in the stock market",
+   "A rise in government spending"
+  ]
+ },
+ {
+  "id": "fbla-economics-global-trade-005",
+  "ratio": "2.33",
+  "right": "Reduces tariffs and other trade barriers among member countries",
+  "wrong": [
+   "Bans exports",
+   "Sets prices for all goods",
+   "Raises tariffs on all goods"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-financial-needs-and-goals-007",
+  "ratio": "1.69",
+  "right": "The difference between planned and actual amounts",
+  "wrong": [
+   "The cost of a loan",
+   "The interest on savings",
+   "The total of a person's debts"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-financial-services-providers-004",
+  "ratio": "1.87",
+  "right": "When a payment or withdrawal exceeds the available balance",
+  "wrong": [
+   "When the account is opened",
+   "When a deposit is made",
+   "When the account earns interest"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-financial-services-providers-007",
+  "ratio": "1.63",
+  "right": "They may offer lower fees because they have no branches to run",
+  "wrong": [
+   "They offer no way to access accounts",
+   "They require visits in person",
+   "They are not insured under any program"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-investment-strategies-005",
+  "ratio": "1.73",
+  "right": "An employer-sponsored retirement savings plan",
+  "wrong": [
+   "A government tax form",
+   "A checking account feature",
+   "A type of home loan"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-investment-strategies-006",
+  "ratio": "2.29",
+  "right": "Money the employer adds to the employee's contributions",
+  "wrong": [
+   "A tax on contributions",
+   "A loan from the employer",
+   "A fee the employee pays"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-financial-literacy-006",
+  "ratio": "2.34",
+  "right": "Fraudulent messages designed to trick people into giving away personal information",
+  "wrong": [
+   "A secure way to log in to accounts",
+   "A method for saving on bank fees",
+   "A way to find the best deals online"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-risk-management-003",
+  "ratio": "1.91",
+  "right": "The share of covered costs a policyholder pays after the deductible",
+  "wrong": [
+   "A refund of unused premiums",
+   "The monthly premium",
+   "The total the insurer will ever pay"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-risk-management-005",
+  "ratio": "2.11",
+  "right": "Extra liability coverage above the limits of other policies",
+  "wrong": [
+   "Free repairs for any item",
+   "A refund of premiums",
+   "Coverage only for rainy days"
+  ]
+ },
+ {
+  "id": "fbla-personal-finance-risk-management-006",
+  "ratio": "1.95",
+  "right": "A portion of income if a person cannot work",
+  "wrong": [
+   "The cost of a vacation",
+   "A lost credit card",
+   "The cost of a home"
+  ]
+ },
+ {
+  "id": "fbla-securities-principles-of-money-005",
+  "ratio": "1.86",
+  "right": "How quickly an asset can be turned into cash without losing value",
+  "wrong": [
+   "The interest an investment pays",
+   "The amount of risk in an investment",
+   "The tax owed on an investment"
+  ]
+ },
+ {
+  "id": "fbla-securities-investment-analysis-005",
+  "ratio": "2.13",
+  "right": "A company's financial health and business prospects",
+  "wrong": [
+   "Only price charts",
+   "The weather",
+   "Social media trends only"
+  ]
+ },
+ {
+  "id": "fbla-securities-investment-analysis-007",
+  "ratio": "1.70",
+  "right": "Price change plus dividends or interest",
+  "wrong": [
+   "Price change only",
+   "The investor's tax bill",
+   "Dividends only"
+  ]
+ },
+ {
+  "id": "fbla-securities-selecting-investments-003",
+  "ratio": "2.29",
+  "right": "Dividing a portfolio among asset classes such as stocks, bonds and cash",
+  "wrong": [
+   "Selling all investments at once",
+   "Paying fees to a broker",
+   "Choosing one stock to buy"
+  ]
+ },
+ {
+  "id": "fbla-securities-selecting-investments-007",
+  "ratio": "2.42",
+  "right": "The annual cost of running the fund as a percent of assets",
+  "wrong": [
+   "The fund's yearly return",
+   "The number of holdings",
+   "The tax paid on gains"
+  ]
+ },
+ {
+  "id": "fbla-securities-securities-investments-industry-002",
+  "ratio": "2.57",
+  "right": "A self-regulatory organization that oversees brokerage firms and brokers",
+  "wrong": [
+   "A stock exchange",
+   "A bank that insures deposits",
+   "A federal tax agency"
+  ]
+ },
+ {
+  "id": "fbla-securities-securities-investments-industry-004",
+  "ratio": "1.80",
+  "right": "It lets some traders profit from nonpublic information others cannot use",
+  "wrong": [
+   "It involves buying too many shares",
+   "It means investing through a broker",
+   "It means holding stock for the long term"
+  ]
+ },
+ {
+  "id": "fbla-securities-securities-products-006",
+  "ratio": "1.83",
+  "right": "Buy a security at a set price before the option expires",
+  "wrong": [
+   "Vote at shareholder meetings",
+   "Sell a security at a set price",
+   "Receive a fixed dividend"
+  ]
+ },
+ {
+  "id": "fbla-leadership-role-of-management-in-business-003",
+  "ratio": "1.64",
+  "right": "Carries out top management's plans and supervises first-line managers",
+  "wrong": [
+   "Owns the company's shares",
+   "Performs all of the entry-level tasks",
+   "Sets the company's long-term mission alone"
+  ]
+ },
+ {
+  "id": "fbla-leadership-role-of-management-in-business-004",
+  "ratio": "1.66",
+  "right": "The number of employees who report directly to the manager",
+  "wrong": [
+   "The length of the manager's workday",
+   "The size of the manager's budget",
+   "The number of customers served"
+  ]
+ },
+ {
+  "id": "fbla-leadership-role-of-management-in-business-005",
+  "ratio": "2.40",
+  "right": "Assigning tasks and the authority to complete them to others",
+  "wrong": [
+   "Doing every task yourself",
+   "Ignoring a problem",
+   "Firing a team member"
+  ]
+ },
+ {
+  "id": "fbla-leadership-leadership-003",
+  "ratio": "1.73",
+  "right": "Inspire followers to exceed expectations through a shared vision",
+  "wrong": [
+   "Leave decisions entirely to the group",
+   "Avoid communicating a vision",
+   "Manage only by rules and rewards"
+  ]
+ },
+ {
+  "id": "fbla-leadership-leadership-004",
+  "ratio": "1.71",
+  "right": "Putting the needs of team members first so they can do their best work",
+  "wrong": [
+   "Delegating all decisions without guidance",
+   "Demanding obedience without questions",
+   "Focusing mainly on personal profit"
+  ]
+ },
+ {
+  "id": "fbla-leadership-leadership-007",
+  "ratio": "1.76",
+  "right": "Leaders should adjust their style to the people and the situation",
+  "wrong": [
+   "One style should be used all the time",
+   "Only experience matters",
+   "Leaders should avoid any change"
+  ]
+ },
+ {
+  "id": "fbla-leadership-manage-business-relationships-001",
+  "ratio": "2.08",
+  "right": "Any person or group affected by a business's actions",
+  "wrong": [
+   "A person who sells stock",
+   "A competitor's customer",
+   "Only the company's owners"
+  ]
+ },
+ {
+  "id": "fbla-leadership-manage-business-relationships-005",
+  "ratio": "2.21",
+  "right": "Building relationships with people who can help each other professionally",
+  "wrong": [
+   "Setting up a computer network",
+   "Keeping work secret from everyone",
+   "Selling products to strangers"
+  ]
+ },
+ {
+  "id": "fbla-leadership-manage-business-relationships-006",
+  "ratio": "2.06",
+  "right": "A contract that defines the level of service a provider will deliver",
+  "wrong": [
+   "A tax document",
+   "A statement of the owner's equity",
+   "A list of company employees"
+  ]
+ },
+ {
+  "id": "fbla-leadership-human-resources-management-001",
+  "ratio": "1.61",
+  "right": "Attracting qualified candidates for open jobs",
+  "wrong": [
+   "Setting pay scales",
+   "Firing underperforming staff",
+   "Reviewing performance"
+  ]
+ },
+ {
+  "id": "fbla-leadership-human-resources-management-004",
+  "ratio": "1.85",
+  "right": "Employees who left divided by the average number of employees",
+  "wrong": [
+   "New hires divided by total sales",
+   "Total pay divided by hours worked",
+   "Sales divided by employees"
+  ]
+ },
+ {
+  "id": "fbla-leadership-human-resources-management-006",
+  "ratio": "2.19",
+  "right": "Consequences that become more serious for repeated problems",
+  "wrong": [
+   "Rewarding poor performance",
+   "Ignoring all rule breaking",
+   "Firing at the first mistake"
+  ]
+ },
+ {
+  "id": "fbla-leadership-critical-thinking-skills-005",
+  "ratio": "1.87",
+  "right": "Comparing options against weighted criteria",
+  "wrong": [
+   "Tracking employee hours",
+   "Listing company assets",
+   "Recording sales"
+  ]
+ },
+ {
+  "id": "fbla-leadership-critical-thinking-skills-006",
+  "ratio": "1.54",
+  "right": "Find the underlying reason a problem occurs",
+  "wrong": [
+   "Hide the problem from others",
+   "Find who to blame",
+   "Treat only the symptoms"
+  ]
+ },
+ {
+  "id": "fbla-leadership-manage-stressful-situations-003",
+  "ratio": "1.54",
+  "right": "Stay calm, listen and offer solutions",
+  "wrong": [
+   "Walk away without a word",
+   "Blame the customer",
+   "Shout back"
+  ]
+ }
+]

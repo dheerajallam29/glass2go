@@ -1,0 +1,2949 @@
+# Question bank report
+
+Total questions: **4889** (DECA 1678, FBLA 3211)
+
+## Questions available per exam
+| Exam | Questions |
+|---|---|
+| DECA core | 500 |
+| DECA bma | 728 |
+| DECA finance | 603 |
+| DECA hospitality | 805 |
+| DECA marketing | 800 |
+| DECA entrepreneurship | 900 |
+| DECA pfl | 600 |
+| FBLA accounting | 500 |
+| FBLA business-law | 401 |
+| FBLA economics | 500 |
+| FBLA personal-finance | 300 |
+| FBLA securities | 300 |
+| FBLA leadership | 303 |
+| FBLA data-science-ai | 303 |
+| FBLA healthcare-administration | 302 |
+| FBLA intro-business | 302 |
+
+## By topic
+| Track / pool / topic | Count |
+|---|---|
+| deca/bma/Compliance | 38 |
+| deca/bma/Project Management | 40 |
+| deca/core/Business Law | 55 |
+| deca/core/Communications | 43 |
+| deca/core/Customer Relations | 36 |
+| deca/core/Economics | 48 |
+| deca/core/Emotional Intelligence | 32 |
+| deca/core/Entrepreneurship | 36 |
+| deca/core/Financial Analysis | 35 |
+| deca/core/Human Resources Management | 31 |
+| deca/core/Information Management | 39 |
+| deca/core/Marketing | 35 |
+| deca/core/Operations | 40 |
+| deca/core/Professional Development | 37 |
+| deca/core/Strategic Management | 33 |
+| deca/finance/Financial-Information Management | 50 |
+| deca/marketing/Channel Management | 71 |
+| deca/marketing/Market Planning | 27 |
+| deca/marketing/Marketing-Information Management | 74 |
+| deca/marketing/Pricing | 31 |
+| deca/marketing/Product/Service Management | 26 |
+| deca/marketing/Promotion | 38 |
+| deca/marketing/Selling | 33 |
+| deca/pfl/Earning Income | 88 |
+| deca/pfl/Investing | 133 |
+| deca/pfl/Managing Credit | 116 |
+| deca/pfl/Managing Risk | 93 |
+| deca/pfl/Saving | 78 |
+| deca/pfl/Spending | 92 |
+| deca/shared/Knowledge Management | 50 |
+| deca/shared/Quality Management | 47 |
+| deca/shared/Risk Management | 53 |
+| fbla/accounting/Accounts Payable and Receivable | 63 |
+| fbla/accounting/Career Opportunities | 58 |
+| fbla/accounting/Financial Reports | 66 |
+| fbla/accounting/Foundations of Accounting | 71 |
+| fbla/accounting/Standards and Compliance | 60 |
+| fbla/accounting/Tax Accounting | 61 |
+| fbla/accounting/Technology and Accounting | 61 |
+| fbla/accounting/The Accounting Cycle | 60 |
+| fbla/business-law/Agency and Employment | 7 |
+| fbla/business-law/Business Ethics | 59 |
+| fbla/business-law/Business Organizations | 8 |
+| fbla/business-law/Commercial Law | 56 |
+| fbla/business-law/Contracts | 25 |
+| fbla/business-law/Employment Law | 58 |
+| fbla/business-law/Financial & Tax Law | 57 |
+| fbla/business-law/International Trade & Commerce Law | 55 |
+| fbla/business-law/Legal Foundations | 62 |
+| fbla/business-law/Property and Torts | 7 |
+| fbla/business-law/Sales and Consumer Law | 7 |
+| fbla/data-science-ai/AI Basics | 41 |
+| fbla/data-science-ai/Data Analysis and Statistics for AI | 21 |
+| fbla/data-science-ai/Data Analysis | 10 |
+| fbla/data-science-ai/Data Literacy and Foundations | 28 |
+| fbla/data-science-ai/Data Literacy | 4 |
+| fbla/data-science-ai/Machine Learning | 53 |
+| fbla/data-science-ai/Perception, Representation and Reasoning | 19 |
+| fbla/data-science-ai/Privacy and Ethics | 48 |
+| fbla/data-science-ai/Probability and Statistics Foundations | 28 |
+| fbla/data-science-ai/Probability and Statistics | 16 |
+| fbla/data-science-ai/Tools for Data and AI | 35 |
+| fbla/economics/Cost/Profit Relationships | 76 |
+| fbla/economics/Costs and Production | 8 |
+| fbla/economics/Demand and Supply | 10 |
+| fbla/economics/Economic Indicators | 49 |
+| fbla/economics/Economic Systems | 42 |
+| fbla/economics/Elasticity | 4 |
+| fbla/economics/Fundamental Economic Concepts | 94 |
+| fbla/economics/Global Trade | 46 |
+| fbla/economics/Government's Impact on Business | 68 |
+| fbla/economics/International Trade | 8 |
+| fbla/economics/Macroeconomics | 29 |
+| fbla/economics/Market Structures | 7 |
+| fbla/economics/Microeconomics | 8 |
+| fbla/economics/Money and Banking | 6 |
+| fbla/economics/Nature of Business | 40 |
+| fbla/economics/Scarcity and Choice | 5 |
+| fbla/healthcare-admin/Communication and Leadership | 33 |
+| fbla/healthcare-admin/Healthcare Billing and Insurance | 47 |
+| fbla/healthcare-admin/Healthcare Finances and Budgeting | 36 |
+| fbla/healthcare-admin/Healthcare Organizations and Structure | 37 |
+| fbla/healthcare-admin/Healthcare Policy and Regulation | 34 |
+| fbla/healthcare-admin/Healthcare Technology | 25 |
+| fbla/healthcare-admin/Medical Terminology and Office Procedures | 33 |
+| fbla/healthcare-admin/Staffing and Training | 31 |
+| fbla/healthcare-admin/Strategic Management | 26 |
+| fbla/intro-business/Business Activities | 8 |
+| fbla/intro-business/Business Nature | 9 |
+| fbla/intro-business/Career Planning | 25 |
+| fbla/intro-business/Careers | 12 |
+| fbla/intro-business/Cost and Profit | 10 |
+| fbla/intro-business/Cost/Profit Relationships | 26 |
+| fbla/intro-business/Economic Concepts | 10 |
+| fbla/intro-business/Economic Systems | 25 |
+| fbla/intro-business/Fundamental Economic Concepts | 41 |
+| fbla/intro-business/Job-Search Skills | 32 |
+| fbla/intro-business/Nature of Business | 27 |
+| fbla/intro-business/Owning a Business | 45 |
+| fbla/intro-business/Types of Business Activities | 32 |
+| fbla/leadership/Communication | 7 |
+| fbla/leadership/Conflict and Negotiation | 5 |
+| fbla/leadership/Critical-Thinking Skills | 35 |
+| fbla/leadership/Ethics | 3 |
+| fbla/leadership/Human Resources Management | 46 |
+| fbla/leadership/Leadership | 69 |
+| fbla/leadership/Manage Business Relationships | 23 |
+| fbla/leadership/Manage Stressful Situations | 24 |
+| fbla/leadership/Management | 8 |
+| fbla/leadership/Motivation | 5 |
+| fbla/leadership/Planning | 8 |
+| fbla/leadership/Role of Management in Business | 63 |
+| fbla/leadership/Teams | 7 |
+| fbla/personal-finance/Banking | 6 |
+| fbla/personal-finance/Budgeting | 8 |
+| fbla/personal-finance/Consumer Protection | 7 |
+| fbla/personal-finance/Credit | 10 |
+| fbla/personal-finance/Financial Literacy | 29 |
+| fbla/personal-finance/Financial Needs and Goals | 34 |
+| fbla/personal-finance/Financial Services Providers | 31 |
+| fbla/personal-finance/Financial-Services Providers | 7 |
+| fbla/personal-finance/Insurance | 7 |
+| fbla/personal-finance/Investment Strategies | 59 |
+| fbla/personal-finance/Principles of Money | 53 |
+| fbla/personal-finance/Risk Management | 31 |
+| fbla/personal-finance/Saving and Investing | 11 |
+| fbla/personal-finance/Taxes | 7 |
+| fbla/securities/Bonds | 11 |
+| fbla/securities/Financial Markets | 50 |
+| fbla/securities/Funds and Products | 8 |
+| fbla/securities/Investing Principles | 11 |
+| fbla/securities/Investment Analysis | 34 |
+| fbla/securities/Markets | 14 |
+| fbla/securities/Principles of Money | 15 |
+| fbla/securities/Regulation | 7 |
+| fbla/securities/Securities & Investments Industry | 43 |
+| fbla/securities/Securities Products | 57 |
+| fbla/securities/Selecting Investments | 31 |
+| fbla/securities/Stocks | 19 |
+
+## By difficulty
+| Difficulty | Count |
+|---|---|
+| 1 | 430 |
+| 2 | 3256 |
+| 3 | 1203 |
+
+## Correct-answer position
+A: 1224, B: 1222, C: 1220, D: 1223
+
+## Hard errors (0)
+none
+
+## Flags to review (2768)
+- deca-core-business-law-004 (deca-core.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-003 (deca-core.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-004 (deca-core.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-005 (deca-core.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-004 (deca-core.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-003 (deca-core.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-002 (deca-core.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-014 (deca-core.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-006 (deca-core.02.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-009 (deca-core.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-012 (deca-core.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-006 (deca-core.02.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-008 (deca-core.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-014 (deca-core.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-008 (deca-core.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-011 (deca-core.02.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-009 (deca-core.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-010 (deca-core.02.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-011 (deca-core.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
+- deca-core-human-resources-management-009 (deca-core.02.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-006 (deca-core.02.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-012 (deca-core.02.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-011 (deca-core.02.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-006 (deca-core.02.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-008 (deca-core.02.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-011 (deca-core.02.jsonl:102): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-007 (deca-core.02.jsonl:105): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-011 (deca-core.02.jsonl:109): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-012 (deca-core.02.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-020 (deca-core.03.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-016 (deca-core.03.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-018 (deca-core.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-014 (deca-core.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-015 (deca-core.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-016 (deca-core.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-017 (deca-core.03.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-018 (deca-core.03.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-020 (deca-core.03.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-014 (deca-core.03.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-015 (deca-core.03.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-016 (deca-core.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-015 (deca-core.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-017 (deca-core.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-018 (deca-core.03.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-013 (deca-core.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-016 (deca-core.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-015 (deca-core.03.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-017 (deca-core.03.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-027 (deca-core.04.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-029 (deca-core.04.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-029 (deca-core.04.jsonl:6): prompt is very similar to deca-core-business-law-020
+- deca-core-business-law-030 (deca-core.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
+- deca-core-business-law-034 (deca-core.04.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-036 (deca-core.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-039 (deca-core.04.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-040 (deca-core.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-041 (deca-core.04.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-020 (deca-core.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-021 (deca-core.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-022 (deca-core.04.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-023 (deca-core.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-024 (deca-core.04.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-025 (deca-core.04.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-028 (deca-core.04.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-032 (deca-core.04.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-034 (deca-core.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-035 (deca-core.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-020 (deca-core.04.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-021 (deca-core.04.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-022 (deca-core.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-025 (deca-core.04.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-026 (deca-core.04.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-029 (deca-core.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-024 (deca-core.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-025 (deca-core.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-026 (deca-core.04.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-027 (deca-core.04.jsonl:52): prompt is very similar to deca-core-economics-012
+- deca-core-economics-029 (deca-core.04.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-031 (deca-core.04.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-033 (deca-core.04.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-033 (deca-core.04.jsonl:58): prompt is very similar to deca-core-economics-018
+- deca-core-emotional-intelligence-018 (deca-core.04.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-020 (deca-core.04.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-021 (deca-core.04.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-025 (deca-core.04.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-022 (deca-core.04.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-024 (deca-core.04.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-026 (deca-core.04.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-028 (deca-core.04.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-021 (deca-core.04.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-021 (deca-core.04.jsonl:81): prompt is very similar to deca-core-financial-analysis-020
+- deca-core-financial-analysis-023 (deca-core.04.jsonl:83): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-028 (deca-core.04.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-018 (deca-core.04.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-021 (deca-core.04.jsonl:93): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-023 (deca-core.04.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-024 (deca-core.04.jsonl:96): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-025 (deca-core.04.jsonl:97): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-019 (deca-core.04.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-021 (deca-core.04.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-022 (deca-core.04.jsonl:101): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-024 (deca-core.04.jsonl:103): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-019 (deca-core.04.jsonl:104): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-019 (deca-core.04.jsonl:104): prompt is very similar to deca-core-entrepreneurship-018
+- deca-core-marketing-021 (deca-core.04.jsonl:106): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-022 (deca-core.04.jsonl:107): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-017 (deca-core.04.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-019 (deca-core.04.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-017 (deca-core.04.jsonl:111): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-018 (deca-core.04.jsonl:113): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-018 (deca-core.04.jsonl:113): prompt is very similar to deca-core-strategic-management-009
+- deca-core-business-law-044 (deca-core.05.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-045 (deca-core.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-046 (deca-core.05.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-047 (deca-core.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-048 (deca-core.05.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
+- deca-core-business-law-051 (deca-core.05.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-052 (deca-core.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-business-law-054 (deca-core.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-036 (deca-core.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-038 (deca-core.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-039 (deca-core.05.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-041 (deca-core.05.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-communications-043 (deca-core.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-031 (deca-core.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-031 (deca-core.05.jsonl:23): prompt is very similar to deca-core-customer-relations-019
+- deca-core-customer-relations-033 (deca-core.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-034 (deca-core.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-035 (deca-core.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-customer-relations-036 (deca-core.05.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-036 (deca-core.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-036 (deca-core.05.jsonl:29): prompt is very similar to deca-core-economics-014
+- deca-core-economics-041 (deca-core.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-043 (deca-core.05.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-047 (deca-core.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-economics-048 (deca-core.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-027 (deca-core.05.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-027 (deca-core.05.jsonl:42): prompt is very similar to deca-core-emotional-intelligence-008
+- deca-core-emotional-intelligence-028 (deca-core.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-029 (deca-core.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-030 (deca-core.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-031 (deca-core.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-032 (deca-core.05.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-emotional-intelligence-032 (deca-core.05.jsonl:47): prompt is very similar to deca-core-communications-022
+- deca-core-entrepreneurship-031 (deca-core.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-031 (deca-core.05.jsonl:48): prompt is very similar to deca-core-entrepreneurship-011
+- deca-core-entrepreneurship-032 (deca-core.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-033 (deca-core.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-035 (deca-core.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-036 (deca-core.05.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-030 (deca-core.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-032 (deca-core.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-financial-analysis-035 (deca-core.05.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-026 (deca-core.05.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-026 (deca-core.05.jsonl:60): prompt is very similar to deca-core-human-resources-management-014
+- deca-core-human-resources-management-027 (deca-core.05.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-028 (deca-core.05.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-029 (deca-core.05.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-031 (deca-core.05.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-025 (deca-core.05.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-025 (deca-core.05.jsonl:66): prompt is very similar to deca-core-information-management-006
+- deca-core-information-management-027 (deca-core.05.jsonl:68): prompt is very similar to deca-core-information-management-009
+- deca-core-information-management-028 (deca-core.05.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-023 (deca-core.05.jsonl:71): prompt is very similar to deca-core-marketing-006
+- deca-core-marketing-025 (deca-core.05.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-025 (deca-core.05.jsonl:73): prompt is very similar to deca-core-marketing-007
+- deca-core-marketing-026 (deca-core.05.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-020 (deca-core.05.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-021 (deca-core.05.jsonl:76): prompt is very similar to deca-core-operations-020
+- deca-core-operations-022 (deca-core.05.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-023 (deca-core.05.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-019 (deca-core.05.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-019 (deca-core.05.jsonl:79): prompt is very similar to deca-core-professional-development-006
+- deca-core-professional-development-020 (deca-core.05.jsonl:80): prompt is very similar to deca-core-professional-development-010
+- deca-core-professional-development-021 (deca-core.05.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-021 (deca-core.05.jsonl:81): prompt is very similar to deca-core-professional-development-008
+- deca-core-professional-development-022 (deca-core.05.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-022 (deca-core.05.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-022 (deca-core.05.jsonl:85): prompt is very similar to deca-core-strategic-management-006
+- deca-core-strategic-management-023 (deca-core.05.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-024 (deca-core.05.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-030 (deca-core.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-031 (deca-core.06.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-032 (deca-core.06.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-033 (deca-core.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-034 (deca-core.06.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-035 (deca-core.06.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-036 (deca-core.06.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-037 (deca-core.06.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-039 (deca-core.06.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-023 (deca-core.06.jsonl:17): prompt is very similar to deca-core-professional-development-011
+- deca-core-professional-development-024 (deca-core.06.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-025 (deca-core.06.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-026 (deca-core.06.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-027 (deca-core.06.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-028 (deca-core.06.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-031 (deca-core.06.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-032 (deca-core.06.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-033 (deca-core.06.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-034 (deca-core.06.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-036 (deca-core.06.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-025 (deca-core.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-025 (deca-core.06.jsonl:31): prompt is very similar to deca-core-strategic-management-013
+- deca-core-strategic-management-026 (deca-core.06.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-027 (deca-core.06.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-028 (deca-core.06.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-028 (deca-core.06.jsonl:34): prompt is very similar to deca-core-strategic-management-017
+- deca-core-strategic-management-029 (deca-core.06.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-029 (deca-core.06.jsonl:35): prompt is very similar to deca-core-strategic-management-016
+- deca-core-marketing-027 (deca-core.06.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-028 (deca-core.06.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-029 (deca-core.06.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-029 (deca-core.06.jsonl:42): prompt is very similar to deca-core-marketing-011
+- deca-core-marketing-030 (deca-core.06.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-032 (deca-core.06.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-marketing-033 (deca-core.06.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-030 (deca-core.06.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-031 (deca-core.06.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-032 (deca-core.06.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-033 (deca-core.06.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-037 (deca-core.06.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-038 (deca-core.06.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-operations-040 (deca-core.07.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-professional-development-037 (deca-core.07.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-001 (deca-specialist.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-003 (deca-specialist.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-001 (deca-specialist.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-002 (deca-specialist.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-003 (deca-specialist.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-004 (deca-specialist.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-004 (deca-specialist.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-001 (deca-specialist.jsonl:18): prompt is very similar to deca-core-operations-019
+- deca-shared-quality-management-004 (deca-specialist.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-003 (deca-specialist.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-006 (deca-specialist.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-010 (deca-specialist.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-011 (deca-specialist.02.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-014 (deca-specialist.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-015 (deca-specialist.02.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-020 (deca-specialist.02.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-022 (deca-specialist.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-025 (deca-specialist.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-026 (deca-specialist.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-027 (deca-specialist.02.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-028 (deca-specialist.02.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-030 (deca-specialist.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-032 (deca-specialist.02.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-033 (deca-specialist.02.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-035 (deca-specialist.02.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-036 (deca-specialist.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-006 (deca-specialist.02.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-007 (deca-specialist.02.jsonl:34): prompt is very similar to deca-core-operations-019
+- deca-shared-quality-management-007 (deca-specialist.02.jsonl:34): prompt is very similar to deca-shared-quality-management-001
+- deca-shared-quality-management-009 (deca-specialist.02.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-010 (deca-specialist.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-011 (deca-specialist.02.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-012 (deca-specialist.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-014 (deca-specialist.02.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-015 (deca-specialist.02.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-016 (deca-specialist.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-017 (deca-specialist.02.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-018 (deca-specialist.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-018 (deca-specialist.02.jsonl:45): prompt is very similar to deca-core-strategic-management-016
+- deca-shared-quality-management-018 (deca-specialist.02.jsonl:45): prompt is very similar to deca-core-strategic-management-029
+- deca-shared-quality-management-019 (deca-specialist.02.jsonl:46): prompt is very similar to deca-core-strategic-management-030
+- deca-shared-quality-management-020 (deca-specialist.02.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-020 (deca-specialist.02.jsonl:47): prompt is very similar to deca-core-customer-relations-022
+- deca-shared-quality-management-021 (deca-specialist.02.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-023 (deca-specialist.02.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-024 (deca-specialist.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-031 (deca-specialist.02.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-032 (deca-specialist.02.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-033 (deca-specialist.02.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-011 (deca-specialist.02.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-015 (deca-specialist.02.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-017 (deca-specialist.02.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-019 (deca-specialist.02.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-020 (deca-specialist.02.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-024 (deca-specialist.02.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-026 (deca-specialist.02.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-028 (deca-specialist.02.jsonl:83): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-029 (deca-specialist.02.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-030 (deca-specialist.02.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-031 (deca-specialist.02.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-032 (deca-specialist.02.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-033 (deca-specialist.02.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-035 (deca-specialist.02.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-036 (deca-specialist.02.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-037 (deca-specialist.02.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-010 (deca-specialist.03.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-011 (deca-specialist.03.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-012 (deca-specialist.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-017 (deca-specialist.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-020 (deca-specialist.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-021 (deca-specialist.03.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-025 (deca-specialist.03.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-027 (deca-specialist.03.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-028 (deca-specialist.03.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-029 (deca-specialist.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-031 (deca-specialist.03.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-033 (deca-specialist.03.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-compliance-035 (deca-specialist.03.jsonl:29): prompt is very similar to deca-core-business-law-024
+- deca-bma-compliance-037 (deca-specialist.03.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-007 (deca-specialist.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-008 (deca-specialist.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-009 (deca-specialist.03.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-009 (deca-specialist.03.jsonl:35): prompt is very similar to deca-bma-project-management-003
+- deca-bma-project-management-011 (deca-specialist.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-012 (deca-specialist.03.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-014 (deca-specialist.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-017 (deca-specialist.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-021 (deca-specialist.03.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-023 (deca-specialist.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-024 (deca-specialist.03.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-025 (deca-specialist.03.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-027 (deca-specialist.03.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-028 (deca-specialist.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-029 (deca-specialist.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-030 (deca-specialist.03.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-033 (deca-specialist.03.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-037 (deca-specialist.03.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- deca-bma-project-management-038 (deca-specialist.03.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-010 (deca-specialist.03.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-016 (deca-specialist.03.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-016 (deca-specialist.03.jsonl:75): prompt is very similar to deca-finance-financial-information-management-001
+- deca-finance-financial-information-management-017 (deca-specialist.03.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-018 (deca-specialist.03.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-020 (deca-specialist.03.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-021 (deca-specialist.03.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-024 (deca-specialist.03.jsonl:83): prompt is very similar to deca-core-financial-analysis-003
+- deca-finance-financial-information-management-024 (deca-specialist.03.jsonl:83): prompt is very similar to deca-core-financial-analysis-010
+- deca-finance-financial-information-management-025 (deca-specialist.03.jsonl:84): prompt is very similar to deca-core-financial-analysis-018
+- deca-finance-financial-information-management-029 (deca-specialist.03.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-030 (deca-specialist.03.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-031 (deca-specialist.03.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-032 (deca-specialist.03.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-034 (deca-specialist.03.jsonl:93): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-035 (deca-specialist.03.jsonl:94): prompt is very similar to deca-core-financial-analysis-012
+- deca-finance-financial-information-management-036 (deca-specialist.03.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-040 (deca-specialist.04.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-041 (deca-specialist.04.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-042 (deca-specialist.04.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-043 (deca-specialist.04.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-044 (deca-specialist.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-045 (deca-specialist.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-046 (deca-specialist.04.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-047 (deca-specialist.04.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-049 (deca-specialist.04.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-knowledge-management-050 (deca-specialist.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-034 (deca-specialist.04.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-036 (deca-specialist.04.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-039 (deca-specialist.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-042 (deca-specialist.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-044 (deca-specialist.04.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-046 (deca-specialist.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-quality-management-047 (deca-specialist.04.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-038 (deca-specialist.04.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-041 (deca-specialist.04.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-043 (deca-specialist.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-044 (deca-specialist.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-045 (deca-specialist.04.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-046 (deca-specialist.04.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-047 (deca-specialist.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-048 (deca-specialist.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-052 (deca-specialist.04.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-shared-risk-management-053 (deca-specialist.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-038 (deca-specialist.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-040 (deca-specialist.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-041 (deca-specialist.04.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-043 (deca-specialist.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-045 (deca-specialist.04.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-046 (deca-specialist.04.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-047 (deca-specialist.04.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-048 (deca-specialist.04.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-finance-financial-information-management-050 (deca-specialist.04.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-001 (deca-marketing.jsonl:1): prompt is very similar to deca-core-marketing-018
+- deca-marketing-channel-management-004 (deca-marketing.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-001 (deca-marketing.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-001 (deca-marketing.jsonl:7): prompt is very similar to deca-core-marketing-022
+- deca-marketing-market-planning-001 (deca-marketing.jsonl:13): prompt is very similar to deca-core-entrepreneurship-018
+- deca-marketing-market-planning-001 (deca-marketing.jsonl:13): prompt is very similar to deca-core-marketing-019
+- deca-marketing-market-planning-002 (deca-marketing.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-pricing-005 (deca-marketing.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-004 (deca-marketing.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-005 (deca-marketing.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-005 (deca-marketing.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-007 (deca-marketing.02.jsonl:1): prompt is very similar to deca-core-marketing-018
+- deca-marketing-channel-management-007 (deca-marketing.02.jsonl:1): prompt is very similar to deca-marketing-channel-management-001
+- deca-marketing-channel-management-019 (deca-marketing.02.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-019 (deca-marketing.02.jsonl:13): prompt is very similar to deca-core-operations-009
+- deca-marketing-channel-management-024 (deca-marketing.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-027 (deca-marketing.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-014 (deca-marketing.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-019 (deca-marketing.02.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-020 (deca-marketing.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-022 (deca-marketing.02.jsonl:39): prompt is very similar to deca-core-marketing-007
+- deca-marketing-marketing-information-management-022 (deca-marketing.02.jsonl:39): prompt is very similar to deca-core-marketing-025
+- deca-marketing-marketing-information-management-034 (deca-marketing.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-036 (deca-marketing.02.jsonl:53): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- deca-marketing-market-planning-010 (deca-marketing.03.jsonl:4): prompt is very similar to deca-core-entrepreneurship-018
+- deca-marketing-market-planning-010 (deca-marketing.03.jsonl:4): prompt is very similar to deca-core-marketing-019
+- deca-marketing-market-planning-010 (deca-marketing.03.jsonl:4): prompt is very similar to deca-marketing-market-planning-001
+- deca-marketing-market-planning-012 (deca-marketing.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-market-planning-012 (deca-marketing.03.jsonl:6): prompt is very similar to deca-core-marketing-026
+- deca-marketing-market-planning-016 (deca-marketing.03.jsonl:10): prompt is very similar to deca-core-strategic-management-009
+- deca-marketing-market-planning-016 (deca-marketing.03.jsonl:10): prompt is very similar to deca-core-strategic-management-018
+- deca-marketing-market-planning-025 (deca-marketing.03.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-pricing-011 (deca-marketing.03.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-pricing-012 (deca-marketing.03.jsonl:27): prompt is very similar to deca-marketing-pricing-005
+- deca-marketing-pricing-016 (deca-marketing.03.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-pricing-023 (deca-marketing.03.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-pricing-026 (deca-marketing.03.jsonl:41): prompt is very similar to deca-core-financial-analysis-015
+- deca-marketing-pricing-027 (deca-marketing.03.jsonl:42): prompt is very similar to deca-core-financial-analysis-031
+- deca-marketing-pricing-028 (deca-marketing.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-008 (deca-marketing.03.jsonl:48): prompt is very similar to deca-marketing-product-service-management-001
+- deca-marketing-product-service-management-010 (deca-marketing.03.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-010 (deca-marketing.03.jsonl:50): prompt is very similar to deca-core-marketing-021
+- deca-marketing-product-service-management-012 (deca-marketing.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-014 (deca-marketing.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-014 (deca-marketing.03.jsonl:54): prompt is very similar to deca-core-business-law-020
+- deca-marketing-product-service-management-014 (deca-marketing.03.jsonl:54): prompt is very similar to deca-core-business-law-029
+- deca-marketing-product-service-management-015 (deca-marketing.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-019 (deca-marketing.03.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-019 (deca-marketing.03.jsonl:59): prompt is very similar to deca-core-entrepreneurship-015
+- deca-marketing-product-service-management-020 (deca-marketing.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-024 (deca-marketing.03.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-product-service-management-024 (deca-marketing.03.jsonl:64): prompt is very similar to deca-core-customer-relations-006
+- deca-marketing-promotion-007 (deca-marketing.04.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-007 (deca-marketing.04.jsonl:1): prompt is very similar to deca-core-marketing-030
+- deca-marketing-promotion-008 (deca-marketing.04.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-011 (deca-marketing.04.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-011 (deca-marketing.04.jsonl:5): prompt is very similar to deca-marketing-promotion-005
+- deca-marketing-promotion-013 (deca-marketing.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-021 (deca-marketing.04.jsonl:15): prompt is very similar to deca-core-customer-relations-027
+- deca-marketing-promotion-026 (deca-marketing.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-028 (deca-marketing.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-030 (deca-marketing.04.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-promotion-034 (deca-marketing.04.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-007 (deca-marketing.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-008 (deca-marketing.04.jsonl:34): prompt is very similar to deca-marketing-selling-001
+- deca-marketing-selling-016 (deca-marketing.04.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-017 (deca-marketing.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-020 (deca-marketing.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-022 (deca-marketing.04.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-024 (deca-marketing.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-025 (deca-marketing.04.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-selling-033 (deca-marketing.04.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-033 (deca-marketing.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-036 (deca-marketing.05.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-039 (deca-marketing.05.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-040 (deca-marketing.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-043 (deca-marketing.05.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-046 (deca-marketing.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-050 (deca-marketing.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-051 (deca-marketing.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-052 (deca-marketing.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-053 (deca-marketing.05.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-054 (deca-marketing.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-055 (deca-marketing.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-057 (deca-marketing.05.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-058 (deca-marketing.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-060 (deca-marketing.05.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-062 (deca-marketing.05.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-040 (deca-marketing.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-043 (deca-marketing.05.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-045 (deca-marketing.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-049 (deca-marketing.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-050 (deca-marketing.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-051 (deca-marketing.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-052 (deca-marketing.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-054 (deca-marketing.05.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-054 (deca-marketing.05.jsonl:53): prompt is very similar to deca-core-strategic-management-023
+- deca-marketing-marketing-information-management-055 (deca-marketing.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-057 (deca-marketing.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-061 (deca-marketing.05.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-063 (deca-marketing.05.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-065 (deca-marketing.05.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-066 (deca-marketing.05.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-067 (deca-marketing.05.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-066 (deca-marketing.06.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-068 (deca-marketing.06.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-channel-management-070 (deca-marketing.06.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-068 (deca-marketing.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-069 (deca-marketing.06.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-070 (deca-marketing.06.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-071 (deca-marketing.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-072 (deca-marketing.06.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-073 (deca-marketing.06.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-marketing-marketing-information-management-074 (deca-marketing.06.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-002 (deca-pfl.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-003 (deca-pfl.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-001 (deca-pfl.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-001 (deca-pfl.jsonl:22): prompt is very similar to deca-shared-risk-management-015
+- deca-pfl-managing-risk-004 (deca-pfl.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-006 (deca-pfl.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-004 (deca-pfl.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-006 (deca-pfl.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-001 (deca-pfl.jsonl:36): prompt is very similar to deca-finance-financial-information-management-018
+- deca-pfl-earning-income-010 (deca-pfl.02.jsonl:3): prompt is very similar to deca-pfl-earning-income-002
+- deca-pfl-earning-income-012 (deca-pfl.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-015 (deca-pfl.02.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-019 (deca-pfl.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-020 (deca-pfl.02.jsonl:13): prompt is very similar to deca-marketing-selling-030
+- deca-pfl-earning-income-021 (deca-pfl.02.jsonl:14): prompt is very similar to deca-marketing-selling-031
+- deca-pfl-earning-income-028 (deca-pfl.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-009 (deca-pfl.02.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-010 (deca-pfl.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-010 (deca-pfl.02.jsonl:25): prompt is very similar to deca-pfl-spending-005
+- deca-pfl-spending-015 (deca-pfl.02.jsonl:30): prompt is very similar to deca-finance-financial-information-management-018
+- deca-pfl-spending-015 (deca-pfl.02.jsonl:30): prompt is very similar to deca-pfl-spending-001
+- deca-pfl-spending-018 (deca-pfl.02.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-019 (deca-pfl.02.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-020 (deca-pfl.02.jsonl:35): prompt is very similar to deca-core-business-law-020
+- deca-pfl-spending-020 (deca-pfl.02.jsonl:35): prompt is very similar to deca-core-business-law-029
+- deca-pfl-spending-020 (deca-pfl.02.jsonl:35): prompt is very similar to deca-marketing-product-service-management-014
+- deca-pfl-spending-022 (deca-pfl.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-023 (deca-pfl.02.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-012 (deca-pfl.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-016 (deca-pfl.02.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-020 (deca-pfl.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-027 (deca-pfl.02.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-013 (deca-pfl.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-015 (deca-pfl.03.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-017 (deca-pfl.03.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-024 (deca-pfl.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-030 (deca-pfl.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-035 (deca-pfl.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-008 (deca-pfl.03.jsonl:36): prompt is very similar to deca-shared-risk-management-015
+- deca-pfl-managing-risk-008 (deca-pfl.03.jsonl:36): prompt is very similar to deca-pfl-managing-risk-001
+- deca-pfl-managing-risk-009 (deca-pfl.03.jsonl:37): prompt is very similar to deca-shared-risk-management-016
+- deca-pfl-managing-risk-010 (deca-pfl.03.jsonl:38): prompt is very similar to deca-shared-risk-management-017
+- deca-pfl-managing-risk-014 (deca-pfl.03.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-019 (deca-pfl.03.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-021 (deca-pfl.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-025 (deca-pfl.03.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-025 (deca-pfl.03.jsonl:53): prompt is very similar to deca-shared-risk-management-009
+- deca-pfl-managing-risk-026 (deca-pfl.03.jsonl:54): prompt is very similar to deca-shared-risk-management-010
+- deca-pfl-investing-010 (deca-pfl.03.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-010 (deca-pfl.03.jsonl:64): prompt is very similar to deca-pfl-investing-002
+- deca-pfl-investing-013 (deca-pfl.03.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-014 (deca-pfl.03.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-017 (deca-pfl.03.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-022 (deca-pfl.03.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-031 (deca-pfl.03.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-031 (deca-pfl.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-032 (deca-pfl.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-036 (deca-pfl.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-036 (deca-pfl.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-037 (deca-pfl.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-035 (deca-pfl.04.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-039 (deca-pfl.04.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-041 (deca-pfl.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-042 (deca-pfl.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-048 (deca-pfl.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-041 (deca-pfl.05.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-042 (deca-pfl.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-045 (deca-pfl.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-045 (deca-pfl.05.jsonl:9): prompt is very similar to deca-pfl-earning-income-013
+- deca-pfl-earning-income-046 (deca-pfl.05.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-046 (deca-pfl.05.jsonl:10): prompt is very similar to deca-pfl-earning-income-013
+- deca-pfl-earning-income-046 (deca-pfl.05.jsonl:10): prompt is very similar to deca-pfl-earning-income-045
+- deca-pfl-earning-income-047 (deca-pfl.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-050 (deca-pfl.05.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-051 (deca-pfl.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-052 (deca-pfl.05.jsonl:16): prompt is very similar to deca-pfl-investing-019
+- deca-pfl-earning-income-054 (deca-pfl.05.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-054 (deca-pfl.05.jsonl:18): prompt is very similar to deca-marketing-selling-030
+- deca-pfl-earning-income-054 (deca-pfl.05.jsonl:18): prompt is very similar to deca-pfl-earning-income-020
+- deca-pfl-earning-income-056 (deca-pfl.05.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-058 (deca-pfl.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-058 (deca-pfl.05.jsonl:22): prompt is very similar to deca-pfl-earning-income-026
+- deca-pfl-earning-income-059 (deca-pfl.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-059 (deca-pfl.05.jsonl:23): prompt is very similar to deca-pfl-earning-income-024
+- deca-pfl-earning-income-062 (deca-pfl.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-063 (deca-pfl.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-063 (deca-pfl.05.jsonl:27): prompt is very similar to deca-pfl-earning-income-008
+- deca-pfl-spending-039 (deca-pfl.05.jsonl:28): prompt is very similar to deca-finance-financial-information-management-018
+- deca-pfl-spending-039 (deca-pfl.05.jsonl:28): prompt is very similar to deca-pfl-spending-001
+- deca-pfl-spending-039 (deca-pfl.05.jsonl:28): prompt is very similar to deca-pfl-spending-015
+- deca-pfl-spending-040 (deca-pfl.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-041 (deca-pfl.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-043 (deca-pfl.05.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-045 (deca-pfl.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-045 (deca-pfl.05.jsonl:34): prompt is very similar to deca-pfl-spending-013
+- deca-pfl-spending-046 (deca-pfl.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-047 (deca-pfl.05.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-047 (deca-pfl.05.jsonl:36): prompt is very similar to deca-pfl-spending-005
+- deca-pfl-spending-047 (deca-pfl.05.jsonl:36): prompt is very similar to deca-pfl-spending-010
+- deca-pfl-spending-048 (deca-pfl.05.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-048 (deca-pfl.05.jsonl:37): prompt is very similar to deca-pfl-spending-011
+- deca-pfl-spending-050 (deca-pfl.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-050 (deca-pfl.05.jsonl:39): prompt is very similar to deca-pfl-spending-019
+- deca-pfl-spending-051 (deca-pfl.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-051 (deca-pfl.05.jsonl:40): prompt is very similar to deca-core-business-law-020
+- deca-pfl-spending-051 (deca-pfl.05.jsonl:40): prompt is very similar to deca-core-business-law-029
+- deca-pfl-spending-051 (deca-pfl.05.jsonl:40): prompt is very similar to deca-marketing-product-service-management-014
+- deca-pfl-spending-051 (deca-pfl.05.jsonl:40): prompt is very similar to deca-pfl-spending-020
+- deca-pfl-spending-052 (deca-pfl.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-052 (deca-pfl.05.jsonl:41): prompt is very similar to deca-pfl-spending-022
+- deca-pfl-spending-054 (deca-pfl.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-055 (deca-pfl.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-055 (deca-pfl.05.jsonl:44): prompt is very similar to deca-pfl-spending-029
+- deca-pfl-spending-056 (deca-pfl.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-056 (deca-pfl.05.jsonl:45): prompt is very similar to deca-pfl-spending-024
+- deca-pfl-spending-057 (deca-pfl.05.jsonl:46): prompt is very similar to deca-pfl-spending-025
+- deca-pfl-spending-060 (deca-pfl.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-062 (deca-pfl.05.jsonl:51): prompt is very similar to deca-pfl-spending-034
+- deca-pfl-spending-063 (deca-pfl.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-064 (deca-pfl.05.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-064 (deca-pfl.05.jsonl:53): prompt is very similar to deca-marketing-promotion-020
+- deca-pfl-spending-065 (deca-pfl.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-038 (deca-pfl.05.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-039 (deca-pfl.05.jsonl:56): prompt is very similar to deca-pfl-saving-009
+- deca-pfl-saving-041 (deca-pfl.05.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-041 (deca-pfl.05.jsonl:58): prompt is very similar to deca-pfl-saving-012
+- deca-pfl-saving-043 (deca-pfl.05.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-045 (deca-pfl.05.jsonl:62): prompt is very similar to deca-pfl-saving-016
+- deca-pfl-saving-046 (deca-pfl.05.jsonl:63): prompt is very similar to deca-pfl-saving-015
+- deca-pfl-saving-047 (deca-pfl.05.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-047 (deca-pfl.05.jsonl:64): prompt is very similar to deca-pfl-saving-024
+- deca-pfl-saving-049 (deca-pfl.05.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-049 (deca-pfl.05.jsonl:66): prompt is very similar to deca-pfl-saving-020
+- deca-pfl-saving-050 (deca-pfl.05.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-050 (deca-pfl.05.jsonl:67): prompt is very similar to deca-pfl-saving-021
+- deca-pfl-saving-051 (deca-pfl.05.jsonl:68): prompt is very similar to deca-pfl-saving-019
+- deca-pfl-saving-052 (deca-pfl.05.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-052 (deca-pfl.05.jsonl:69): prompt is very similar to deca-pfl-saving-018
+- deca-pfl-saving-053 (deca-pfl.05.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-055 (deca-pfl.05.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-054 (deca-pfl.06.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-057 (deca-pfl.06.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-059 (deca-pfl.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-061 (deca-pfl.06.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-063 (deca-pfl.06.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-064 (deca-pfl.06.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-065 (deca-pfl.06.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-066 (deca-pfl.06.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-068 (deca-pfl.06.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-069 (deca-pfl.06.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-070 (deca-pfl.06.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-073 (deca-pfl.06.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-074 (deca-pfl.06.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-076 (deca-pfl.06.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-079 (deca-pfl.06.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-080 (deca-pfl.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-081 (deca-pfl.06.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-082 (deca-pfl.06.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-083 (deca-pfl.06.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-084 (deca-pfl.06.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-085 (deca-pfl.06.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-086 (deca-pfl.06.jsonl:37): prompt is very similar to deca-pfl-managing-credit-016
+- deca-pfl-managing-credit-088 (deca-pfl.06.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-089 (deca-pfl.06.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-091 (deca-pfl.06.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-092 (deca-pfl.06.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-092 (deca-pfl.06.jsonl:43): prompt is very similar to deca-pfl-managing-credit-033
+- deca-pfl-managing-risk-039 (deca-pfl.06.jsonl:44): prompt is very similar to deca-shared-risk-management-016
+- deca-pfl-managing-risk-039 (deca-pfl.06.jsonl:44): prompt is very similar to deca-pfl-managing-risk-009
+- deca-pfl-managing-risk-041 (deca-pfl.06.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-041 (deca-pfl.06.jsonl:46): prompt is very similar to deca-pfl-managing-risk-029
+- deca-pfl-managing-risk-043 (deca-pfl.06.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-044 (deca-pfl.06.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-045 (deca-pfl.06.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-046 (deca-pfl.06.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-047 (deca-pfl.06.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-050 (deca-pfl.06.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-051 (deca-pfl.06.jsonl:56): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- deca-pfl-managing-risk-052 (deca-pfl.06.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-052 (deca-pfl.06.jsonl:57): prompt is very similar to deca-pfl-managing-risk-023
+- deca-pfl-managing-risk-053 (deca-pfl.06.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-055 (deca-pfl.06.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-055 (deca-pfl.06.jsonl:60): prompt is very similar to deca-pfl-managing-risk-024
+- deca-pfl-managing-risk-056 (deca-pfl.06.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-057 (deca-pfl.06.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-058 (deca-pfl.06.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-058 (deca-pfl.06.jsonl:63): prompt is very similar to deca-shared-risk-management-009
+- deca-pfl-managing-risk-058 (deca-pfl.06.jsonl:63): prompt is very similar to deca-pfl-managing-risk-025
+- deca-pfl-managing-risk-060 (deca-pfl.06.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-060 (deca-pfl.06.jsonl:65): prompt is very similar to deca-pfl-managing-risk-027
+- deca-pfl-managing-risk-061 (deca-pfl.06.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-064 (deca-pfl.06.jsonl:69): prompt is very similar to deca-pfl-managing-risk-030
+- deca-pfl-managing-risk-065 (deca-pfl.06.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-067 (deca-pfl.06.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-046 (deca-pfl.07.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-048 (deca-pfl.07.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-051 (deca-pfl.07.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-053 (deca-pfl.07.jsonl:9): prompt is very similar to deca-pfl-investing-012
+- deca-pfl-investing-054 (deca-pfl.07.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-055 (deca-pfl.07.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-056 (deca-pfl.07.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-059 (deca-pfl.07.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-060 (deca-pfl.07.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-061 (deca-pfl.07.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-062 (deca-pfl.07.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-063 (deca-pfl.07.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-064 (deca-pfl.07.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-065 (deca-pfl.07.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-065 (deca-pfl.07.jsonl:21): prompt is very similar to deca-pfl-investing-016
+- deca-pfl-investing-066 (deca-pfl.07.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-066 (deca-pfl.07.jsonl:22): prompt is very similar to deca-pfl-investing-017
+- deca-pfl-investing-068 (deca-pfl.07.jsonl:24): prompt is very similar to deca-pfl-investing-023
+- deca-pfl-investing-070 (deca-pfl.07.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-071 (deca-pfl.07.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-072 (deca-pfl.07.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-074 (deca-pfl.07.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-075 (deca-pfl.07.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-076 (deca-pfl.07.jsonl:32): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- deca-pfl-investing-077 (deca-pfl.07.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-077 (deca-pfl.07.jsonl:33): prompt is very similar to deca-pfl-investing-013
+- deca-pfl-investing-078 (deca-pfl.07.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-079 (deca-pfl.07.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-079 (deca-pfl.07.jsonl:35): prompt is very similar to deca-pfl-investing-035
+- deca-pfl-investing-080 (deca-pfl.07.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-080 (deca-pfl.07.jsonl:36): prompt is very similar to deca-pfl-investing-041
+- deca-pfl-investing-081 (deca-pfl.07.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-082 (deca-pfl.07.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-082 (deca-pfl.07.jsonl:38): prompt is very similar to deca-pfl-investing-024
+- deca-pfl-investing-083 (deca-pfl.07.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-085 (deca-pfl.07.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-087 (deca-pfl.07.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-087 (deca-pfl.07.jsonl:43): prompt is very similar to deca-pfl-investing-043
+- deca-pfl-investing-088 (deca-pfl.07.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-089 (deca-pfl.07.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-091 (deca-pfl.07.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-093 (deca-pfl.07.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-093 (deca-pfl.07.jsonl:49): prompt is very similar to deca-pfl-investing-029
+- deca-pfl-investing-095 (deca-pfl.07.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-096 (deca-pfl.07.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-098 (deca-pfl.07.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-098 (deca-pfl.07.jsonl:54): prompt is very similar to deca-pfl-investing-026
+- deca-pfl-investing-099 (deca-pfl.07.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-100 (deca-pfl.07.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-100 (deca-pfl.07.jsonl:56): prompt is very similar to deca-pfl-saving-022
+- deca-pfl-investing-102 (deca-pfl.07.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-102 (deca-pfl.07.jsonl:58): prompt is very similar to deca-pfl-investing-011
+- deca-pfl-investing-103 (deca-pfl.07.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-104 (deca-pfl.07.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-105 (deca-pfl.07.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-108 (deca-pfl.07.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-109 (deca-pfl.07.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-110 (deca-pfl.07.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-067 (deca-pfl.08.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-068 (deca-pfl.08.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-071 (deca-pfl.08.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-072 (deca-pfl.08.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-058 (deca-pfl.08.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-059 (deca-pfl.08.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-059 (deca-pfl.08.jsonl:18): prompt is very similar to deca-pfl-saving-030
+- deca-pfl-saving-061 (deca-pfl.08.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-062 (deca-pfl.08.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-063 (deca-pfl.08.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-093 (deca-pfl.08.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-094 (deca-pfl.08.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-095 (deca-pfl.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-096 (deca-pfl.08.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-097 (deca-pfl.08.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-099 (deca-pfl.08.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-100 (deca-pfl.08.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-069 (deca-pfl.08.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-070 (deca-pfl.08.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-071 (deca-pfl.08.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-072 (deca-pfl.08.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-074 (deca-pfl.08.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-076 (deca-pfl.08.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-112 (deca-pfl.08.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-116 (deca-pfl.08.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-117 (deca-pfl.08.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-119 (deca-pfl.08.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-120 (deca-pfl.08.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-072 (deca-pfl.09.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-074 (deca-pfl.09.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-075 (deca-pfl.09.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-076 (deca-pfl.09.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-074 (deca-pfl.09.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-075 (deca-pfl.09.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-076 (deca-pfl.09.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-077 (deca-pfl.09.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-078 (deca-pfl.09.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-079 (deca-pfl.09.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-080 (deca-pfl.09.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-081 (deca-pfl.09.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-064 (deca-pfl.09.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-066 (deca-pfl.09.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-067 (deca-pfl.09.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-069 (deca-pfl.09.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-070 (deca-pfl.09.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-101 (deca-pfl.09.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-102 (deca-pfl.09.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-103 (deca-pfl.09.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-105 (deca-pfl.09.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-106 (deca-pfl.09.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-107 (deca-pfl.09.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-109 (deca-pfl.09.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-077 (deca-pfl.09.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-078 (deca-pfl.09.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-079 (deca-pfl.09.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-083 (deca-pfl.09.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-084 (deca-pfl.09.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-121 (deca-pfl.09.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-123 (deca-pfl.09.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-124 (deca-pfl.09.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-081 (deca-pfl.10.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-082 (deca-pfl.10.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-083 (deca-pfl.10.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-084 (deca-pfl.10.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-085 (deca-pfl.10.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-earning-income-086 (deca-pfl.10.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-085 (deca-pfl.10.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-087 (deca-pfl.10.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-088 (deca-pfl.10.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-089 (deca-pfl.10.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-090 (deca-pfl.10.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-091 (deca-pfl.10.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-saving-076 (deca-pfl.10.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-111 (deca-pfl.10.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-112 (deca-pfl.10.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-114 (deca-pfl.10.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-114 (deca-pfl.10.jsonl:27): prompt is very similar to deca-pfl-managing-credit-020
+- deca-pfl-managing-credit-116 (deca-pfl.10.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-credit-116 (deca-pfl.10.jsonl:29): prompt is very similar to deca-pfl-managing-credit-042
+- deca-pfl-managing-risk-085 (deca-pfl.10.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-087 (deca-pfl.10.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-087 (deca-pfl.10.jsonl:32): prompt is very similar to deca-pfl-managing-risk-020
+- deca-pfl-managing-risk-090 (deca-pfl.10.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-091 (deca-pfl.10.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-managing-risk-092 (deca-pfl.10.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-125 (deca-pfl.10.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-127 (deca-pfl.10.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-128 (deca-pfl.10.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-130 (deca-pfl.10.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-131 (deca-pfl.10.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-investing-133 (deca-pfl.10.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- deca-pfl-spending-092 (deca-pfl.11.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-046 (fbla-accounting.02.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-029 (fbla-accounting.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-035 (fbla-accounting.03.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-042 (fbla-accounting.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-007 (fbla-accounting.04.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-041 (fbla-accounting.04.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-054 (fbla-accounting.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-055 (fbla-accounting.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-020 (fbla-accounting.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-021 (fbla-accounting.05.jsonl:16): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-accounting-financial-reports-021 (fbla-accounting.05.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-024 (fbla-accounting.05.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-026 (fbla-accounting.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-054 (fbla-accounting.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-006 (fbla-accounting.06.jsonl:1): prompt is very similar to fbla-accounting-standards-and-compliance-001
+- fbla-accounting-standards-and-compliance-007 (fbla-accounting.06.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-009 (fbla-accounting.06.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-013 (fbla-accounting.06.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-014 (fbla-accounting.06.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-015 (fbla-accounting.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-016 (fbla-accounting.06.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-020 (fbla-accounting.06.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-024 (fbla-accounting.06.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-025 (fbla-accounting.06.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-026 (fbla-accounting.06.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-029 (fbla-accounting.06.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-030 (fbla-accounting.06.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-032 (fbla-accounting.06.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-036 (fbla-accounting.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-038 (fbla-accounting.06.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-039 (fbla-accounting.06.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-041 (fbla-accounting.06.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-042 (fbla-accounting.06.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-043 (fbla-accounting.06.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-046 (fbla-accounting.06.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-049 (fbla-accounting.06.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-050 (fbla-accounting.06.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-051 (fbla-accounting.06.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-012 (fbla-accounting.07.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-016 (fbla-accounting.07.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-017 (fbla-accounting.07.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-021 (fbla-accounting.07.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-023 (fbla-accounting.07.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-024 (fbla-accounting.07.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-028 (fbla-accounting.07.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-029 (fbla-accounting.07.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-033 (fbla-accounting.07.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-039 (fbla-accounting.07.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-042 (fbla-accounting.07.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-043 (fbla-accounting.07.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-046 (fbla-accounting.07.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-047 (fbla-accounting.07.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-054 (fbla-accounting.07.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-006 (fbla-accounting.08.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-007 (fbla-accounting.08.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-008 (fbla-accounting.08.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-012 (fbla-accounting.08.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-014 (fbla-accounting.08.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-019 (fbla-accounting.08.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-020 (fbla-accounting.08.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-021 (fbla-accounting.08.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-022 (fbla-accounting.08.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-024 (fbla-accounting.08.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-027 (fbla-accounting.08.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-030 (fbla-accounting.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-035 (fbla-accounting.08.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-036 (fbla-accounting.08.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-037 (fbla-accounting.08.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-039 (fbla-accounting.08.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-040 (fbla-accounting.08.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-041 (fbla-accounting.08.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-042 (fbla-accounting.08.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-047 (fbla-accounting.08.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-048 (fbla-accounting.08.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-049 (fbla-accounting.08.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-055 (fbla-accounting.08.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-008 (fbla-accounting.09.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-009 (fbla-accounting.09.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-010 (fbla-accounting.09.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-012 (fbla-accounting.09.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-017 (fbla-accounting.09.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-020 (fbla-accounting.09.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-023 (fbla-accounting.09.jsonl:18): prompt is very similar to fbla-accounting-career-opportunities-003
+- fbla-accounting-career-opportunities-026 (fbla-accounting.09.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-030 (fbla-accounting.09.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-031 (fbla-accounting.09.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-032 (fbla-accounting.09.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-035 (fbla-accounting.09.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-036 (fbla-accounting.09.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-038 (fbla-accounting.09.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-039 (fbla-accounting.09.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-040 (fbla-accounting.09.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-042 (fbla-accounting.09.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-043 (fbla-accounting.09.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-045 (fbla-accounting.09.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-046 (fbla-accounting.09.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-047 (fbla-accounting.09.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-048 (fbla-accounting.09.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-049 (fbla-accounting.09.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-051 (fbla-accounting.09.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-053 (fbla-accounting.09.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-054 (fbla-accounting.09.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-055 (fbla-accounting.09.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-057 (fbla-accounting.10.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-060 (fbla-accounting.10.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-061 (fbla-accounting.10.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-063 (fbla-accounting.10.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-065 (fbla-accounting.10.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-foundations-of-accounting-066 (fbla-accounting.10.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-054 (fbla-accounting.10.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-058 (fbla-accounting.10.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-the-accounting-cycle-059 (fbla-accounting.10.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-056 (fbla-accounting.10.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-058 (fbla-accounting.10.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-059 (fbla-accounting.10.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-accounts-payable-and-receivable-062 (fbla-accounting.10.jsonl:31): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-053
+- fbla-accounting-financial-reports-057 (fbla-accounting.10.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-059 (fbla-accounting.10.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-060 (fbla-accounting.10.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-062 (fbla-accounting.10.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-063 (fbla-accounting.10.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-financial-reports-065 (fbla-accounting.10.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-054 (fbla-accounting.10.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-055 (fbla-accounting.10.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-057 (fbla-accounting.10.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-059 (fbla-accounting.10.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-060 (fbla-accounting.10.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-055 (fbla-accounting.10.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-057 (fbla-accounting.10.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-058 (fbla-accounting.10.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-058 (fbla-accounting.10.jsonl:53): prompt is very similar to fbla-accounting-tax-accounting-021
+- fbla-accounting-tax-accounting-060 (fbla-accounting.10.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-061 (fbla-accounting.10.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-058 (fbla-accounting.10.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-059 (fbla-accounting.10.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-060 (fbla-accounting.10.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-056 (fbla-accounting.10.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-056 (fbla-accounting.10.jsonl:62): prompt is very similar to fbla-accounting-career-opportunities-044
+- fbla-accounting-career-opportunities-057 (fbla-accounting.10.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-058 (fbla-accounting.10.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-legal-foundations-007 (fbla-business-law.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-commercial-law-004 (fbla-business-law.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-004 (fbla-business-law.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-005 (fbla-business-law.jsonl:26): prompt is very similar to fbla-accounting-standards-and-compliance-025
+- fbla-business-law-commercial-law-018 (fbla-business-law.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-commercial-law-042 (fbla-business-law.03.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-commercial-law-047 (fbla-business-law.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-022 (fbla-business-law.04.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-024 (fbla-business-law.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-027 (fbla-business-law.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-033 (fbla-business-law.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-034 (fbla-business-law.04.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-046 (fbla-business-law.04.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-employment-law-053 (fbla-business-law.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-008 (fbla-business-law.05.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-018 (fbla-business-law.05.jsonl:12): prompt is very similar to fbla-business-law-financial-tax-law-016
+- fbla-business-law-financial-tax-law-019 (fbla-business-law.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-031 (fbla-business-law.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-032 (fbla-business-law.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-035 (fbla-business-law.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-039 (fbla-business-law.05.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-040 (fbla-business-law.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-041 (fbla-business-law.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-041 (fbla-business-law.05.jsonl:35): prompt is very similar to fbla-accounting-tax-accounting-027
+- fbla-business-law-financial-tax-law-042 (fbla-business-law.05.jsonl:36): prompt is very similar to fbla-accounting-tax-accounting-011
+- fbla-business-law-financial-tax-law-043 (fbla-business-law.05.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-044 (fbla-business-law.05.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-044 (fbla-business-law.05.jsonl:38): prompt is very similar to fbla-accounting-tax-accounting-012
+- fbla-business-law-financial-tax-law-045 (fbla-business-law.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-046 (fbla-business-law.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-047 (fbla-business-law.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-049 (fbla-business-law.05.jsonl:43): prompt is very similar to fbla-accounting-tax-accounting-008
+- fbla-business-law-financial-tax-law-050 (fbla-business-law.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-051 (fbla-business-law.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-053 (fbla-business-law.05.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-054 (fbla-business-law.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-056 (fbla-business-law.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-financial-tax-law-057 (fbla-business-law.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-011 (fbla-business-law.06.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-013 (fbla-business-law.06.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-014 (fbla-business-law.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-019 (fbla-business-law.06.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-021 (fbla-business-law.06.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-021 (fbla-business-law.06.jsonl:14): prompt is very similar to fbla-business-law-business-ethics-006
+- fbla-business-law-business-ethics-023 (fbla-business-law.06.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-025 (fbla-business-law.06.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-026 (fbla-business-law.06.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-028 (fbla-business-law.06.jsonl:21): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-business-law-business-ethics-030 (fbla-business-law.06.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-031 (fbla-business-law.06.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-033 (fbla-business-law.06.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-036 (fbla-business-law.06.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-037 (fbla-business-law.06.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-038 (fbla-business-law.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-039 (fbla-business-law.06.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-042 (fbla-business-law.06.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-047 (fbla-business-law.06.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-048 (fbla-business-law.06.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-051 (fbla-business-law.06.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-055 (fbla-business-law.06.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-056 (fbla-business-law.06.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-058 (fbla-business-law.06.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-ethics-059 (fbla-business-law.06.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-009 (fbla-business-law.07.jsonl:3): prompt is very similar to fbla-business-law-international-trade-commerce-law-001
+- fbla-business-law-international-trade-commerce-law-011 (fbla-business-law.07.jsonl:5): prompt is very similar to fbla-business-law-international-trade-commerce-law-003
+- fbla-business-law-international-trade-commerce-law-012 (fbla-business-law.07.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-013 (fbla-business-law.07.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-021 (fbla-business-law.07.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-022 (fbla-business-law.07.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-025 (fbla-business-law.07.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-026 (fbla-business-law.07.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-029 (fbla-business-law.07.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-030 (fbla-business-law.07.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-032 (fbla-business-law.07.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-033 (fbla-business-law.07.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-033 (fbla-business-law.07.jsonl:27): prompt is very similar to fbla-accounting-standards-and-compliance-043
+- fbla-business-law-international-trade-commerce-law-035 (fbla-business-law.07.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-038 (fbla-business-law.07.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-040 (fbla-business-law.07.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-042 (fbla-business-law.07.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-044 (fbla-business-law.07.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-046 (fbla-business-law.07.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-047 (fbla-business-law.07.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-049 (fbla-business-law.07.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-050 (fbla-business-law.07.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-052 (fbla-business-law.07.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-053 (fbla-business-law.07.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-international-trade-commerce-law-054 (fbla-business-law.07.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-002 (fbla-business-law.08.jsonl:2): prompt is very similar to fbla-business-law-commercial-law-012
+- fbla-business-law-contracts-004 (fbla-business-law.08.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-006 (fbla-business-law.08.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-010 (fbla-business-law.08.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-010 (fbla-business-law.08.jsonl:10): prompt is very similar to fbla-business-law-commercial-law-017
+- fbla-business-law-contracts-011 (fbla-business-law.08.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-011 (fbla-business-law.08.jsonl:11): prompt is very similar to fbla-business-law-commercial-law-018
+- fbla-business-law-contracts-012 (fbla-business-law.08.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-013 (fbla-business-law.08.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-014 (fbla-business-law.08.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-015 (fbla-business-law.08.jsonl:15): prompt is very similar to fbla-business-law-commercial-law-006
+- fbla-business-law-contracts-015 (fbla-business-law.08.jsonl:15): prompt is very similar to fbla-business-law-commercial-law-022
+- fbla-business-law-contracts-016 (fbla-business-law.08.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-016 (fbla-business-law.08.jsonl:16): prompt is very similar to fbla-business-law-commercial-law-023
+- fbla-business-law-contracts-017 (fbla-business-law.08.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-017 (fbla-business-law.08.jsonl:17): prompt is very similar to fbla-business-law-legal-foundations-043
+- fbla-business-law-contracts-018 (fbla-business-law.08.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-018 (fbla-business-law.08.jsonl:18): prompt is very similar to fbla-business-law-commercial-law-025
+- fbla-business-law-contracts-020 (fbla-business-law.08.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-020 (fbla-business-law.08.jsonl:20): prompt is very similar to fbla-business-law-commercial-law-027
+- fbla-business-law-contracts-021 (fbla-business-law.08.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-organizations-003 (fbla-business-law.08.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-organizations-003 (fbla-business-law.08.jsonl:24): prompt is very similar to fbla-accounting-tax-accounting-035
+- fbla-business-law-business-organizations-004 (fbla-business-law.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-organizations-005 (fbla-business-law.08.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-organizations-007 (fbla-business-law.08.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-business-organizations-007 (fbla-business-law.08.jsonl:28): prompt is very similar to fbla-business-law-business-ethics-031
+- fbla-business-law-agency-and-employment-001 (fbla-business-law.08.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-agency-and-employment-003 (fbla-business-law.08.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-agency-and-employment-004 (fbla-business-law.08.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-agency-and-employment-004 (fbla-business-law.08.jsonl:33): prompt is very similar to fbla-business-law-employment-law-035
+- fbla-business-law-agency-and-employment-005 (fbla-business-law.08.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-agency-and-employment-005 (fbla-business-law.08.jsonl:34): prompt is very similar to fbla-business-law-employment-law-008
+- fbla-business-law-agency-and-employment-006 (fbla-business-law.08.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-agency-and-employment-006 (fbla-business-law.08.jsonl:35): prompt is very similar to fbla-business-law-employment-law-006
+- fbla-business-law-property-and-torts-001 (fbla-business-law.08.jsonl:37): prompt is very similar to fbla-business-law-legal-foundations-026
+- fbla-business-law-property-and-torts-002 (fbla-business-law.08.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-property-and-torts-004 (fbla-business-law.08.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-property-and-torts-005 (fbla-business-law.08.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-property-and-torts-005 (fbla-business-law.08.jsonl:41): prompt is very similar to fbla-business-law-legal-foundations-048
+- fbla-business-law-property-and-torts-007 (fbla-business-law.08.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-sales-and-consumer-law-001 (fbla-business-law.08.jsonl:44): prompt is very similar to fbla-business-law-commercial-law-034
+- fbla-business-law-sales-and-consumer-law-002 (fbla-business-law.08.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-sales-and-consumer-law-003 (fbla-business-law.08.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-sales-and-consumer-law-004 (fbla-business-law.08.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-sales-and-consumer-law-006 (fbla-business-law.08.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-sales-and-consumer-law-006 (fbla-business-law.08.jsonl:49): prompt is very similar to fbla-business-law-commercial-law-042
+- fbla-business-law-contracts-022 (fbla-business-law.09.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-023 (fbla-business-law.09.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-business-law-contracts-024 (fbla-business-law.09.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-005 (fbla-economics.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-005 (fbla-economics.jsonl:23): prompt is very similar to fbla-business-law-international-trade-commerce-law-012
+- fbla-economics-economic-indicators-001 (fbla-economics.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-005 (fbla-economics.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-021 (fbla-economics.02.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-024 (fbla-economics.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-026 (fbla-economics.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-029 (fbla-economics.02.jsonl:23): prompt is very similar to fbla-economics-economic-indicators-001
+- fbla-economics-fundamental-economic-concepts-031 (fbla-economics.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-041 (fbla-economics.02.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-045 (fbla-economics.02.jsonl:39): prompt is very similar to fbla-economics-economic-indicators-003
+- fbla-economics-economic-systems-011 (fbla-economics.02.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-013 (fbla-economics.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-022 (fbla-economics.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-024 (fbla-economics.03.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-025 (fbla-economics.03.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-010 (fbla-economics.03.jsonl:18): prompt is very similar to fbla-economics-cost-profit-relationships-002
+- fbla-economics-cost-profit-relationships-014 (fbla-economics.03.jsonl:22): prompt is very similar to fbla-economics-cost-profit-relationships-001
+- fbla-economics-cost-profit-relationships-017 (fbla-economics.03.jsonl:25): prompt is very similar to fbla-economics-cost-profit-relationships-004
+- fbla-economics-cost-profit-relationships-020 (fbla-economics.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-029 (fbla-economics.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-033 (fbla-economics.03.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-036 (fbla-economics.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-039 (fbla-economics.03.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-007 (fbla-economics.03.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-012 (fbla-economics.03.jsonl:55): prompt is very similar to fbla-accounting-tax-accounting-035
+- fbla-economics-nature-of-business-012 (fbla-economics.03.jsonl:55): prompt is very similar to fbla-business-law-business-organizations-003
+- fbla-economics-nature-of-business-013 (fbla-economics.03.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-015 (fbla-economics.03.jsonl:58): prompt is very similar to fbla-business-law-legal-foundations-057
+- fbla-economics-government-s-impact-on-business-012 (fbla-economics.04.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-014 (fbla-economics.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-015 (fbla-economics.04.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-018 (fbla-economics.04.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-021 (fbla-economics.04.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-022 (fbla-economics.04.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-023 (fbla-economics.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-024 (fbla-economics.04.jsonl:18): prompt is very similar to fbla-business-law-business-ethics-044
+- fbla-economics-government-s-impact-on-business-027 (fbla-economics.04.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-032 (fbla-economics.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-032 (fbla-economics.04.jsonl:26): prompt is very similar to fbla-business-law-international-trade-commerce-law-012
+- fbla-economics-government-s-impact-on-business-032 (fbla-economics.04.jsonl:26): prompt is very similar to fbla-economics-government-s-impact-on-business-005
+- fbla-economics-government-s-impact-on-business-035 (fbla-economics.04.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-040 (fbla-economics.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-041 (fbla-economics.04.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-010 (fbla-economics.04.jsonl:41): prompt is very similar to fbla-economics-economic-indicators-004
+- fbla-economics-economic-indicators-013 (fbla-economics.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-014 (fbla-economics.04.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-017 (fbla-economics.04.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-021 (fbla-economics.04.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-022 (fbla-economics.04.jsonl:53): prompt is very similar to fbla-business-law-international-trade-commerce-law-016
+- fbla-economics-global-trade-010 (fbla-economics.04.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-012 (fbla-economics.04.jsonl:64): prompt is very similar to fbla-business-law-international-trade-commerce-law-043
+- fbla-economics-global-trade-020 (fbla-economics.04.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-021 (fbla-economics.04.jsonl:73): prompt is very similar to fbla-business-law-international-trade-commerce-law-018
+- fbla-economics-global-trade-022 (fbla-economics.04.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-024 (fbla-economics.04.jsonl:76): prompt is very similar to fbla-economics-global-trade-005
+- fbla-economics-fundamental-economic-concepts-067 (fbla-economics.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-069 (fbla-economics.05.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-071 (fbla-economics.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-073 (fbla-economics.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-076 (fbla-economics.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-080 (fbla-economics.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-084 (fbla-economics.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-087 (fbla-economics.05.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-091 (fbla-economics.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-fundamental-economic-concepts-092 (fbla-economics.05.jsonl:42): prompt is very similar to fbla-business-law-financial-tax-law-036
+- fbla-economics-fundamental-economic-concepts-093 (fbla-economics.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-032 (fbla-economics.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-033 (fbla-economics.05.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-034 (fbla-economics.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-043 (fbla-economics.06.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-051 (fbla-economics.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-055 (fbla-economics.06.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-056 (fbla-economics.06.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-057 (fbla-economics.06.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-058 (fbla-economics.06.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-062 (fbla-economics.06.jsonl:21): prompt is very similar to fbla-accounting-financial-reports-033
+- fbla-economics-cost-profit-relationships-067 (fbla-economics.06.jsonl:26): prompt is very similar to fbla-economics-cost-profit-relationships-002
+- fbla-economics-cost-profit-relationships-067 (fbla-economics.06.jsonl:26): prompt is very similar to fbla-economics-cost-profit-relationships-010
+- fbla-economics-cost-profit-relationships-070 (fbla-economics.06.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-cost-profit-relationships-072 (fbla-economics.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-021 (fbla-economics.06.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-022 (fbla-economics.06.jsonl:37): prompt is very similar to fbla-business-law-business-organizations-001
+- fbla-economics-nature-of-business-023 (fbla-economics.06.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-024 (fbla-economics.06.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-025 (fbla-economics.06.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-026 (fbla-economics.06.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-026 (fbla-economics.06.jsonl:41): prompt is very similar to fbla-accounting-tax-accounting-033
+- fbla-economics-nature-of-business-027 (fbla-economics.06.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-027 (fbla-economics.06.jsonl:42): prompt is very similar to fbla-accounting-tax-accounting-035
+- fbla-economics-nature-of-business-027 (fbla-economics.06.jsonl:42): prompt is very similar to fbla-business-law-business-organizations-003
+- fbla-economics-nature-of-business-027 (fbla-economics.06.jsonl:42): prompt is very similar to fbla-economics-nature-of-business-012
+- fbla-economics-nature-of-business-028 (fbla-economics.06.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-031 (fbla-economics.06.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-032 (fbla-economics.06.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-035 (fbla-economics.06.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-037 (fbla-economics.06.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-038 (fbla-economics.06.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-nature-of-business-039 (fbla-economics.06.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-045 (fbla-economics.07.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-047 (fbla-economics.07.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-048 (fbla-economics.07.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-050 (fbla-economics.07.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-054 (fbla-economics.07.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-055 (fbla-economics.07.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-056 (fbla-economics.07.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-057 (fbla-economics.07.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): prompt is very similar to fbla-business-law-employment-law-016
+- fbla-economics-government-s-impact-on-business-061 (fbla-economics.07.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-062 (fbla-economics.07.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-063 (fbla-economics.07.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-067 (fbla-economics.07.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-government-s-impact-on-business-068 (fbla-economics.07.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-030 (fbla-economics.07.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-032 (fbla-economics.07.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-033 (fbla-economics.07.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-034 (fbla-economics.07.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-035 (fbla-economics.07.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-040 (fbla-economics.07.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-043 (fbla-economics.07.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-045 (fbla-economics.07.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-046 (fbla-economics.07.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-047 (fbla-economics.07.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-048 (fbla-economics.07.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-indicators-049 (fbla-economics.07.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-027 (fbla-economics.07.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-029 (fbla-economics.07.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-032 (fbla-economics.07.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-036 (fbla-economics.07.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-037 (fbla-economics.07.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-038 (fbla-economics.07.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-039 (fbla-economics.07.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-040 (fbla-economics.07.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-041 (fbla-economics.07.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-042 (fbla-economics.07.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-043 (fbla-economics.07.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-global-trade-044 (fbla-economics.07.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): prompt is very similar to fbla-economics-fundamental-economic-concepts-069
+- fbla-economics-demand-and-supply-001 (fbla-economics.08.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-demand-and-supply-002 (fbla-economics.08.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-demand-and-supply-004 (fbla-economics.08.jsonl:9): prompt is very similar to fbla-economics-fundamental-economic-concepts-020
+- fbla-economics-demand-and-supply-005 (fbla-economics.08.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-demand-and-supply-006 (fbla-economics.08.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-demand-and-supply-008 (fbla-economics.08.jsonl:13): prompt is very similar to fbla-economics-government-s-impact-on-business-028
+- fbla-economics-demand-and-supply-009 (fbla-economics.08.jsonl:14): prompt is very similar to fbla-economics-government-s-impact-on-business-030
+- fbla-economics-elasticity-001 (fbla-economics.08.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-market-structures-001 (fbla-economics.08.jsonl:20): prompt is very similar to fbla-economics-government-s-impact-on-business-026
+- fbla-economics-market-structures-002 (fbla-economics.08.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-market-structures-002 (fbla-economics.08.jsonl:21): prompt is very similar to fbla-business-law-business-ethics-044
+- fbla-economics-market-structures-002 (fbla-economics.08.jsonl:21): prompt is very similar to fbla-economics-government-s-impact-on-business-024
+- fbla-economics-market-structures-004 (fbla-economics.08.jsonl:23): prompt is very similar to fbla-economics-government-s-impact-on-business-025
+- fbla-economics-market-structures-006 (fbla-economics.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-market-structures-006 (fbla-economics.08.jsonl:25): prompt is very similar to fbla-economics-government-s-impact-on-business-027
+- fbla-economics-market-structures-007 (fbla-economics.08.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-costs-and-production-001 (fbla-economics.08.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-costs-and-production-001 (fbla-economics.08.jsonl:27): prompt is very similar to fbla-economics-cost-profit-relationships-007
+- fbla-economics-costs-and-production-002 (fbla-economics.08.jsonl:28): prompt is very similar to fbla-economics-cost-profit-relationships-008
+- fbla-economics-costs-and-production-004 (fbla-economics.08.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-costs-and-production-004 (fbla-economics.08.jsonl:30): prompt is very similar to fbla-economics-cost-profit-relationships-004
+- fbla-economics-costs-and-production-004 (fbla-economics.08.jsonl:30): prompt is very similar to fbla-economics-cost-profit-relationships-017
+- fbla-economics-costs-and-production-005 (fbla-economics.08.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-costs-and-production-007 (fbla-economics.08.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-costs-and-production-007 (fbla-economics.08.jsonl:33): prompt is very similar to fbla-economics-cost-profit-relationships-025
+- fbla-economics-money-and-banking-001 (fbla-economics.08.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-money-and-banking-002 (fbla-economics.08.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-money-and-banking-004 (fbla-economics.08.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-money-and-banking-005 (fbla-economics.08.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-money-and-banking-005 (fbla-economics.08.jsonl:39): prompt is very similar to fbla-economics-economic-indicators-020
+- fbla-economics-macroeconomics-001 (fbla-economics.08.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-002 (fbla-economics.08.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-004 (fbla-economics.08.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-006 (fbla-economics.08.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-006 (fbla-economics.08.jsonl:46): prompt is very similar to fbla-economics-fundamental-economic-concepts-077
+- fbla-economics-macroeconomics-006 (fbla-economics.08.jsonl:46): prompt is very similar to fbla-economics-fundamental-economic-concepts-080
+- fbla-economics-macroeconomics-007 (fbla-economics.08.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-009 (fbla-economics.08.jsonl:49): prompt is very similar to fbla-economics-economic-indicators-003
+- fbla-economics-macroeconomics-009 (fbla-economics.08.jsonl:49): prompt is very similar to fbla-economics-fundamental-economic-concepts-045
+- fbla-economics-macroeconomics-010 (fbla-economics.08.jsonl:50): prompt is very similar to fbla-economics-fundamental-economic-concepts-046
+- fbla-economics-macroeconomics-011 (fbla-economics.08.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-014 (fbla-economics.08.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-015 (fbla-economics.08.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-015 (fbla-economics.08.jsonl:55): prompt is very similar to fbla-economics-fundamental-economic-concepts-084
+- fbla-economics-macroeconomics-016 (fbla-economics.08.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-016 (fbla-economics.08.jsonl:56): prompt is very similar to fbla-economics-government-s-impact-on-business-015
+- fbla-economics-international-trade-001 (fbla-economics.08.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-international-trade-001 (fbla-economics.08.jsonl:58): prompt is very similar to fbla-business-law-international-trade-commerce-law-038
+- fbla-economics-international-trade-003 (fbla-economics.08.jsonl:60): prompt is very similar to fbla-business-law-international-trade-commerce-law-001
+- fbla-economics-international-trade-003 (fbla-economics.08.jsonl:60): prompt is very similar to fbla-business-law-international-trade-commerce-law-009
+- fbla-economics-international-trade-004 (fbla-economics.08.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-international-trade-004 (fbla-economics.08.jsonl:61): prompt is very similar to fbla-business-law-international-trade-commerce-law-010
+- fbla-economics-international-trade-005 (fbla-economics.08.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-international-trade-006 (fbla-economics.08.jsonl:63): prompt is very similar to fbla-business-law-international-trade-commerce-law-014
+- fbla-economics-international-trade-007 (fbla-economics.08.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-international-trade-007 (fbla-economics.08.jsonl:64): prompt is very similar to fbla-economics-global-trade-010
+- fbla-economics-economic-systems-035 (fbla-economics.08.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-036 (fbla-economics.08.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-036 (fbla-economics.08.jsonl:67): prompt is very similar to fbla-economics-economic-systems-012
+- fbla-economics-economic-systems-038 (fbla-economics.08.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-038 (fbla-economics.08.jsonl:69): prompt is very similar to fbla-economics-economic-systems-014
+- fbla-economics-economic-systems-039 (fbla-economics.08.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-039 (fbla-economics.08.jsonl:70): prompt is very similar to fbla-economics-economic-systems-026
+- fbla-economics-economic-systems-041 (fbla-economics.08.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-economic-systems-041 (fbla-economics.08.jsonl:72): prompt is very similar to fbla-economics-economic-systems-025
+- fbla-economics-economic-systems-042 (fbla-economics.08.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-018 (fbla-economics.09.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-020 (fbla-economics.09.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-020 (fbla-economics.09.jsonl:3): prompt is very similar to fbla-economics-economic-indicators-024
+- fbla-economics-macroeconomics-021 (fbla-economics.09.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-021 (fbla-economics.09.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-047
+- fbla-economics-macroeconomics-023 (fbla-economics.09.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-024 (fbla-economics.09.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-024 (fbla-economics.09.jsonl:7): prompt is very similar to fbla-economics-economic-indicators-033
+- fbla-economics-macroeconomics-025 (fbla-economics.09.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-025 (fbla-economics.09.jsonl:8): prompt is very similar to fbla-economics-fundamental-economic-concepts-039
+- fbla-economics-macroeconomics-026 (fbla-economics.09.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-027 (fbla-economics.09.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-027 (fbla-economics.09.jsonl:10): prompt is very similar to fbla-economics-fundamental-economic-concepts-075
+- fbla-economics-macroeconomics-028 (fbla-economics.09.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-028 (fbla-economics.09.jsonl:11): prompt is very similar to fbla-economics-economic-indicators-044
+- fbla-economics-macroeconomics-029 (fbla-economics.09.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-macroeconomics-029 (fbla-economics.09.jsonl:12): prompt is very similar to fbla-economics-fundamental-economic-concepts-093
+- fbla-economics-microeconomics-001 (fbla-economics.09.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-001 (fbla-economics.09.jsonl:13): prompt is very similar to fbla-economics-fundamental-economic-concepts-063
+- fbla-economics-microeconomics-002 (fbla-economics.09.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-002 (fbla-economics.09.jsonl:14): prompt is very similar to fbla-economics-fundamental-economic-concepts-064
+- fbla-economics-microeconomics-004 (fbla-economics.09.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-005 (fbla-economics.09.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-006 (fbla-economics.09.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-006 (fbla-economics.09.jsonl:18): prompt is very similar to fbla-business-law-international-trade-commerce-law-012
+- fbla-economics-microeconomics-006 (fbla-economics.09.jsonl:18): prompt is very similar to fbla-economics-government-s-impact-on-business-005
+- fbla-economics-microeconomics-006 (fbla-economics.09.jsonl:18): prompt is very similar to fbla-economics-government-s-impact-on-business-032
+- fbla-economics-microeconomics-007 (fbla-economics.09.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-economics-microeconomics-007 (fbla-economics.09.jsonl:19): prompt is very similar to fbla-economics-cost-profit-relationships-039
+- fbla-economics-microeconomics-008 (fbla-economics.10.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-002 (fbla-personal-finance.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-002 (fbla-personal-finance.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-001 (fbla-personal-finance.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-002 (fbla-personal-finance.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-004 (fbla-personal-finance.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-006 (fbla-personal-finance.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-006 (fbla-personal-finance.jsonl:34): prompt is very similar to fbla-accounting-technology-and-accounting-027
+- fbla-personal-finance-risk-management-002 (fbla-personal-finance.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-003 (fbla-personal-finance.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-009 (fbla-personal-finance.02.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-012 (fbla-personal-finance.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-015 (fbla-personal-finance.02.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-016 (fbla-personal-finance.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-020 (fbla-personal-finance.02.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-022 (fbla-personal-finance.02.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-026 (fbla-personal-finance.02.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-needs-and-goals-027 (fbla-personal-finance.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-009 (fbla-personal-finance.02.jsonl:29): prompt is very similar to fbla-personal-finance-financial-services-providers-001
+- fbla-personal-finance-financial-services-providers-010 (fbla-personal-finance.02.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-015 (fbla-personal-finance.02.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-016 (fbla-personal-finance.02.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-017 (fbla-personal-finance.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-019 (fbla-personal-finance.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-020 (fbla-personal-finance.02.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-023 (fbla-personal-finance.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-025 (fbla-personal-finance.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-027 (fbla-personal-finance.02.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-033 (fbla-personal-finance.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-034 (fbla-personal-finance.02.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-035 (fbla-personal-finance.02.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-services-providers-037 (fbla-personal-finance.02.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-010 (fbla-personal-finance.03.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-013 (fbla-personal-finance.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-016 (fbla-personal-finance.03.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-019 (fbla-personal-finance.03.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-020 (fbla-personal-finance.03.jsonl:13): prompt is very similar to fbla-business-law-financial-tax-law-011
+- fbla-personal-finance-principles-of-money-023 (fbla-personal-finance.03.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-030 (fbla-personal-finance.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-031 (fbla-personal-finance.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-034 (fbla-personal-finance.03.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-035 (fbla-personal-finance.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-041 (fbla-personal-finance.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-042 (fbla-personal-finance.03.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-043 (fbla-personal-finance.03.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-045 (fbla-personal-finance.03.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-046 (fbla-personal-finance.03.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-048 (fbla-personal-finance.03.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-049 (fbla-personal-finance.03.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-050 (fbla-personal-finance.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-052 (fbla-personal-finance.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-principles-of-money-053 (fbla-personal-finance.03.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-012 (fbla-personal-finance.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-014 (fbla-personal-finance.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-015 (fbla-personal-finance.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-016 (fbla-personal-finance.03.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-019 (fbla-personal-finance.03.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-020 (fbla-personal-finance.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-022 (fbla-personal-finance.03.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-023 (fbla-personal-finance.03.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-024 (fbla-personal-finance.03.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-025 (fbla-personal-finance.03.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-026 (fbla-personal-finance.03.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-028 (fbla-personal-finance.03.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-029 (fbla-personal-finance.03.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-risk-management-031 (fbla-personal-finance.03.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-009 (fbla-personal-finance.04.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-010 (fbla-personal-finance.04.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-012 (fbla-personal-finance.04.jsonl:5): prompt is very similar to fbla-personal-finance-investment-strategies-003
+- fbla-personal-finance-investment-strategies-014 (fbla-personal-finance.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-014 (fbla-personal-finance.04.jsonl:7): prompt is very similar to fbla-accounting-tax-accounting-024
+- fbla-personal-finance-investment-strategies-015 (fbla-personal-finance.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-017 (fbla-personal-finance.04.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-018 (fbla-personal-finance.04.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-021 (fbla-personal-finance.04.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-022 (fbla-personal-finance.04.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-023 (fbla-personal-finance.04.jsonl:16): prompt is very similar to fbla-personal-finance-investment-strategies-005
+- fbla-personal-finance-investment-strategies-026 (fbla-personal-finance.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-027 (fbla-personal-finance.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-028 (fbla-personal-finance.04.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-029 (fbla-personal-finance.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-030 (fbla-personal-finance.04.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-031 (fbla-personal-finance.04.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-032 (fbla-personal-finance.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-036 (fbla-personal-finance.04.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-041 (fbla-personal-finance.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-042 (fbla-personal-finance.04.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-044 (fbla-personal-finance.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-050 (fbla-personal-finance.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-053 (fbla-personal-finance.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-054 (fbla-personal-finance.04.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-investment-strategies-059 (fbla-personal-finance.04.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-007 (fbla-personal-finance.04.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-009 (fbla-personal-finance.04.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-011 (fbla-personal-finance.04.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-011 (fbla-personal-finance.04.jsonl:57): prompt is very similar to fbla-business-law-financial-tax-law-056
+- fbla-personal-finance-financial-literacy-012 (fbla-personal-finance.04.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-013 (fbla-personal-finance.04.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-013 (fbla-personal-finance.04.jsonl:59): prompt is very similar to fbla-accounting-technology-and-accounting-027
+- fbla-personal-finance-financial-literacy-013 (fbla-personal-finance.04.jsonl:59): prompt is very similar to fbla-personal-finance-financial-literacy-006
+- fbla-personal-finance-financial-literacy-014 (fbla-personal-finance.04.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-015 (fbla-personal-finance.04.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-016 (fbla-personal-finance.04.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-017 (fbla-personal-finance.04.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-018 (fbla-personal-finance.04.jsonl:64): prompt is very similar to fbla-accounting-tax-accounting-057
+- fbla-personal-finance-financial-literacy-021 (fbla-personal-finance.04.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-022 (fbla-personal-finance.04.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-024 (fbla-personal-finance.04.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-026 (fbla-personal-finance.04.jsonl:72): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-013
+- fbla-personal-finance-financial-literacy-027 (fbla-personal-finance.04.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-financial-literacy-028 (fbla-personal-finance.04.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-budgeting-001 (fbla-personal-finance.05.jsonl:1): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-016
+- fbla-personal-finance-budgeting-002 (fbla-personal-finance.05.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-budgeting-002 (fbla-personal-finance.05.jsonl:2): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-018
+- fbla-personal-finance-budgeting-003 (fbla-personal-finance.05.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-budgeting-003 (fbla-personal-finance.05.jsonl:3): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-019
+- fbla-personal-finance-budgeting-004 (fbla-personal-finance.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-budgeting-005 (fbla-personal-finance.05.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-banking-001 (fbla-personal-finance.05.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-banking-003 (fbla-personal-finance.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-banking-003 (fbla-personal-finance.05.jsonl:9): prompt is very similar to fbla-personal-finance-financial-services-providers-002
+- fbla-personal-finance-banking-004 (fbla-personal-finance.05.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-banking-004 (fbla-personal-finance.05.jsonl:10): prompt is very similar to fbla-personal-finance-financial-services-providers-014
+- fbla-personal-finance-banking-006 (fbla-personal-finance.05.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-banking-006 (fbla-personal-finance.05.jsonl:12): prompt is very similar to fbla-personal-finance-financial-services-providers-015
+- fbla-personal-finance-credit-001 (fbla-personal-finance.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-credit-003 (fbla-personal-finance.05.jsonl:15): prompt is very similar to fbla-business-law-commercial-law-052
+- fbla-personal-finance-credit-005 (fbla-personal-finance.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-credit-007 (fbla-personal-finance.05.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-credit-008 (fbla-personal-finance.05.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-credit-008 (fbla-personal-finance.05.jsonl:20): prompt is very similar to fbla-personal-finance-principles-of-money-030
+- fbla-personal-finance-credit-009 (fbla-personal-finance.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-001 (fbla-personal-finance.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-001 (fbla-personal-finance.05.jsonl:22): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-020
+- fbla-personal-finance-saving-and-investing-003 (fbla-personal-finance.05.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-003 (fbla-personal-finance.05.jsonl:24): prompt is very similar to fbla-personal-finance-investment-strategies-001
+- fbla-personal-finance-saving-and-investing-004 (fbla-personal-finance.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-004 (fbla-personal-finance.05.jsonl:25): prompt is very similar to fbla-personal-finance-investment-strategies-010
+- fbla-personal-finance-saving-and-investing-005 (fbla-personal-finance.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-005 (fbla-personal-finance.05.jsonl:26): prompt is very similar to fbla-personal-finance-investment-strategies-003
+- fbla-personal-finance-saving-and-investing-005 (fbla-personal-finance.05.jsonl:26): prompt is very similar to fbla-personal-finance-investment-strategies-012
+- fbla-personal-finance-saving-and-investing-006 (fbla-personal-finance.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-007 (fbla-personal-finance.05.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-007 (fbla-personal-finance.05.jsonl:28): prompt is very similar to fbla-personal-finance-investment-strategies-002
+- fbla-personal-finance-saving-and-investing-008 (fbla-personal-finance.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-008 (fbla-personal-finance.05.jsonl:29): prompt is very similar to fbla-personal-finance-investment-strategies-005
+- fbla-personal-finance-saving-and-investing-008 (fbla-personal-finance.05.jsonl:29): prompt is very similar to fbla-personal-finance-investment-strategies-023
+- fbla-personal-finance-saving-and-investing-009 (fbla-personal-finance.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-010 (fbla-personal-finance.05.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-001 (fbla-personal-finance.05.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-001 (fbla-personal-finance.05.jsonl:32): prompt is very similar to fbla-personal-finance-risk-management-009
+- fbla-personal-finance-insurance-003 (fbla-personal-finance.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-003 (fbla-personal-finance.05.jsonl:34): prompt is very similar to fbla-personal-finance-risk-management-008
+- fbla-personal-finance-insurance-004 (fbla-personal-finance.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-005 (fbla-personal-finance.05.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-007 (fbla-personal-finance.05.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-insurance-007 (fbla-personal-finance.05.jsonl:38): prompt is very similar to fbla-personal-finance-risk-management-002
+- fbla-personal-finance-taxes-001 (fbla-personal-finance.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-taxes-001 (fbla-personal-finance.05.jsonl:39): prompt is very similar to fbla-accounting-tax-accounting-057
+- fbla-personal-finance-taxes-001 (fbla-personal-finance.05.jsonl:39): prompt is very similar to fbla-personal-finance-financial-literacy-018
+- fbla-personal-finance-taxes-002 (fbla-personal-finance.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-taxes-002 (fbla-personal-finance.05.jsonl:40): prompt is very similar to fbla-accounting-tax-accounting-008
+- fbla-personal-finance-taxes-002 (fbla-personal-finance.05.jsonl:40): prompt is very similar to fbla-business-law-financial-tax-law-049
+- fbla-personal-finance-taxes-003 (fbla-personal-finance.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-taxes-003 (fbla-personal-finance.05.jsonl:41): prompt is very similar to fbla-accounting-tax-accounting-009
+- fbla-personal-finance-taxes-005 (fbla-personal-finance.05.jsonl:43): prompt is very similar to fbla-accounting-tax-accounting-010
+- fbla-personal-finance-taxes-007 (fbla-personal-finance.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-001 (fbla-personal-finance.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-001 (fbla-personal-finance.05.jsonl:46): prompt is very similar to fbla-business-law-financial-tax-law-056
+- fbla-personal-finance-consumer-protection-001 (fbla-personal-finance.05.jsonl:46): prompt is very similar to fbla-personal-finance-financial-literacy-011
+- fbla-personal-finance-consumer-protection-002 (fbla-personal-finance.05.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-003 (fbla-personal-finance.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-003 (fbla-personal-finance.05.jsonl:48): prompt is very similar to fbla-accounting-technology-and-accounting-027
+- fbla-personal-finance-consumer-protection-003 (fbla-personal-finance.05.jsonl:48): prompt is very similar to fbla-personal-finance-financial-literacy-006
+- fbla-personal-finance-consumer-protection-003 (fbla-personal-finance.05.jsonl:48): prompt is very similar to fbla-personal-finance-financial-literacy-013
+- fbla-personal-finance-consumer-protection-004 (fbla-personal-finance.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-005 (fbla-personal-finance.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-006 (fbla-personal-finance.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-consumer-protection-007 (fbla-personal-finance.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-budgeting-007 (fbla-personal-finance.06.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-011 (fbla-personal-finance.06.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-saving-and-investing-011 (fbla-personal-finance.06.jsonl:3): prompt is very similar to fbla-personal-finance-principles-of-money-018
+- fbla-personal-finance-credit-010 (fbla-personal-finance.06.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-personal-finance-credit-010 (fbla-personal-finance.06.jsonl:4): prompt is very similar to fbla-personal-finance-principles-of-money-033
+- fbla-securities-principles-of-money-001 (fbla-securities.jsonl:1): prompt is very similar to fbla-personal-finance-principles-of-money-009
+- fbla-securities-principles-of-money-005 (fbla-securities.jsonl:5): prompt is very similar to fbla-personal-finance-principles-of-money-038
+- fbla-securities-financial-markets-001 (fbla-securities.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-003 (fbla-securities.jsonl:10): prompt is very similar to fbla-personal-finance-investment-strategies-042
+- fbla-securities-financial-markets-006 (fbla-securities.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-007 (fbla-securities.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-004 (fbla-securities.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-001 (fbla-securities.jsonl:22): prompt is very similar to fbla-personal-finance-investment-strategies-022
+- fbla-securities-selecting-investments-003 (fbla-securities.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-003 (fbla-securities.jsonl:24): prompt is very similar to fbla-personal-finance-investment-strategies-018
+- fbla-securities-selecting-investments-004 (fbla-securities.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-006 (fbla-securities.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-002 (fbla-securities.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-004 (fbla-securities.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-005 (fbla-securities.jsonl:33): prompt is very similar to fbla-personal-finance-financial-services-providers-027
+- fbla-securities-securities-investments-industry-006 (fbla-securities.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-001 (fbla-securities.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-003 (fbla-securities.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-010 (fbla-securities.02.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-012 (fbla-securities.02.jsonl:5): prompt is very similar to fbla-securities-financial-markets-001
+- fbla-securities-financial-markets-017 (fbla-securities.02.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-019 (fbla-securities.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-021 (fbla-securities.02.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-029 (fbla-securities.02.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-032 (fbla-securities.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-033 (fbla-securities.02.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-034 (fbla-securities.02.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-037 (fbla-securities.02.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-038 (fbla-securities.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-039 (fbla-securities.02.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-041 (fbla-securities.02.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-042 (fbla-securities.02.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-043 (fbla-securities.02.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-044 (fbla-securities.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-045 (fbla-securities.02.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-046 (fbla-securities.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-009 (fbla-securities.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-014 (fbla-securities.02.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-014 (fbla-securities.02.jsonl:50): prompt is very similar to fbla-personal-finance-investment-strategies-056
+- fbla-securities-investment-analysis-017 (fbla-securities.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-018 (fbla-securities.02.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-019 (fbla-securities.02.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-020 (fbla-securities.02.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-021 (fbla-securities.02.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-022 (fbla-securities.02.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-024 (fbla-securities.02.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-031 (fbla-securities.02.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-033 (fbla-securities.02.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-033 (fbla-securities.02.jsonl:69): prompt is very similar to fbla-securities-investment-analysis-032
+- fbla-securities-securities-products-008 (fbla-securities.03.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-009 (fbla-securities.03.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-011 (fbla-securities.03.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-012 (fbla-securities.03.jsonl:6): prompt is very similar to fbla-securities-securities-products-003
+- fbla-securities-securities-products-013 (fbla-securities.03.jsonl:7): prompt is very similar to fbla-securities-securities-products-004
+- fbla-securities-securities-products-014 (fbla-securities.03.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-018 (fbla-securities.03.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-019 (fbla-securities.03.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-020 (fbla-securities.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-021 (fbla-securities.03.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-027 (fbla-securities.03.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-038 (fbla-securities.03.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-040 (fbla-securities.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-042 (fbla-securities.03.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-043 (fbla-securities.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-046 (fbla-securities.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-047 (fbla-securities.03.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-050 (fbla-securities.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-054 (fbla-securities.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-057 (fbla-securities.03.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-007 (fbla-securities.04.jsonl:1): prompt is very similar to fbla-personal-finance-financial-services-providers-027
+- fbla-securities-securities-investments-industry-007 (fbla-securities.04.jsonl:1): prompt is very similar to fbla-securities-securities-investments-industry-005
+- fbla-securities-securities-investments-industry-009 (fbla-securities.04.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-009 (fbla-securities.04.jsonl:3): prompt is very similar to fbla-business-law-financial-tax-law-031
+- fbla-securities-securities-investments-industry-010 (fbla-securities.04.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-010 (fbla-securities.04.jsonl:4): prompt is very similar to fbla-securities-securities-investments-industry-002
+- fbla-securities-securities-investments-industry-011 (fbla-securities.04.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-013 (fbla-securities.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-016 (fbla-securities.04.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-018 (fbla-securities.04.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-019 (fbla-securities.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-021 (fbla-securities.04.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-023 (fbla-securities.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-024 (fbla-securities.04.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-025 (fbla-securities.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-031 (fbla-securities.04.jsonl:25): prompt is very similar to fbla-business-law-financial-tax-law-032
+- fbla-securities-securities-investments-industry-033 (fbla-securities.04.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-033 (fbla-securities.04.jsonl:27): prompt is very similar to fbla-personal-finance-investment-strategies-059
+- fbla-securities-securities-investments-industry-034 (fbla-securities.04.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-035 (fbla-securities.04.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-037 (fbla-securities.04.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-038 (fbla-securities.04.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-039 (fbla-securities.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-040 (fbla-securities.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-042 (fbla-securities.04.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-043 (fbla-securities.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-008 (fbla-securities.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-009 (fbla-securities.04.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-010 (fbla-securities.04.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-012 (fbla-securities.04.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-013 (fbla-securities.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-014 (fbla-securities.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-016 (fbla-securities.04.jsonl:46): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-securities-selecting-investments-016 (fbla-securities.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-019 (fbla-securities.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-020 (fbla-securities.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-021 (fbla-securities.04.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-022 (fbla-securities.04.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-024 (fbla-securities.04.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-026 (fbla-securities.04.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-028 (fbla-securities.04.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-030 (fbla-securities.04.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-031 (fbla-securities.04.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-principles-of-money-008 (fbla-securities.04.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-principles-of-money-008 (fbla-securities.04.jsonl:62): prompt is very similar to fbla-personal-finance-principles-of-money-018
+- fbla-securities-principles-of-money-008 (fbla-securities.04.jsonl:62): prompt is very similar to fbla-personal-finance-saving-and-investing-011
+- fbla-securities-stocks-001 (fbla-securities.05.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-001 (fbla-securities.05.jsonl:1): prompt is very similar to fbla-securities-securities-products-008
+- fbla-securities-stocks-002 (fbla-securities.05.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-002 (fbla-securities.05.jsonl:2): prompt is very similar to fbla-securities-securities-products-009
+- fbla-securities-stocks-003 (fbla-securities.05.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-004 (fbla-securities.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-004 (fbla-securities.05.jsonl:4): prompt is very similar to fbla-personal-finance-investment-strategies-052
+- fbla-securities-stocks-006 (fbla-securities.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-006 (fbla-securities.05.jsonl:6): prompt is very similar to fbla-securities-financial-markets-025
+- fbla-securities-stocks-008 (fbla-securities.05.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-008 (fbla-securities.05.jsonl:8): prompt is very similar to fbla-securities-financial-markets-028
+- fbla-securities-stocks-009 (fbla-securities.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-009 (fbla-securities.05.jsonl:9): prompt is very similar to fbla-personal-finance-investment-strategies-056
+- fbla-securities-stocks-009 (fbla-securities.05.jsonl:9): prompt is very similar to fbla-securities-investment-analysis-014
+- fbla-securities-stocks-011 (fbla-securities.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-013 (fbla-securities.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-013 (fbla-securities.05.jsonl:13): prompt is very similar to fbla-personal-finance-investment-strategies-053
+- fbla-securities-stocks-014 (fbla-securities.05.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-014 (fbla-securities.05.jsonl:14): prompt is very similar to fbla-securities-securities-products-054
+- fbla-securities-bonds-001 (fbla-securities.05.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-002 (fbla-securities.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-003 (fbla-securities.05.jsonl:18): prompt is very similar to fbla-securities-securities-products-013
+- fbla-securities-bonds-006 (fbla-securities.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-006 (fbla-securities.05.jsonl:21): prompt is very similar to fbla-personal-finance-investment-strategies-048
+- fbla-securities-bonds-007 (fbla-securities.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-007 (fbla-securities.05.jsonl:22): prompt is very similar to fbla-personal-finance-investment-strategies-049
+- fbla-securities-bonds-008 (fbla-securities.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-008 (fbla-securities.05.jsonl:23): prompt is very similar to fbla-securities-financial-markets-048
+- fbla-securities-funds-and-products-001 (fbla-securities.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-funds-and-products-001 (fbla-securities.05.jsonl:25): prompt is very similar to fbla-personal-finance-investment-strategies-011
+- fbla-securities-funds-and-products-002 (fbla-securities.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-funds-and-products-003 (fbla-securities.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-funds-and-products-003 (fbla-securities.05.jsonl:27): prompt is very similar to fbla-personal-finance-investment-strategies-037
+- fbla-securities-funds-and-products-005 (fbla-securities.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-funds-and-products-005 (fbla-securities.05.jsonl:29): prompt is very similar to fbla-personal-finance-investment-strategies-031
+- fbla-securities-funds-and-products-006 (fbla-securities.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-funds-and-products-007 (fbla-securities.05.jsonl:31): prompt is very similar to fbla-securities-securities-products-006
+- fbla-securities-markets-001 (fbla-securities.05.jsonl:33): prompt is very similar to fbla-personal-finance-investment-strategies-042
+- fbla-securities-markets-001 (fbla-securities.05.jsonl:33): prompt is very similar to fbla-securities-financial-markets-003
+- fbla-securities-markets-002 (fbla-securities.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-002 (fbla-securities.05.jsonl:34): prompt is very similar to fbla-personal-finance-investment-strategies-043
+- fbla-securities-markets-003 (fbla-securities.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-003 (fbla-securities.05.jsonl:35): prompt is very similar to fbla-personal-finance-principles-of-money-038
+- fbla-securities-markets-003 (fbla-securities.05.jsonl:35): prompt is very similar to fbla-securities-principles-of-money-005
+- fbla-securities-markets-004 (fbla-securities.05.jsonl:36): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-securities-markets-005 (fbla-securities.05.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-005 (fbla-securities.05.jsonl:37): prompt is very similar to fbla-personal-finance-investment-strategies-040
+- fbla-securities-markets-006 (fbla-securities.05.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-006 (fbla-securities.05.jsonl:38): prompt is very similar to fbla-personal-finance-investment-strategies-041
+- fbla-securities-markets-008 (fbla-securities.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-009 (fbla-securities.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-010 (fbla-securities.05.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-010 (fbla-securities.05.jsonl:42): prompt is very similar to fbla-securities-financial-markets-038
+- fbla-securities-markets-011 (fbla-securities.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-011 (fbla-securities.05.jsonl:43): prompt is very similar to fbla-securities-financial-markets-035
+- fbla-securities-regulation-001 (fbla-securities.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-regulation-002 (fbla-securities.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-regulation-002 (fbla-securities.05.jsonl:46): prompt is very similar to fbla-business-law-financial-tax-law-032
+- fbla-securities-regulation-002 (fbla-securities.05.jsonl:46): prompt is very similar to fbla-securities-securities-investments-industry-031
+- fbla-securities-regulation-004 (fbla-securities.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-regulation-004 (fbla-securities.05.jsonl:48): prompt is very similar to fbla-securities-investment-analysis-031
+- fbla-securities-regulation-005 (fbla-securities.05.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-regulation-006 (fbla-securities.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-regulation-006 (fbla-securities.05.jsonl:50): prompt is very similar to fbla-securities-securities-investments-industry-006
+- fbla-securities-regulation-007 (fbla-securities.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-001 (fbla-securities.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-001 (fbla-securities.05.jsonl:52): prompt is very similar to fbla-personal-finance-investment-strategies-022
+- fbla-securities-investing-principles-001 (fbla-securities.05.jsonl:52): prompt is very similar to fbla-securities-selecting-investments-001
+- fbla-securities-investing-principles-002 (fbla-securities.05.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-003 (fbla-securities.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-003 (fbla-securities.05.jsonl:54): prompt is very similar to fbla-personal-finance-principles-of-money-013
+- fbla-securities-investing-principles-005 (fbla-securities.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-005 (fbla-securities.05.jsonl:56): prompt is very similar to fbla-securities-principles-of-money-012
+- fbla-securities-investing-principles-007 (fbla-securities.05.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-008 (fbla-securities.05.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investing-principles-008 (fbla-securities.05.jsonl:59): prompt is very similar to fbla-personal-finance-investment-strategies-018
+- fbla-securities-investing-principles-008 (fbla-securities.05.jsonl:59): prompt is very similar to fbla-securities-selecting-investments-003
+- fbla-securities-investing-principles-009 (fbla-securities.05.jsonl:60): prompt is very similar to fbla-personal-finance-investment-strategies-019
+- fbla-securities-stocks-016 (fbla-securities.06.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-016 (fbla-securities.06.jsonl:1): prompt is very similar to fbla-securities-financial-markets-001
+- fbla-securities-stocks-016 (fbla-securities.06.jsonl:1): prompt is very similar to fbla-securities-financial-markets-012
+- fbla-securities-stocks-017 (fbla-securities.06.jsonl:2): prompt is very similar to fbla-securities-financial-markets-020
+- fbla-securities-stocks-018 (fbla-securities.06.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-stocks-018 (fbla-securities.06.jsonl:3): prompt is very similar to fbla-securities-financial-markets-021
+- fbla-securities-stocks-019 (fbla-securities.06.jsonl:4): prompt is very similar to fbla-securities-financial-markets-022
+- fbla-securities-bonds-010 (fbla-securities.06.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-010 (fbla-securities.06.jsonl:5): prompt is very similar to fbla-personal-finance-investment-strategies-046
+- fbla-securities-bonds-011 (fbla-securities.06.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-bonds-011 (fbla-securities.06.jsonl:6): prompt is very similar to fbla-securities-financial-markets-046
+- fbla-securities-markets-013 (fbla-securities.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-013 (fbla-securities.06.jsonl:7): prompt is very similar to fbla-personal-finance-investment-strategies-045
+- fbla-securities-markets-014 (fbla-securities.06.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-markets-014 (fbla-securities.06.jsonl:8): prompt is very similar to fbla-securities-financial-markets-024
+- fbla-securities-investing-principles-010 (fbla-securities.06.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-003 (fbla-org-leadership.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-007 (fbla-org-leadership.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-001 (fbla-org-leadership.jsonl:15): prompt is very similar to fbla-economics-nature-of-business-030
+- fbla-leadership-manage-business-relationships-002 (fbla-org-leadership.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-003 (fbla-org-leadership.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-004 (fbla-org-leadership.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-005 (fbla-org-leadership.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-006 (fbla-org-leadership.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-003 (fbla-org-leadership.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-007 (fbla-org-leadership.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-001 (fbla-org-leadership.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-003 (fbla-org-leadership.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-004 (fbla-org-leadership.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-001 (fbla-org-leadership.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-005 (fbla-org-leadership.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-010 (fbla-org-leadership.02.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-013 (fbla-org-leadership.02.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-015 (fbla-org-leadership.02.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-018 (fbla-org-leadership.02.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-economics-nature-of-business-028
+- fbla-leadership-role-of-management-in-business-022 (fbla-org-leadership.02.jsonl:15): prompt is very similar to fbla-leadership-role-of-management-in-business-005
+- fbla-leadership-role-of-management-in-business-024 (fbla-org-leadership.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-025 (fbla-org-leadership.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-026 (fbla-org-leadership.02.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-027 (fbla-org-leadership.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-028 (fbla-org-leadership.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-030 (fbla-org-leadership.02.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-031 (fbla-org-leadership.02.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-033 (fbla-org-leadership.02.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-035 (fbla-org-leadership.02.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-038 (fbla-org-leadership.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-040 (fbla-org-leadership.02.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-041 (fbla-org-leadership.02.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-044 (fbla-org-leadership.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-046 (fbla-org-leadership.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-058 (fbla-org-leadership.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-role-of-management-in-business-063 (fbla-org-leadership.02.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-008 (fbla-org-leadership.03.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-010 (fbla-org-leadership.03.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-011 (fbla-org-leadership.03.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-023 (fbla-org-leadership.03.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-024 (fbla-org-leadership.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-026 (fbla-org-leadership.03.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-031 (fbla-org-leadership.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-032 (fbla-org-leadership.03.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-033 (fbla-org-leadership.03.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-036 (fbla-org-leadership.03.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-038 (fbla-org-leadership.03.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-040 (fbla-org-leadership.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-042 (fbla-org-leadership.03.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-044 (fbla-org-leadership.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-049 (fbla-org-leadership.03.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-050 (fbla-org-leadership.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-051 (fbla-org-leadership.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-052 (fbla-org-leadership.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-053 (fbla-org-leadership.03.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-055 (fbla-org-leadership.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-060 (fbla-org-leadership.03.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-008 (fbla-org-leadership.04.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-014 (fbla-org-leadership.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-016 (fbla-org-leadership.04.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-018 (fbla-org-leadership.04.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-020 (fbla-org-leadership.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-026 (fbla-org-leadership.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-032 (fbla-org-leadership.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-033 (fbla-org-leadership.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-033 (fbla-org-leadership.04.jsonl:26): prompt is very similar to fbla-leadership-human-resources-management-006
+- fbla-leadership-human-resources-management-035 (fbla-org-leadership.04.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-036 (fbla-org-leadership.04.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-039 (fbla-org-leadership.04.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-040 (fbla-org-leadership.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-044 (fbla-org-leadership.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-045 (fbla-org-leadership.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-046 (fbla-org-leadership.04.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-007 (fbla-org-leadership.04.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-007 (fbla-org-leadership.04.jsonl:40): prompt is very similar to fbla-leadership-critical-thinking-skills-001
+- fbla-leadership-critical-thinking-skills-008 (fbla-org-leadership.04.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-008 (fbla-org-leadership.04.jsonl:41): prompt is very similar to fbla-leadership-critical-thinking-skills-002
+- fbla-leadership-critical-thinking-skills-011 (fbla-org-leadership.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-012 (fbla-org-leadership.04.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-013 (fbla-org-leadership.04.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-015 (fbla-org-leadership.04.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-017 (fbla-org-leadership.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-018 (fbla-org-leadership.04.jsonl:51): prompt is very similar to fbla-leadership-critical-thinking-skills-004
+- fbla-leadership-critical-thinking-skills-022 (fbla-org-leadership.04.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-023 (fbla-org-leadership.04.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-025 (fbla-org-leadership.04.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-030 (fbla-org-leadership.04.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-035 (fbla-org-leadership.04.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-008 (fbla-org-leadership.04.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-012 (fbla-org-leadership.04.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-014 (fbla-org-leadership.04.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-015 (fbla-org-leadership.04.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-017 (fbla-org-leadership.04.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-018 (fbla-org-leadership.04.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-018 (fbla-org-leadership.04.jsonl:79): prompt is very similar to fbla-leadership-manage-business-relationships-006
+- fbla-leadership-manage-business-relationships-020 (fbla-org-leadership.04.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-021 (fbla-org-leadership.04.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-023 (fbla-org-leadership.04.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-007 (fbla-org-leadership.04.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-009 (fbla-org-leadership.04.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-012 (fbla-org-leadership.04.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-013 (fbla-org-leadership.04.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-014 (fbla-org-leadership.04.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-014 (fbla-org-leadership.04.jsonl:92): prompt is very similar to fbla-leadership-manage-stressful-situations-005
+- fbla-leadership-manage-stressful-situations-018 (fbla-org-leadership.04.jsonl:96): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-021 (fbla-org-leadership.04.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-024 (fbla-org-leadership.04.jsonl:102): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-061 (fbla-org-leadership.05.jsonl:1): prompt is very similar to fbla-leadership-leadership-015
+- fbla-leadership-leadership-062 (fbla-org-leadership.05.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-062 (fbla-org-leadership.05.jsonl:2): prompt is very similar to fbla-leadership-leadership-013
+- fbla-leadership-leadership-066 (fbla-org-leadership.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-066 (fbla-org-leadership.05.jsonl:6): prompt is very similar to fbla-leadership-leadership-020
+- fbla-leadership-leadership-067 (fbla-org-leadership.05.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-067 (fbla-org-leadership.05.jsonl:7): prompt is very similar to fbla-leadership-role-of-management-in-business-005
+- fbla-leadership-leadership-067 (fbla-org-leadership.05.jsonl:7): prompt is very similar to fbla-leadership-role-of-management-in-business-022
+- fbla-leadership-leadership-068 (fbla-org-leadership.05.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-069 (fbla-org-leadership.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-069 (fbla-org-leadership.05.jsonl:9): prompt is very similar to fbla-leadership-role-of-management-in-business-024
+- fbla-leadership-teams-002 (fbla-org-leadership.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-004 (fbla-org-leadership.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-004 (fbla-org-leadership.05.jsonl:13): prompt is very similar to fbla-leadership-role-of-management-in-business-040
+- fbla-leadership-teams-005 (fbla-org-leadership.05.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-006 (fbla-org-leadership.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-007 (fbla-org-leadership.05.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-001 (fbla-org-leadership.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-001 (fbla-org-leadership.05.jsonl:17): prompt is very similar to fbla-leadership-leadership-022
+- fbla-leadership-communication-002 (fbla-org-leadership.05.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-003 (fbla-org-leadership.05.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-003 (fbla-org-leadership.05.jsonl:19): prompt is very similar to fbla-leadership-leadership-059
+- fbla-leadership-communication-004 (fbla-org-leadership.05.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-005 (fbla-org-leadership.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-006 (fbla-org-leadership.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-007 (fbla-org-leadership.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-001 (fbla-org-leadership.05.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-002 (fbla-org-leadership.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-002 (fbla-org-leadership.05.jsonl:25): prompt is very similar to fbla-business-law-legal-foundations-037
+- fbla-leadership-conflict-and-negotiation-004 (fbla-org-leadership.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-001 (fbla-org-leadership.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-001 (fbla-org-leadership.05.jsonl:29): prompt is very similar to fbla-leadership-role-of-management-in-business-026
+- fbla-leadership-planning-002 (fbla-org-leadership.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-002 (fbla-org-leadership.05.jsonl:30): prompt is very similar to fbla-leadership-role-of-management-in-business-027
+- fbla-leadership-planning-004 (fbla-org-leadership.05.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-005 (fbla-org-leadership.05.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-005 (fbla-org-leadership.05.jsonl:33): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-012
+- fbla-leadership-planning-006 (fbla-org-leadership.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-006 (fbla-org-leadership.05.jsonl:34): prompt is very similar to fbla-leadership-role-of-management-in-business-028
+- fbla-leadership-planning-008 (fbla-org-leadership.05.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-management-001 (fbla-org-leadership.05.jsonl:37): prompt is very similar to fbla-leadership-role-of-management-in-business-009
+- fbla-leadership-management-003 (fbla-org-leadership.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-management-003 (fbla-org-leadership.05.jsonl:39): prompt is very similar to fbla-leadership-role-of-management-in-business-020
+- fbla-leadership-management-004 (fbla-org-leadership.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-management-007 (fbla-org-leadership.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-management-007 (fbla-org-leadership.05.jsonl:43): prompt is very similar to fbla-leadership-role-of-management-in-business-055
+- fbla-leadership-management-008 (fbla-org-leadership.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-management-008 (fbla-org-leadership.05.jsonl:44): prompt is very similar to fbla-leadership-human-resources-management-039
+- fbla-leadership-motivation-002 (fbla-org-leadership.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-004 (fbla-org-leadership.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-004 (fbla-org-leadership.05.jsonl:48): prompt is very similar to fbla-leadership-leadership-032
+- fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): prompt is very similar to fbla-accounting-standards-and-compliance-025
+- fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): prompt is very similar to fbla-business-law-business-ethics-005
+- fbla-leadership-ethics-002 (fbla-org-leadership.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-003 (fbla-org-leadership.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-003 (fbla-org-leadership.05.jsonl:52): prompt is very similar to fbla-business-law-business-ethics-011
+- fbla-data-science-ai-data-literacy-and-foundations-007 (fbla-data-science-ai.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-009 (fbla-data-science-ai.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-011 (fbla-data-science-ai.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-013 (fbla-data-science-ai.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-016 (fbla-data-science-ai.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-017 (fbla-data-science-ai.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-017 (fbla-data-science-ai.jsonl:17): prompt is very similar to fbla-accounting-technology-and-accounting-020
+- fbla-data-science-ai-data-literacy-and-foundations-018 (fbla-data-science-ai.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-020 (fbla-data-science-ai.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-022 (fbla-data-science-ai.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-023 (fbla-data-science-ai.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-003 (fbla-data-science-ai.jsonl:27): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-002
+- fbla-data-science-ai-probability-and-statistics-foundations-009 (fbla-data-science-ai.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-014 (fbla-data-science-ai.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-016 (fbla-data-science-ai.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-019 (fbla-data-science-ai.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-021 (fbla-data-science-ai.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-022 (fbla-data-science-ai.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-023 (fbla-data-science-ai.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-026 (fbla-data-science-ai.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-027 (fbla-data-science-ai.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-foundations-028 (fbla-data-science-ai.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-001 (fbla-data-science-ai.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-005 (fbla-data-science-ai.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-006 (fbla-data-science-ai.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-009 (fbla-data-science-ai.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-012 (fbla-data-science-ai.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-014 (fbla-data-science-ai.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-015 (fbla-data-science-ai.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-018 (fbla-data-science-ai.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-020 (fbla-data-science-ai.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-and-statistics-for-ai-021 (fbla-data-science-ai.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-001 (fbla-data-science-ai.02.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-004 (fbla-data-science-ai.02.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-005 (fbla-data-science-ai.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-006 (fbla-data-science-ai.02.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-009 (fbla-data-science-ai.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-010 (fbla-data-science-ai.02.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-011 (fbla-data-science-ai.02.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-012 (fbla-data-science-ai.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-013 (fbla-data-science-ai.02.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-014 (fbla-data-science-ai.02.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-015 (fbla-data-science-ai.02.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-017 (fbla-data-science-ai.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-018 (fbla-data-science-ai.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-019 (fbla-data-science-ai.02.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-020 (fbla-data-science-ai.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-021 (fbla-data-science-ai.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-022 (fbla-data-science-ai.02.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-025 (fbla-data-science-ai.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-027 (fbla-data-science-ai.02.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-028 (fbla-data-science-ai.02.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-001 (fbla-data-science-ai.02.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-002 (fbla-data-science-ai.02.jsonl:31): prompt is very similar to fbla-accounting-technology-and-accounting-009
+- fbla-data-science-ai-tools-for-data-and-ai-003 (fbla-data-science-ai.02.jsonl:32): prompt is very similar to fbla-accounting-technology-and-accounting-010
+- fbla-data-science-ai-tools-for-data-and-ai-004 (fbla-data-science-ai.02.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-009 (fbla-data-science-ai.02.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-011 (fbla-data-science-ai.02.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-013 (fbla-data-science-ai.02.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-016 (fbla-data-science-ai.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-017 (fbla-data-science-ai.02.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-018 (fbla-data-science-ai.02.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-019 (fbla-data-science-ai.02.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-022 (fbla-data-science-ai.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-023 (fbla-data-science-ai.02.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-024 (fbla-data-science-ai.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-025 (fbla-data-science-ai.02.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-026 (fbla-data-science-ai.02.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-001 (fbla-data-science-ai.03.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-002 (fbla-data-science-ai.03.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-004 (fbla-data-science-ai.03.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-005 (fbla-data-science-ai.03.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-007 (fbla-data-science-ai.03.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-008 (fbla-data-science-ai.03.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-009 (fbla-data-science-ai.03.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-011 (fbla-data-science-ai.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-013 (fbla-data-science-ai.03.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-014 (fbla-data-science-ai.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-015 (fbla-data-science-ai.03.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-016 (fbla-data-science-ai.03.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-017 (fbla-data-science-ai.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-018 (fbla-data-science-ai.03.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-019 (fbla-data-science-ai.03.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-020 (fbla-data-science-ai.03.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-022 (fbla-data-science-ai.03.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-023 (fbla-data-science-ai.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-023 (fbla-data-science-ai.03.jsonl:23): prompt is very similar to fbla-data-science-ai-ai-basics-007
+- fbla-data-science-ai-machine-learning-025 (fbla-data-science-ai.03.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-026 (fbla-data-science-ai.03.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-028 (fbla-data-science-ai.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-029 (fbla-data-science-ai.03.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-030 (fbla-data-science-ai.03.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-031 (fbla-data-science-ai.03.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-032 (fbla-data-science-ai.03.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-033 (fbla-data-science-ai.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-034 (fbla-data-science-ai.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-036 (fbla-data-science-ai.03.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-037 (fbla-data-science-ai.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-001 (fbla-data-science-ai.03.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-003 (fbla-data-science-ai.03.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-004 (fbla-data-science-ai.03.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-005 (fbla-data-science-ai.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-006 (fbla-data-science-ai.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-007 (fbla-data-science-ai.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-007 (fbla-data-science-ai.03.jsonl:45): prompt is very similar to fbla-leadership-critical-thinking-skills-021
+- fbla-data-science-ai-perception-representation-and-reasoning-009 (fbla-data-science-ai.03.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-010 (fbla-data-science-ai.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-011 (fbla-data-science-ai.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-012 (fbla-data-science-ai.03.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-013 (fbla-data-science-ai.03.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-014 (fbla-data-science-ai.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-016 (fbla-data-science-ai.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-017 (fbla-data-science-ai.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-018 (fbla-data-science-ai.03.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-perception-representation-and-reasoning-019 (fbla-data-science-ai.03.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-001 (fbla-data-science-ai.04.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-003 (fbla-data-science-ai.04.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-004 (fbla-data-science-ai.04.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-005 (fbla-data-science-ai.04.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-006 (fbla-data-science-ai.04.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-008 (fbla-data-science-ai.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-009 (fbla-data-science-ai.04.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-010 (fbla-data-science-ai.04.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-010 (fbla-data-science-ai.04.jsonl:10): prompt is very similar to fbla-accounting-technology-and-accounting-024
+- fbla-data-science-ai-privacy-and-ethics-011 (fbla-data-science-ai.04.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-011 (fbla-data-science-ai.04.jsonl:11): prompt is very similar to fbla-accounting-technology-and-accounting-025
+- fbla-data-science-ai-privacy-and-ethics-012 (fbla-data-science-ai.04.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-013 (fbla-data-science-ai.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-015 (fbla-data-science-ai.04.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-016 (fbla-data-science-ai.04.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-017 (fbla-data-science-ai.04.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-018 (fbla-data-science-ai.04.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-020 (fbla-data-science-ai.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-021 (fbla-data-science-ai.04.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-022 (fbla-data-science-ai.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-023 (fbla-data-science-ai.04.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-025 (fbla-data-science-ai.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-026 (fbla-data-science-ai.04.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-028 (fbla-data-science-ai.04.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-029 (fbla-data-science-ai.04.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-031 (fbla-data-science-ai.04.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-032 (fbla-data-science-ai.04.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-033 (fbla-data-science-ai.04.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-034 (fbla-data-science-ai.04.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-accounting-technology-and-accounting-027
+- fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-personal-finance-financial-literacy-006
+- fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-personal-finance-financial-literacy-013
+- fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-personal-finance-consumer-protection-003
+- fbla-data-science-ai-privacy-and-ethics-038 (fbla-data-science-ai.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-039 (fbla-data-science-ai.04.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-025 (fbla-data-science-ai.04.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-027 (fbla-data-science-ai.04.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-and-foundations-027 (fbla-data-science-ai.04.jsonl:43): prompt is very similar to fbla-leadership-critical-thinking-skills-033
+- fbla-data-science-ai-data-literacy-and-foundations-028 (fbla-data-science-ai.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-001 (fbla-data-science-ai.05.jsonl:1): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-009
+- fbla-data-science-ai-probability-and-statistics-004 (fbla-data-science-ai.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-006 (fbla-data-science-ai.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-006 (fbla-data-science-ai.05.jsonl:6): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-024
+- fbla-data-science-ai-probability-and-statistics-007 (fbla-data-science-ai.05.jsonl:7): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-025
+- fbla-data-science-ai-probability-and-statistics-008 (fbla-data-science-ai.05.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-009 (fbla-data-science-ai.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-011 (fbla-data-science-ai.05.jsonl:11): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-022
+- fbla-data-science-ai-probability-and-statistics-012 (fbla-data-science-ai.05.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-012 (fbla-data-science-ai.05.jsonl:12): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-023
+- fbla-data-science-ai-probability-and-statistics-013 (fbla-data-science-ai.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-015 (fbla-data-science-ai.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-016 (fbla-data-science-ai.05.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-001 (fbla-data-science-ai.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-001 (fbla-data-science-ai.05.jsonl:17): prompt is very similar to fbla-data-science-ai-data-literacy-and-foundations-011
+- fbla-data-science-ai-data-analysis-003 (fbla-data-science-ai.05.jsonl:19): prompt is very similar to fbla-data-science-ai-data-literacy-and-foundations-015
+- fbla-data-science-ai-data-analysis-004 (fbla-data-science-ai.05.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-004 (fbla-data-science-ai.05.jsonl:20): prompt is very similar to fbla-data-science-ai-data-analysis-and-statistics-for-ai-001
+- fbla-data-science-ai-data-analysis-007 (fbla-data-science-ai.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-008 (fbla-data-science-ai.05.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-analysis-009 (fbla-data-science-ai.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-028 (fbla-data-science-ai.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-030 (fbla-data-science-ai.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-031 (fbla-data-science-ai.05.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-033 (fbla-data-science-ai.05.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-033 (fbla-data-science-ai.05.jsonl:32): prompt is very similar to fbla-data-science-ai-tools-for-data-and-ai-018
+- fbla-data-science-ai-tools-for-data-and-ai-034 (fbla-data-science-ai.05.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-tools-for-data-and-ai-034 (fbla-data-science-ai.05.jsonl:33): prompt is very similar to fbla-data-science-ai-tools-for-data-and-ai-024
+- fbla-data-science-ai-tools-for-data-and-ai-035 (fbla-data-science-ai.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-030 (fbla-data-science-ai.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-030 (fbla-data-science-ai.05.jsonl:35): prompt is very similar to fbla-data-science-ai-ai-basics-001
+- fbla-data-science-ai-ai-basics-031 (fbla-data-science-ai.05.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-031 (fbla-data-science-ai.05.jsonl:36): prompt is very similar to fbla-data-science-ai-machine-learning-001
+- fbla-data-science-ai-ai-basics-033 (fbla-data-science-ai.05.jsonl:38): prompt is very similar to fbla-data-science-ai-machine-learning-002
+- fbla-data-science-ai-ai-basics-034 (fbla-data-science-ai.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-034 (fbla-data-science-ai.05.jsonl:39): prompt is very similar to fbla-data-science-ai-machine-learning-003
+- fbla-data-science-ai-ai-basics-035 (fbla-data-science-ai.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-036 (fbla-data-science-ai.05.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-036 (fbla-data-science-ai.05.jsonl:41): prompt is very similar to fbla-data-science-ai-machine-learning-004
+- fbla-data-science-ai-ai-basics-037 (fbla-data-science-ai.05.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-037 (fbla-data-science-ai.05.jsonl:42): prompt is very similar to fbla-data-science-ai-machine-learning-014
+- fbla-data-science-ai-ai-basics-038 (fbla-data-science-ai.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-038 (fbla-data-science-ai.05.jsonl:43): prompt is very similar to fbla-data-science-ai-machine-learning-015
+- fbla-data-science-ai-ai-basics-039 (fbla-data-science-ai.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-040 (fbla-data-science-ai.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-040 (fbla-data-science-ai.05.jsonl:45): prompt is very similar to fbla-data-science-ai-ai-basics-014
+- fbla-data-science-ai-ai-basics-041 (fbla-data-science-ai.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-ai-basics-041 (fbla-data-science-ai.05.jsonl:46): prompt is very similar to fbla-data-science-ai-ai-basics-015
+- fbla-data-science-ai-machine-learning-040 (fbla-data-science-ai.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-042 (fbla-data-science-ai.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-042 (fbla-data-science-ai.05.jsonl:50): prompt is very similar to fbla-data-science-ai-machine-learning-034
+- fbla-data-science-ai-machine-learning-043 (fbla-data-science-ai.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-044 (fbla-data-science-ai.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-045 (fbla-data-science-ai.05.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-046 (fbla-data-science-ai.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-048 (fbla-data-science-ai.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-051 (fbla-data-science-ai.05.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-machine-learning-053 (fbla-data-science-ai.05.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-041 (fbla-data-science-ai.05.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-041 (fbla-data-science-ai.05.jsonl:62): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-018
+- fbla-data-science-ai-privacy-and-ethics-042 (fbla-data-science-ai.05.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-043 (fbla-data-science-ai.05.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-043 (fbla-data-science-ai.05.jsonl:64): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-004
+- fbla-data-science-ai-privacy-and-ethics-044 (fbla-data-science-ai.05.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-046 (fbla-data-science-ai.05.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-046 (fbla-data-science-ai.05.jsonl:67): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-022
+- fbla-data-science-ai-privacy-and-ethics-047 (fbla-data-science-ai.05.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-privacy-and-ethics-047 (fbla-data-science-ai.05.jsonl:68): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-025
+- fbla-data-science-ai-privacy-and-ethics-048 (fbla-data-science-ai.05.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-001 (fbla-data-science-ai.05.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-002 (fbla-data-science-ai.05.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-003 (fbla-data-science-ai.05.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-data-literacy-004 (fbla-data-science-ai.05.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-002 (fbla-healthcare-admin.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-003 (fbla-healthcare-admin.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-004 (fbla-healthcare-admin.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-005 (fbla-healthcare-admin.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-006 (fbla-healthcare-admin.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-007 (fbla-healthcare-admin.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-008 (fbla-healthcare-admin.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-009 (fbla-healthcare-admin.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-010 (fbla-healthcare-admin.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-011 (fbla-healthcare-admin.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-013 (fbla-healthcare-admin.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-014 (fbla-healthcare-admin.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-015 (fbla-healthcare-admin.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-016 (fbla-healthcare-admin.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-017 (fbla-healthcare-admin.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-018 (fbla-healthcare-admin.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-019 (fbla-healthcare-admin.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-020 (fbla-healthcare-admin.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-021 (fbla-healthcare-admin.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-022 (fbla-healthcare-admin.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-023 (fbla-healthcare-admin.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-024 (fbla-healthcare-admin.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-024 (fbla-healthcare-admin.jsonl:24): prompt is very similar to fbla-leadership-role-of-management-in-business-045
+- fbla-healthcare-admin-healthcare-organizations-and-structure-025 (fbla-healthcare-admin.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-026 (fbla-healthcare-admin.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-027 (fbla-healthcare-admin.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-028 (fbla-healthcare-admin.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-001 (fbla-healthcare-admin.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-002 (fbla-healthcare-admin.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-003 (fbla-healthcare-admin.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-003 (fbla-healthcare-admin.jsonl:31): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-015
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-005 (fbla-healthcare-admin.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-007 (fbla-healthcare-admin.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-008 (fbla-healthcare-admin.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-010 (fbla-healthcare-admin.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-011 (fbla-healthcare-admin.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-011 (fbla-healthcare-admin.jsonl:39): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-006
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-012 (fbla-healthcare-admin.jsonl:40): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-007
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-013 (fbla-healthcare-admin.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-014 (fbla-healthcare-admin.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-015 (fbla-healthcare-admin.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-017 (fbla-healthcare-admin.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-018 (fbla-healthcare-admin.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-019 (fbla-healthcare-admin.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-020 (fbla-healthcare-admin.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-021 (fbla-healthcare-admin.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-022 (fbla-healthcare-admin.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-024 (fbla-healthcare-admin.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-024 (fbla-healthcare-admin.jsonl:52): prompt is very similar to fbla-personal-finance-risk-management-009
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-024 (fbla-healthcare-admin.jsonl:52): prompt is very similar to fbla-personal-finance-insurance-001
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-025 (fbla-healthcare-admin.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-025 (fbla-healthcare-admin.jsonl:53): prompt is very similar to fbla-personal-finance-risk-management-019
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-026 (fbla-healthcare-admin.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-001 (fbla-healthcare-admin.02.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-001 (fbla-healthcare-admin.02.jsonl:1): prompt is very similar to fbla-leadership-human-resources-management-009
+- fbla-healthcare-admin-staffing-and-training-002 (fbla-healthcare-admin.02.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-002 (fbla-healthcare-admin.02.jsonl:2): prompt is very similar to fbla-leadership-human-resources-management-010
+- fbla-healthcare-admin-staffing-and-training-003 (fbla-healthcare-admin.02.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-004 (fbla-healthcare-admin.02.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-005 (fbla-healthcare-admin.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-007 (fbla-healthcare-admin.02.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-007 (fbla-healthcare-admin.02.jsonl:7): prompt is very similar to fbla-leadership-human-resources-management-019
+- fbla-healthcare-admin-staffing-and-training-008 (fbla-healthcare-admin.02.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-009 (fbla-healthcare-admin.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-011 (fbla-healthcare-admin.02.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-012 (fbla-healthcare-admin.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-013 (fbla-healthcare-admin.02.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-014 (fbla-healthcare-admin.02.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-014 (fbla-healthcare-admin.02.jsonl:14): prompt is very similar to fbla-leadership-human-resources-management-021
+- fbla-healthcare-admin-staffing-and-training-016 (fbla-healthcare-admin.02.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-016 (fbla-healthcare-admin.02.jsonl:16): prompt is very similar to fbla-leadership-role-of-management-in-business-055
+- fbla-healthcare-admin-staffing-and-training-016 (fbla-healthcare-admin.02.jsonl:16): prompt is very similar to fbla-leadership-management-007
+- fbla-healthcare-admin-staffing-and-training-017 (fbla-healthcare-admin.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-017 (fbla-healthcare-admin.02.jsonl:17): prompt is very similar to fbla-leadership-human-resources-management-006
+- fbla-healthcare-admin-staffing-and-training-017 (fbla-healthcare-admin.02.jsonl:17): prompt is very similar to fbla-leadership-human-resources-management-033
+- fbla-healthcare-admin-staffing-and-training-018 (fbla-healthcare-admin.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-019 (fbla-healthcare-admin.02.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-020 (fbla-healthcare-admin.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-022 (fbla-healthcare-admin.02.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-022 (fbla-healthcare-admin.02.jsonl:22): prompt is very similar to fbla-business-law-employment-law-022
+- fbla-healthcare-admin-staffing-and-training-024 (fbla-healthcare-admin.02.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-024 (fbla-healthcare-admin.02.jsonl:24): prompt is very similar to fbla-business-law-employment-law-024
+- fbla-healthcare-admin-strategic-management-001 (fbla-healthcare-admin.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-001 (fbla-healthcare-admin.02.jsonl:25): prompt is very similar to fbla-leadership-role-of-management-in-business-026
+- fbla-healthcare-admin-strategic-management-001 (fbla-healthcare-admin.02.jsonl:25): prompt is very similar to fbla-leadership-planning-001
+- fbla-healthcare-admin-strategic-management-002 (fbla-healthcare-admin.02.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-002 (fbla-healthcare-admin.02.jsonl:26): prompt is very similar to fbla-leadership-role-of-management-in-business-027
+- fbla-healthcare-admin-strategic-management-002 (fbla-healthcare-admin.02.jsonl:26): prompt is very similar to fbla-leadership-planning-002
+- fbla-healthcare-admin-strategic-management-003 (fbla-healthcare-admin.02.jsonl:27): prompt is very similar to fbla-leadership-role-of-management-in-business-028
+- fbla-healthcare-admin-strategic-management-003 (fbla-healthcare-admin.02.jsonl:27): prompt is very similar to fbla-leadership-planning-006
+- fbla-healthcare-admin-strategic-management-006 (fbla-healthcare-admin.02.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-006 (fbla-healthcare-admin.02.jsonl:30): prompt is very similar to fbla-leadership-role-of-management-in-business-030
+- fbla-healthcare-admin-strategic-management-007 (fbla-healthcare-admin.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-008 (fbla-healthcare-admin.02.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-009 (fbla-healthcare-admin.02.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-009 (fbla-healthcare-admin.02.jsonl:33): prompt is very similar to fbla-leadership-role-of-management-in-business-057
+- fbla-healthcare-admin-strategic-management-011 (fbla-healthcare-admin.02.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-012 (fbla-healthcare-admin.02.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-013 (fbla-healthcare-admin.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-015 (fbla-healthcare-admin.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-017 (fbla-healthcare-admin.02.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-018 (fbla-healthcare-admin.02.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-019 (fbla-healthcare-admin.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-020 (fbla-healthcare-admin.02.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-001 (fbla-healthcare-admin.02.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-002 (fbla-healthcare-admin.02.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-003 (fbla-healthcare-admin.02.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-004 (fbla-healthcare-admin.02.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-005 (fbla-healthcare-admin.02.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-006 (fbla-healthcare-admin.02.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-007 (fbla-healthcare-admin.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-008 (fbla-healthcare-admin.02.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-009 (fbla-healthcare-admin.02.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-010 (fbla-healthcare-admin.02.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-011 (fbla-healthcare-admin.02.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-012 (fbla-healthcare-admin.02.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-013 (fbla-healthcare-admin.02.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-014 (fbla-healthcare-admin.02.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-014 (fbla-healthcare-admin.02.jsonl:58): prompt is very similar to fbla-accounting-technology-and-accounting-032
+- fbla-healthcare-admin-healthcare-technology-015 (fbla-healthcare-admin.02.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-017 (fbla-healthcare-admin.02.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-018 (fbla-healthcare-admin.02.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-001 (fbla-healthcare-admin.03.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-001 (fbla-healthcare-admin.03.jsonl:1): prompt is very similar to fbla-personal-finance-risk-management-018
+- fbla-healthcare-admin-healthcare-billing-and-insurance-002 (fbla-healthcare-admin.03.jsonl:2): prompt is very similar to fbla-personal-finance-risk-management-008
+- fbla-healthcare-admin-healthcare-billing-and-insurance-002 (fbla-healthcare-admin.03.jsonl:2): prompt is very similar to fbla-personal-finance-insurance-003
+- fbla-healthcare-admin-healthcare-billing-and-insurance-003 (fbla-healthcare-admin.03.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-003 (fbla-healthcare-admin.03.jsonl:3): prompt is very similar to fbla-personal-finance-risk-management-021
+- fbla-healthcare-admin-healthcare-billing-and-insurance-004 (fbla-healthcare-admin.03.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-004 (fbla-healthcare-admin.03.jsonl:4): prompt is very similar to fbla-personal-finance-risk-management-011
+- fbla-healthcare-admin-healthcare-billing-and-insurance-005 (fbla-healthcare-admin.03.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-006 (fbla-healthcare-admin.03.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-008 (fbla-healthcare-admin.03.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-010 (fbla-healthcare-admin.03.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-011 (fbla-healthcare-admin.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-013 (fbla-healthcare-admin.03.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-014 (fbla-healthcare-admin.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-016 (fbla-healthcare-admin.03.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-017 (fbla-healthcare-admin.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-020 (fbla-healthcare-admin.03.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-021 (fbla-healthcare-admin.03.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-023 (fbla-healthcare-admin.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-024 (fbla-healthcare-admin.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-025 (fbla-healthcare-admin.03.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-025 (fbla-healthcare-admin.03.jsonl:25): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-024
+- fbla-healthcare-admin-healthcare-billing-and-insurance-026 (fbla-healthcare-admin.03.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-027 (fbla-healthcare-admin.03.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-028 (fbla-healthcare-admin.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-029 (fbla-healthcare-admin.03.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-030 (fbla-healthcare-admin.03.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-031 (fbla-healthcare-admin.03.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-032 (fbla-healthcare-admin.03.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-033 (fbla-healthcare-admin.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-034 (fbla-healthcare-admin.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-002 (fbla-healthcare-admin.03.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-003 (fbla-healthcare-admin.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-005 (fbla-healthcare-admin.03.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-006 (fbla-healthcare-admin.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-007 (fbla-healthcare-admin.03.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-008 (fbla-healthcare-admin.03.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-009 (fbla-healthcare-admin.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-010 (fbla-healthcare-admin.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-011 (fbla-healthcare-admin.03.jsonl:45): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-011 (fbla-healthcare-admin.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-012 (fbla-healthcare-admin.03.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-013 (fbla-healthcare-admin.03.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-014 (fbla-healthcare-admin.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-015 (fbla-healthcare-admin.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-016 (fbla-healthcare-admin.03.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-017 (fbla-healthcare-admin.03.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-018 (fbla-healthcare-admin.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-019 (fbla-healthcare-admin.03.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-020 (fbla-healthcare-admin.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-021 (fbla-healthcare-admin.03.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-023 (fbla-healthcare-admin.03.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-024 (fbla-healthcare-admin.03.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-025 (fbla-healthcare-admin.03.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-026 (fbla-healthcare-admin.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-002 (fbla-healthcare-admin.04.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-002 (fbla-healthcare-admin.04.jsonl:2): prompt is very similar to fbla-leadership-leadership-022
+- fbla-healthcare-admin-communication-and-leadership-002 (fbla-healthcare-admin.04.jsonl:2): prompt is very similar to fbla-leadership-communication-001
+- fbla-healthcare-admin-communication-and-leadership-005 (fbla-healthcare-admin.04.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-006 (fbla-healthcare-admin.04.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-007 (fbla-healthcare-admin.04.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-008 (fbla-healthcare-admin.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-010 (fbla-healthcare-admin.04.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-012 (fbla-healthcare-admin.04.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-013 (fbla-healthcare-admin.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-014 (fbla-healthcare-admin.04.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-016 (fbla-healthcare-admin.04.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-role-of-management-in-business-005
+- fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-role-of-management-in-business-022
+- fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-leadership-067
+- fbla-healthcare-admin-communication-and-leadership-019 (fbla-healthcare-admin.04.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-020 (fbla-healthcare-admin.04.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-020 (fbla-healthcare-admin.04.jsonl:20): prompt is very similar to fbla-leadership-leadership-040
+- fbla-healthcare-admin-communication-and-leadership-021 (fbla-healthcare-admin.04.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-022 (fbla-healthcare-admin.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-022 (fbla-healthcare-admin.04.jsonl:22): prompt is very similar to fbla-leadership-leadership-020
+- fbla-healthcare-admin-communication-and-leadership-022 (fbla-healthcare-admin.04.jsonl:22): prompt is very similar to fbla-leadership-leadership-066
+- fbla-healthcare-admin-communication-and-leadership-023 (fbla-healthcare-admin.04.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-023 (fbla-healthcare-admin.04.jsonl:23): prompt is very similar to fbla-leadership-manage-stressful-situations-005
+- fbla-healthcare-admin-communication-and-leadership-023 (fbla-healthcare-admin.04.jsonl:23): prompt is very similar to fbla-leadership-manage-stressful-situations-014
+- fbla-healthcare-admin-communication-and-leadership-024 (fbla-healthcare-admin.04.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-025 (fbla-healthcare-admin.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-011 (fbla-healthcare-admin.04.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-012 (fbla-healthcare-admin.04.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-013 (fbla-healthcare-admin.04.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-014 (fbla-healthcare-admin.04.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-015 (fbla-healthcare-admin.04.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-017 (fbla-healthcare-admin.04.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-018 (fbla-healthcare-admin.04.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-021 (fbla-healthcare-admin.04.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-022 (fbla-healthcare-admin.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-023 (fbla-healthcare-admin.04.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-024 (fbla-healthcare-admin.04.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-025 (fbla-healthcare-admin.04.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-029 (fbla-healthcare-admin.05.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-030 (fbla-healthcare-admin.05.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-030 (fbla-healthcare-admin.05.jsonl:2): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-002
+- fbla-healthcare-admin-healthcare-organizations-and-structure-032 (fbla-healthcare-admin.05.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-034 (fbla-healthcare-admin.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-034 (fbla-healthcare-admin.05.jsonl:6): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-006
+- fbla-healthcare-admin-healthcare-organizations-and-structure-035 (fbla-healthcare-admin.05.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-035 (fbla-healthcare-admin.05.jsonl:7): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-009
+- fbla-healthcare-admin-healthcare-organizations-and-structure-036 (fbla-healthcare-admin.05.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-036 (fbla-healthcare-admin.05.jsonl:8): prompt is very similar to fbla-healthcare-admin-healthcare-technology-001
+- fbla-healthcare-admin-healthcare-organizations-and-structure-037 (fbla-healthcare-admin.05.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-028 (fbla-healthcare-admin.05.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-029 (fbla-healthcare-admin.05.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-029 (fbla-healthcare-admin.05.jsonl:11): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-007
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-031 (fbla-healthcare-admin.05.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-032 (fbla-healthcare-admin.05.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-032 (fbla-healthcare-admin.05.jsonl:14): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-013
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-033 (fbla-healthcare-admin.05.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-035 (fbla-healthcare-admin.05.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-035 (fbla-healthcare-admin.05.jsonl:17): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-020
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-036 (fbla-healthcare-admin.05.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-036 (fbla-healthcare-admin.05.jsonl:18): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-021
+- fbla-healthcare-admin-staffing-and-training-025 (fbla-healthcare-admin.05.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-027 (fbla-healthcare-admin.05.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-028 (fbla-healthcare-admin.05.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-029 (fbla-healthcare-admin.05.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-030 (fbla-healthcare-admin.05.jsonl:24): prompt is very similar to fbla-healthcare-admin-staffing-and-training-019
+- fbla-healthcare-admin-staffing-and-training-031 (fbla-healthcare-admin.05.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-021 (fbla-healthcare-admin.05.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-022 (fbla-healthcare-admin.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-023 (fbla-healthcare-admin.05.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-024 (fbla-healthcare-admin.05.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-025 (fbla-healthcare-admin.05.jsonl:30): prompt is very similar to fbla-healthcare-admin-strategic-management-010
+- fbla-healthcare-admin-strategic-management-026 (fbla-healthcare-admin.05.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-strategic-management-026 (fbla-healthcare-admin.05.jsonl:31): prompt is very similar to fbla-healthcare-admin-strategic-management-017
+- fbla-healthcare-admin-healthcare-technology-019 (fbla-healthcare-admin.05.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-019 (fbla-healthcare-admin.05.jsonl:32): prompt is very similar to fbla-healthcare-admin-healthcare-technology-003
+- fbla-healthcare-admin-healthcare-technology-020 (fbla-healthcare-admin.05.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-021 (fbla-healthcare-admin.05.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-021 (fbla-healthcare-admin.05.jsonl:34): prompt is very similar to fbla-healthcare-admin-healthcare-technology-005
+- fbla-healthcare-admin-healthcare-technology-022 (fbla-healthcare-admin.05.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-022 (fbla-healthcare-admin.05.jsonl:35): prompt is very similar to fbla-healthcare-admin-healthcare-technology-006
+- fbla-healthcare-admin-healthcare-technology-024 (fbla-healthcare-admin.05.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-technology-024 (fbla-healthcare-admin.05.jsonl:37): prompt is very similar to fbla-healthcare-admin-healthcare-technology-011
+- fbla-healthcare-admin-healthcare-technology-025 (fbla-healthcare-admin.05.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-035 (fbla-healthcare-admin.05.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-036 (fbla-healthcare-admin.05.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-036 (fbla-healthcare-admin.05.jsonl:40): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-026
+- fbla-healthcare-admin-healthcare-billing-and-insurance-038 (fbla-healthcare-admin.05.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-038 (fbla-healthcare-admin.05.jsonl:42): prompt is very similar to fbla-personal-finance-risk-management-021
+- fbla-healthcare-admin-healthcare-billing-and-insurance-038 (fbla-healthcare-admin.05.jsonl:42): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-003
+- fbla-healthcare-admin-healthcare-billing-and-insurance-039 (fbla-healthcare-admin.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-040 (fbla-healthcare-admin.05.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-042 (fbla-healthcare-admin.05.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-042 (fbla-healthcare-admin.05.jsonl:46): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-023
+- fbla-healthcare-admin-healthcare-billing-and-insurance-043 (fbla-healthcare-admin.05.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-043 (fbla-healthcare-admin.05.jsonl:47): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-026
+- fbla-healthcare-admin-healthcare-billing-and-insurance-044 (fbla-healthcare-admin.05.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-billing-and-insurance-044 (fbla-healthcare-admin.05.jsonl:48): prompt is very similar to fbla-personal-finance-risk-management-011
+- fbla-healthcare-admin-healthcare-billing-and-insurance-044 (fbla-healthcare-admin.05.jsonl:48): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-004
+- fbla-healthcare-admin-healthcare-billing-and-insurance-047 (fbla-healthcare-admin.05.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-027 (fbla-healthcare-admin.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-027 (fbla-healthcare-admin.05.jsonl:52): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-015
+- fbla-healthcare-admin-healthcare-policy-and-regulation-029 (fbla-healthcare-admin.05.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-029 (fbla-healthcare-admin.05.jsonl:54): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-008
+- fbla-healthcare-admin-healthcare-policy-and-regulation-030 (fbla-healthcare-admin.05.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-030 (fbla-healthcare-admin.05.jsonl:55): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-017
+- fbla-healthcare-admin-healthcare-policy-and-regulation-031 (fbla-healthcare-admin.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-033 (fbla-healthcare-admin.05.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-033 (fbla-healthcare-admin.05.jsonl:58): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-020
+- fbla-healthcare-admin-healthcare-policy-and-regulation-034 (fbla-healthcare-admin.05.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-028 (fbla-healthcare-admin.05.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-028 (fbla-healthcare-admin.05.jsonl:60): prompt is very similar to fbla-healthcare-admin-communication-and-leadership-001
+- fbla-healthcare-admin-communication-and-leadership-030 (fbla-healthcare-admin.05.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-032 (fbla-healthcare-admin.05.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-communication-and-leadership-033 (fbla-healthcare-admin.05.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-026 (fbla-healthcare-admin.05.jsonl:66): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-001
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-027 (fbla-healthcare-admin.05.jsonl:67): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-003
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-030 (fbla-healthcare-admin.05.jsonl:70): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-019
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-033 (fbla-healthcare-admin.05.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-003 (fbla-intro-business.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-007
+- fbla-intro-business-fundamental-economic-concepts-006 (fbla-intro-business.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-007 (fbla-intro-business.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-008 (fbla-intro-business.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-011 (fbla-intro-business.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-013 (fbla-intro-business.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-014 (fbla-intro-business.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-017 (fbla-intro-business.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-economic-indicators-003
+- fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-fundamental-economic-concepts-045
+- fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-macroeconomics-009
+- fbla-intro-business-fundamental-economic-concepts-021 (fbla-intro-business.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-021 (fbla-intro-business.jsonl:21): prompt is very similar to fbla-economics-fundamental-economic-concepts-048
+- fbla-intro-business-fundamental-economic-concepts-022 (fbla-intro-business.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-023 (fbla-intro-business.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-023 (fbla-intro-business.jsonl:23): prompt is very similar to fbla-economics-macroeconomics-004
+- fbla-intro-business-nature-of-business-001 (fbla-intro-business.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-001 (fbla-intro-business.jsonl:24): prompt is very similar to fbla-economics-nature-of-business-007
+- fbla-intro-business-nature-of-business-004 (fbla-intro-business.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-006 (fbla-intro-business.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-008 (fbla-intro-business.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-008 (fbla-intro-business.jsonl:31): prompt is very similar to fbla-leadership-manage-business-relationships-012
+- fbla-intro-business-nature-of-business-010 (fbla-intro-business.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-011 (fbla-intro-business.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-012 (fbla-intro-business.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-013 (fbla-intro-business.jsonl:36): prompt is very similar to fbla-economics-fundamental-economic-concepts-039
+- fbla-intro-business-nature-of-business-013 (fbla-intro-business.jsonl:36): prompt is very similar to fbla-economics-macroeconomics-025
+- fbla-intro-business-economic-systems-001 (fbla-intro-business.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-001 (fbla-intro-business.jsonl:37): prompt is very similar to fbla-economics-economic-systems-007
+- fbla-intro-business-economic-systems-002 (fbla-intro-business.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-003 (fbla-intro-business.jsonl:39): prompt is very similar to fbla-economics-economic-systems-010
+- fbla-intro-business-economic-systems-004 (fbla-intro-business.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-004 (fbla-intro-business.jsonl:40): prompt is very similar to fbla-economics-economic-systems-011
+- fbla-intro-business-economic-systems-005 (fbla-intro-business.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-005 (fbla-intro-business.jsonl:41): prompt is very similar to fbla-economics-economic-systems-012
+- fbla-intro-business-economic-systems-005 (fbla-intro-business.jsonl:41): prompt is very similar to fbla-economics-economic-systems-036
+- fbla-intro-business-economic-systems-006 (fbla-intro-business.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-006 (fbla-intro-business.jsonl:42): prompt is very similar to fbla-economics-economic-systems-014
+- fbla-intro-business-economic-systems-006 (fbla-intro-business.jsonl:42): prompt is very similar to fbla-economics-economic-systems-038
+- fbla-intro-business-economic-systems-007 (fbla-intro-business.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-008 (fbla-intro-business.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-008 (fbla-intro-business.jsonl:44): prompt is very similar to fbla-economics-economic-systems-016
+- fbla-intro-business-economic-systems-009 (fbla-intro-business.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-010 (fbla-intro-business.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-001 (fbla-intro-business.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-001 (fbla-intro-business.jsonl:47): prompt is very similar to fbla-economics-cost-profit-relationships-007
+- fbla-intro-business-cost-profit-relationships-001 (fbla-intro-business.jsonl:47): prompt is very similar to fbla-economics-costs-and-production-001
+- fbla-intro-business-cost-profit-relationships-002 (fbla-intro-business.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-002 (fbla-intro-business.jsonl:48): prompt is very similar to fbla-economics-cost-profit-relationships-008
+- fbla-intro-business-cost-profit-relationships-002 (fbla-intro-business.jsonl:48): prompt is very similar to fbla-economics-costs-and-production-002
+- fbla-intro-business-cost-profit-relationships-005 (fbla-intro-business.jsonl:51): prompt is very similar to fbla-economics-cost-profit-relationships-011
+- fbla-intro-business-cost-profit-relationships-009 (fbla-intro-business.jsonl:55): prompt is very similar to fbla-economics-cost-profit-relationships-001
+- fbla-intro-business-cost-profit-relationships-009 (fbla-intro-business.jsonl:55): prompt is very similar to fbla-economics-cost-profit-relationships-014
+- fbla-intro-business-cost-profit-relationships-013 (fbla-intro-business.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-013 (fbla-intro-business.jsonl:59): prompt is very similar to fbla-economics-cost-profit-relationships-029
+- fbla-intro-business-owning-a-business-001 (fbla-intro-business.jsonl:61): prompt is very similar to fbla-economics-nature-of-business-008
+- fbla-intro-business-owning-a-business-002 (fbla-intro-business.jsonl:62): prompt is very similar to fbla-economics-nature-of-business-009
+- fbla-intro-business-owning-a-business-003 (fbla-intro-business.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-003 (fbla-intro-business.jsonl:63): prompt is very similar to fbla-economics-nature-of-business-010
+- fbla-intro-business-owning-a-business-004 (fbla-intro-business.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-004 (fbla-intro-business.jsonl:64): prompt is very similar to fbla-economics-nature-of-business-011
+- fbla-intro-business-owning-a-business-005 (fbla-intro-business.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-005 (fbla-intro-business.jsonl:65): prompt is very similar to fbla-accounting-tax-accounting-035
+- fbla-intro-business-owning-a-business-005 (fbla-intro-business.jsonl:65): prompt is very similar to fbla-business-law-business-organizations-003
+- fbla-intro-business-owning-a-business-005 (fbla-intro-business.jsonl:65): prompt is very similar to fbla-economics-nature-of-business-012
+- fbla-intro-business-owning-a-business-005 (fbla-intro-business.jsonl:65): prompt is very similar to fbla-economics-nature-of-business-027
+- fbla-intro-business-owning-a-business-006 (fbla-intro-business.jsonl:66): prompt is very similar to fbla-economics-nature-of-business-029
+- fbla-intro-business-owning-a-business-007 (fbla-intro-business.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-008 (fbla-intro-business.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-008 (fbla-intro-business.jsonl:68): prompt is very similar to fbla-economics-nature-of-business-014
+- fbla-intro-business-owning-a-business-009 (fbla-intro-business.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-009 (fbla-intro-business.jsonl:69): prompt is very similar to fbla-business-law-legal-foundations-057
+- fbla-intro-business-owning-a-business-009 (fbla-intro-business.jsonl:69): prompt is very similar to fbla-economics-nature-of-business-015
+- fbla-intro-business-owning-a-business-010 (fbla-intro-business.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-011 (fbla-intro-business.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-015 (fbla-intro-business.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-016 (fbla-intro-business.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-017 (fbla-intro-business.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-001 (fbla-intro-business.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-002 (fbla-intro-business.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-004 (fbla-intro-business.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-005 (fbla-intro-business.jsonl:83): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-006 (fbla-intro-business.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-008 (fbla-intro-business.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-009 (fbla-intro-business.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-010 (fbla-intro-business.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-011 (fbla-intro-business.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-012 (fbla-intro-business.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-014 (fbla-intro-business.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-014 (fbla-intro-business.jsonl:92): prompt is very similar to fbla-leadership-manage-business-relationships-008
+- fbla-intro-business-types-of-business-activities-015 (fbla-intro-business.jsonl:93): prompt is very similar to fbla-business-law-international-trade-commerce-law-008
+- fbla-intro-business-types-of-business-activities-016 (fbla-intro-business.jsonl:94): prompt is very similar to fbla-business-law-international-trade-commerce-law-007
+- fbla-intro-business-career-planning-001 (fbla-intro-business.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-002 (fbla-intro-business.jsonl:96): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-003 (fbla-intro-business.jsonl:97): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-004 (fbla-intro-business.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-005 (fbla-intro-business.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-006 (fbla-intro-business.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-008 (fbla-intro-business.jsonl:102): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-009 (fbla-intro-business.jsonl:103): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-009 (fbla-intro-business.jsonl:103): prompt is very similar to fbla-accounting-career-opportunities-049
+- fbla-intro-business-career-planning-010 (fbla-intro-business.jsonl:104): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-010 (fbla-intro-business.jsonl:104): prompt is very similar to fbla-accounting-career-opportunities-032
+- fbla-intro-business-career-planning-011 (fbla-intro-business.jsonl:105): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-012 (fbla-intro-business.jsonl:106): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-013 (fbla-intro-business.jsonl:107): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-014 (fbla-intro-business.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-001 (fbla-intro-business.jsonl:109): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-002 (fbla-intro-business.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-003 (fbla-intro-business.jsonl:111): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-004 (fbla-intro-business.jsonl:112): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-005 (fbla-intro-business.jsonl:113): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-006 (fbla-intro-business.jsonl:114): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-006 (fbla-intro-business.jsonl:114): prompt is very similar to fbla-accounting-career-opportunities-047
+- fbla-intro-business-job-search-skills-007 (fbla-intro-business.jsonl:115): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-008 (fbla-intro-business.jsonl:116): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-010 (fbla-intro-business.jsonl:118): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-011 (fbla-intro-business.jsonl:119): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-013 (fbla-intro-business.jsonl:121): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-014 (fbla-intro-business.jsonl:122): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-016 (fbla-intro-business.jsonl:124): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-027 (fbla-intro-business.02.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-021
+- fbla-intro-business-fundamental-economic-concepts-030 (fbla-intro-business.02.jsonl:7): prompt is very similar to fbla-economics-scarcity-and-choice-001
+- fbla-intro-business-fundamental-economic-concepts-031 (fbla-intro-business.02.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-031 (fbla-intro-business.02.jsonl:8): prompt is very similar to fbla-economics-fundamental-economic-concepts-073
+- fbla-intro-business-fundamental-economic-concepts-032 (fbla-intro-business.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-032 (fbla-intro-business.02.jsonl:9): prompt is very similar to fbla-economics-macroeconomics-018
+- fbla-intro-business-fundamental-economic-concepts-035 (fbla-intro-business.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-036 (fbla-intro-business.02.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-036 (fbla-intro-business.02.jsonl:13): prompt is very similar to fbla-economics-fundamental-economic-concepts-041
+- fbla-intro-business-fundamental-economic-concepts-038 (fbla-intro-business.02.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-039 (fbla-intro-business.02.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-040 (fbla-intro-business.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-041 (fbla-intro-business.02.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-fundamental-economic-concepts-041 (fbla-intro-business.02.jsonl:18): prompt is very similar to fbla-business-law-business-ethics-044
+- fbla-intro-business-fundamental-economic-concepts-041 (fbla-intro-business.02.jsonl:18): prompt is very similar to fbla-economics-government-s-impact-on-business-024
+- fbla-intro-business-fundamental-economic-concepts-041 (fbla-intro-business.02.jsonl:18): prompt is very similar to fbla-economics-market-structures-002
+- fbla-intro-business-nature-of-business-014 (fbla-intro-business.02.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-015 (fbla-intro-business.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-015 (fbla-intro-business.02.jsonl:20): prompt is very similar to fbla-economics-nature-of-business-016
+- fbla-intro-business-nature-of-business-016 (fbla-intro-business.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-017 (fbla-intro-business.02.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-019 (fbla-intro-business.02.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-020 (fbla-intro-business.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-021 (fbla-intro-business.02.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-021 (fbla-intro-business.02.jsonl:26): prompt is very similar to fbla-economics-nature-of-business-030
+- fbla-intro-business-nature-of-business-021 (fbla-intro-business.02.jsonl:26): prompt is very similar to fbla-leadership-manage-business-relationships-001
+- fbla-intro-business-nature-of-business-022 (fbla-intro-business.02.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-023 (fbla-intro-business.02.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-023 (fbla-intro-business.02.jsonl:28): prompt is very similar to fbla-business-law-business-ethics-021
+- fbla-intro-business-nature-of-business-024 (fbla-intro-business.02.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-nature-of-business-026 (fbla-intro-business.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-012 (fbla-intro-business.02.jsonl:34): prompt is very similar to fbla-economics-economic-systems-018
+- fbla-intro-business-economic-systems-013 (fbla-intro-business.02.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-015 (fbla-intro-business.02.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-015 (fbla-intro-business.02.jsonl:37): prompt is very similar to fbla-economics-economic-systems-025
+- fbla-intro-business-economic-systems-015 (fbla-intro-business.02.jsonl:37): prompt is very similar to fbla-economics-economic-systems-041
+- fbla-intro-business-economic-systems-016 (fbla-intro-business.02.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-017 (fbla-intro-business.02.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-019 (fbla-intro-business.02.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-019 (fbla-intro-business.02.jsonl:41): prompt is very similar to fbla-economics-government-s-impact-on-business-016
+- fbla-intro-business-cost-profit-relationships-015 (fbla-intro-business.02.jsonl:43): prompt is very similar to fbla-intro-business-cost-profit-relationships-006
+- fbla-intro-business-cost-profit-relationships-016 (fbla-intro-business.02.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-016 (fbla-intro-business.02.jsonl:44): prompt is very similar to fbla-economics-cost-profit-relationships-020
+- fbla-intro-business-cost-profit-relationships-018 (fbla-intro-business.02.jsonl:46): prompt is very similar to fbla-economics-cost-profit-relationships-026
+- fbla-intro-business-cost-profit-relationships-020 (fbla-intro-business.02.jsonl:48): prompt is very similar to fbla-economics-cost-profit-relationships-027
+- fbla-intro-business-cost-profit-relationships-021 (fbla-intro-business.02.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-021 (fbla-intro-business.02.jsonl:49): prompt is very similar to fbla-economics-cost-profit-relationships-035
+- fbla-intro-business-cost-profit-relationships-022 (fbla-intro-business.02.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-022 (fbla-intro-business.02.jsonl:50): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-015
+- fbla-intro-business-cost-profit-relationships-022 (fbla-intro-business.02.jsonl:50): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-003
+- fbla-intro-business-cost-profit-relationships-023 (fbla-intro-business.02.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-024 (fbla-intro-business.02.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-020 (fbla-intro-business.02.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-021 (fbla-intro-business.02.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-021 (fbla-intro-business.02.jsonl:57): prompt is very similar to fbla-economics-nature-of-business-025
+- fbla-intro-business-owning-a-business-023 (fbla-intro-business.02.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-023 (fbla-intro-business.02.jsonl:59): prompt is very similar to fbla-accounting-tax-accounting-033
+- fbla-intro-business-owning-a-business-023 (fbla-intro-business.02.jsonl:59): prompt is very similar to fbla-economics-nature-of-business-026
+- fbla-intro-business-owning-a-business-024 (fbla-intro-business.02.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-024 (fbla-intro-business.02.jsonl:60): prompt is very similar to fbla-personal-finance-investment-strategies-008
+- fbla-intro-business-owning-a-business-025 (fbla-intro-business.02.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-025 (fbla-intro-business.02.jsonl:61): prompt is very similar to fbla-personal-finance-investment-strategies-013
+- fbla-intro-business-owning-a-business-026 (fbla-intro-business.02.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-026 (fbla-intro-business.02.jsonl:62): prompt is very similar to fbla-economics-nature-of-business-017
+- fbla-intro-business-owning-a-business-027 (fbla-intro-business.02.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-027 (fbla-intro-business.02.jsonl:63): prompt is very similar to fbla-economics-nature-of-business-037
+- fbla-intro-business-owning-a-business-028 (fbla-intro-business.02.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-029 (fbla-intro-business.02.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-029 (fbla-intro-business.02.jsonl:65): prompt is very similar to fbla-economics-government-s-impact-on-business-055
+- fbla-intro-business-owning-a-business-030 (fbla-intro-business.02.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-031 (fbla-intro-business.02.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-031 (fbla-intro-business.02.jsonl:67): prompt is very similar to fbla-economics-government-s-impact-on-business-057
+- fbla-intro-business-owning-a-business-033 (fbla-intro-business.02.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-034 (fbla-intro-business.02.jsonl:70): prompt is very similar to fbla-personal-finance-risk-management-008
+- fbla-intro-business-owning-a-business-034 (fbla-intro-business.02.jsonl:70): prompt is very similar to fbla-personal-finance-insurance-003
+- fbla-intro-business-owning-a-business-034 (fbla-intro-business.02.jsonl:70): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-002
+- fbla-intro-business-owning-a-business-035 (fbla-intro-business.02.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-017 (fbla-intro-business.02.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-018 (fbla-intro-business.02.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-019 (fbla-intro-business.02.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-019 (fbla-intro-business.02.jsonl:74): prompt is very similar to fbla-personal-finance-financial-services-providers-008
+- fbla-intro-business-types-of-business-activities-020 (fbla-intro-business.02.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-022 (fbla-intro-business.02.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-023 (fbla-intro-business.02.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-024 (fbla-intro-business.02.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-025 (fbla-intro-business.02.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-027 (fbla-intro-business.02.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-028 (fbla-intro-business.02.jsonl:83): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-037
+- fbla-intro-business-types-of-business-activities-029 (fbla-intro-business.02.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-030 (fbla-intro-business.02.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-031 (fbla-intro-business.02.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-types-of-business-activities-032 (fbla-intro-business.02.jsonl:87): prompt is very similar to fbla-business-law-international-trade-commerce-law-001
+- fbla-intro-business-types-of-business-activities-032 (fbla-intro-business.02.jsonl:87): prompt is very similar to fbla-business-law-international-trade-commerce-law-009
+- fbla-intro-business-types-of-business-activities-032 (fbla-intro-business.02.jsonl:87): prompt is very similar to fbla-economics-international-trade-003
+- fbla-intro-business-career-planning-016 (fbla-intro-business.02.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-018 (fbla-intro-business.02.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-019 (fbla-intro-business.02.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-020 (fbla-intro-business.02.jsonl:93): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-021 (fbla-intro-business.02.jsonl:94): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-022 (fbla-intro-business.02.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-023 (fbla-intro-business.02.jsonl:96): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-024 (fbla-intro-business.02.jsonl:97): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-career-planning-025 (fbla-intro-business.02.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-017 (fbla-intro-business.02.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-018 (fbla-intro-business.02.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-019 (fbla-intro-business.02.jsonl:101): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-020 (fbla-intro-business.02.jsonl:102): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-021 (fbla-intro-business.02.jsonl:103): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-024 (fbla-intro-business.02.jsonl:106): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-026 (fbla-intro-business.02.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-027 (fbla-intro-business.02.jsonl:109): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-028 (fbla-intro-business.02.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-028 (fbla-intro-business.02.jsonl:110): prompt is very similar to fbla-business-law-employment-law-039
+- fbla-intro-business-job-search-skills-029 (fbla-intro-business.02.jsonl:111): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-030 (fbla-intro-business.02.jsonl:112): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-tax-accounting-021
+- fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-tax-accounting-058
+- fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-tax-accounting-021
+- fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-tax-accounting-058
+- fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-intro-business-job-search-skills-031
+- fbla-intro-business-economic-concepts-001 (fbla-intro-business.03.jsonl:1): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-001
+- fbla-intro-business-economic-concepts-002 (fbla-intro-business.03.jsonl:2): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-009
+- fbla-intro-business-economic-concepts-004 (fbla-intro-business.03.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-concepts-004 (fbla-intro-business.03.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-007
+- fbla-intro-business-economic-concepts-004 (fbla-intro-business.03.jsonl:4): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-004
+- fbla-intro-business-economic-concepts-005 (fbla-intro-business.03.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-concepts-005 (fbla-intro-business.03.jsonl:5): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-014
+- fbla-intro-business-economic-concepts-007 (fbla-intro-business.03.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-concepts-007 (fbla-intro-business.03.jsonl:7): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-017
+- fbla-intro-business-economic-concepts-008 (fbla-intro-business.03.jsonl:8): prompt is very similar to fbla-economics-fundamental-economic-concepts-021
+- fbla-intro-business-economic-concepts-008 (fbla-intro-business.03.jsonl:8): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-027
+- fbla-intro-business-economic-concepts-010 (fbla-intro-business.03.jsonl:10): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-028
+- fbla-intro-business-economic-systems-021 (fbla-intro-business.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-022 (fbla-intro-business.03.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-022 (fbla-intro-business.03.jsonl:12): prompt is very similar to fbla-economics-economic-systems-011
+- fbla-intro-business-economic-systems-022 (fbla-intro-business.03.jsonl:12): prompt is very similar to fbla-intro-business-economic-systems-004
+- fbla-intro-business-economic-systems-024 (fbla-intro-business.03.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-economic-systems-024 (fbla-intro-business.03.jsonl:14): prompt is very similar to fbla-intro-business-economic-systems-007
+- fbla-intro-business-economic-systems-025 (fbla-intro-business.03.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-nature-001 (fbla-intro-business.03.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-nature-001 (fbla-intro-business.03.jsonl:16): prompt is very similar to fbla-economics-nature-of-business-007
+- fbla-intro-business-business-nature-001 (fbla-intro-business.03.jsonl:16): prompt is very similar to fbla-intro-business-nature-of-business-001
+- fbla-intro-business-business-nature-002 (fbla-intro-business.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-nature-002 (fbla-intro-business.03.jsonl:17): prompt is very similar to fbla-economics-nature-of-business-016
+- fbla-intro-business-business-nature-002 (fbla-intro-business.03.jsonl:17): prompt is very similar to fbla-intro-business-nature-of-business-015
+- fbla-intro-business-business-nature-005 (fbla-intro-business.03.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-nature-005 (fbla-intro-business.03.jsonl:20): prompt is very similar to fbla-intro-business-types-of-business-activities-001
+- fbla-intro-business-business-nature-008 (fbla-intro-business.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-nature-008 (fbla-intro-business.03.jsonl:23): prompt is very similar to fbla-intro-business-nature-of-business-019
+- fbla-intro-business-business-nature-009 (fbla-intro-business.03.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-and-profit-001 (fbla-intro-business.03.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-and-profit-001 (fbla-intro-business.03.jsonl:25): prompt is very similar to fbla-intro-business-nature-of-business-004
+- fbla-intro-business-cost-and-profit-002 (fbla-intro-business.03.jsonl:26): prompt is very similar to fbla-economics-cost-profit-relationships-001
+- fbla-intro-business-cost-and-profit-002 (fbla-intro-business.03.jsonl:26): prompt is very similar to fbla-economics-cost-profit-relationships-014
+- fbla-intro-business-cost-and-profit-002 (fbla-intro-business.03.jsonl:26): prompt is very similar to fbla-intro-business-cost-profit-relationships-009
+- fbla-intro-business-cost-and-profit-004 (fbla-intro-business.03.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-and-profit-004 (fbla-intro-business.03.jsonl:28): prompt is very similar to fbla-intro-business-cost-profit-relationships-012
+- fbla-intro-business-cost-and-profit-005 (fbla-intro-business.03.jsonl:29): prompt is very similar to fbla-economics-cost-profit-relationships-065
+- fbla-intro-business-cost-and-profit-006 (fbla-intro-business.03.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-and-profit-006 (fbla-intro-business.03.jsonl:30): prompt is very similar to fbla-economics-cost-profit-relationships-026
+- fbla-intro-business-cost-and-profit-006 (fbla-intro-business.03.jsonl:30): prompt is very similar to fbla-intro-business-cost-profit-relationships-018
+- fbla-intro-business-cost-and-profit-007 (fbla-intro-business.03.jsonl:31): prompt is very similar to fbla-economics-cost-profit-relationships-027
+- fbla-intro-business-cost-and-profit-007 (fbla-intro-business.03.jsonl:31): prompt is very similar to fbla-intro-business-cost-profit-relationships-020
+- fbla-intro-business-cost-and-profit-009 (fbla-intro-business.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-and-profit-009 (fbla-intro-business.03.jsonl:33): prompt is very similar to fbla-economics-cost-profit-relationships-029
+- fbla-intro-business-cost-and-profit-009 (fbla-intro-business.03.jsonl:33): prompt is very similar to fbla-intro-business-cost-profit-relationships-013
+- fbla-intro-business-owning-a-business-036 (fbla-intro-business.03.jsonl:35): prompt is very similar to fbla-economics-nature-of-business-008
+- fbla-intro-business-owning-a-business-036 (fbla-intro-business.03.jsonl:35): prompt is very similar to fbla-intro-business-owning-a-business-001
+- fbla-intro-business-owning-a-business-037 (fbla-intro-business.03.jsonl:36): prompt is very similar to fbla-economics-nature-of-business-011
+- fbla-intro-business-owning-a-business-037 (fbla-intro-business.03.jsonl:36): prompt is very similar to fbla-intro-business-owning-a-business-004
+- fbla-intro-business-owning-a-business-038 (fbla-intro-business.03.jsonl:37): prompt is very similar to fbla-accounting-tax-accounting-035
+- fbla-intro-business-owning-a-business-038 (fbla-intro-business.03.jsonl:37): prompt is very similar to fbla-business-law-business-organizations-003
+- fbla-intro-business-owning-a-business-038 (fbla-intro-business.03.jsonl:37): prompt is very similar to fbla-economics-nature-of-business-012
+- fbla-intro-business-owning-a-business-038 (fbla-intro-business.03.jsonl:37): prompt is very similar to fbla-economics-nature-of-business-027
+- fbla-intro-business-owning-a-business-038 (fbla-intro-business.03.jsonl:37): prompt is very similar to fbla-intro-business-owning-a-business-005
+- fbla-intro-business-owning-a-business-040 (fbla-intro-business.03.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-040 (fbla-intro-business.03.jsonl:39): prompt is very similar to fbla-business-law-legal-foundations-057
+- fbla-intro-business-owning-a-business-040 (fbla-intro-business.03.jsonl:39): prompt is very similar to fbla-economics-nature-of-business-015
+- fbla-intro-business-owning-a-business-040 (fbla-intro-business.03.jsonl:39): prompt is very similar to fbla-intro-business-owning-a-business-009
+- fbla-intro-business-owning-a-business-041 (fbla-intro-business.03.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-041 (fbla-intro-business.03.jsonl:40): prompt is very similar to fbla-intro-business-owning-a-business-010
+- fbla-intro-business-owning-a-business-043 (fbla-intro-business.03.jsonl:42): prompt is very similar to fbla-intro-business-owning-a-business-013
+- fbla-intro-business-owning-a-business-044 (fbla-intro-business.03.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-045 (fbla-intro-business.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-owning-a-business-045 (fbla-intro-business.03.jsonl:44): prompt is very similar to fbla-intro-business-owning-a-business-015
+- fbla-intro-business-business-activities-001 (fbla-intro-business.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-activities-001 (fbla-intro-business.03.jsonl:45): prompt is very similar to fbla-intro-business-types-of-business-activities-006
+- fbla-intro-business-business-activities-002 (fbla-intro-business.03.jsonl:46): prompt is very similar to fbla-intro-business-types-of-business-activities-007
+- fbla-intro-business-business-activities-004 (fbla-intro-business.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-activities-004 (fbla-intro-business.03.jsonl:48): prompt is very similar to fbla-leadership-manage-business-relationships-008
+- fbla-intro-business-business-activities-004 (fbla-intro-business.03.jsonl:48): prompt is very similar to fbla-intro-business-types-of-business-activities-014
+- fbla-intro-business-business-activities-005 (fbla-intro-business.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-activities-008 (fbla-intro-business.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-business-activities-008 (fbla-intro-business.03.jsonl:52): prompt is very similar to fbla-intro-business-types-of-business-activities-009
+- fbla-intro-business-careers-001 (fbla-intro-business.03.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-001 (fbla-intro-business.03.jsonl:53): prompt is very similar to fbla-intro-business-career-planning-001
+- fbla-intro-business-careers-002 (fbla-intro-business.03.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-004 (fbla-intro-business.03.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-004 (fbla-intro-business.03.jsonl:56): prompt is very similar to fbla-leadership-manage-business-relationships-014
+- fbla-intro-business-careers-005 (fbla-intro-business.03.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-006 (fbla-intro-business.03.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-007 (fbla-intro-business.03.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-007 (fbla-intro-business.03.jsonl:59): prompt is very similar to fbla-intro-business-job-search-skills-003
+- fbla-intro-business-careers-008 (fbla-intro-business.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-008 (fbla-intro-business.03.jsonl:60): prompt is very similar to fbla-intro-business-job-search-skills-005
+- fbla-intro-business-careers-010 (fbla-intro-business.03.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-011 (fbla-intro-business.03.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-careers-011 (fbla-intro-business.03.jsonl:63): prompt is very similar to fbla-leadership-human-resources-management-010
+- fbla-intro-business-careers-011 (fbla-intro-business.03.jsonl:63): prompt is very similar to fbla-healthcare-admin-staffing-and-training-002

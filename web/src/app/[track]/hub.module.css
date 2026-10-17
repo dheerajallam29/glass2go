@@ -1,0 +1,214 @@
+.main {
+  width: min(100% - 2 * var(--gutter), 1080px);
+  margin-inline: auto;
+  padding-bottom: 96px;
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  align-items: center;
+  gap: clamp(16px, 4vw, 56px);
+  padding: clamp(40px, 7vw, 84px) 0 clamp(24px, 4vw, 48px);
+}
+
+.introText > * {
+  animation: rise 700ms var(--ease-out) both;
+}
+.introText > :nth-child(2) { animation-delay: 70ms; }
+.introText > :nth-child(3) { animation-delay: 140ms; }
+.introText > :nth-child(4) { animation-delay: 210ms; }
+
+.eyebrow {
+  margin-bottom: 14px;
+  font-size: var(--t-sm);
+  font-weight: 650;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #8fb0ff;
+}
+
+@media (max-width: 760px) {
+  .intro {
+    grid-template-columns: 1fr;
+  }
+}
+
+.title {
+  font-size: var(--t-3xl);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+}
+
+.tagline {
+  margin-top: 16px;
+  max-width: 46ch;
+  font-size: var(--t-xl);
+  line-height: 1.35;
+  color: var(--ink-soft);
+}
+
+.block {
+  padding-top: clamp(48px, 7vw, 88px);
+  animation: rise 760ms var(--ease-out) both;
+  animation-timeline: view();
+  animation-range: entry 0% entry 28%;
+}
+
+@supports not (animation-timeline: view()) {
+  .block { animation: none; }
+}
+
+.tiles {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 14px;
+  margin-top: 6px;
+}
+
+.blockHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px 32px;
+  margin-bottom: 20px;
+}
+
+.h2 {
+  font-size: var(--t-xl);
+  font-weight: 650;
+  letter-spacing: -0.02em;
+}
+
+.note {
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+
+.aside {
+  margin-top: 18px;
+  font-size: var(--t-sm);
+  color: var(--ink-soft);
+  max-width: var(--measure);
+}
+
+/* exams as a ruled list, not a card grid */
+.rows {
+  list-style: none;
+  border-top: 1px solid var(--line);
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.rowTitle {
+  font-size: var(--t-lg);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.codes {
+  margin-top: 4px;
+  font-size: var(--t-sm);
+  color: var(--ink-soft);
+}
+
+.go {
+  flex: none;
+  padding: 8px 18px;
+  border: 1px solid rgba(120, 160, 255, 0.45);
+  border-radius: var(--radius-pill);
+  font-size: var(--t-sm);
+  font-weight: 650;
+  text-decoration: none;
+  transition: background-color 160ms var(--ease-out), border-color 160ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .go:hover {
+    background: rgba(59, 116, 255, 0.16);
+    border-color: var(--accent);
+  }
+}
+
+.go:active,
+.primary:active {
+  transform: scale(0.97);
+}
+
+.formats {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--t-sm);
+}
+
+.formats th,
+.formats td {
+  text-align: left;
+  padding: 14px 12px 14px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+
+.formats thead th {
+  color: var(--ink-soft);
+  font-weight: 550;
+}
+
+.formats tbody th {
+  font-weight: 600;
+  font-size: var(--t-base);
+}
+
+.formatNote {
+  display: block;
+  margin-top: 2px;
+  font-weight: 400;
+  font-size: var(--t-sm);
+  color: var(--ink-soft);
+}
+
+.primary {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 12px 24px;
+  border-radius: var(--radius-pill);
+  background: var(--accent);
+  color: var(--accent-ink);
+  font-weight: 650;
+  text-decoration: none;
+  box-shadow: 0 10px 30px -12px rgba(20, 60, 200, 0.8), inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  transition: background-color 160ms var(--ease-out), transform 120ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .primary:hover {
+    background: #5286ff;
+  }
+}
+
+.footer {
+  width: min(100% - 2 * var(--gutter), 1080px);
+  margin: 0 auto;
+  padding: 28px 0 40px;
+  border-top: 1px solid var(--line);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+/* placeholders while the URL-dependent part streams in */
+.headerShell {
+  height: 65px;
+  border-bottom: 1px solid var(--line);
+}
+
+.pageShell {
+  min-height: 70svh;
+}

@@ -1,0 +1,111 @@
+/* Glass2Go: black and blue, one typeface (Geist) everywhere. */
+:root {
+  --canvas: #05070d;        /* off-black with a little navy in it */
+  --surface: #0b1020;
+  --surface-2: #111830;
+  --line: rgba(160, 180, 255, 0.14);
+  --ink: #eef2ff;
+  --ink-soft: #a3aecb;      /* tinted, never flat grey */
+  --accent: #3b74ff;        /* royal blue, matched to the DECA fin */
+  --accent-strong: #2a5ff0;
+  --accent-ink: #ffffff;
+  --good: #3ccf91;
+  --bad: #ff6b6b;
+
+  --font: var(--font-geist-sans), system-ui, sans-serif;
+
+  --radius: 14px;
+  --radius-pill: 999px;
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --gutter: clamp(16px, 4vw, 56px);
+  --measure: 62ch;
+
+  --t-sm: 0.875rem;
+  --t-base: 1rem;
+  --t-lg: 1.125rem;
+  --t-xl: clamp(1.4rem, 1.1rem + 1vw, 1.9rem);
+  --t-2xl: clamp(2rem, 1.4rem + 2.4vw, 3.2rem);
+  --t-3xl: clamp(2.6rem, 1.6rem + 4vw, 5.2rem);
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background: var(--canvas);
+  overflow-x: clip;
+}
+
+body {
+  min-height: 100svh;
+  background: var(--canvas);
+  color: var(--ink);
+  font-family: var(--font);
+  font-size: var(--t-base);
+  line-height: 1.6;
+  letter-spacing: 0.005em; /* light-on-dark compensation */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-variant-numeric: tabular-nums;
+}
+
+h1, h2, h3 {
+  line-height: 1.04;
+  letter-spacing: -0.025em;
+  text-wrap: balance;
+  font-weight: 650;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+a {
+  color: inherit;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+html {
+  scrollbar-color: #26314f var(--canvas);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}
+
+/* every page sits above the floating backdrop */
+.page-root {
+  position: relative;
+  z-index: 1;
+}
+
+/* content rises in, section by section, whenever a page is shown */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: none; }
+}

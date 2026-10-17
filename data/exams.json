@@ -1,0 +1,185 @@
+{
+  "_note": "Which question pools each exam draws from. Slugs match web/src/lib/tracks.ts.",
+  "deca": {
+    "core": [
+      {
+        "pool": "core"
+      }
+    ],
+    "bma": [
+      {
+        "pool": "core"
+      },
+      {
+        "pool": "bma"
+      },
+      {
+        "pool": "shared"
+      }
+    ],
+    "finance": [
+      {
+        "pool": "core"
+      },
+      {
+        "pool": "finance"
+      },
+      {
+        "pool": "shared",
+        "areas": [
+          "Risk Management"
+        ]
+      }
+    ],
+    "hospitality": [
+      {
+        "pool": "core"
+      },
+      {
+        "pool": "marketing",
+        "areas": [
+          "Market Planning",
+          "Pricing",
+          "Product/Service Management",
+          "Promotion",
+          "Selling"
+        ]
+      },
+      {
+        "pool": "shared"
+      }
+    ],
+    "marketing": [
+      {
+        "pool": "core"
+      },
+      {
+        "pool": "marketing"
+      }
+    ],
+    "entrepreneurship": [
+      {
+        "pool": "core"
+      },
+      {
+        "pool": "marketing"
+      },
+      {
+        "pool": "shared",
+        "areas": [
+          "Quality Management",
+          "Risk Management"
+        ]
+      }
+    ],
+    "pfl": [
+      {
+        "pool": "pfl"
+      }
+    ]
+  },
+  "fbla": {
+    "accounting": [
+      {
+        "pool": "accounting"
+      }
+    ],
+    "business-law": [
+      {
+        "pool": "business-law"
+      }
+    ],
+    "economics": [
+      {
+        "pool": "economics"
+      }
+    ],
+    "personal-finance": [
+      {
+        "pool": "personal-finance"
+      }
+    ],
+    "securities": [
+      {
+        "pool": "securities"
+      }
+    ],
+    "leadership": [
+      {
+        "pool": "leadership"
+      }
+    ],
+    "data-science-ai": [
+      {
+        "pool": "data-science-ai"
+      }
+    ],
+    "healthcare-administration": [
+      {
+        "pool": "healthcare-admin"
+      }
+    ],
+    "intro-business": [
+      {
+        "pool": "intro-business"
+      }
+    ]
+  },
+  "files": {
+    "deca-core.jsonl": {
+      "track": "deca",
+      "pool": "core"
+    },
+    "deca-specialist.jsonl": {
+      "track": "deca"
+    },
+    "deca-marketing.jsonl": {
+      "track": "deca",
+      "pool": "marketing"
+    },
+    "deca-pfl.jsonl": {
+      "track": "deca",
+      "pool": "pfl"
+    },
+    "fbla-accounting.jsonl": {
+      "track": "fbla",
+      "pool": "accounting"
+    },
+    "fbla-business-law.jsonl": {
+      "track": "fbla",
+      "pool": "business-law"
+    },
+    "fbla-economics.jsonl": {
+      "track": "fbla",
+      "pool": "economics"
+    },
+    "fbla-personal-finance.jsonl": {
+      "track": "fbla",
+      "pool": "personal-finance"
+    },
+    "fbla-securities.jsonl": {
+      "track": "fbla",
+      "pool": "securities"
+    },
+    "fbla-org-leadership.jsonl": {
+      "track": "fbla",
+      "pool": "leadership"
+    },
+    "fbla-data-science-ai.jsonl": {
+      "track": "fbla",
+      "pool": "data-science-ai"
+    },
+    "fbla-healthcare-admin.jsonl": {
+      "track": "fbla",
+      "pool": "healthcare-admin"
+    },
+    "fbla-intro-business.jsonl": {
+      "track": "fbla",
+      "pool": "intro-business"
+    }
+  },
+  "sources": {
+    "deca": "DECA career cluster instructional areas (deca.org/career-clusters), 2026-27",
+    "fbla": "FBLA 2026-2027 Competitive Events Guidelines, Objective Tests, knowledge areas"
+  }
+}

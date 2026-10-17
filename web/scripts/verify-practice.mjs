@@ -1,0 +1,24 @@
+import { chromium } from "playwright-core";
+const base = process.argv[2] ?? "http://localhost:64985";
+const b = await chromium.launch({ channel: "chrome" }).catch(() => chromium.launch());
+const p = await b.newPage({ viewport: { width: 1280, height: 900 } });
+const errs = [];
+p.on("pageerror", (e) => errs.push(e.message));
+await p.goto(`${base}/deca/practice/finance`, { waitUntil: "networkidle" });
+console.log("setup:", (await p.locator("h1").innerText()), "|", (await p.locator("ul li").count()), "topic rows");
+await p.getByRole("button", { name: "Start practice" }).click();
+await p.keyboard.press("2"); await p.keyboard.press("Enter");
+console.log("revealed whys:", await p.locator("p[class*=why]").count());
+await p.keyboard.press("Enter");
+await p.keyboard.press("f");
+console.log("flag pressed:", await p.locator("button[class*=flag]").getAttribute("aria-pressed"));
+for (let i = 0; i < 9; i++) { await p.keyboard.press("1"); await p.keyboard.press("Enter"); await p.keyboard.press("Enter"); }
+console.log("results:", (await p.locator("h1").innerText()));
+await p.getByRole("button", { name: "Practise again" }).click();
+await p.getByRole("button", { name: /mini-exam/ }).click();
+console.log("exam clock:", await p.locator("span[class*=clock]").innerText());
+await p.keyboard.press("1"); await p.keyboard.press("Enter");
+console.log("exam shows no reveal:", (await p.locator("p[class*=why]").count()) === 0);
+console.log("rank store:", await p.evaluate(() => JSON.parse(localStorage.getItem("g2g-progress-v2")).firstCorrect.length));
+console.log("errors:", errs);
+await b.close();

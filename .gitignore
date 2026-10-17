@@ -1,0 +1,28 @@
+# dependencies and build output
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.api-stash/
+
+# local config and secrets
+.env
+.env.*
+!.env.example
+.claude/
+.scrollcraft.json
+scrollcraft/
+
+# big or third-party working files, regenerated locally
+renders/
+data/fbla-pdfs/
+tools/interp/flight_backup/
+tools/interp/tmp_*/
+tools/interp/t/
+tools/interp/*.png
+tools/interp/run.log
+web/scripts/*.png
+
+# os / editor
+.DS_Store
+Thumbs.db

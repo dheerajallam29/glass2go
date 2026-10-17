@@ -1,0 +1,40 @@
+.bar {
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px var(--gutter);
+  pointer-events: none;
+}
+
+.bar a {
+  pointer-events: auto;
+}
+
+.mark {
+  font-weight: 700;
+  font-size: var(--t-lg);
+  letter-spacing: -0.02em;
+  text-decoration: none;
+}
+
+.skip {
+  display: flex;
+  gap: 22px;
+  font-size: var(--t-sm);
+  font-weight: 550;
+}
+
+.skip a {
+  color: var(--ink-soft);
+  text-decoration: none;
+  transition: color 160ms var(--ease-out);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .skip a:hover {
+    color: var(--ink);
+  }
+}
