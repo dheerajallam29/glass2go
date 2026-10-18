@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { asset } from "@/lib/asset";
 import styles from "./TrophyHero.module.css";
 
-const COUNT = 9;
+const COUNT = 33; // 9 rendered angles with 3 interpolated frames between each pair
 
 /** The track's trophy, rendered with a transparent background, swaying slowly and following the pointer. */
 export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
@@ -32,7 +32,7 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
     let w = 0, h = 0, dpr = 1;
 
     const resize = () => {
-      dpr = Math.min(devicePixelRatio || 1, 2);
+      dpr = Math.min(devicePixelRatio || 1, 1.5);
       w = wrap.clientWidth;
       h = wrap.clientHeight;
       canvas.width = Math.round(w * dpr);
@@ -61,7 +61,7 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
         const idle = reduced ? 0 : Math.sin((now - t0) / 2600) * 0.55;
         const goal = hovering ? target : idle;
         // a damped spring: the trophy eases toward the pointer and settles without snapping
-        const K = 38, C = 2 * Math.sqrt(K) * 0.92;
+        const K = 30, C = 2 * Math.sqrt(K) * 1.0;
         vel += (K * (goal - angle) - C * vel) * dt;
         angle += vel * dt;
         tiltVel += (K * ((hovering ? targetY : 0) - tiltY) - C * tiltVel) * dt;

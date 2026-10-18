@@ -28,3 +28,4 @@ web/scripts/*.png
 Thumbs.db
 .next-test/
 tools/interp/flight_backup2/
+web/public/hero_new/
