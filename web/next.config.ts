@@ -7,6 +7,7 @@ const pages = process.env.GITHUB_PAGES === "1";
 const basePath = pages ? "/glass2go" : "";
 
 const nextConfig: NextConfig = {
+  devIndicators: false,
   distDir: process.env.G2G_DIST ?? ".next",
   ...(pages
     ? { output: "export", basePath, trailingSlash: true, images: { unoptimized: true } }
