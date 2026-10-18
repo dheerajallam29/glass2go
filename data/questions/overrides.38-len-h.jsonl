@@ -47,7 +47,7 @@
 {"id":"fbla-leadership-human-resources-management-014","wt":[null,"To tell the candidate the pay and the start date without any discussion of the role itself",null]}
 {"id":"fbla-leadership-human-resources-management-032","wt":[null,"Feedback from the employee only, written as a private self-review with no input from anyone else",null]}
 {"id":"fbla-leadership-role-of-management-in-business-015","wt":[null,"Carry out the daily duties of an entry-level role such as stocking shelves and ringing up sales",null]}
-{"id":"fbla-personal-finance-principles-of-money-035","wt":[null,null,"Borrowing from a friend instead of a bank to cover the money owed on several small debts"]}
+{"id":"fbla-personal-finance-principles-of-money-035","wt":[null,null,"Borrowing from a friend or a relative to cover the money owed on several small debts"]}
 {"id":"fbla-personal-finance-credit-027","wt":["A loan with a fixed number of equal payments that ends when the balance is fully repaid",null,null]}
 {"id":"fbla-personal-finance-principles-of-money-041","wt":["Higher returns always come with lower risk, so investors can earn more without worrying",null,null]}
 {"id":"fbla-securities-bonds-007","wt":["A bond issued by a foreign company to raise money for projects in other countries",null,null]}
@@ -71,7 +71,7 @@
 {"id":"fbla-accounting-tax-accounting-021","wt":[null,"A form used to request an extension of time for filing an annual tax return to the IRS",null]}
 {"id":"fbla-accounting-career-opportunities-036","wt":[null,"Checking your phone repeatedly while the interviewer is speaking to you about the job",null]}
 {"id":"fbla-accounting-career-opportunities-049","wt":["Taking over the job for a whole week while the regular worker stays away on leave",null,null]}
-{"id":"fbla-accounting-accounts-payable-and-receivable-082","wt":["Debit Sales, credit Receivable, which would reverse the sale instead of recording it",null,null]}
+{"id":"fbla-accounting-accounts-payable-and-receivable-082","wt":["Debit Sales, credit Receivable, for the full amount of the goods sold on account",null,null]}
 {"id":"fbla-accounting-career-opportunities-012","wt":[null,null,"Maintains the company's computers and repairs the printers in the offices each week"]}
 {"id":"fbla-business-law-financial-tax-law-019","wt":[null,null,"Forces creditors to lend the debtor more money so the business can keep on operating"]}
 {"id":"fbla-business-law-business-ethics-026","wt":["Only the owners of the company, since no one else has an interest in how it is run",null,null]}
@@ -123,7 +123,7 @@
 {"id":"fbla-accounting-foundations-of-accounting-097","wt":[null,"To prove that the amounts in the ledger are correct and that no errors were ever made",null]}
 {"id":"fbla-accounting-foundations-of-accounting-123","wt":["Increases assets and liabilities by the same amount in the company's balance sheet",null,null]}
 {"id":"fbla-accounting-career-opportunities-047","wt":["Because it is required by law in every state before a name can be used on a form",null,null]}
-{"id":"fbla-accounting-accounts-payable-and-receivable-083","wt":["Debit Receivable, credit Cash, which would record the wrong side of the payment received",null,null]}
+{"id":"fbla-accounting-accounts-payable-and-receivable-083","wt":["Debit Receivable, credit Cash, for the full amount of the payment received today",null,null]}
 {"id":"fbla-accounting-standards-and-compliance-014","wt":[null,"To avoid recording revenue until the end of the month when the books are closed",null]}
 {"id":"fbla-accounting-foundations-of-accounting-107","wt":[null,"Assets are recorded at their replacement cost on the date the statements are issued",null]}
 {"id":"fbla-accounting-financial-reports-024","wt":[null,"Gross sales minus the cost of goods sold, which is the figure known as gross profit",null]}
