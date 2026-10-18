@@ -179,7 +179,7 @@ A: 1751, B: 1751, C: 1752, D: 1750
 ## Hard errors (0)
 none
 
-## Flags to review (4072)
+## Flags to review (4066)
 - deca-core-business-law-004 (deca-core.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-communications-003 (deca-core.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-customer-relations-004 (deca-core.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
@@ -187,11 +187,9 @@ none
 - deca-core-entrepreneurship-004 (deca-core.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-operations-003 (deca-core.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-professional-development-002 (deca-core.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-business-law-014 (deca-core.02.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-communications-006 (deca-core.02.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-communications-009 (deca-core.02.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-communications-012 (deca-core.02.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-customer-relations-006 (deca-core.02.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-customer-relations-008 (deca-core.02.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-customer-relations-014 (deca-core.02.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-emotional-intelligence-008 (deca-core.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
@@ -796,7 +794,6 @@ none
 - deca-finance-financial-information-management-050 (deca-specialist.04.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
 - deca-marketing-channel-management-001 (deca-marketing.jsonl:1): prompt is very similar to deca-core-marketing-018
 - deca-marketing-channel-management-004 (deca-marketing.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
-- deca-marketing-marketing-information-management-001 (deca-marketing.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
 - deca-marketing-marketing-information-management-001 (deca-marketing.jsonl:7): prompt is very similar to deca-core-marketing-022
 - deca-marketing-market-planning-001 (deca-marketing.jsonl:13): prompt is very similar to deca-core-entrepreneurship-018
 - deca-marketing-market-planning-002 (deca-marketing.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
@@ -1670,9 +1667,6 @@ none
 - fbla-accounting-career-opportunities-075 (fbla-accounting.13.jsonl:177): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-career-opportunities-076 (fbla-accounting.13.jsonl:178): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-career-opportunities-077 (fbla-accounting.13.jsonl:179): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-business-law-legal-foundations-007 (fbla-business-law.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-business-law-commercial-law-004 (fbla-business-law.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-business-law-business-ethics-004 (fbla-business-law.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-business-ethics-005 (fbla-business-law.jsonl:26): prompt is very similar to fbla-accounting-standards-and-compliance-025
 - fbla-business-law-commercial-law-018 (fbla-business-law.03.jsonl:11): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-commercial-law-042 (fbla-business-law.03.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
