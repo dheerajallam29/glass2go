@@ -67,6 +67,21 @@ try {
   }
 } catch (e) { if (e.code !== "ENOENT") throw e; }
 
+// a prompt that already appeared in the same pool is dropped after ids are assigned, so overrides keep matching their questions
+let dupes = 0;
+const dupeFiles = {};
+{
+  const seen = new Set();
+  let w = 0;
+  for (const q of all) {
+    const k = `${q.pool}|${q.q.toLowerCase().replace(/[^a-z0-9 ]/g, "").replace(/\s+/g, " ").trim()}`;
+    if (seen.has(k)) { dupes++; const fl = q.src.split(":")[0]; dupeFiles[fl] = (dupeFiles[fl] ?? 0) + 1; continue; }
+    seen.add(k);
+    all[w++] = q;
+  }
+  all.length = w;
+}
+
 // place the correct answer: every block of four questions in a pool uses each of A-D exactly once
 const posSeq = new Map();
 for (const q of all) {
@@ -175,5 +190,6 @@ ${errors.map((e) => `- ${e}`).join("\n") || "none"}
 ${flags.map((e) => `- ${e}`).join("\n") || "none"}
 `);
 
-console.log(`${all.length} questions | answers A/B/C/D = ${pos.join("/")} | ${errors.length} errors | ${flags.length} flags`);
+if (process.argv.includes("--dupes")) console.log(dupeFiles);
+console.log(`${dupes ? dupes + " duplicate prompts skipped | " : ""}${all.length} questions | answers A/B/C/D = ${pos.join("/")} | ${errors.length} errors | ${flags.length} flags`);
 if (errors.length) { console.log(errors.slice(0, 40).join("\n")); process.exit(1); }
