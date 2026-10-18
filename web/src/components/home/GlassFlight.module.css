@@ -117,15 +117,8 @@
   pointer-events: auto;
 }
 
-/* a gentle pool of shade behind the words only, never a full-frame overlay */
-.copy::before {
-  content: "";
-  position: absolute;
-  inset: -34% -22%;
-  z-index: -1;
-  background: radial-gradient(closest-side, rgba(3, 5, 12, 0.9), rgba(3, 5, 12, 0.72) 55%, rgba(3, 5, 12, 0));
-  pointer-events: none;
-}
+/* No dark oval behind the words: on the new stage it showed up as a smudge that lingered while the caption faded.
+   The headline and intro carry their own text shadow, which keeps them readable over the stage. */
 
 .h1,
 .h2 {
@@ -190,7 +183,10 @@
 }
 
 .ladder li {
-  padding: 0.45em 1.05em;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  padding: 0.4em 1.05em 0.4em 0.7em;
   border: 1px solid var(--line);
   border-radius: var(--radius-pill);
   background: rgba(11, 16, 32, 0.7);
@@ -436,16 +432,22 @@
 
 .stage[data-set="portrait"] .ladder li {
   font-size: max(12px, calc(var(--u) * 2.9));
-  padding: 0.38em 0.8em;
+  gap: 0.4em;
+  padding: 0.3em 0.8em 0.3em 0.5em;
 }
 
 .stage[data-set="portrait"] .pill {
   font-size: max(15px, calc(var(--u) * 3.8));
 }
 
+/* phones: a soft straight fade from the bottom edge, not an oval, so the words stay readable over the bright floor */
 .stage[data-set="portrait"] .copy::before {
-  inset: -10% -14%;
-  background: radial-gradient(closest-side, rgba(3, 5, 12, 0.78), rgba(3, 5, 12, 0));
+  content: "";
+  position: absolute;
+  inset: -8% -50% -12%;
+  z-index: -1;
+  background: linear-gradient(180deg, rgba(3, 5, 12, 0), rgba(3, 5, 12, 0.5) 40%, rgba(3, 5, 12, 0.62));
+  pointer-events: none;
 }
 
 .stage[data-set="portrait"] .rail {

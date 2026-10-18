@@ -6,6 +6,7 @@ import { asset } from "@/lib/asset";
 import type { CSSProperties } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./GlassFlight.module.css";
+import RankIcon from "@/components/site/RankIcon";
 import { FrameStore } from "./frames";
 import {
   CHAPTERS,
@@ -522,7 +523,10 @@ export default function GlassFlight() {
         <h2 className={styles.h2}>Climb from Bronze to Glass.</h2>
         <ol className={styles.ladder} aria-label="Ranks, lowest to highest">
           {["Bronze", "Silver", "Gold", "Platinum", "Diamond", "Glass"].map((r) => (
-            <li key={r} className={r === "Glass" ? styles.top : undefined}>{r}</li>
+            <li key={r} className={r === "Glass" ? styles.top : undefined}>
+              <RankIcon rank={r} size={26} />
+              {r}
+            </li>
           ))}
         </ol>
         <p className={styles.lede}>Every right answer moves you up. Glass is the top rank.</p>
