@@ -10,6 +10,7 @@ type Shard = {
   rot: number; vr: number;
   flip: number; vflip: number;    // tumbling about its own axis: the shard turns edge-on and back
   drift: number; phase: number; hue: number; size: number;
+  sprite?: HTMLCanvasElement; // the shard painted once, blur included
 };
 type Mote = { x: number; y: number; z: number; s: number; ph: number };
 
@@ -64,10 +65,11 @@ export default function Backdrop() {
         flip: rnd(0, 6.28), vflip: rnd(0.15, 0.5) * (Math.random() < 0.5 ? -1 : 1),
         drift: rnd(6, 16), phase: rnd(0, 6.28), hue: rnd(206, 226), size: rnd(46, 130),
       }));
-      motes = Array.from({ length: n * 3 }, () => ({ x: Math.random(), y: Math.random(), z: rnd(0.2, 1), s: rnd(0.8, 2.2), ph: rnd(0, 6.28) }));
+      shards.sort((p, q) => p.z - q.z); // far shards first so near ones overlap them
+      motes = Array.from({ length: n * 2 }, () => ({ x: Math.random(), y: Math.random(), z: rnd(0.2, 1), s: rnd(0.8, 2.2), ph: rnd(0, 6.28) }));
     };
     const resize = () => {
-      dpr = Math.min(devicePixelRatio || 1, 1.5);
+      dpr = Math.min(devicePixelRatio || 1, 1.25);
       w = innerWidth;
       h = innerHeight;
       canvas.width = Math.round(w * dpr);
@@ -88,50 +90,67 @@ export default function Backdrop() {
 
     const wrap = (v: number, m: number) => ((v % m) + m) % m;
 
+    // Each shard is painted once into a small sprite (with its depth-of-field blur baked in), then every frame only moves,
+    // turns and tilts that sprite. A live canvas blur per shard per frame was what made scrolling choppy.
+    const SPR = 100; // sprite pixels per unit of shard size
+    const PAD = 44;
+    const bake = (s: Shard) => {
+      const xs = s.pts.map((p) => p[0]), ys = s.pts.map((p) => p[1]);
+      const hw = Math.max(...xs.map(Math.abs)), hh = Math.max(...ys.map(Math.abs));
+      const cw = Math.ceil(hw * 2 * SPR + PAD * 2), ch = Math.ceil(hh * 2 * SPR + PAD * 2);
+      const c = document.createElement("canvas");
+      c.width = cw;
+      c.height = ch;
+      const g2 = c.getContext("2d")!;
+      const sc = s.size * s.z;
+      const soft = Math.abs(s.z - 0.62) * 5.2;
+      if (blurOK && soft > 0.6) g2.filter = `blur(${((soft * SPR) / sc).toFixed(1)}px)`;
+      g2.translate(cw / 2, ch / 2);
+      g2.scale(SPR, SPR);
+      g2.beginPath();
+      s.pts.forEach(([x, y], i) => (i ? g2.lineTo(x, y) : g2.moveTo(x, y)));
+      g2.closePath();
+      const lg = g2.createLinearGradient(-0.6, -1, 0.6, 1);
+      lg.addColorStop(0, `hsla(${s.hue}, 100%, 88%, ${0.22 * s.z + 0.06})`);
+      lg.addColorStop(0.45, `hsla(${s.hue}, 90%, 58%, ${0.05 + 0.04 * s.z})`);
+      lg.addColorStop(1, `hsla(${s.hue + 14}, 100%, 74%, ${0.2 * s.z + 0.05})`);
+      g2.fillStyle = lg;
+      g2.fill();
+      g2.lineWidth = 1.2 / SPR;
+      g2.strokeStyle = `hsla(${s.hue}, 100%, 90%, ${0.28 * s.z})`;
+      g2.stroke();
+      g2.strokeStyle = `hsla(${s.hue - 8}, 100%, 97%, ${0.5 * s.z})`;
+      g2.lineWidth = 2.4 / SPR;
+      g2.beginPath();
+      g2.moveTo(s.pts[0][0], s.pts[0][1]);
+      g2.lineTo(s.pts[1][0], s.pts[1][1]);
+      g2.stroke();
+      g2.strokeStyle = `hsla(${s.hue}, 100%, 90%, ${0.12 * s.z})`;
+      g2.lineWidth = 1 / SPR;
+      for (const [fa, fb, fc, fd] of s.facets) {
+        g2.beginPath();
+        g2.moveTo(fa, fb);
+        g2.lineTo(fc, fd);
+        g2.stroke();
+      }
+      s.sprite = c;
+    };
+
     const drawShard = (s: Shard, time: number) => {
+      if (!s.sprite) bake(s);
+      const spr = s.sprite!;
       const px = wrap(s.x * w - mouse.x * 90 * s.z + Math.sin(time * 0.2 + s.phase) * s.drift, w + 220) - 110;
       const py = wrap(s.y * h - smoothScroll * 0.16 * s.z + Math.cos(time * 0.17 + s.phase) * s.drift, h + 220) - 110;
       const sc = s.size * s.z;
-      const turn = Math.cos(s.flip + time * s.vflip);               // 1 face-on, 0 edge-on
+      const turn = Math.cos(s.flip + time * s.vflip); // 1 face-on, 0 edge-on
       const sx = (0.18 + 0.82 * Math.abs(turn)) * sc;
-      const sy = sc;
-      const light = 0.5 + 0.5 * turn * Math.sin(s.rot + time * s.vr);  // how squarely it catches the light
-      // depth of field: far and very near shards are soft, the middle ones are sharp
-      const soft = Math.abs(s.z - 0.62) * 5.2;
-      if (blurOK) ctx.filter = soft > 0.6 ? `blur(${soft.toFixed(1)}px)` : "none";
-      ctx.save();
+      const light = 0.5 + 0.5 * turn * Math.sin(s.rot + time * s.vr); // how squarely it catches the light
+      ctx.globalAlpha = Math.min(1, 0.65 + 0.7 * light);
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.translate(px, py);
       ctx.rotate(s.rot + time * s.vr + mouse.x * 0.4 * s.z);
-      ctx.scale(sx, sy);
-      ctx.beginPath();
-      s.pts.forEach(([x, y], i) => (i ? ctx.lineTo(x, y) : ctx.moveTo(x, y)));
-      ctx.closePath();
-      const g = ctx.createLinearGradient(-0.6, -1, 0.6, 1);
-      g.addColorStop(0, `hsla(${s.hue}, 100%, 88%, ${0.22 * s.z + 0.12 * light})`);
-      g.addColorStop(0.45, `hsla(${s.hue}, 90%, 58%, ${0.05 + 0.04 * s.z})`);
-      g.addColorStop(1, `hsla(${s.hue + 14}, 100%, 74%, ${0.2 * s.z + 0.1 * light})`);
-      ctx.fillStyle = g;
-      ctx.fill();
-      // sharp fracture edges, with a hot specular line on the side facing the light
-      ctx.lineWidth = 1 / Math.max(sx, sy);
-      ctx.strokeStyle = `hsla(${s.hue}, 100%, 90%, ${0.28 * s.z})`;
-      ctx.stroke();
-      ctx.strokeStyle = `hsla(${s.hue - 8}, 100%, 97%, ${(0.2 + 0.55 * light) * s.z})`;
-      ctx.lineWidth = 1.6 / Math.max(sx, sy);
-      ctx.beginPath();
-      ctx.moveTo(s.pts[0][0], s.pts[0][1]);
-      ctx.lineTo(s.pts[1][0], s.pts[1][1]);
-      ctx.stroke();
-      // internal crack facets
-      ctx.strokeStyle = `hsla(${s.hue}, 100%, 90%, ${0.12 * s.z})`;
-      ctx.lineWidth = 0.7 / Math.max(sx, sy);
-      for (const [a, b, c, d] of s.facets) {
-        ctx.beginPath();
-        ctx.moveTo(a, b);
-        ctx.lineTo(c, d);
-        ctx.stroke();
-      }
-      ctx.restore();
+      ctx.scale(sx / SPR, sc / SPR);
+      ctx.drawImage(spr, -spr.width / 2, -spr.height / 2);
     };
 
     const drawFrame = (t: number) => {
@@ -140,7 +159,7 @@ export default function Backdrop() {
       smoothScroll += (scrollY - smoothScroll) * 0.07;
       const time = reduced ? 0 : t / 1000;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-      if (blurOK) ctx.filter = "none";
+      ctx.globalAlpha = 1;
       ctx.clearRect(0, 0, w, h);
 
       // blue at the top of the page, fading to black the further down you read
@@ -169,9 +188,9 @@ export default function Backdrop() {
         ctx.fill();
       }
 
-      // far shards first so near ones overlap them
-      for (const s of [...shards].sort((a, b) => a.z - b.z)) drawShard(s, time);
-      if (blurOK) ctx.filter = "none";
+      for (const s of shards) drawShard(s, time);
+      ctx.globalAlpha = 1;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       if (!reduced) raf = requestAnimationFrame(drawFrame);
     };
     raf = requestAnimationFrame(drawFrame);
