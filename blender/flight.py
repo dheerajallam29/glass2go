@@ -455,9 +455,10 @@ if MODE == "hero":
             _lo.location = Vector((_x, -0.55, 0.62 if _nm != "SoftTop" else 1.15))
             _lo.rotation_euler = (Vector((0, 0, 0.16)) - _lo.location).to_track_quat("-Z", "Y").to_euler()
             _lo.visible_camera = False
-    hdir = os.path.join(OUT, "master", "hero")
+    hdir = os.path.join(OUT, "master", os.environ.get("G2G_HERO_DIR", "hero"))
     os.makedirs(hdir, exist_ok=True)
-    angles = [-28, -21, -14, -7, 0, 7, 14, 21, 28]
+    _n = int(os.environ.get("G2G_HERO_N", 9))   # how many angles across -28..28 degrees (the site uses 21 for a continuous sway)
+    angles = [round(-28 + 56 * _i / (_n - 1), 3) for _i in range(_n)]
     for key, ob, other, P, n in (("deca", deca, fbla, P_d, n_d), ("fbla", fbla, deca, P_f, n_f)):
         for o in [other] + list(other.children_recursive):
             o.hide_render = True

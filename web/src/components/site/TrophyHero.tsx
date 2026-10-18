@@ -4,7 +4,7 @@ import { useEffect, useRef } from "react";
 import { asset } from "@/lib/asset";
 import styles from "./TrophyHero.module.css";
 
-const COUNT = 33; // 9 rendered angles with 3 interpolated frames between each pair
+const COUNT = 21; // 21 rendered angles across -28 to 28 degrees
 
 /** The track's trophy, rendered with a transparent background, swaying slowly and following the pointer. */
 export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
