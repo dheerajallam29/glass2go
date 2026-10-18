@@ -149,6 +149,8 @@ for i in range(34):
     b["bokeh_colour"] = (0.22, 0.42, 1.0) if rng.random() < 0.8 else (0.7, 0.8, 1.0)
     b.visible_diffuse = b.visible_glossy = b.visible_shadow = False
 
+exec(compile(open(os.path.join(HERE, "stage_v3.py")).read(), "stage_v3.py", "exec"))
+
 # ---------------------------------------------------------------- camera rig
 target = bpy.data.objects.new("CamTarget", None)
 bpy.context.collection.objects.link(target)
@@ -407,11 +409,52 @@ if MODE == "hero":
     # Each trophy alone, on a transparent background, at a few angles: the site's track pages sway it with the pointer.
     HW, HH = int(arg("--hero-width", 720)), int(arg("--hero-height", 960))
     scene.render.resolution_x, scene.render.resolution_y = HW, HH
-    scene.render.film_transparent = True
-    scene.render.image_settings.color_mode = "RGBA"
-    floor.is_holdout = True
-    for _b in [o for o in bpy.data.objects if o.name.startswith("Bokeh")]:
-        _b.hide_render = True
+    STUDIO = os.environ.get("G2G_HERO_STUDIO") == "1"
+    scene.render.film_transparent = STUDIO
+    scene.render.image_settings.color_mode = "RGBA" if STUDIO else "RGB"
+    floor.is_holdout = STUDIO
+    if STUDIO:
+        # Only the trophy and the floor: the stage set stays out of these shots.
+        _keep = set()
+        for _r in (deca, fbla):
+            _keep.add(_r)
+            _keep.update(_r.children_recursive)
+        for _o in bpy.data.objects:
+            if _o.type == "MESH" and _o not in _keep and _o is not floor:
+                _o.hide_render = True
+            if _o.type == "LIGHT" and _o.name.startswith("Stage"):
+                _o.hide_render = True
+        # A studio environment, so the glass has something to reflect and refract instead of rendering black: a blue
+        # gradient sky, two tall strip lights either side and a soft box overhead.
+        _wn = scene.world.node_tree
+        _wn.nodes.clear()
+        _out = _wn.nodes.new("ShaderNodeOutputWorld")
+        _bg = _wn.nodes.new("ShaderNodeBackground")
+        _tc = _wn.nodes.new("ShaderNodeTexCoord")
+        _sp = _wn.nodes.new("ShaderNodeSeparateXYZ")
+        _mr = _wn.nodes.new("ShaderNodeMapRange")
+        _mr.inputs["From Min"].default_value, _mr.inputs["From Max"].default_value = -0.6, 1.0
+        _cr = _wn.nodes.new("ShaderNodeValToRGB")
+        _cr.color_ramp.elements[0].color = (0.012, 0.025, 0.09, 1)
+        _cr.color_ramp.elements[1].color = (0.62, 0.78, 1.0, 1)
+        _mid = _cr.color_ramp.elements.new(0.45)
+        _mid.color = (0.06, 0.2, 0.62, 1)
+        _bg.inputs["Strength"].default_value = float(os.environ.get("G2G_ENV", "0.55"))
+        _wn.links.new(_tc.outputs["Object"], _sp.inputs[0])
+        _wn.links.new(_sp.outputs["Z"], _mr.inputs["Value"])
+        _wn.links.new(_mr.outputs[0], _cr.inputs["Fac"])
+        _wn.links.new(_cr.outputs[0], _bg.inputs["Color"])
+        _wn.links.new(_bg.outputs[0], _out.inputs[0])
+        _front = P_d + n_d * 0.9
+        for _nm, _x, _w, _h, _e in (("StripL", -0.62, 0.12, 1.5, 85), ("StripR", 0.62, 0.12, 1.5, 85), ("SoftTop", 0.0, 1.0, 0.5, 18)):
+            _ld = bpy.data.lights.new(_nm, "AREA")
+            _ld.shape, _ld.size, _ld.size_y, _ld.energy = "RECTANGLE", _w, _h, _e
+            _ld.color = (0.78, 0.88, 1.0)
+            _lo = bpy.data.objects.new(_nm, _ld)
+            bpy.context.collection.objects.link(_lo)
+            _lo.location = Vector((_x, -0.55, 0.62 if _nm != "SoftTop" else 1.15))
+            _lo.rotation_euler = (Vector((0, 0, 0.16)) - _lo.location).to_track_quat("-Z", "Y").to_euler()
+            _lo.visible_camera = False
     hdir = os.path.join(OUT, "master", "hero")
     os.makedirs(hdir, exist_ok=True)
     angles = [-28, -21, -14, -7, 0, 7, 14, 21, 28]
@@ -427,6 +470,8 @@ if MODE == "hero":
         bpy.context.view_layer.update()
         base = ob.rotation_euler.z
         for i, ang in enumerate(angles):
+            if os.environ.get("G2G_HERO_ONLY") and str(i) != os.environ["G2G_HERO_ONLY"]:
+                continue
             ob.rotation_euler.z = base + math.radians(ang)
             render_to(os.path.join(hdir, f"{key}_{i}.png"), int(arg("--samples", 96)))
         ob.rotation_euler.z = base

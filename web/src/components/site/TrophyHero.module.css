@@ -1,6 +1,6 @@
 .wrap {
   position: relative;
-  width: min(100%, 380px);
+  width: min(100%, 640px);
   aspect-ratio: 3 / 4;
   justify-self: center;
   --glow: 59, 116, 255;
@@ -10,7 +10,7 @@
 }
 
 .wrap[data-track="fbla"] {
-  --glow: 255, 190, 70;
+  --glow: 59, 116, 255;
 }
 
 .wrap[data-ready] {
@@ -26,19 +26,12 @@
   animation: breathe 5.5s ease-in-out infinite;
 }
 
-.spot {
-  position: absolute;
-  left: 50%;
-  bottom: 4%;
-  width: 90%;
-  height: 16%;
-  translate: -50% 0;
-  border-radius: 50%;
-  background: radial-gradient(closest-side, rgba(var(--glow), 0.4), transparent);
-  filter: blur(10px);
-}
-
 .canvas {
+  mix-blend-mode: screen;
+  -webkit-mask-image: radial-gradient(ellipse closest-side at 50% 50%, #000 55%, rgba(0, 0, 0, 0.7) 78%, transparent 100%);
+  mask-image: radial-gradient(ellipse closest-side at 50% 50%, #000 55%, rgba(0, 0, 0, 0.7) 78%, transparent 100%);
+  transform-origin: 50% 70%;
+  will-change: transform;
   position: absolute;
   inset: 0;
   width: 100%;

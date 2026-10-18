@@ -8,6 +8,25 @@ import GlassTile from "@/components/site/GlassTile";
 import TrophyHero from "@/components/site/TrophyHero";
 import styles from "./hub.module.css";
 
+type ExamLite = { slug: string; name: string; events: string[] };
+const GROUPS: Record<"deca" | "fbla", { title: string; note: string; slugs: string[] }[]> = {
+  deca: [
+    { title: "Start here", note: "The shared foundation, and personal finance on its own.", slugs: ["core", "pfl"] },
+    { title: "Career clusters", note: "Each cluster exam draws on the core plus its own instructional areas.", slugs: ["bma", "finance", "hospitality", "marketing", "entrepreneurship"] },
+  ],
+  fbla: [
+    { title: "Business foundations", note: "Where most members begin.", slugs: ["intro-business", "accounting", "economics"] },
+    { title: "Law and money", note: "Contracts, personal finance and investing.", slugs: ["business-law", "personal-finance", "securities"] },
+    { title: "People and technology", note: "Leadership, health care and data.", slugs: ["leadership", "healthcare-administration", "data-science-ai"] },
+  ],
+};
+
+function examGroups(track: Track, exams: ExamLite[]) {
+  return GROUPS[track === "fbla" ? "fbla" : "deca"]
+    .map((g) => ({ ...g, exams: g.slugs.map((slug) => exams.find((e) => e.slug === slug)).filter((e): e is ExamLite => !!e) }))
+    .filter((g) => g.exams.length > 0);
+}
+
 export default function Hub({ params }: PageProps<"/[track]">) {
   return (
     <Suspense fallback={<div className={styles.pageShell} />}>
@@ -40,18 +59,26 @@ async function HubContent({ params }: { params: PageProps<"/[track]">["params"] 
             Practise by topic, review what you missed, or sit a timed mini-exam. Every answer comes with a reason.
           </p>
         </div>
-        <div className={styles.tiles}>
-          {info.exams.map((exam, i) => (
-            <GlassTile
-              key={exam.slug}
-              index={i}
-              href={`/${info.id}/practice/${exam.slug}`}
-              icon={<ExamIcon slug={exam.slug} />}
-              title={exam.name}
-              sub={exam.events.join(" · ")}
-            />
-          ))}
-        </div>
+        {examGroups(info.id, info.exams).map((g) => (
+          <div key={g.title} className={styles.group}>
+            <div className={styles.groupHead}>
+              <h3 className={styles.groupTitle}>{g.title}</h3>
+              <p className={styles.groupNote}>{g.note}</p>
+            </div>
+            <div className={styles.tiles}>
+              {g.exams.map((exam, i) => (
+                <GlassTile
+                  key={exam.slug}
+                  index={i}
+                  href={`/${info.id}/practice/${exam.slug}`}
+                  icon={<ExamIcon slug={exam.slug} size={32} />}
+                  title={exam.name}
+                  sub={exam.events.join(" · ")}
+                />
+              ))}
+            </div>
+          </div>
+        ))}
         <p className={styles.aside}>{info.noExam}</p>
       </section>
 

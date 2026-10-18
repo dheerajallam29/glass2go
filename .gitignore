@@ -26,3 +26,4 @@ web/scripts/*.png
 # os / editor
 .DS_Store
 Thumbs.db
+.next-test/

@@ -21,7 +21,12 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
     let dead = false;
     let raf = 0;
     let target = 0;
+    let targetY = 0;
     let angle = 0;
+    let vel = 0;
+    let tiltY = 0;
+    let tiltVel = 0;
+    let last = performance.now();
     let hovering = false;
     let t0 = performance.now();
     let w = 0, h = 0, dpr = 1;
@@ -51,38 +56,26 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
     const draw = (now: number) => {
       if (dead) return;
       if (loaded === COUNT) {
+        const dt = Math.min(0.05, (now - last) / 1000);
+        last = now;
         const idle = reduced ? 0 : Math.sin((now - t0) / 2600) * 0.55;
         const goal = hovering ? target : idle;
-        angle += (goal - angle) * 0.07;
+        // a damped spring: the trophy eases toward the pointer and settles without snapping
+        const K = 38, C = 2 * Math.sqrt(K) * 0.92;
+        vel += (K * (goal - angle) - C * vel) * dt;
+        angle += vel * dt;
+        tiltVel += (K * ((hovering ? targetY : 0) - tiltY) - C * tiltVel) * dt;
+        tiltY += tiltVel * dt;
+        canvas.style.transform = `perspective(1100px) rotateY(${(angle * 2).toFixed(2)}deg) rotateX(${(-tiltY * 2).toFixed(2)}deg)`;
         const f = ((Math.max(-1, Math.min(1, angle)) + 1) / 2) * (COUNT - 1);
         const i0 = Math.floor(f), i1 = Math.min(COUNT - 1, i0 + 1), m = f - i0;
         ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
         ctx.clearRect(0, 0, w, h);
+        // the render already holds the stage, floor and reflections, so it is drawn whole; CSS fades its edges into the page
         const a = imgs[i0];
-        const scale = Math.min(w / a.naturalWidth, (h * 0.86) / a.naturalHeight);
+        const scale = Math.max(w / a.naturalWidth, h / a.naturalHeight);
         const dw = a.naturalWidth * scale, dh = a.naturalHeight * scale;
-        const dx = (w - dw) / 2, dy = h * 0.02;
-
-        // reflection on an invisible floor
-        ctx.save();
-        ctx.translate(0, dy + dh * 2 - dh * 0.1);
-        ctx.scale(1, -1);
-        ctx.globalAlpha = 0.22;
-        ctx.drawImage(a, dx, 0, dw, dh);
-        if (m > 0.01) {
-          ctx.globalAlpha = 0.22 * m;
-          ctx.drawImage(imgs[i1], dx, 0, dw, dh);
-        }
-        ctx.restore();
-        ctx.save();
-        ctx.globalCompositeOperation = "destination-out";
-        const fade = ctx.createLinearGradient(0, dy + dh * 0.9, 0, dy + dh * 1.28);
-        fade.addColorStop(0, "rgba(0,0,0,0)");
-        fade.addColorStop(1, "rgba(0,0,0,1)");
-        ctx.fillStyle = fade;
-        ctx.fillRect(0, dy + dh * 0.9, w, h);
-        ctx.restore();
-
+        const dx = (w - dw) / 2, dy = (h - dh) / 2;
         ctx.globalAlpha = 1;
         ctx.drawImage(a, dx, dy, dw, dh);
         if (m > 0.01) {
@@ -98,6 +91,7 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
     const onMove = (e: PointerEvent) => {
       const r = wrap.getBoundingClientRect();
       target = Math.max(-1, Math.min(1, ((e.clientX - r.left) / r.width - 0.5) * 2.4));
+      targetY = Math.max(-1, Math.min(1, ((e.clientY - r.top) / r.height - 0.5) * 2));
       hovering = true;
     };
     const onLeave = () => {
@@ -118,7 +112,6 @@ export default function TrophyHero({ track }: { track: "deca" | "fbla" }) {
   return (
     <div ref={wrapRef} className={styles.wrap} data-track={track} aria-hidden="true">
       <div className={styles.halo} />
-      <div className={styles.spot} />
       <canvas ref={canvasRef} className={styles.canvas} />
     </div>
   );

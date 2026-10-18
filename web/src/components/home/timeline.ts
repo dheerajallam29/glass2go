@@ -49,7 +49,7 @@ export const SAFE: Record<SetName, Rect> = {
   landscape: { x: 0.06, y: 0.05, w: 0.88, h: 0.9 },
   portrait: { x: 0.08, y: 0.04, w: 0.84, h: 0.92 },
 };
-export const PILL_Y: Record<SetName, number> = { landscape: 0.905, portrait: 0.76 };
+export const PILL_Y: Record<SetName, number> = { landscape: 0.8, portrait: 0.7 };
 
 export type Placement = { s: number; ox: number; oy: number; w: number; h: number };
 

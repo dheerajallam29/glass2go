@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { asset } from "@/lib/asset";
-import { ZOOM_KEY } from "@/components/fx/PageCurtain";
 import type { CSSProperties } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./GlassFlight.module.css";
@@ -78,7 +77,7 @@ export default function GlassFlight() {
   const [zooming, setZooming] = useState<Trophy | null>(null);
   const router = useRouter();
 
-  /** Dive into a trophy's glass: the film zooms toward it, flashes, and the next page lifts out of the glass. */
+  /** Step into a trophy: the film drifts toward the glass and fades out, then the next page settles in. */
   const zoomInto = useCallback(
     (k: Trophy) => {
       const stage = stageRef.current;
@@ -93,24 +92,16 @@ export default function GlassFlight() {
       const oy = parseFloat(cs.getPropertyValue("--oy")) || 0;
       const fw = parseFloat(cs.getPropertyValue("--fw")) || stage.clientWidth;
       const fh = parseFloat(cs.getPropertyValue("--fh")) || stage.clientHeight;
-      // aim at the face of the glass: the trophy's centre, a little above the base
       const cx = ox + ((b[0] + b[2]) / 2) * fw;
       const cy = oy + (b[1] + (b[3] - b[1]) * 0.42) * fh;
-      const scale = Math.max(5, (stage.clientHeight / ((b[3] - b[1]) * fh)) * 3.2);
       setZooming(k);
       canvas.style.transformOrigin = `${cx}px ${cy}px`;
-      canvas.style.transition = "transform 900ms cubic-bezier(0.65, 0, 0.9, 0.45), filter 900ms ease-in";
+      canvas.style.transition = "transform 520ms cubic-bezier(0.4, 0, 0.6, 1), opacity 520ms ease-in";
       requestAnimationFrame(() => {
-        canvas.style.transform = `scale(${scale})`;
-        canvas.style.filter = "brightness(1.5) saturate(1.2)";
+        canvas.style.transform = "scale(1.18)";
+        canvas.style.opacity = "0";
       });
-      window.setTimeout(() => {
-        try {
-          sessionStorage.setItem(ZOOM_KEY, k);
-        } catch {}
-        window.dispatchEvent(new CustomEvent("g2g-curtain-hold", { detail: k }));
-        router.push(`/${k}`);
-      }, 880);
+      window.setTimeout(() => router.push(`/${k}`), 480);
     },
     [bounds, router, zooming],
   );
@@ -512,9 +503,7 @@ export default function GlassFlight() {
       <Copy id="hero" set={set} on={active === 0}>
         <h1 className={styles.h1}>The glass is the goal.</h1>
         <p className={styles.lede}>Free practice for DECA and FBLA. Exams built from the real blueprints, roleplays judged like the real thing.</p>
-        <button className={styles.ghost} onClick={() => go(1)} tabIndex={active === 0 ? 0 : -1}>
-          Take the tour
-        </button>
+
       </Copy>
 
       <Copy id="deca" set={set} on={active === 1}>
@@ -583,13 +572,7 @@ export default function GlassFlight() {
         Independent student project. Not affiliated with DECA Inc. or FBLA.
       </p>
 
-      {index < LAST && active !== -1 && (
-        <button className={styles.next} onClick={() => go(index + 1)} aria-label="Next">
-          <svg viewBox="0 0 20 20" width="20" height="20" aria-hidden="true">
-            <path d="M4 7.5l6 6 6-6" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
-        </button>
-      )}
+
 
       <ol className={styles.rail} aria-label="Chapters">
         {CHAPTERS.map((c, i) => (

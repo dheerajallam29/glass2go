@@ -109,3 +109,31 @@ html {
   from { opacity: 0; transform: translateY(22px); }
   to { opacity: 1; transform: none; }
 }
+
+/* page-to-page transition (driven by components/fx/PageCurtain) */
+.page-root {
+  transition: opacity 200ms ease-in, transform 200ms ease-in;
+}
+
+.page-root[data-leaving] {
+  opacity: 0;
+  transform: translateY(-8px);
+  pointer-events: none;
+}
+
+.page-root[data-entering] {
+  animation: pageIn 460ms var(--ease-out) both;
+}
+
+@keyframes pageIn {
+  from { opacity: 0; transform: translateY(14px); }
+  to { opacity: 1; transform: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-root,
+  .page-root[data-entering] {
+    transition: none;
+    animation: none;
+  }
+}

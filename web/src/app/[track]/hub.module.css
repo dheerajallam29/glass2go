@@ -212,3 +212,27 @@
 .pageShell {
   min-height: 70svh;
 }
+
+.group + .group {
+  margin-top: 34px;
+}
+
+.groupHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 18px;
+  margin: 8px 0 12px;
+}
+
+.groupTitle {
+  font-size: var(--t-lg);
+  font-weight: 650;
+  letter-spacing: -0.01em;
+  color: #cfdcff;
+}
+
+.groupNote {
+  font-size: var(--t-sm);
+  color: var(--ink-soft);
+}

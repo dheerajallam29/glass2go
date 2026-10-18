@@ -14,6 +14,9 @@
 }
 
 .mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
   font-weight: 700;
   font-size: var(--t-lg);
   letter-spacing: -0.02em;
