@@ -42,7 +42,8 @@ Click a trophy on the homepage and the camera dives through its glass into that 
   short explanation for every option.
 - **Practice that adapts.** Study by topic, redo what you missed, review on a spaced schedule (1, 2, 4, 7 and 14 days),
   flag questions for later, or sit a timed mini-exam. Progress, ranks and topic mastery stay in your browser.
-- **Roleplays and events.** Timed prep and present phases with a self-scoring rubric, for 11 DECA and 10 FBLA events.
+- **DECA role-plays.** All 28 role-play events by career cluster (Principles, Individual Series, Team Decision Making, Personal Financial Literacy), five original scenarios each. Prep, then present to your camera with the prompt hidden, then answer the judge, then watch yourself back and score the 2026-27 rubric out of 100. Recordings stay in your browser.
+- **FBLA case studies and presentations.** Timed prep and present phases with a self-scoring rubric.
 - **Feedback that feels good.** Ripples and sparkles on right answers, streak badges, and glass that shatters on a
   strong score, over floating glass shards that drift with your mouse and scroll.
 - **Accessible by default.** Keyboard control throughout, and every animation respects *reduce motion*.
@@ -58,7 +59,7 @@ glass2go/
 │   ├── src/data         bank.json, the built question bank
 │   ├── public           film frames (48 fps WebP tiers) and transparent trophy renders
 │   └── scripts          Playwright checks, screenshot capture, GitHub Pages build
-├── data/                Question source (JSONL), exam definitions, validation report, CSV export
+├── data/                Question source (JSONL), role-play scenarios (data/roleplays), exam definitions, validation report, CSV export
 ├── tools/               Question-bank builder and audits, frame interpolation
 ├── blender/             flight.py renders the film, tilt crops and trophy hero shots
 ├── trophy_preview/      build_trophies.py builds the two trophy models; logos used on them
@@ -93,6 +94,16 @@ node tools/build-bank.mjs
 The builder enforces four options per question with a reason for each, rejects duplicates and "all/none of the above",
 places answers evenly across A to D, and flags answer-length bias and weak wording. Results go to
 `web/src/data/bank.json`, `data/bank-report.md` and `data/exports/glass2go-question-bank.csv`.
+
+### Role-plays
+
+Scenarios live in `data/roleplays/<event>.jsonl` and are validated against the 2026-27 format (indicator counts, two judge questions, strong-answer notes):
+
+```bash
+node tools/build-roleplays.mjs
+```
+
+Performance indicators come from DECA's public lists (`tools/parse-pis.mjs` builds `data/roleplays/pi-bank.json`). The Core and Marketing lists are the official ones; for the other clusters some indicators are written in the same style.
 
 ### Live question generator (optional)
 

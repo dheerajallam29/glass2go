@@ -1,0 +1,4962 @@
+{
+ "areas": {
+  "core|Business Law": [
+   {
+    "t": "Comply with the spirit and intent of laws and regulations",
+    "code": "BL:163",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the nature of law and sources of law in the United States",
+    "code": "BL:067",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the United States' judicial system",
+    "code": "BL:068",
+    "level": "SP"
+   },
+   {
+    "t": "Describe methods used to protect intellectual property",
+    "code": "BL:051",
+    "level": "SP"
+   },
+   {
+    "t": "Describe legal issues affecting businesses",
+    "code": "BL:001",
+    "level": "SP"
+   },
+   {
+    "t": "Identify the basic torts relating to business enterprises",
+    "code": "BL:069",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of legally binding contracts",
+    "code": "BL:002",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of legal procedure",
+    "code": "BL:070",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of debtor-creditor relationships",
+    "code": "BL:071",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of agency relationships",
+    "code": "BL:072",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of environmental law",
+    "code": "BL:073",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the role of administrative law",
+    "code": "BL:074",
+    "level": "SP"
+   },
+   {
+    "t": "Explain types of business ownership",
+    "code": "BL:003",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of import/export law",
+    "code": "BL:145",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of customs regulations",
+    "code": "BL:126",
+    "level": "SP"
+   }
+  ],
+  "core|Communication Skills": [
+   {
+    "t": "Identify sources that provide relevant, valid written material",
+    "code": "CO:054",
+    "level": "PQ"
+   },
+   {
+    "t": "Extract relevant information from written materials",
+    "code": "CO:055",
+    "level": "PQ"
+   },
+   {
+    "t": "Apply written directions to achieve tasks",
+    "code": "CO:056",
+    "level": "PQ"
+   },
+   {
+    "t": "Analyze company resources to ascertain policies and procedures",
+    "code": "CO:057",
+    "level": "CS"
+   },
+   {
+    "t": "Explain communication techniques that support and encourage a speaker",
+    "code": "CO:082",
+    "level": "PQ"
+   },
+   {
+    "t": "Follow oral directions",
+    "code": "CO:119",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate active listening skills",
+    "code": "CO:017",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the nature of effective verbal communications",
+    "code": "CO:147",
+    "level": "PQ"
+   },
+   {
+    "t": "Ask relevant questions",
+    "code": "CO:058",
+    "level": "PQ"
+   },
+   {
+    "t": "Interpret others' nonverbal cues",
+    "code": "CO:059",
+    "level": "PQ"
+   },
+   {
+    "t": "Provide legitimate responses to inquiries",
+    "code": "CO:060",
+    "level": "PQ"
+   },
+   {
+    "t": "Give verbal directions",
+    "code": "CO:083",
+    "level": "PQ"
+   },
+   {
+    "t": "Employ communication styles appropriate to target audience",
+    "code": "CO:084",
+    "level": "CS"
+   },
+   {
+    "t": "Defend ideas objectively",
+    "code": "CO:061",
+    "level": "CS"
+   },
+   {
+    "t": "Handle telephone calls in a businesslike manner",
+    "code": "CO:114",
+    "level": "CS"
+   },
+   {
+    "t": "Participate in group discussions",
+    "code": "CO:053",
+    "level": "CS"
+   },
+   {
+    "t": "Facilitate (lead) group discussions",
+    "code": "CO:201",
+    "level": "SP"
+   },
+   {
+    "t": "Make oral presentations",
+    "code": "CO:025",
+    "level": "SP"
+   },
+   {
+    "t": "Utilize note-taking strategies",
+    "code": "CO:085",
+    "level": "CS"
+   },
+   {
+    "t": "Organize information",
+    "code": "CO:086",
+    "level": "CS"
+   },
+   {
+    "t": "Select and use appropriate graphic aids",
+    "code": "CO:087",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of effective written communications",
+    "code": "CO:016",
+    "level": "CS"
+   },
+   {
+    "t": "Select and utilize appropriate formats for professional writing",
+    "code": "CO:088",
+    "level": "CS"
+   },
+   {
+    "t": "Edit and revise written work consistent with professional standards",
+    "code": "CO:089",
+    "level": "CS"
+   },
+   {
+    "t": "Write professional emails",
+    "code": "CO:090",
+    "level": "CS"
+   },
+   {
+    "t": "Write business letters",
+    "code": "CO:133",
+    "level": "CS"
+   },
+   {
+    "t": "Write informational messages",
+    "code": "CO:039",
+    "level": "CS"
+   },
+   {
+    "t": "Write inquiries",
+    "code": "CO:040",
+    "level": "CS"
+   },
+   {
+    "t": "Write persuasive messages",
+    "code": "CO:031",
+    "level": "SP"
+   },
+   {
+    "t": "Write executive summaries",
+    "code": "CO:091",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare simple written reports",
+    "code": "CO:094",
+    "level": "SP"
+   },
+   {
+    "t": "Adapt written correspondence to targeted audiences",
+    "code": "CO:203",
+    "level": "SP"
+   },
+   {
+    "t": "objectives",
+    "code": "CO:205",
+    "level": "CS"
+   },
+   {
+    "t": "Distinguish between using social media for business and personal purposes",
+    "code": "CO:206",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of staff communication",
+    "code": "CO:014",
+    "level": "CS"
+   },
+   {
+    "t": "Choose and use appropriate channel for workplace communication",
+    "code": "CO:092",
+    "level": "CS"
+   },
+   {
+    "t": "Participate in a staff meeting",
+    "code": "CO:063",
+    "level": "CS"
+   },
+   {
+    "t": "Participate in problem-solving groups",
+    "code": "CO:067",
+    "level": "CS"
+   }
+  ],
+  "core|Customer Relations": [
+   {
+    "t": "Explain the nature of positive customer relations",
+    "code": "CR:003",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate a customer service mindset",
+    "code": "CR:004",
+    "level": "CS"
+   },
+   {
+    "t": "Develop rapport with customers",
+    "code": "CR:029",
+    "level": "CS"
+   },
+   {
+    "t": "Reinforce service orientation through communication",
+    "code": "CR:005",
+    "level": "CS"
+   },
+   {
+    "t": "Respond to customer inquiries",
+    "code": "CR:006",
+    "level": "CS"
+   },
+   {
+    "t": "Adapt communication to the cultural and social differences among clients",
+    "code": "CR:019",
+    "level": "CS"
+   },
+   {
+    "t": "Interpret business policies to customers/clients",
+    "code": "CR:007",
+    "level": "CS"
+   },
+   {
+    "t": "Build and maintain relationships with customers",
+    "code": "CR:030",
+    "level": "SP"
+   },
+   {
+    "t": "Handle difficult customers",
+    "code": "CR:009",
+    "level": "CS"
+   },
+   {
+    "t": "Handle customer/client complaints",
+    "code": "CR:010",
+    "level": "CS"
+   },
+   {
+    "t": "Identify company's brand promise",
+    "code": "CR:001",
+    "level": "CS"
+   },
+   {
+    "t": "Determine ways of reinforcing the company's image through employee performance",
+    "code": "CR:002",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the nature of customer relationship management",
+    "code": "CR:016",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role of ethics in customer relationship management",
+    "code": "CR:017",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in customer relationship management",
+    "code": "CR:018",
+    "level": "SP"
+   }
+  ],
+  "core|Economics": [
+   {
+    "t": "Distinguish between economic goods and services",
+    "code": "EC:002",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of economic resources",
+    "code": "EC:003",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the concepts of economics and economic activities",
+    "code": "EC:001",
+    "level": "CS"
+   },
+   {
+    "t": "Determine economic utilities created by business activities",
+    "code": "EC:004",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the principles of supply and demand",
+    "code": "EC:005",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the functions of prices in markets",
+    "code": "EC:006",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the role of business in society",
+    "code": "EC:070",
+    "level": "CS"
+   },
+   {
+    "t": "Describe types of business activities",
+    "code": "EC:071",
+    "level": "CS"
+   },
+   {
+    "t": "Describe types of business models",
+    "code": "EC:138",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the organizational design of businesses",
+    "code": "EC:103",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the global environment in which businesses operate",
+    "code": "EC:104",
+    "level": "SP"
+   },
+   {
+    "t": "Describe factors that affect the business environment",
+    "code": "EC:105",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of business ethics",
+    "code": "EC:106",
+    "level": "SP"
+   },
+   {
+    "t": "Explain how organizations adapt to today's markets",
+    "code": "EC:107",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the types of economic systems",
+    "code": "EC:007",
+    "level": "CS"
+   },
+   {
+    "t": "Identify the impact of small business/entrepreneurship on market economies",
+    "code": "EC:065",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of private enterprise",
+    "code": "EC:009",
+    "level": "CS"
+   },
+   {
+    "t": "Identify factors affecting a business's profit",
+    "code": "EC:010",
+    "level": "CS"
+   },
+   {
+    "t": "Determine factors affecting business risk",
+    "code": "EC:011",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of competition",
+    "code": "EC:012",
+    "level": "CS"
+   },
+   {
+    "t": "Determine the relationship between government and business",
+    "code": "EC:008",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the nature of taxes",
+    "code": "EC:072",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of productivity",
+    "code": "EC:013",
+    "level": "CS"
+   },
+   {
+    "t": "Analyze impact of specialization/division of labor on productivity",
+    "code": "EC:014",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of organized labor and business",
+    "code": "EC:015",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of the law of diminishing returns",
+    "code": "EC:023",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the measure of consumer spending as an economic indicator",
+    "code": "EC:081",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the economic impact of inflation on business",
+    "code": "EC:083",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of Gross Domestic Product (GDP)",
+    "code": "EC:017",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the impact of a nation's unemployment rates",
+    "code": "EC:082",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the economic impact of interest-rate fluctuations",
+    "code": "EC:084",
+    "level": "SP"
+   },
+   {
+    "t": "Determine the impact of business cycles on business activities",
+    "code": "EC:018",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of global trade",
+    "code": "EC:016",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the impact of globalization on business",
+    "code": "EC:109",
+    "level": "SP"
+   },
+   {
+    "t": "Explain cultural considerations that impact global business relations",
+    "code": "EC:110",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the impact of cultural and social environments on global trade",
+    "code": "EC:045",
+    "level": "SP"
+   },
+   {
+    "t": "conferencing, webcasts, email) on global business activities",
+    "code": "EC:111",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of major trade alliances on business activities",
+    "code": "EC:112",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the impact of the political environment on world trade",
+    "code": "EC:113",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of geography on world trade",
+    "code": "EC:114",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the impact of a country's history on world trade",
+    "code": "EC:115",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of a country's economic development on world trade",
+    "code": "EC:116",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the impact of bribery and foreign monetary payments on business",
+    "code": "EC:140",
+    "level": "SP"
+   },
+   {
+    "t": "immunizations, and sponsorship letters)",
+    "code": "EC:141",
+    "level": "SP"
+   }
+  ],
+  "core|Emotional Intelligence": [
+   {
+    "t": "Describe the nature of emotional intelligence",
+    "code": "EI:001",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the concept of self-esteem",
+    "code": "EI:016",
+    "level": "PQ"
+   },
+   {
+    "t": "Recognize and overcome personal biases and stereotypes",
+    "code": "EI:017",
+    "level": "PQ"
+   },
+   {
+    "t": "Assess personal strengths and weaknesses",
+    "code": "EI:002",
+    "level": "PQ"
+   },
+   {
+    "t": "Assess personal behavior and values",
+    "code": "EI:126",
+    "level": "PQ"
+   },
+   {
+    "t": "Identify desirable personality traits important to business",
+    "code": "EI:018",
+    "level": "PQ"
+   },
+   {
+    "t": "Exhibit self-confidence",
+    "code": "EI:023",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate interest and enthusiasm",
+    "code": "EI:020",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate initiative",
+    "code": "EI:024",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate honesty and integrity",
+    "code": "EI:022",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate responsible behavior",
+    "code": "EI:021",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate fairness",
+    "code": "EI:127",
+    "level": "PQ"
+   },
+   {
+    "t": "Assess risks of personal decisions",
+    "code": "EI:091",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate ethical work habits",
+    "code": "EI:004",
+    "level": "PQ"
+   },
+   {
+    "t": "Take responsibility for decisions and actions",
+    "code": "EI:075",
+    "level": "PQ"
+   },
+   {
+    "t": "Build trust in relationships",
+    "code": "EI:128",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the nature of ethics",
+    "code": "EI:123",
+    "level": "CS"
+   },
+   {
+    "t": "Explain reasons for ethical dilemmas",
+    "code": "EI:124",
+    "level": "CS"
+   },
+   {
+    "t": "Recognize and respond to ethical dilemmas",
+    "code": "EI:125",
+    "level": "CS"
+   },
+   {
+    "t": "Manage commitments in a timely manner",
+    "code": "EI:077",
+    "level": "CS"
+   },
+   {
+    "t": "Develop tolerance for ambiguity",
+    "code": "EI:092",
+    "level": "CS"
+   },
+   {
+    "t": "Exhibit a positive attitude",
+    "code": "EI:019",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate self-control",
+    "code": "EI:025",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the use of feedback for personal growth",
+    "code": "EI:003",
+    "level": "PQ"
+   },
+   {
+    "t": "Adjust to change",
+    "code": "EI:026",
+    "level": "PQ"
+   },
+   {
+    "t": "Respect the privacy of others",
+    "code": "EI:029",
+    "level": "PQ"
+   },
+   {
+    "t": "Show empathy for others",
+    "code": "EI:030",
+    "level": "PQ"
+   },
+   {
+    "t": "Maintain the confidentiality of others",
+    "code": "EI:103",
+    "level": "CS"
+   },
+   {
+    "t": "Exhibit cultural sensitivity",
+    "code": "EI:033",
+    "level": "CS"
+   },
+   {
+    "t": "Leverage personality types in business situations",
+    "code": "EI:104",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of effective communications",
+    "code": "EI:007",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain ethical considerations in providing information",
+    "code": "EI:038",
+    "level": "SP"
+   },
+   {
+    "t": "Foster open, honest communication",
+    "code": "EI:129",
+    "level": "SP"
+   },
+   {
+    "t": "Collaborate with others",
+    "code": "EI:130",
+    "level": "SP"
+   },
+   {
+    "t": "Solicit feedback",
+    "code": "EI:106",
+    "level": "SP"
+   },
+   {
+    "t": "Use social media to solicit new ideas and solutions",
+    "code": "EI:107",
+    "level": "SP"
+   },
+   {
+    "t": "\"Sell\" ideas to others",
+    "code": "EI:108",
+    "level": "SP"
+   },
+   {
+    "t": "Persuade others",
+    "code": "EI:012",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate negotiation skills",
+    "code": "EI:062",
+    "level": "SP"
+   },
+   {
+    "t": "Use appropriate assertiveness",
+    "code": "EI:008",
+    "level": "PQ"
+   },
+   {
+    "t": "Use conflict-resolution skills",
+    "code": "EI:015",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of office politics",
+    "code": "EI:109",
+    "level": "CS"
+   },
+   {
+    "t": "Overcome problems and difficulties associated with office politics/turf wars",
+    "code": "EI:095",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of stress management",
+    "code": "EI:028",
+    "level": "SP"
+   },
+   {
+    "t": "Participate as a team member",
+    "code": "EI:045",
+    "level": "CS"
+   },
+   {
+    "t": "Use consensus-building skills",
+    "code": "EI:011",
+    "level": "SP"
+   },
+   {
+    "t": "Motivate team members",
+    "code": "EI:059",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of leadership",
+    "code": "EI:009",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of ethical leadership",
+    "code": "EI:131",
+    "level": "CS"
+   },
+   {
+    "t": "Model ethical behavior",
+    "code": "EI:132",
+    "level": "CS"
+   },
+   {
+    "t": "Determine personal vision",
+    "code": "EI:063",
+    "level": "CS"
+   },
+   {
+    "t": "Inspire others",
+    "code": "EI:133",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate adaptability",
+    "code": "EI:006",
+    "level": "CS"
+   },
+   {
+    "t": "Develop an achievement orientation",
+    "code": "EI:027",
+    "level": "CS"
+   },
+   {
+    "t": "Challenge the status quo",
+    "code": "EI:134",
+    "level": "CS"
+   },
+   {
+    "t": "Lead change",
+    "code": "EI:005",
+    "level": "CS"
+   },
+   {
+    "t": "Enlist others in working toward a shared vision",
+    "code": "EI:060",
+    "level": "CS"
+   },
+   {
+    "t": "Coach others",
+    "code": "EI:041",
+    "level": "CS"
+   },
+   {
+    "t": "Use power appropriately",
+    "code": "EI:135",
+    "level": "SP"
+   },
+   {
+    "t": "Recognize/Reward others for their efforts and contributions",
+    "code": "EI:014",
+    "level": "SP"
+   },
+   {
+    "t": "Treat others with dignity and respect",
+    "code": "EI:036",
+    "level": "PQ"
+   },
+   {
+    "t": "Foster positive working relationships",
+    "code": "EI:037",
+    "level": "CS"
+   },
+   {
+    "t": "Consider conflicting viewpoints",
+    "code": "EI:136",
+    "level": "CS"
+   },
+   {
+    "t": "Assess long-term value and impact of actions on others",
+    "code": "EI:137",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain collaborative partnerships with colleagues",
+    "code": "EI:061",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of political relationships within an organization",
+    "code": "EI:034",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of organizational culture",
+    "code": "EI:064",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret and adapt to a business's culture",
+    "code": "EI:112",
+    "level": "SP"
+   }
+  ],
+  "core|Entrepreneurship": [
+   {
+    "t": "Describe the nature of entrepreneurship",
+    "code": "EN:039",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role requirements of entrepreneurs and owners",
+    "code": "EN:040",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of business ethics in entrepreneurship",
+    "code": "EN:044",
+    "level": "SP"
+   },
+   {
+    "t": "Describe small-business opportunities in international trade",
+    "code": "EN:041",
+    "level": "SP"
+   }
+  ],
+  "core|Financial Analysis": [
+   {
+    "t": "Explain forms of financial exchange (cash, credit, debit, electronic funds transfer, etc.)",
+    "code": "FI:058",
+    "level": "PQ"
+   },
+   {
+    "t": "Describe functions of money (medium of exchange, unit of measure, store of value)",
+    "code": "FI:060",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the time value of money",
+    "code": "FI:062",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the purposes and importance of credit",
+    "code": "FI:002",
+    "level": "CS"
+   },
+   {
+    "t": "Explain legal responsibilities associated with financial exchanges",
+    "code": "FI:063",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the need to save and invest",
+    "code": "FI:270",
+    "level": "CS"
+   },
+   {
+    "t": "Set financial goals",
+    "code": "FI:065",
+    "level": "CS"
+   },
+   {
+    "t": "Develop personal budget",
+    "code": "FI:066",
+    "level": "CS"
+   },
+   {
+    "t": "Determine personal net worth",
+    "code": "FI:562",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of tax liabilities",
+    "code": "FI:067",
+    "level": "PQ"
+   },
+   {
+    "t": "Interpret a pay stub",
+    "code": "FI:068",
+    "level": "PQ"
+   },
+   {
+    "t": "Maintain financial records",
+    "code": "FI:069",
+    "level": "PQ"
+   },
+   {
+    "t": "Read and reconcile bank statements",
+    "code": "FI:070",
+    "level": "PQ"
+   },
+   {
+    "t": "Calculate the cost of credit",
+    "code": "FI:782",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate the wise use of credit",
+    "code": "FI:071",
+    "level": "CS"
+   },
+   {
+    "t": "Validate credit history",
+    "code": "FI:072",
+    "level": "CS"
+   },
+   {
+    "t": "Make responsible financial decisions",
+    "code": "FI:783",
+    "level": "CS"
+   },
+   {
+    "t": "Protect against identity theft",
+    "code": "FI:073",
+    "level": "CS"
+   },
+   {
+    "t": "Pay bills",
+    "code": "FI:565",
+    "level": "CS"
+   },
+   {
+    "t": "Apply for a consumer loan",
+    "code": "FI:625",
+    "level": "SP"
+   },
+   {
+    "t": "Control debt",
+    "code": "FI:568",
+    "level": "CS"
+   },
+   {
+    "t": "Prepare personal income tax forms",
+    "code": "FI:074",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the nature of retirement planning",
+    "code": "FI:569",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of estate planning",
+    "code": "FI:572",
+    "level": "CS"
+   },
+   {
+    "t": "Describe types of financial-services providers",
+    "code": "FI:075",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss considerations in selecting a financial-services provider",
+    "code": "FI:076",
+    "level": "CS"
+   },
+   {
+    "t": "Explain types of investments",
+    "code": "FI:077",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the concept of insurance",
+    "code": "FI:081",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the need for financial information",
+    "code": "FI:579",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of accounting",
+    "code": "FI:085",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the role of ethics in accounting",
+    "code": "FI:351",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of technology in accounting",
+    "code": "FI:352",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal considerations for accounting",
+    "code": "FI:353",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of cash flow statements",
+    "code": "FI:091",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of balance sheets",
+    "code": "FI:093",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of income statements",
+    "code": "FI:094",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role of finance in business",
+    "code": "FI:354",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the role of ethics in finance",
+    "code": "FI:355",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal considerations for finance",
+    "code": "FI:356",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of budgets",
+    "code": "FI:106",
+    "level": "SP"
+   }
+  ],
+  "core|Human Resources Management": [
+   {
+    "t": "Discuss the nature of human resources management",
+    "code": "HR:410",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the role of ethics in human resources management",
+    "code": "HR:411",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in human resources management",
+    "code": "HR:412",
+    "level": "SP"
+   },
+   {
+    "t": "Orient new employees",
+    "code": "HR:360",
+    "level": "CS"
+   }
+  ],
+  "core|Marketing": [
+   {
+    "t": "Explain marketing and its importance in a global economy",
+    "code": "MK:001",
+    "level": "CS"
+   },
+   {
+    "t": "Describe marketing functions and related activities",
+    "code": "MK:002",
+    "level": "CS"
+   },
+   {
+    "t": "Explain factors that influence customer/client/business buying behavior",
+    "code": "MK:014",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss actions employees can take to achieve the company's desired results",
+    "code": "MK:015",
+    "level": "SP"
+   },
+   {
+    "t": "behavior, gaining market share, etc.)",
+    "code": "MK:019",
+    "level": "SP"
+   }
+  ],
+  "core|Information Management": [
+   {
+    "t": "Assess information needs",
+    "code": "NF:077",
+    "level": "CS"
+   },
+   {
+    "t": "Obtain needed information efficiently",
+    "code": "NF:078",
+    "level": "CS"
+   },
+   {
+    "t": "Evaluate quality and source of information",
+    "code": "NF:079",
+    "level": "CS"
+   },
+   {
+    "t": "Draw conclusions based on information analysis",
+    "code": "NF:278",
+    "level": "CS"
+   },
+   {
+    "t": "Apply information to accomplish a task",
+    "code": "NF:080",
+    "level": "CS"
+   },
+   {
+    "t": "Store information for future use",
+    "code": "NF:081",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the nature of information management",
+    "code": "NF:110",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the role of ethics in information management",
+    "code": "NF:111",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal issues associated with information management",
+    "code": "NF:076",
+    "level": "SP"
+   },
+   {
+    "t": "Identify ways that technology impacts business",
+    "code": "NF:003",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the role of information systems",
+    "code": "NF:083",
+    "level": "PQ"
+   },
+   {
+    "t": "Discuss principles of computer systems",
+    "code": "NF:084",
+    "level": "PQ"
+   },
+   {
+    "t": "Use basic operating systems",
+    "code": "NF:085",
+    "level": "PQ"
+   },
+   {
+    "t": "Describe the scope of the Internet",
+    "code": "NF:086",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic e-mail functions",
+    "code": "NF:004",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate personal information management/productivity applications",
+    "code": "NF:005",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic web-search skills",
+    "code": "NF:006",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic word processing skills",
+    "code": "NF:007",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic presentation applications",
+    "code": "NF:008",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic database applications",
+    "code": "NF:009",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate basic spreadsheet applications",
+    "code": "NF:010",
+    "level": "PQ"
+   },
+   {
+    "t": "Use an integrated business software application package",
+    "code": "NF:088",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate collaborative/groupware applications",
+    "code": "NF:011",
+    "level": "CS"
+   },
+   {
+    "t": "Create and post basic web page",
+    "code": "NF:042",
+    "level": "CS"
+   },
+   {
+    "t": "Collaborate on and aggregate complex internal documents to create a common voice",
+    "code": "NF:215",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of business records",
+    "code": "NF:001",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain customer records",
+    "code": "NF:002",
+    "level": "SP"
+   },
+   {
+    "t": "Describe current business trends",
+    "code": "NF:013",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor internal records for business information",
+    "code": "NF:014",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct an environmental scan to obtain business information",
+    "code": "NF:015",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret statistical findings",
+    "code": "NF:093",
+    "level": "SP"
+   },
+   {
+    "t": "Translate research findings into actionable business recommendations",
+    "code": "NF:216",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the principles of data analysis",
+    "code": "NF:139",
+    "level": "SP"
+   },
+   {
+    "t": "Access information in the database system",
+    "code": "NF:141",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of data mining",
+    "code": "NF:148",
+    "level": "CS"
+   },
+   {
+    "t": "Describe data mining tools and techniques",
+    "code": "NF:149",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the importance of ethics in data mining",
+    "code": "NF:150",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate basic data mining techniques",
+    "code": "NF:151",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret data mining findings",
+    "code": "NF:152",
+    "level": "SP"
+   }
+  ],
+  "core|Operations": [
+   {
+    "t": "Explain the nature of operations",
+    "code": "OP:189",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the role of ethics in operations",
+    "code": "OP:190",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in operations",
+    "code": "OP:191",
+    "level": "SP"
+   },
+   {
+    "t": "Describe health and safety regulations in business",
+    "code": "OP:004",
+    "level": "PQ"
+   },
+   {
+    "t": "Report noncompliance with business health and safety regulations",
+    "code": "OP:005",
+    "level": "PQ"
+   },
+   {
+    "t": "Follow instructions for use of equipment, tools, and machinery",
+    "code": "OP:006",
+    "level": "PQ"
+   },
+   {
+    "t": "Follow safety precautions",
+    "code": "OP:007",
+    "level": "PQ"
+   },
+   {
+    "t": "Maintain a safe work environment",
+    "code": "OP:008",
+    "level": "CS"
+   },
+   {
+    "t": "Explain procedures for handling accidents",
+    "code": "OP:009",
+    "level": "CS"
+   },
+   {
+    "t": "Handle and report emergency situations",
+    "code": "OP:010",
+    "level": "CS"
+   },
+   {
+    "t": "Explain routine security precautions",
+    "code": "OP:013",
+    "level": "CS"
+   },
+   {
+    "t": "Follow established security procedures/policies",
+    "code": "OP:152",
+    "level": "CS"
+   },
+   {
+    "t": "Protect company information and intangibles",
+    "code": "OP:153",
+    "level": "CS"
+   },
+   {
+    "t": "Explain information privacy, security, and confidentiality considerations in business",
+    "code": "OP:441",
+    "level": "CS"
+   },
+   {
+    "t": "Maintain data security",
+    "code": "OP:064",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of project management",
+    "code": "OP:158",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the role of ethics in project management",
+    "code": "OP:675",
+    "level": "SP"
+   },
+   {
+    "t": "Plan project",
+    "code": "OP:519",
+    "level": "CS"
+   },
+   {
+    "t": "Monitor projects and take corrective actions",
+    "code": "OP:520",
+    "level": "CS"
+   },
+   {
+    "t": "Evaluate project success",
+    "code": "OP:521",
+    "level": "CS"
+   },
+   {
+    "t": "Identify resources needed for project",
+    "code": "OP:003",
+    "level": "SP"
+   },
+   {
+    "t": "Develop project plan",
+    "code": "OP:001",
+    "level": "SP"
+   },
+   {
+    "t": "Apply project-management tools to monitor and communicate project progress",
+    "code": "OP:002",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate project results",
+    "code": "OP:159",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature and scope of purchasing",
+    "code": "OP:015",
+    "level": "CS"
+   },
+   {
+    "t": "Place orders/reorders",
+    "code": "OP:016",
+    "level": "CS"
+   },
+   {
+    "t": "Maintain inventory of supplies",
+    "code": "OP:031",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the importance of utilizing ethical purchasing methods",
+    "code": "OP:246",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of the purchasing process on productivity",
+    "code": "OP:247",
+    "level": "SP"
+   },
+   {
+    "t": "Manage the bid process in purchasing",
+    "code": "OP:160",
+    "level": "SP"
+   },
+   {
+    "t": "Select vendors",
+    "code": "OP:161",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate vendor performance",
+    "code": "OP:162",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of production",
+    "code": "OP:017",
+    "level": "CS"
+   },
+   {
+    "t": "Identify quality-control measures",
+    "code": "OP:163",
+    "level": "SP"
+   },
+   {
+    "t": "Utilize quality control methods at work",
+    "code": "OP:164",
+    "level": "SP"
+   },
+   {
+    "t": "Describe crucial elements of a quality culture",
+    "code": "OP:019",
+    "level": "SP"
+   },
+   {
+    "t": "Resolve problems with suppliers' quality issues",
+    "code": "OP:652",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of overhead/operating costs",
+    "code": "OP:024",
+    "level": "SP"
+   },
+   {
+    "t": "Explain employee's role in expense control",
+    "code": "OP:025",
+    "level": "SP"
+   },
+   {
+    "t": "Organize and prioritize work",
+    "code": "OP:228",
+    "level": "CS"
+   },
+   {
+    "t": "Coordinate work with that of team members",
+    "code": "OP:230",
+    "level": "CS"
+   },
+   {
+    "t": "Coordinate activities with those of other departments",
+    "code": "OP:196",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor and ensure completion of delegated tasks",
+    "code": "OP:354",
+    "level": "SP"
+   },
+   {
+    "t": "Streamline work processes",
+    "code": "OP:355",
+    "level": "SP"
+   },
+   {
+    "t": "Comply with policies and procedures for use of property and equipment",
+    "code": "OP:442",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of supply chain",
+    "code": "OP:443",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the benefits of supply chain collaboration",
+    "code": "OP:444",
+    "level": "SP"
+   }
+  ],
+  "core|Professional Development": [
+   {
+    "t": "Maintain appropriate personal appearance",
+    "code": "PD:002",
+    "level": "PQ"
+   },
+   {
+    "t": "Demonstrate systematic behavior",
+    "code": "PD:009",
+    "level": "PQ"
+   },
+   {
+    "t": "Set personal goals",
+    "code": "PD:018",
+    "level": "CS"
+   },
+   {
+    "t": "Balance personal and professional responsibilities",
+    "code": "PD:179",
+    "level": "SP"
+   },
+   {
+    "t": "Adhere to company protocols and policies",
+    "code": "PD:250",
+    "level": "CS"
+   },
+   {
+    "t": "Follow rules of conduct",
+    "code": "PD:251",
+    "level": "CS"
+   },
+   {
+    "t": "Follow chain of command",
+    "code": "PD:252",
+    "level": "CS"
+   },
+   {
+    "t": "Determine the nature of organizational goals",
+    "code": "PD:254",
+    "level": "SP"
+   },
+   {
+    "t": "Ascertain employee's role in meeting organizational goals",
+    "code": "PD:255",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the need for innovation skills",
+    "code": "PD:126126",
+    "level": "CS"
+   },
+   {
+    "t": "Make decisions",
+    "code": "PD:017",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate problem-solving skills",
+    "code": "PD:077",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate appropriate creativity",
+    "code": "PD:012",
+    "level": "SP"
+   },
+   {
+    "t": "Use time-management skills",
+    "code": "PD:019",
+    "level": "SP"
+   },
+   {
+    "t": "Assess personal interests and skills needed for success in business",
+    "code": "PD:013",
+    "level": "PQ"
+   },
+   {
+    "t": "Analyze employer expectations in the business environment",
+    "code": "PD:020",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain the rights of workers",
+    "code": "PD:021",
+    "level": "PQ"
+   },
+   {
+    "t": "Identify sources of career information",
+    "code": "PD:022",
+    "level": "CS"
+   },
+   {
+    "t": "Identify tentative occupational interest",
+    "code": "PD:023",
+    "level": "CS"
+   },
+   {
+    "t": "Explain employment opportunities in business",
+    "code": "PD:025",
+    "level": "CS"
+   },
+   {
+    "t": "Explain career opportunities in entrepreneurship",
+    "code": "PD:066",
+    "level": "CS"
+   },
+   {
+    "t": "Utilize job-search strategies",
+    "code": "PD:026",
+    "level": "PQ"
+   },
+   {
+    "t": "Complete a job application",
+    "code": "PD:027",
+    "level": "PQ"
+   },
+   {
+    "t": "Interview for a job",
+    "code": "PD:028",
+    "level": "PQ"
+   },
+   {
+    "t": "Write a follow-up letter after job interviews",
+    "code": "PD:029",
+    "level": "CS"
+   },
+   {
+    "t": "Write a letter of application",
+    "code": "PD:030",
+    "level": "CS"
+   },
+   {
+    "t": "Prepare a résumé",
+    "code": "PD:031",
+    "level": "CS"
+   },
+   {
+    "t": "Use networking techniques to identify employment opportunities",
+    "code": "PD:037",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the need for ongoing education as a worker",
+    "code": "PD:033",
+    "level": "PQ"
+   },
+   {
+    "t": "Explain possible advancement patterns for jobs",
+    "code": "PD:034",
+    "level": "PQ"
+   },
+   {
+    "t": "Identify skills needed to enhance career progression",
+    "code": "PD:035",
+    "level": "SP"
+   },
+   {
+    "t": "professional/trade associations, classes/seminars, trade shows, and mentors)",
+    "code": "PD:036",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the need for professional and ethical standards in marketing",
+    "code": "PD:137",
+    "level": "SP"
+   },
+   {
+    "t": "Explain employment opportunities in marketing",
+    "code": "PD:024",
+    "level": "CS"
+   }
+  ],
+  "core|Strategic Management": [
+   {
+    "t": "Explain the concept of management",
+    "code": "SM:001",
+    "level": "CS"
+   },
+   {
+    "t": "Explain factors that affect management",
+    "code": "SM:100",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of risk management",
+    "code": "SM:075",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct a risk assessment of an event",
+    "code": "SM:076",
+    "level": "SP"
+   }
+  ],
+  "core|Product/Service Management": [
+   {
+    "t": "Explain the nature and scope of the product/service management function",
+    "code": "PM:001",
+    "level": "SP"
+   },
+   {
+    "t": "Identify the impact of product life cycles on marketing decisions",
+    "code": "PM:024",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in the product/service management function",
+    "code": "PM:039",
+    "level": "SP"
+   },
+   {
+    "t": "Explain business ethics in product/service management",
+    "code": "PM:040",
+    "level": "SP"
+   },
+   {
+    "t": "Identify product opportunities",
+    "code": "PM:134",
+    "level": "SP"
+   },
+   {
+    "t": "Identify methods/techniques to generate a product idea",
+    "code": "PM:127",
+    "level": "SP"
+   },
+   {
+    "t": "Generate product ideas",
+    "code": "PM:128",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the uses of grades and standards in marketing",
+    "code": "PM:019",
+    "level": "CS"
+   },
+   {
+    "t": "Explain warranties and guarantees",
+    "code": "PM:020",
+    "level": "CS"
+   },
+   {
+    "t": "Identify consumer protection provisions of appropriate agencies",
+    "code": "PM:017",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the concept of product mix",
+    "code": "PM:003",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of product bundling",
+    "code": "PM:041",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of corporate branding",
+    "code": "PM:206",
+    "level": "SP"
+   },
+   {
+    "t": "Describe factors used by businesses to position corporate brands",
+    "code": "PM:207",
+    "level": "SP"
+   },
+   {
+    "t": "Identify customer touch points",
+    "code": "PM:277",
+    "level": "SP"
+   },
+   {
+    "t": "Describe factors used by marketers to position products/services",
+    "code": "PM:042",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of product/service branding",
+    "code": "PM:021",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the role of customer voice in branding",
+    "code": "PM:276",
+    "level": "SP"
+   }
+  ],
+  "core|Channel Management": [
+   {
+    "t": "Explain the nature and scope of channel management",
+    "code": "CM:001",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of channels of distribution",
+    "code": "CM:003",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the use of technology in the channel management function",
+    "code": "CM:004",
+    "level": "CS"
+   },
+   {
+    "t": "Explain legal considerations in channel management",
+    "code": "CM:005",
+    "level": "SP"
+   },
+   {
+    "t": "Describe ethical considerations in channel management",
+    "code": "CM:006",
+    "level": "SP"
+   },
+   {
+    "t": "Coordinate channel management with other marketing activities",
+    "code": "CM:007",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of channel-member relationships",
+    "code": "CM:008",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of affinity partner relationships",
+    "code": "CM:021",
+    "level": "SP"
+   }
+  ],
+  "core|Marketing-Information Management": [
+   {
+    "t": "Describe the need for marketing data",
+    "code": "IM:012",
+    "level": "CS"
+   },
+   {
+    "t": "Identify data monitored for marketing decision making",
+    "code": "IM:184",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature and scope of the marketing-information management function",
+    "code": "IM:001",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role of ethics in marketing-information management",
+    "code": "IM:025",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in the marketing-information management function",
+    "code": "IM:183",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the regulation of marketing-information management",
+    "code": "IM:419",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of marketing research",
+    "code": "IM:010",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of marketing research problems/issues",
+    "code": "IM:282",
+    "level": "SP"
+   },
+   {
+    "t": "causal)",
+    "code": "IM:284",
+    "level": "SP"
+   },
+   {
+    "t": "research)",
+    "code": "IM:281",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of sampling plans (i.e., who, how many, how chosen)",
+    "code": "IM:285",
+    "level": "SP"
+   },
+   {
+    "t": "groups, interviews, scanners, tracking tools)",
+    "code": "IM:289",
+    "level": "SP"
+   },
+   {
+    "t": "Explain characteristics of effective data-collection instruments",
+    "code": "IM:418",
+    "level": "SP"
+   },
+   {
+    "t": "Explain techniques for processing marketing data",
+    "code": "IM:062",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor/measure customer “buzz”",
+    "code": "IM:469",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of descriptive statistics in marketing decision making",
+    "code": "IM:191",
+    "level": "SP"
+   },
+   {
+    "t": "response errors, sample design)",
+    "code": "IM:292",
+    "level": "SP"
+   },
+   {
+    "t": "length, layout)",
+    "code": "IM:293",
+    "level": "SP"
+   },
+   {
+    "t": "sources of information, timeliness of information, etc.)",
+    "code": "IM:428",
+    "level": "SP"
+   }
+  ],
+  "core|Market Planning": [
+   {
+    "t": "Explain the concept of marketing strategies",
+    "code": "MP:001",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the concept of market and market identification",
+    "code": "MP:003",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of marketing planning",
+    "code": "MP:006",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of marketing plans",
+    "code": "MP:007",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role of situation analysis in the marketing planning process",
+    "code": "MP:008",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of sales forecasts",
+    "code": "MP:013",
+    "level": "SP"
+   }
+  ],
+  "core|Pricing": [
+   {
+    "t": "Explain the nature and scope of the pricing function",
+    "code": "PI:001",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the role of business ethics in pricing",
+    "code": "PI:015",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of technology in the pricing function",
+    "code": "PI:016",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal considerations for pricing",
+    "code": "PI:017",
+    "level": "SP"
+   },
+   {
+    "t": "Explain factors affecting pricing decisions",
+    "code": "PI:002",
+    "level": "SP"
+   }
+  ],
+  "core|Promotion": [
+   {
+    "t": "Explain the role of promotion as a marketing function",
+    "code": "PR:001",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the types of promotion (i.e., institutional, product)",
+    "code": "PR:002",
+    "level": "CS"
+   },
+   {
+    "t": "Identify the elements of the promotional mix",
+    "code": "PR:003",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of business ethics in promotion",
+    "code": "PR:099",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in the promotion function",
+    "code": "PR:100",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the regulation of promotion",
+    "code": "PR:101",
+    "level": "SP"
+   },
+   {
+    "t": "Explain types of advertising media",
+    "code": "PR:007",
+    "level": "SP"
+   },
+   {
+    "t": "Describe word-of-mouth channels used to communicate with targeted audiences",
+    "code": "PR:247",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of direct marketing channels",
+    "code": "PR:089",
+    "level": "SP"
+   },
+   {
+    "t": "Identify communications channels used in sales promotion",
+    "code": "PR:249",
+    "level": "SP"
+   },
+   {
+    "t": "Explain communications channels used in public-relations activities",
+    "code": "PR:250",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the components of advertisements",
+    "code": "PR:014",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the importance of coordinating elements in advertisements",
+    "code": "PR:251",
+    "level": "SP"
+   },
+   {
+    "t": "Identify types of public-relations activities",
+    "code": "PR:252",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss internal and external audiences for public-relations activities",
+    "code": "PR:253",
+    "level": "SP"
+   }
+  ],
+  "core|Selling": [
+   {
+    "t": "Explain the nature and scope of the selling function",
+    "code": "SE:017",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the role of customer service as a component of selling relationships",
+    "code": "SE:076",
+    "level": "CS"
+   },
+   {
+    "t": "Explain company selling policies",
+    "code": "SE:932",
+    "level": "CS"
+   },
+   {
+    "t": "Explain key factors in building a clientele",
+    "code": "SE:828",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal and ethical considerations in selling",
+    "code": "SE:106",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of technology in the selling function",
+    "code": "SE:107",
+    "level": "SP"
+   },
+   {
+    "t": "Acquire product information for use in selling",
+    "code": "SE:062",
+    "level": "CS"
+   },
+   {
+    "t": "Analyze product information to identify product features and benefits",
+    "code": "SE:109",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the selling process",
+    "code": "SE:048",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss motivational theories that impact buying behavior",
+    "code": "SE:359",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Business Law": [
+   {
+    "t": "Explain the nature of contract exclusivity",
+    "code": "BL:050",
+    "level": "SP"
+   },
+   {
+    "t": "Explain regulations impacting digital marketing",
+    "code": "BL:138",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Communication Skills": [
+   {
+    "t": "Make client presentations (includes strategies and research findings)",
+    "code": "CO:174",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare contact reports",
+    "code": "CO:175",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain day-to-day content on social platforms",
+    "code": "CO:193",
+    "level": "SP"
+   },
+   {
+    "t": "Write white papers",
+    "code": "CO:178",
+    "level": "SP"
+   },
+   {
+    "t": "Write pitch/sales letters",
+    "code": "CO:179",
+    "level": "SP"
+   },
+   {
+    "t": "Write new-business pitches",
+    "code": "CO:177",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of communications plans",
+    "code": "CO:195",
+    "level": "SP"
+   },
+   {
+    "t": "Implement a communications plan",
+    "code": "CO:196",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor communications plan",
+    "code": "CO:197",
+    "level": "SP"
+   },
+   {
+    "t": "Develop communications plan",
+    "code": "CO:198",
+    "level": "SP"
+   },
+   {
+    "t": "Adjust communications plan",
+    "code": "CO:199",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Customer Relations": [
+   {
+    "t": "Use digital media to enhance customer post-sales experience",
+    "code": "CR:028",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Emotional Intelligence": [
+   {
+    "t": "Apply ethics to digital communications",
+    "code": "EI:073",
+    "level": "CS"
+   },
+   {
+    "t": "Gain commitment from client",
+    "code": "EI:068",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain composure when receiving/delivering bad news",
+    "code": "EI:069",
+    "level": "SP"
+   },
+   {
+    "t": "Foster client-agency relationship",
+    "code": "EI:067",
+    "level": "SP"
+   },
+   {
+    "t": "Build rapport with suppliers",
+    "code": "EI:065",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Financial Analysis": [
+   {
+    "t": "Verify accuracy of bills",
+    "code": "FI:327",
+    "level": "CS"
+   }
+  ],
+  "marketing:Marketing Communications|Marketing": [
+   {
+    "t": "Differentiate between service marketing and product marketing",
+    "code": "MK:008",
+    "level": "CS"
+   },
+   {
+    "t": "Discuss the relationship between promotion and marketing",
+    "code": "MK:018",
+    "level": "CS"
+   }
+  ],
+  "marketing:Marketing Communications|Information Management": [
+   {
+    "t": "Describe current issues/trends in marketing communications",
+    "code": "NF:206",
+    "level": "SP"
+   },
+   {
+    "t": "Identify trends in social-media space",
+    "code": "NF:210",
+    "level": "SP"
+   },
+   {
+    "t": "Explain ways that technology impacts marketing communications",
+    "code": "NF:100",
+    "level": "SP"
+   },
+   {
+    "t": "Compare the capabilities of SMS with MMS",
+    "code": "NF:096",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the capabilities of tools used in web-site creation",
+    "code": "NF:053",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss considerations in using mobile technology for promotional activities",
+    "code": "NF:097",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate effective use of audiovisual aids",
+    "code": "NF:037",
+    "level": "SP"
+   },
+   {
+    "t": "Describe considerations in using databases in marketing communications",
+    "code": "NF:115",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain databases of information for marketing communications",
+    "code": "NF:101",
+    "level": "SP"
+   },
+   {
+    "t": "Mine databases for information useful in marketing communications",
+    "code": "NF:103",
+    "level": "SP"
+   },
+   {
+    "t": "Use analytical tracking tools for marketing communications",
+    "code": "NF:208",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate basic desktop publishing functions to prepare promotional materials",
+    "code": "NF:038",
+    "level": "SP"
+   },
+   {
+    "t": "Integrate software applications to prepare promotional materials",
+    "code": "NF:039",
+    "level": "SP"
+   },
+   {
+    "t": "Explain how to effectively incorporate video into multimedia",
+    "code": "NF:099",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Operations": [
+   {
+    "t": "Explain security considerations in marketing communications",
+    "code": "OP:193",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain marketing communications data security",
+    "code": "OP:445",
+    "level": "SP"
+   },
+   {
+    "t": "Develop schedule for marketing communications assignment",
+    "code": "OP:171",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate vendors' services",
+    "code": "OP:109",
+    "level": "SP"
+   },
+   {
+    "t": "Negotiate terms with vendors",
+    "code": "OP:039",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Professional Development": [
+   {
+    "t": "Describe traits important to the success of employees in marketing communications",
+    "code": "PD:045",
+    "level": "CS"
+   },
+   {
+    "t": "structures in different size agencies, key departments in)",
+    "code": "PD:052",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the economic and social effects of marketing communications",
+    "code": "PD:113",
+    "level": "SP"
+   },
+   {
+    "t": "Analyze marketing communications careers to determine careers of interest",
+    "code": "PD:159",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct self-assessment of marketing-communications skill set",
+    "code": "PD:127",
+    "level": "SP"
+   },
+   {
+    "t": "Identify requirements for professional certifications in marketing communications",
+    "code": "PD:142",
+    "level": "SP"
+   },
+   {
+    "t": "Assess the services of professional organizations in marketing communications",
+    "code": "PD:145",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Product/Service Management": [
+   {
+    "t": "Explain the concept of “product” in marketing communications",
+    "code": "PM:091",
+    "level": "SP"
+   },
+   {
+    "t": "Describe services offered by the marketing-communications industry",
+    "code": "PM:220",
+    "level": "SP"
+   },
+   {
+    "t": "Generate marketing communications ideas",
+    "code": "PM:187",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of product extension in services marketing",
+    "code": "PM:082",
+    "level": "SP"
+   },
+   {
+    "t": "Identify opportunities in the social-media space",
+    "code": "PM:275",
+    "level": "SP"
+   },
+   {
+    "t": "Establish credibility with Internet users",
+    "code": "PM:274",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Marketing-Information Management": [
+   {
+    "t": "Gather brand information",
+    "code": "IM:361",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct pre-campaign testing",
+    "code": "IM:323",
+    "level": "SP"
+   },
+   {
+    "t": "Track performance of promotional activities",
+    "code": "IM:410",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor competitors' promotional efforts",
+    "code": "IM:429",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor daily social-media analytics",
+    "code": "IM:468",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor online brand and reputation",
+    "code": "IM:430",
+    "level": "SP"
+   },
+   {
+    "t": "Track trends (e.g., social, buying, social media, advertising agency, etc.)",
+    "code": "IM:411",
+    "level": "SP"
+   },
+   {
+    "t": "Analyze customer behavior (e.g., media-consumption, buying, etc.)",
+    "code": "IM:299",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret qualitative research findings",
+    "code": "IM:371",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Market Planning": [
+   {
+    "t": "Identify ways to segment markets for marketing communications",
+    "code": "MP:028",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of target marketing in marketing communications",
+    "code": "MP:029",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Promotion": [
+   {
+    "t": "Explain considerations affecting global promotion",
+    "code": "PR:117",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the marketing-communications development process",
+    "code": "PR:316",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of word-of-mouth (WOM) strategies",
+    "code": "PR:319",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the role of customer voice in word-of-mouth strategies",
+    "code": "PR:363",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of buzz-marketing",
+    "code": "PR:317",
+    "level": "SP"
+   },
+   {
+    "t": "Explain considerations in developing viral marketing campaigns",
+    "code": "PR:312",
+    "level": "SP"
+   },
+   {
+    "t": "Describe considerations in developing customer evangelists",
+    "code": "PR:273",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of celebrities/influencers as a WOM strategy",
+    "code": "PR:321",
+    "level": "SP"
+   },
+   {
+    "t": "Describe referral programs that can be used to build brand/promote products",
+    "code": "PR:277",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of product placement",
+    "code": "PR:323",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss types of direct mail tactics",
+    "code": "PR:301",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of email marketing tactics",
+    "code": "PR:165",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role of business websites in digital marketing",
+    "code": "PR:364",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of social media for digital marketing",
+    "code": "PR:365",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of blogging for marketing communications",
+    "code": "PR:281",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of RSS feeds",
+    "code": "PR:324",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the use of podcasts/webcasts",
+    "code": "PR:298",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the use of social bookmarking/tagging",
+    "code": "PR:300",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of video/images for digital marketing",
+    "code": "PR:366",
+    "level": "SP"
+   },
+   {
+    "t": "Describe mobile marketing tactics",
+    "code": "PR:276",
+    "level": "SP"
+   },
+   {
+    "t": "Explain mobile marketing applications",
+    "code": "PR:367",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the use of search-engine optimization tactics for digital marketing",
+    "code": "PR:299",
+    "level": "SP"
+   },
+   {
+    "t": "Identify effective advertising headlines",
+    "code": "PR:330",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of storytelling in marketing",
+    "code": "PR:388",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of copy strategies",
+    "code": "PR:126",
+    "level": "SP"
+   },
+   {
+    "t": "Write copy for advertisements",
+    "code": "PR:368",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of effective direct-mail copy",
+    "code": "PR:294",
+    "level": "SP"
+   },
+   {
+    "t": "Write direct-mail letters",
+    "code": "PR:122",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of effective Internet ad copy",
+    "code": "PR:279",
+    "level": "SP"
+   },
+   {
+    "t": "Write e-mail marketing copy",
+    "code": "PR:362",
+    "level": "SP"
+   },
+   {
+    "t": "Execute targeted emails",
+    "code": "PR:166",
+    "level": "SP"
+   },
+   {
+    "t": "Write content for use on the website",
+    "code": "PR:370",
+    "level": "SP"
+   },
+   {
+    "t": "Write content for use in social media",
+    "code": "PR:371",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain a consistent brand voice in social content",
+    "code": "PR:389",
+    "level": "SP"
+   },
+   {
+    "t": "Develop and package content for social distribution",
+    "code": "PR:390",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of effective mobile ad copy",
+    "code": "PR:318",
+    "level": "SP"
+   },
+   {
+    "t": "Write mobile marketing content",
+    "code": "PR:372",
+    "level": "SP"
+   },
+   {
+    "t": "Repurpose content for use in multiple platforms",
+    "code": "PR:373",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of color in advertisements",
+    "code": "PR:123",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the elements of design",
+    "code": "PR:222",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of illustrations in advertisements",
+    "code": "PR:322",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of typography",
+    "code": "PR:295",
+    "level": "SP"
+   },
+   {
+    "t": "Explain type styles used in advertisements",
+    "code": "PR:326",
+    "level": "SP"
+   },
+   {
+    "t": "Describe effective advertising layouts",
+    "code": "PR:275",
+    "level": "SP"
+   },
+   {
+    "t": "Identify types of drawing media",
+    "code": "PR:334",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of color harmonies on composition",
+    "code": "PR:314",
+    "level": "SP"
+   },
+   {
+    "t": "Describe digital color concepts",
+    "code": "PR:274",
+    "level": "SP"
+   },
+   {
+    "t": "Check advertising proofs",
+    "code": "PR:130",
+    "level": "SP"
+   },
+   {
+    "t": "Explain website-development process",
+    "code": "PR:328",
+    "level": "SP"
+   },
+   {
+    "t": "Identify strategies for attracting targeted audience to website",
+    "code": "PR:333",
+    "level": "SP"
+   },
+   {
+    "t": "Determine advertising reach of media",
+    "code": "PR:225",
+    "level": "SP"
+   },
+   {
+    "t": "Read media schedule",
+    "code": "PR:348",
+    "level": "SP"
+   },
+   {
+    "t": "Calculate media costs",
+    "code": "PR:009",
+    "level": "SP"
+   },
+   {
+    "t": "Negotiate terms with media owner",
+    "code": "PR:340",
+    "level": "SP"
+   },
+   {
+    "t": "Schedule ads and commercials",
+    "code": "PR:131",
+    "level": "SP"
+   },
+   {
+    "t": "Select placement of advertisements",
+    "code": "PR:132",
+    "level": "SP"
+   },
+   {
+    "t": "Buy ad space/time",
+    "code": "PR:104",
+    "level": "SP"
+   },
+   {
+    "t": "Identify techniques to increase ad response time",
+    "code": "PR:231",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of digital techniques on public relations practices",
+    "code": "PR:376",
+    "level": "SP"
+   },
+   {
+    "t": "Write a press release",
+    "code": "PR:057",
+    "level": "SP"
+   },
+   {
+    "t": "Create a public-service announcement",
+    "code": "PR:268",
+    "level": "SP"
+   },
+   {
+    "t": "Create a press kit",
+    "code": "PR:226",
+    "level": "SP"
+   },
+   {
+    "t": "Cultivate media relationships",
+    "code": "PR:185",
+    "level": "SP"
+   },
+   {
+    "t": "Analyze costs/benefits of company participation in community activities",
+    "code": "PR:056",
+    "level": "SP"
+   },
+   {
+    "t": "Explain current issues/trends in public relations",
+    "code": "PR:313",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of crisis management in public relations",
+    "code": "PR:282",
+    "level": "SP"
+   },
+   {
+    "t": "Create promotional signage",
+    "code": "PR:391",
+    "level": "SP"
+   },
+   {
+    "t": "Collaborate in the design of slogans/taglines",
+    "code": "PR:266",
+    "level": "SP"
+   },
+   {
+    "t": "Participate in the design of collateral materials to promote special events",
+    "code": "PR:234",
+    "level": "SP"
+   },
+   {
+    "t": "Set up cross-promotions",
+    "code": "PR:235",
+    "level": "SP"
+   },
+   {
+    "t": "audiences",
+    "code": "PR:254",
+    "level": "SP"
+   },
+   {
+    "t": "Participate in trade shows/expositions",
+    "code": "PR:236",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the use of marketing/creative briefs",
+    "code": "PR:297",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of advertising agencies",
+    "code": "PR:081",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of a promotional plan",
+    "code": "PR:073",
+    "level": "SP"
+   },
+   {
+    "t": "Coordinate activities in the promotional mix",
+    "code": "PR:076",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor user-generated content (UGC)",
+    "code": "PR:393",
+    "level": "SP"
+   },
+   {
+    "t": "Moderate social chats",
+    "code": "PR:394",
+    "level": "SP"
+   },
+   {
+    "t": "Leverage social networks for customer engagement",
+    "code": "PR:379",
+    "level": "SP"
+   },
+   {
+    "t": "Implement strategies to grow social-media following",
+    "code": "PR:395",
+    "level": "SP"
+   },
+   {
+    "t": "Implement digital marketing campaign",
+    "code": "PR:381",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Communications|Selling": [
+   {
+    "t": "Acquire knowledge of client's products/brands",
+    "code": "SE:360",
+    "level": "CS"
+   },
+   {
+    "t": "Pitch marketing communications idea to client",
+    "code": "SE:347",
+    "level": "SP"
+   },
+   {
+    "t": "Present an advertising campaign to clients",
+    "code": "SE:395",
+    "level": "SP"
+   },
+   {
+    "t": "Provide service after the sale",
+    "code": "SE:398",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Emotional Intelligence": [
+   {
+    "t": "Explain the impact of business customs and practices on global trade",
+    "code": "EI:082",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of business customs and practices in the North American market",
+    "code": "EI:083",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of business customs and practices in Western Europe",
+    "code": "EI:084",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of business customs and practices in Eastern Europe",
+    "code": "EI:117",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of business customs and practices in Latin America",
+    "code": "EI:085",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of business customs and practices in the Pacific Rim",
+    "code": "EI:086",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of business customs and practices in the Middle East",
+    "code": "EI:087",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of business customs and practices in South Asia",
+    "code": "EI:118",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the nature of business customs and practices in Northern Africa",
+    "code": "EI:119",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of business customs and practices in Sub-Saharan Africa",
+    "code": "EI:120",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Information Management": [
+   {
+    "t": "Analyze the impact of technology on marketing",
+    "code": "NF:094",
+    "level": "SP"
+   },
+   {
+    "t": "Use software to automate services",
+    "code": "NF:106",
+    "level": "SP"
+   },
+   {
+    "t": "Use analytical tracking tools",
+    "code": "NF:205",
+    "level": "SP"
+   },
+   {
+    "t": "Use analytical software (e.g., SPSS, SAS, Excel, etc.)",
+    "code": "NF:214",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Operations": [
+   {
+    "t": "Determine sources of relevant, new marketing data",
+    "code": "OP:434",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate options to purchase or sell marketing data",
+    "code": "OP:435",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain security of marketing data",
+    "code": "OP:429",
+    "level": "SP"
+   },
+   {
+    "t": "Explain security considerations in marketing management",
+    "code": "OP:173",
+    "level": "SP"
+   },
+   {
+    "t": "Cleanse existing marketing data to maintain relevancy",
+    "code": "OP:430",
+    "level": "SP"
+   },
+   {
+    "t": "Apply marketing analytics",
+    "code": "OP:431",
+    "level": "SP"
+   },
+   {
+    "t": "Track invoices",
+    "code": "OP:184",
+    "level": "CS"
+   },
+   {
+    "t": "Document marketing processes",
+    "code": "OP:437",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Professional Development": [
+   {
+    "t": "Assess the services of professional organizations in marketing",
+    "code": "PD:144",
+    "level": "SP"
+   },
+   {
+    "t": "certifications, journals, online activities/courses)",
+    "code": "PD:147",
+    "level": "SP"
+   },
+   {
+    "t": "Employ career-advancement strategies in marketing",
+    "code": "PD:132",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of marketing management",
+    "code": "PD:136",
+    "level": "SP"
+   },
+   {
+    "t": "Explain career opportunities in marketing management",
+    "code": "PD:133",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Product/Service Management": [
+   {
+    "t": "Determine the impact of product standards' issues associated with global business",
+    "code": "PM:278",
+    "level": "SP"
+   },
+   {
+    "t": "Explain new product-development processes",
+    "code": "PM:241",
+    "level": "SP"
+   },
+   {
+    "t": "Assess product-packaging requirements",
+    "code": "PM:213",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate graphic design on packages",
+    "code": "PM:236",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate adequacy of product packaging",
+    "code": "PM:233",
+    "level": "SP"
+   },
+   {
+    "t": "Develop positioning concept for a new product idea",
+    "code": "PM:228",
+    "level": "SP"
+   },
+   {
+    "t": "Communicate core values of product/service",
+    "code": "PM:214",
+    "level": "SP"
+   },
+   {
+    "t": "Identify product's/service's competitive advantage",
+    "code": "PM:246",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Marketing-Information Management": [
+   {
+    "t": "Track channel management cost data",
+    "code": "IM:470",
+    "level": "SP"
+   },
+   {
+    "t": "Collect product quality data to aid in making channel-management decisions",
+    "code": "IM:485",
+    "level": "SP"
+   },
+   {
+    "t": "Obtain and track information about domestic and foreign suppliers/manufacturers",
+    "code": "IM:380",
+    "level": "SP"
+   },
+   {
+    "t": "Display data in charts/graphs or in tables",
+    "code": "IM:347",
+    "level": "SP"
+   },
+   {
+    "t": "Provide sales analysis reports",
+    "code": "IM:394",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare and use presentation software to support reports",
+    "code": "IM:386",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare written reports for decision-making",
+    "code": "IM:390",
+    "level": "SP"
+   },
+   {
+    "t": "Measure media audience",
+    "code": "IM:374",
+    "level": "SP"
+   },
+   {
+    "t": "Leverage data to recommend personalized, relevant campaigns",
+    "code": "IM:472",
+    "level": "SP"
+   },
+   {
+    "t": "Leverage data to support real-time customization of customer interactions",
+    "code": "IM:473",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Management|Promotion": [
+   {
+    "t": "Describe the use of color in advertisements",
+    "code": "PR:123",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the elements of design",
+    "code": "PR:222",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of illustrations in advertisements",
+    "code": "PR:322",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the nature of typography",
+    "code": "PR:295",
+    "level": "SP"
+   },
+   {
+    "t": "Explain type styles used in advertisements",
+    "code": "PR:326",
+    "level": "SP"
+   },
+   {
+    "t": "Describe effective advertising layouts",
+    "code": "PR:275",
+    "level": "SP"
+   },
+   {
+    "t": "Identify types of drawing media",
+    "code": "PR:334",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the impact of color harmonies on composition",
+    "code": "PR:314",
+    "level": "SP"
+   },
+   {
+    "t": "Describe digital color concepts",
+    "code": "PR:274",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the importance of company involvement in community activities",
+    "code": "PR:315",
+    "level": "SP"
+   },
+   {
+    "t": "Propose community issues for company involvement",
+    "code": "PR:347",
+    "level": "SP"
+   },
+   {
+    "t": "Participate in community outreach activities",
+    "code": "PR:341",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of a promotional plan",
+    "code": "PR:073",
+    "level": "SP"
+   },
+   {
+    "t": "Coordinate activities in the promotional mix",
+    "code": "PR:076",
+    "level": "SP"
+   },
+   {
+    "t": "Create written briefs for outside agencies/consultants",
+    "code": "PR:271",
+    "level": "SP"
+   },
+   {
+    "t": "Identify ways to track marketing-communications activities",
+    "code": "PR:335",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Research|Information Management": [
+   {
+    "t": "Assess the impact of technology on marketing research",
+    "code": "NF:095",
+    "level": "SP"
+   },
+   {
+    "t": "Use analytical tracking tools",
+    "code": "NF:205",
+    "level": "SP"
+   },
+   {
+    "t": "Identify emerging customer trends through social networking",
+    "code": "NF:213",
+    "level": "SP"
+   },
+   {
+    "t": "Use analytical software (e.g., SPSS, SAS, Excel, etc.)",
+    "code": "NF:214",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Research|Operations": [
+   {
+    "t": "Maintain security of marketing data",
+    "code": "OP:429",
+    "level": "SP"
+   },
+   {
+    "t": "Explain security considerations in marketing research",
+    "code": "OP:174",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Research|Professional Development": [
+   {
+    "t": "Identify career opportunities in marketing research",
+    "code": "PD:140",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the role and responsibilities of marketing researchers",
+    "code": "PD:139",
+    "level": "SP"
+   },
+   {
+    "t": "Determine professional certification requirements in marketing research",
+    "code": "PD:129",
+    "level": "SP"
+   },
+   {
+    "t": "Assess the services of professional organizations in marketing research",
+    "code": "PD:143",
+    "level": "SP"
+   }
+  ],
+  "marketing:Marketing Research|Marketing-Information Management": [
+   {
+    "t": "Obtain information from customer databases",
+    "code": "IM:381",
+    "level": "SP"
+   },
+   {
+    "t": "channels)",
+    "code": "IM:432",
+    "level": "SP"
+   },
+   {
+    "t": "Identify challenges with the use of unstructured data",
+    "code": "IM:474",
+    "level": "SP"
+   },
+   {
+    "t": "forums, listserves, web analytics, social media, geolocation services, etc.)",
+    "code": "IM:382",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct sentiment analysis",
+    "code": "IM:433",
+    "level": "SP"
+   },
+   {
+    "t": "regulations, consumer issues)",
+    "code": "IM:434",
+    "level": "SP"
+   },
+   {
+    "t": "Collect product quality data (e.g., customer complaints, returns, quality control)",
+    "code": "IM:311",
+    "level": "SP"
+   },
+   {
+    "t": "Data mine clickstream data using web analytics for marketing information",
+    "code": "IM:333",
+    "level": "SP"
+   },
+   {
+    "t": "economic changes, regulatory changes, etc.)",
+    "code": "IM:409",
+    "level": "SP"
+   },
+   {
+    "t": "replenishment systems, electronic data interchange [EDI], and reader-sorters)",
+    "code": "IM:368",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor competitors' activities",
+    "code": "IM:435",
+    "level": "SP"
+   },
+   {
+    "t": "Develop insights using trends occurring in other industries",
+    "code": "IM:475",
+    "level": "SP"
+   },
+   {
+    "t": "Measure market size and composition",
+    "code": "IM:373",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of actionable research",
+    "code": "IM:359",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of the sampling design process",
+    "code": "IM:436",
+    "level": "SP"
+   },
+   {
+    "t": "lists)",
+    "code": "IM:478",
+    "level": "SP"
+   },
+   {
+    "t": "Select sample sources in marketing research",
+    "code": "IM:437",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss sampling issues with international marketing research projects",
+    "code": "IM:438",
+    "level": "SP"
+   },
+   {
+    "t": "Explain sampling techniques for probability and non-probability samples",
+    "code": "IM:439",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss sampling techniques and issues associated with Internet sampling",
+    "code": "IM:440",
+    "level": "SP"
+   },
+   {
+    "t": "Describe statistical concepts associated with sampling",
+    "code": "IM:441",
+    "level": "SP"
+   },
+   {
+    "t": "intention scales, etc.)",
+    "code": "IM:286",
+    "level": "SP"
+   },
+   {
+    "t": "Apply approaches to increase participant cooperation with data collection",
+    "code": "IM:450",
+    "level": "SP"
+   },
+   {
+    "t": "Administer questionnaires",
+    "code": "IM:297",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct telephone interviews",
+    "code": "IM:328",
+    "level": "SP"
+   },
+   {
+    "t": "video recording)",
+    "code": "IM:349",
+    "level": "SP"
+   },
+   {
+    "t": "Test alternatives (e.g., web pages, ads, appeals, etc.)",
+    "code": "IM:463",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct in-depth interviews",
+    "code": "IM:322",
+    "level": "SP"
+   },
+   {
+    "t": "Edit/clean research data",
+    "code": "IM:348",
+    "level": "SP"
+   },
+   {
+    "t": "Code research data",
+    "code": "IM:362",
+    "level": "SP"
+   },
+   {
+    "t": "Apply methods to treat missing data",
+    "code": "IM:451",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct error detection/edit routines",
+    "code": "IM:318",
+    "level": "SP"
+   },
+   {
+    "t": "Transcribe conversations/interviews",
+    "code": "IM:452",
+    "level": "SP"
+   },
+   {
+    "t": "Tabulate data",
+    "code": "IM:402",
+    "level": "SP"
+   },
+   {
+    "t": "Create data matrix",
+    "code": "IM:331",
+    "level": "SP"
+   },
+   {
+    "t": "Select and use appropriate data support systems",
+    "code": "IM:397",
+    "level": "SP"
+   },
+   {
+    "t": "selecting mechanical analysis approaches)",
+    "code": "IM:304",
+    "level": "SP"
+   },
+   {
+    "t": "Set confidence levels",
+    "code": "IM:400",
+    "level": "SP"
+   },
+   {
+    "t": "Test for relationships",
+    "code": "IM:404",
+    "level": "SP"
+   },
+   {
+    "t": "Test for associations",
+    "code": "IM:403",
+    "level": "SP"
+   },
+   {
+    "t": "Test for significant differences",
+    "code": "IM:405",
+    "level": "SP"
+   },
+   {
+    "t": "Use statistical inferences to make estimates or to test hypotheses",
+    "code": "IM:412",
+    "level": "SP"
+   },
+   {
+    "t": "Identify types of modeling techniques",
+    "code": "IM:369",
+    "level": "SP"
+   },
+   {
+    "t": "Apply mathematical modeling techniques",
+    "code": "IM:308",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret descriptive statistics for marketing decision making",
+    "code": "IM:416",
+    "level": "SP"
+   },
+   {
+    "t": "Interpret correlations",
+    "code": "IM:370",
+    "level": "SP"
+   },
+   {
+    "t": "Display data in charts/graphs or in tables",
+    "code": "IM:347",
+    "level": "SP"
+   },
+   {
+    "t": "Write executive summary of research report",
+    "code": "IM:414",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare and use presentation software to support reports",
+    "code": "IM:386",
+    "level": "SP"
+   },
+   {
+    "t": "Present findings orally",
+    "code": "IM:391",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare written reports for decision-making",
+    "code": "IM:390",
+    "level": "SP"
+   },
+   {
+    "t": "Post marketing research results electronically",
+    "code": "IM:383",
+    "level": "SP"
+   },
+   {
+    "t": "Pre-test promotional campaign (e.g., advertising, direct marketing, etc.)",
+    "code": "IM:392",
+    "level": "SP"
+   },
+   {
+    "t": "Measure media audience",
+    "code": "IM:374",
+    "level": "SP"
+   },
+   {
+    "t": "Measure response rates",
+    "code": "IM:375",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct advertising tracking studies",
+    "code": "IM:313",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Economics": [
+   {
+    "t": "Identify the effects of global trade on retailing",
+    "code": "EC:094",
+    "level": "SP"
+   },
+   {
+    "t": "Explain current retail trends driven by global trade",
+    "code": "EC:102",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Marketing": [
+   {
+    "t": "Distinguish between retailing and marketing",
+    "code": "MK:003",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the importance of merchandising to retailers",
+    "code": "MK:020",
+    "level": "CS"
+   }
+  ],
+  "marketing:Merchandising|Information Management": [
+   {
+    "t": "Analyze the impact of technology on retailing",
+    "code": "NF:041",
+    "level": "SP"
+   },
+   {
+    "t": "Utilize merchandising software",
+    "code": "NF:107",
+    "level": "SP"
+   },
+   {
+    "t": "Obtain information from retail databases to aid in product planning and control",
+    "code": "NF:104",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain purchase orders",
+    "code": "NF:102",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain order logs",
+    "code": "NF:108",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Operations": [
+   {
+    "t": "Explain policies/procedures for handling shoplifters",
+    "code": "OP:122",
+    "level": "CS"
+   },
+   {
+    "t": "Devise/Enact merchandise security measures to minimize inventory shrinkage",
+    "code": "OP:172",
+    "level": "SP"
+   },
+   {
+    "t": "Follow up orders",
+    "code": "OP:040",
+    "level": "CS"
+   },
+   {
+    "t": "Prepare cash drawers/banks",
+    "code": "OP:194",
+    "level": "CS"
+   },
+   {
+    "t": "Open/Close register/terminal",
+    "code": "OP:195",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature and scope of distribution",
+    "code": "OP:522",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the relationship between customer service and distribution",
+    "code": "OP:523",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the use of technology in distribution",
+    "code": "OP:524",
+    "level": "SP"
+   },
+   {
+    "t": "Explain legal considerations in distribution",
+    "code": "OP:525",
+    "level": "SP"
+   },
+   {
+    "t": "Describe ethical considerations in distribution",
+    "code": "OP:526",
+    "level": "SP"
+   },
+   {
+    "t": "Explain distribution issues and trends",
+    "code": "OP:377",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the use of electronic data interchange (EDI)",
+    "code": "OP:378",
+    "level": "SP"
+   },
+   {
+    "t": "Use an information system for order fulfillment",
+    "code": "OP:380",
+    "level": "CS"
+   },
+   {
+    "t": "Fulfill orders",
+    "code": "OP:381",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the receiving process",
+    "code": "OP:384",
+    "level": "CS"
+   },
+   {
+    "t": "Explain stock-handling techniques used in receiving deliveries",
+    "code": "OP:385",
+    "level": "CS"
+   },
+   {
+    "t": "Process incoming merchandise",
+    "code": "OP:386",
+    "level": "CS"
+   },
+   {
+    "t": "Resolve problems with incoming shipments",
+    "code": "OP:387",
+    "level": "CS"
+   },
+   {
+    "t": "Attach source and anti-theft tags",
+    "code": "OP:389",
+    "level": "CS"
+   },
+   {
+    "t": "Price mark merchandise",
+    "code": "OP:390",
+    "level": "CS"
+   },
+   {
+    "t": "Make and record price changes",
+    "code": "OP:391",
+    "level": "SP"
+   },
+   {
+    "t": "Identify hang-tag needs",
+    "code": "OP:392",
+    "level": "SP"
+   },
+   {
+    "t": "Assign codes to each product item",
+    "code": "OP:393",
+    "level": "SP"
+   },
+   {
+    "t": "Route stock to sales floor",
+    "code": "OP:394",
+    "level": "CS"
+   },
+   {
+    "t": "Rotate stock",
+    "code": "OP:395",
+    "level": "CS"
+   },
+   {
+    "t": "Process returned/damaged product",
+    "code": "OP:396",
+    "level": "CS"
+   },
+   {
+    "t": "Transfer stock to/from branches",
+    "code": "OP:397",
+    "level": "SP"
+   },
+   {
+    "t": "Enter product descriptions into a PoS system",
+    "code": "OP:398",
+    "level": "SP"
+   },
+   {
+    "t": "Explain storing considerations",
+    "code": "OP:400",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the nature of warehousing",
+    "code": "OP:401",
+    "level": "CS"
+   },
+   {
+    "t": "Store inventory",
+    "code": "OP:402",
+    "level": "CS"
+   },
+   {
+    "t": "Explain shipping processes",
+    "code": "OP:405",
+    "level": "CS"
+   },
+   {
+    "t": "Identify factors considered when selecting best shipping method",
+    "code": "OP:406",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain inventory levels",
+    "code": "OP:407",
+    "level": "CS"
+   },
+   {
+    "t": "Report out-of-stocks",
+    "code": "OP:408",
+    "level": "CS"
+   },
+   {
+    "t": "Complete inventory counts",
+    "code": "OP:409",
+    "level": "CS"
+   },
+   {
+    "t": "Monitor merchandise classification system",
+    "code": "OP:410",
+    "level": "SP"
+   },
+   {
+    "t": "Allocate merchandise to stores/regions",
+    "code": "OP:411",
+    "level": "SP"
+   },
+   {
+    "t": "Track stock by location for department/class/vendor level",
+    "code": "OP:412",
+    "level": "SP"
+   },
+   {
+    "t": "Describe inventory control systems",
+    "code": "OP:413",
+    "level": "CS"
+   },
+   {
+    "t": "Explain types of unit inventory-control systems",
+    "code": "OP:414",
+    "level": "SP"
+   },
+   {
+    "t": "Determine inventory shrinkage",
+    "code": "OP:415",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain inventory-control systems",
+    "code": "OP:416",
+    "level": "SP"
+   },
+   {
+    "t": "Implement category management process",
+    "code": "OP:417",
+    "level": "SP"
+   },
+   {
+    "t": "Ensure timely delivery of advertised merchandise",
+    "code": "OP:420",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Professional Development": [
+   {
+    "t": "Explain the evolution of retailing",
+    "code": "PD:148",
+    "level": "CS"
+   },
+   {
+    "t": "Describe the role of merchandisers in retailing",
+    "code": "PD:128",
+    "level": "CS"
+   },
+   {
+    "t": "Identify career opportunities in retailing",
+    "code": "PD:038",
+    "level": "CS"
+   },
+   {
+    "t": "Explain career opportunities in merchandising",
+    "code": "PD:134",
+    "level": "CS"
+   }
+  ],
+  "marketing:Merchandising|Product/Service Management": [
+   {
+    "t": "Determine the impact of product standards' issues associated with global business",
+    "code": "PM:278",
+    "level": "SP"
+   },
+   {
+    "t": "Obtain samples",
+    "code": "PM:253",
+    "level": "SP"
+   },
+   {
+    "t": "Determine quality of merchandise to offer",
+    "code": "PM:223",
+    "level": "SP"
+   },
+   {
+    "t": "Plan merchandise assortment (e.g., styling, sizes, quantities, colors)",
+    "code": "PM:254",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of merchandise plans (budgets)",
+    "code": "PM:061",
+    "level": "SP"
+   },
+   {
+    "t": "Calculate open-to-buy",
+    "code": "PM:058",
+    "level": "SP"
+   },
+   {
+    "t": "Create/maintain daily sales plan",
+    "code": "PM:219",
+    "level": "SP"
+   },
+   {
+    "t": "Identify emerging trends",
+    "code": "PM:257",
+    "level": "SP"
+   },
+   {
+    "t": "Plan stock",
+    "code": "PM:062",
+    "level": "SP"
+   },
+   {
+    "t": "Plan purchases",
+    "code": "PM:064",
+    "level": "SP"
+   },
+   {
+    "t": "Compare and contrast buying from domestic sources with that of foreign sources",
+    "code": "PM:192",
+    "level": "SP"
+   },
+   {
+    "t": "Determine final cost of purchases from domestic and international sources",
+    "code": "PM:193",
+    "level": "SP"
+   },
+   {
+    "t": "Write purchase orders",
+    "code": "PM:258",
+    "level": "SP"
+   },
+   {
+    "t": "Analyze the use of central buying",
+    "code": "PM:259",
+    "level": "SP"
+   },
+   {
+    "t": "Determine stock turnover",
+    "code": "PM:224",
+    "level": "SP"
+   },
+   {
+    "t": "Determine what to buy/reorder",
+    "code": "PM:260",
+    "level": "SP"
+   },
+   {
+    "t": "Determine quantities to buy/reorder",
+    "code": "PM:261",
+    "level": "SP"
+   },
+   {
+    "t": "Determine when to buy/reorder",
+    "code": "PM:262",
+    "level": "SP"
+   },
+   {
+    "t": "Establish reorder points",
+    "code": "PM:232",
+    "level": "SP"
+   },
+   {
+    "t": "Evaluate vendors' goods and services",
+    "code": "PM:239",
+    "level": "SP"
+   },
+   {
+    "t": "Choose vendors",
+    "code": "PM:263",
+    "level": "SP"
+   },
+   {
+    "t": "Negotiate terms with suppliers",
+    "code": "PM:264",
+    "level": "SP"
+   },
+   {
+    "t": "Identify components of a retail image",
+    "code": "PM:243",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Marketing-Information Management": [
+   {
+    "t": "Analyze information from suppliers",
+    "code": "IM:300",
+    "level": "SP"
+   },
+   {
+    "t": "Scan marketplace to identify factors that could influence merchandising decisions",
+    "code": "IM:396",
+    "level": "SP"
+   },
+   {
+    "t": "Analyze competitors' offerings",
+    "code": "IM:298",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Promotion": [
+   {
+    "t": "Proof ads",
+    "code": "PR:346",
+    "level": "SP"
+   },
+   {
+    "t": "Plan special events",
+    "code": "PR:360",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare store/department for special event",
+    "code": "PR:068",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of visual merchandising in retailing",
+    "code": "PR:023",
+    "level": "CS"
+   },
+   {
+    "t": "Distinguish between visual merchandising and display",
+    "code": "PR:302",
+    "level": "CS"
+   },
+   {
+    "t": "Place merchandise for impact",
+    "code": "PR:342",
+    "level": "SP"
+   },
+   {
+    "t": "Determine on-floor assortments",
+    "code": "PR:284",
+    "level": "SP"
+   },
+   {
+    "t": "Use cross-merchandising techniques",
+    "code": "PR:358",
+    "level": "SP"
+   },
+   {
+    "t": "Read/Implement planograms",
+    "code": "PR:349",
+    "level": "SP"
+   },
+   {
+    "t": "Explain types of display arrangements",
+    "code": "PR:026",
+    "level": "CS"
+   },
+   {
+    "t": "Maintain displays",
+    "code": "PR:052",
+    "level": "CS"
+   },
+   {
+    "t": "Dismantle/Store displays/display fixtures/forms",
+    "code": "PR:054",
+    "level": "CS"
+   },
+   {
+    "t": "Create promotional signs",
+    "code": "PR:109",
+    "level": "SP"
+   },
+   {
+    "t": "Select and use display fixtures/forms",
+    "code": "PR:031",
+    "level": "SP"
+   },
+   {
+    "t": "Use lighting to highlight products",
+    "code": "PR:359",
+    "level": "SP"
+   },
+   {
+    "t": "Set up point-of-sale displays and handouts",
+    "code": "PR:114",
+    "level": "SP"
+   },
+   {
+    "t": "Create displays",
+    "code": "PR:047",
+    "level": "SP"
+   },
+   {
+    "t": "Develop promotional calendar",
+    "code": "PR:209",
+    "level": "SP"
+   },
+   {
+    "t": "Plan/Schedule displays/themes with management",
+    "code": "PR:077",
+    "level": "SP"
+   }
+  ],
+  "marketing:Merchandising|Selling": [
+   {
+    "t": "Explain the use of brand names in selling",
+    "code": "SE:019",
+    "level": "CS"
+   },
+   {
+    "t": "Establish relationship with customer/client",
+    "code": "SE:110",
+    "level": "CS"
+   },
+   {
+    "t": "Determine customer/client needs",
+    "code": "SE:111",
+    "level": "CS"
+   },
+   {
+    "t": "Recommend specific product",
+    "code": "SE:114",
+    "level": "CS"
+   },
+   {
+    "t": "Demonstrate good/service",
+    "code": "SE:374",
+    "level": "SP"
+   },
+   {
+    "t": "Convert customer/client objections into selling points",
+    "code": "SE:874",
+    "level": "SP"
+   },
+   {
+    "t": "Close the sale",
+    "code": "SE:895",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate suggestion selling",
+    "code": "SE:875",
+    "level": "SP"
+   },
+   {
+    "t": "Plan follow-up strategies for use in retail selling",
+    "code": "SE:489",
+    "level": "SP"
+   },
+   {
+    "t": "Arrange delivery of purchases",
+    "code": "SE:023",
+    "level": "CS"
+   },
+   {
+    "t": "Pack and wrap purchases",
+    "code": "SE:887",
+    "level": "CS"
+   },
+   {
+    "t": "Process special orders for retail sales",
+    "code": "SE:009",
+    "level": "CS"
+   },
+   {
+    "t": "Sell gift certificates",
+    "code": "SE:016",
+    "level": "CS"
+   },
+   {
+    "t": "Process retail telephone orders",
+    "code": "SE:835",
+    "level": "CS"
+   },
+   {
+    "t": "Process returns/exchanges",
+    "code": "SE:162",
+    "level": "CS"
+   },
+   {
+    "t": "Process retail sales documentation",
+    "code": "SE:117",
+    "level": "SP"
+   },
+   {
+    "t": "Calculate miscellaneous charges for retail sales",
+    "code": "SE:116",
+    "level": "CS"
+   },
+   {
+    "t": "Process sales transactions (e.g., cash, credit, check)",
+    "code": "SE:329",
+    "level": "CS"
+   },
+   {
+    "t": "Accept checks from customers",
+    "code": "SE:152",
+    "level": "CS"
+   },
+   {
+    "t": "Operate register/terminal",
+    "code": "SE:153",
+    "level": "CS"
+   },
+   {
+    "t": "Provide information about incoming merchandise to sales staff",
+    "code": "SE:396",
+    "level": "SP"
+   },
+   {
+    "t": "Monitor on-floor selling activities",
+    "code": "SE:389",
+    "level": "SP"
+   }
+  ],
+  "marketing:Professional Selling|Customer Relations": [
+   {
+    "t": "Use digital media to enhance customer post-sales experience",
+    "code": "CR:028",
+    "level": "SP"
+   }
+  ],
+  "marketing:Professional Selling|Operations": [
+   {
+    "t": "Explain the nature and scope of distribution",
+    "code": "OP:522",
+    "level": "CS"
+   },
+   {
+    "t": "Explain the relationship between customer service and distribution",
+    "code": "OP:523",
+    "level": "CS"
+   }
+  ],
+  "marketing:Professional Selling|Professional Development": [
+   {
+    "t": "Explain the nature of professional selling",
+    "code": "PD:120",
+    "level": "SP"
+   },
+   {
+    "t": "Explain employment opportunities in professional selling",
+    "code": "PD:055",
+    "level": "SP"
+   },
+   {
+    "t": "Discuss the economic and social effects of professional selling",
+    "code": "PD:131",
+    "level": "SP"
+   },
+   {
+    "t": "Identify professional certification requirements available for professional salespeople",
+    "code": "PD:141",
+    "level": "SP"
+   },
+   {
+    "t": "Assess the services of professional organizations in selling",
+    "code": "PD:062",
+    "level": "SP"
+   }
+  ],
+  "marketing:Professional Selling|Marketing-Information Management": [
+   {
+    "t": "Analyze market information",
+    "code": "IM:301",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the use of target marketing in professional selling",
+    "code": "IM:334",
+    "level": "SP"
+   }
+  ],
+  "marketing:Professional Selling|Selling": [
+   {
+    "t": "Explain the impact of sales and buying cycles",
+    "code": "SE:380",
+    "level": "SP"
+   },
+   {
+    "t": "Describe the impact that digital communication is having on selling",
+    "code": "SE:490",
+    "level": "SP"
+   },
+   {
+    "t": "Identify emerging trends for use in selling",
+    "code": "SE:404",
+    "level": "SP"
+   },
+   {
+    "t": "Differentiate between consumer and organizational buying behavior",
+    "code": "SE:112",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the use of marketing-research information in professional selling",
+    "code": "SE:383",
+    "level": "SP"
+   },
+   {
+    "t": "Prospect for customers",
+    "code": "SE:001",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct preliminary customer/client qualification",
+    "code": "SE:400",
+    "level": "SP"
+   },
+   {
+    "t": "competitors' offerings)",
+    "code": "SE:369",
+    "level": "SP"
+   },
+   {
+    "t": "Determine sales strategies",
+    "code": "SE:377",
+    "level": "SP"
+   },
+   {
+    "t": "Book appointments with prospective clients",
+    "code": "SE:366",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare sales presentation",
+    "code": "SE:067",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare and/or assemble sales materials",
+    "code": "SE:482",
+    "level": "SP"
+   },
+   {
+    "t": "Build rapport and credibility with prospect",
+    "code": "SE:483",
+    "level": "SP"
+   },
+   {
+    "t": "Respond appropriately to prospect's individual personality type",
+    "code": "SE:810",
+    "level": "SP"
+   },
+   {
+    "t": "Determine prospect's buying motives for use in selling",
+    "code": "SE:883",
+    "level": "SP"
+   },
+   {
+    "t": "Facilitate prospect's buying decisions",
+    "code": "SE:811",
+    "level": "SP"
+   },
+   {
+    "t": "Assess prospect's needs in relation to product offering",
+    "code": "SE:113",
+    "level": "SP"
+   },
+   {
+    "t": "Demonstrate product solution for prospect's needs",
+    "code": "SE:893",
+    "level": "SP"
+   },
+   {
+    "t": "Convert customer/client objections into selling points",
+    "code": "SE:874",
+    "level": "SP"
+   },
+   {
+    "t": "Close the sale",
+    "code": "SE:895",
+    "level": "SP"
+   },
+   {
+    "t": "Negotiate sales terms/agreement",
+    "code": "SE:392",
+    "level": "SP"
+   },
+   {
+    "t": "Oversee fulfillment/completion of sale",
+    "code": "SE:485",
+    "level": "SP"
+   },
+   {
+    "t": "Sell good/service/idea to individuals",
+    "code": "SE:046",
+    "level": "SP"
+   },
+   {
+    "t": "Sell good/service/idea to groups",
+    "code": "SE:073",
+    "level": "SP"
+   },
+   {
+    "t": "Calculate miscellaneous charges",
+    "code": "SE:475",
+    "level": "CS"
+   },
+   {
+    "t": "Process special orders",
+    "code": "SE:459",
+    "level": "SP"
+   },
+   {
+    "t": "Process telephone orders",
+    "code": "SE:461",
+    "level": "CS"
+   },
+   {
+    "t": "Process sales documentation",
+    "code": "SE:474",
+    "level": "SP"
+   },
+   {
+    "t": "Write product/service proposal",
+    "code": "SE:486",
+    "level": "SP"
+   },
+   {
+    "t": "Present proposal",
+    "code": "SE:487",
+    "level": "SP"
+   },
+   {
+    "t": "Plan follow-up strategies for use in selling",
+    "code": "SE:057",
+    "level": "SP"
+   },
+   {
+    "t": "Prepare sales reports",
+    "code": "SE:283",
+    "level": "SP"
+   },
+   {
+    "t": "Provide post-sales service",
+    "code": "SE:397",
+    "level": "SP"
+   },
+   {
+    "t": "Gather customer/client feedback to improve service",
+    "code": "SE:384",
+    "level": "SP"
+   },
+   {
+    "t": "Conduct self-assessment of sales performance",
+    "code": "SE:372",
+    "level": "SP"
+   },
+   {
+    "t": "Maintain ongoing relationship with client",
+    "code": "SE:488",
+    "level": "SP"
+   },
+   {
+    "t": "Plan strategies for meeting sales quotas",
+    "code": "SE:864",
+    "level": "SP"
+   },
+   {
+    "t": "Develop strategies to win back former customers",
+    "code": "SE:379",
+    "level": "SP"
+   },
+   {
+    "t": "Explain the nature of key account management",
+    "code": "SE:381",
+    "level": "SP"
+   }
+  ],
+  "Marketing|Promotion": [
+   {
+    "t": "Explain marketing and its importance in a global economy.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of buzz-marketing.",
+    "sample": true
+   },
+   {
+    "t": "Explain the use of video/images for digital marketing.",
+    "sample": true
+   },
+   {
+    "t": "Monitor user-generated content.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of corporate branding.",
+    "sample": true
+   },
+   {
+    "t": "Explain the role of promotion as a marketing function.",
+    "sample": true
+   },
+   {
+    "t": "Describe the use of technology in the promotion function.",
+    "sample": true
+   },
+   {
+    "t": "Explain types of advertising media.",
+    "sample": true
+   },
+   {
+    "t": "Identify communications channels used in sales promotion.",
+    "sample": true
+   },
+   {
+    "t": "Explain the concept of marketing strategies.",
+    "sample": true
+   }
+  ],
+  "Finance|Financial Analysis": [
+   {
+    "t": "Describe the need for financial information.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of accounts payable.",
+    "sample": true
+   },
+   {
+    "t": "Discuss the importance of utilizing ethical purchasing methods.",
+    "sample": true
+   },
+   {
+    "t": "Account for purchases.",
+    "sample": true
+   },
+   {
+    "t": "Organize information.",
+    "sample": true
+   },
+   {
+    "t": "Organize information. -- 23 of 78 --",
+    "sample": true
+   }
+  ],
+  "Business Management and|Emotional Intelligence": [
+   {
+    "t": "Describe the nature of ethics.",
+    "sample": true
+   },
+   {
+    "t": "Explain reasons for ethical dilemmas.",
+    "sample": true
+   },
+   {
+    "t": "Recognize and respond to ethical dilemmas.",
+    "sample": true
+   },
+   {
+    "t": "Build trust in relationships.",
+    "sample": true
+   },
+   {
+    "t": "Explain factors that influence customer/client/business buying behavior.",
+    "sample": true
+   }
+  ],
+  "Entrepreneurship|Entrepreneurship": [
+   {
+    "t": "Adapt to changes in business environment.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of channel strategies.",
+    "sample": true
+   },
+   {
+    "t": "Identify capital resources needed for venture.",
+    "sample": true
+   },
+   {
+    "t": "Assess the costs/benefits associated with resources.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of overhead/operating costs.",
+    "sample": true
+   }
+  ],
+  "Hospitality and Tourism|Marketing": [
+   {
+    "t": "Explain factors that influence customer/client/business buying behavior.",
+    "sample": true
+   },
+   {
+    "t": "Discuss actions employees can take to achieve the company’s desired results.",
+    "sample": true
+   },
+   {
+    "t": "Differentiate between service marketing and product marketing.",
+    "sample": true
+   },
+   {
+    "t": "Describe the purpose of guest relations.",
+    "sample": true
+   },
+   {
+    "t": "Build and maintain relationships with customers.",
+    "sample": true
+   }
+  ],
+  "Business Management &|Human Resources": [
+   {
+    "t": "Assess company’s learning needs.",
+    "sample": true
+   },
+   {
+    "t": "Select experts for employee development.",
+    "sample": true
+   },
+   {
+    "t": "Facilitate employee learning.",
+    "sample": true
+   },
+   {
+    "t": "Develop an achievement orientation.",
+    "sample": true
+   },
+   {
+    "t": "Assess long-term value and impact of actions on others.",
+    "sample": true
+   }
+  ],
+  "Marketing|Economics": [
+   {
+    "t": "Explain how organizations adapt to today’s markets.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of business ethics.",
+    "sample": true
+   },
+   {
+    "t": "Determine factors affecting business risk.",
+    "sample": true
+   },
+   {
+    "t": "Describe the functions of prices in markets.",
+    "sample": true
+   },
+   {
+    "t": "Explain factors affecting pricing decisions.",
+    "sample": true
+   }
+  ],
+  "Business Management &|Customer Relations": [
+   {
+    "t": "Handle customer/client complaints.",
+    "sample": true
+   },
+   {
+    "t": "Demonstrate a customer service mindset.",
+    "sample": true
+   },
+   {
+    "t": "Interpret business policies to customers/clients.",
+    "sample": true
+   },
+   {
+    "t": "Reinforce service orientation through communication.",
+    "sample": true
+   }
+  ],
+  "Hospitality and Tourism|Market Planning": [
+   {
+    "t": "Explain the use of marketing strategies in hospitality and tourism.",
+    "sample": true
+   },
+   {
+    "t": "Explain the concept of market and market identification.",
+    "sample": true
+   },
+   {
+    "t": "Identify ways to segment hospitality and tourism markets.",
+    "sample": true
+   },
+   {
+    "t": "Explain factors that influence customer selection of food places and menu items.",
+    "sample": true
+   },
+   {
+    "t": "Analyze trends in food habits/preferences.",
+    "sample": true
+   }
+  ],
+  "Marketing|Product/Service Management": [
+   {
+    "t": "Explain the importance of merchandising to retailers.",
+    "sample": true
+   },
+   {
+    "t": "Identify product opportunities.",
+    "sample": true
+   },
+   {
+    "t": "Explain the concept of product mix.",
+    "sample": true
+   },
+   {
+    "t": "Explain the nature of product/service branding.",
+    "sample": true
+   },
+   {
+    "t": "Explain key factors in building a clientele.",
+    "sample": true
+   }
+  ],
+  "Hospitality and Tourism|Information Management": [
+   {
+    "t": "Identify ways that technology impacts business.",
+    "sample": true
+   },
+   {
+    "t": "Assess information needs.",
+    "sample": true
+   },
+   {
+    "t": "Obtain needed information efficiently.",
+    "sample": true
+   },
+   {
+    "t": "Apply information to accomplish a task.",
+    "sample": true
+   },
+   {
+    "t": "Determine hospitality and tourism customer/guest needs.",
+    "sample": true
+   }
+  ]
+ },
+ "events": {
+  "?|Promotion": {
+   "cluster": "Marketing",
+   "pathway": "",
+   "area": "Promotion",
+   "pis": [
+    "Explain the role of promotion as a marketing function.",
+    "Describe the use of technology in the promotion function.",
+    "Explain types of advertising media.",
+    "Identify communications channels used in sales promotion.",
+    "Explain the concept of marketing strategies."
+   ]
+  },
+  "?|Financial Analysis": {
+   "cluster": "Finance",
+   "pathway": "Accounting",
+   "area": "Financial Analysis",
+   "pis": [
+    "Describe the need for financial information.",
+    "Explain the nature of accounts payable.",
+    "Discuss the importance of utilizing ethical purchasing methods.",
+    "Account for purchases.",
+    "Organize information."
+   ]
+  },
+  "?|Emotional Intelligence": {
+   "cluster": "Business Management and",
+   "pathway": "",
+   "area": "Emotional Intelligence",
+   "pis": [
+    "Describe the nature of ethics.",
+    "Explain reasons for ethical dilemmas.",
+    "Recognize and respond to ethical dilemmas.",
+    "Build trust in relationships.",
+    "Explain factors that influence customer/client/business buying behavior."
+   ]
+  },
+  "?|Entrepreneurship": {
+   "cluster": "Entrepreneurship",
+   "pathway": "",
+   "area": "Entrepreneurship",
+   "pis": [
+    "Adapt to changes in business environment.",
+    "Explain the nature of channel strategies.",
+    "Identify capital resources needed for venture.",
+    "Assess the costs/benefits associated with resources.",
+    "Explain the nature of overhead/operating costs."
+   ]
+  },
+  "?|Marketing": {
+   "cluster": "Hospitality and Tourism",
+   "pathway": "Lodging",
+   "area": "Marketing",
+   "pis": [
+    "Explain factors that influence customer/client/business buying behavior.",
+    "Discuss actions employees can take to achieve the company’s desired results.",
+    "Differentiate between service marketing and product marketing.",
+    "Describe the purpose of guest relations.",
+    "Build and maintain relationships with customers."
+   ]
+  },
+  "?|Human Resources": {
+   "cluster": "Business Management &",
+   "pathway": "Human Resources",
+   "area": "Human Resources",
+   "pis": [
+    "Assess company’s learning needs.",
+    "Select experts for employee development.",
+    "Facilitate employee learning.",
+    "Develop an achievement orientation.",
+    "Assess long-term value and impact of actions on others."
+   ]
+  },
+  "?|Economics": {
+   "cluster": "Marketing",
+   "pathway": "",
+   "area": "Economics",
+   "pis": [
+    "Explain how organizations adapt to today’s markets.",
+    "Explain the nature of business ethics.",
+    "Determine factors affecting business risk.",
+    "Describe the functions of prices in markets.",
+    "Explain factors affecting pricing decisions."
+   ]
+  },
+  "?|Customer Relations": {
+   "cluster": "Business Management &",
+   "pathway": "",
+   "area": "Customer Relations",
+   "pis": [
+    "Handle customer/client complaints.",
+    "Demonstrate a customer service mindset.",
+    "Interpret business policies to customers/clients.",
+    "Reinforce service orientation through communication."
+   ]
+  },
+  "?|Market Planning": {
+   "cluster": "Hospitality and Tourism",
+   "pathway": "Restaurant Management",
+   "area": "Market Planning",
+   "pis": [
+    "Explain the use of marketing strategies in hospitality and tourism.",
+    "Explain the concept of market and market identification.",
+    "Identify ways to segment hospitality and tourism markets.",
+    "Explain factors that influence customer selection of food places and menu items.",
+    "Analyze trends in food habits/preferences."
+   ]
+  },
+  "?|Product/Service Management": {
+   "cluster": "Marketing",
+   "pathway": "Merchandising",
+   "area": "Product/Service Management",
+   "pis": [
+    "Explain the importance of merchandising to retailers.",
+    "Identify product opportunities.",
+    "Explain the concept of product mix.",
+    "Explain the nature of product/service branding.",
+    "Explain key factors in building a clientele."
+   ]
+  },
+  "?|Information Management": {
+   "cluster": "Hospitality and Tourism",
+   "pathway": "",
+   "area": "Information Management",
+   "pis": [
+    "Identify ways that technology impacts business.",
+    "Assess information needs.",
+    "Obtain needed information efficiently.",
+    "Apply information to accomplish a task.",
+    "Determine hospitality and tourism customer/guest needs."
+   ]
+  }
+ }
+}

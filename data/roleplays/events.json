@@ -1,0 +1,51 @@
+{
+  "clusters": [
+    { "id": "bma", "name": "Business Management + Administration", "blurb": "Running the business: people, operations, law and ethics." },
+    { "id": "entrepreneurship", "name": "Entrepreneurship", "blurb": "Starting, funding and growing a venture." },
+    { "id": "finance", "name": "Finance", "blurb": "Accounting, banking, insurance and investing." },
+    { "id": "hospitality", "name": "Hospitality + Tourism", "blurb": "Hotels, restaurants, travel and destinations." },
+    { "id": "marketing", "name": "Marketing", "blurb": "Selling, promotion, retail, sports and communications." },
+    { "id": "pfl", "name": "Personal Financial Literacy", "blurb": "Credit, saving, spending, investing and risk for individuals." }
+  ],
+  "kinds": {
+    "principles": { "label": "Principles of Business Administration", "short": "Principles", "pis": 4, "prep": 10, "speak": 8, "ask": 2, "who": "individual" },
+    "individual": { "label": "Individual Series", "short": "Individual Series", "pis": 5, "prep": 10, "speak": 8, "ask": 2, "who": "individual" },
+    "team": { "label": "Team Decision Making", "short": "Team Decision Making", "pis": 5, "prep": 30, "speak": 10, "ask": 5, "who": "team of two" },
+    "pfl": { "label": "Personal Financial Literacy", "short": "Personal Financial Literacy", "pis": 3, "prep": 10, "speak": 8, "ask": 2, "who": "individual" }
+  },
+  "events": [
+    { "slug": "pbm", "abbr": "PBM", "name": "Principles of Business Management and Administration", "cluster": "bma", "kind": "principles" },
+    { "slug": "hrm", "abbr": "HRM", "name": "Human Resources Management Series", "cluster": "bma", "kind": "individual", "pathway": "Human Resources Management" },
+    { "slug": "bltdm", "abbr": "BLTDM", "name": "Business Law and Ethics Team Decision Making", "cluster": "bma", "kind": "team" },
+
+    { "slug": "pen", "abbr": "PEN", "name": "Principles of Entrepreneurship", "cluster": "entrepreneurship", "kind": "principles" },
+    { "slug": "ent", "abbr": "ENT", "name": "Entrepreneurship Series", "cluster": "entrepreneurship", "kind": "individual", "pathway": "Entrepreneurship" },
+    { "slug": "etdm", "abbr": "ETDM", "name": "Entrepreneurship Team Decision Making", "cluster": "entrepreneurship", "kind": "team" },
+
+    { "slug": "pfn", "abbr": "PFN", "name": "Principles of Finance", "cluster": "finance", "kind": "principles" },
+    { "slug": "act", "abbr": "ACT", "name": "Accounting Applications Series", "cluster": "finance", "kind": "individual", "pathway": "Accounting" },
+    { "slug": "bfs", "abbr": "BFS", "name": "Business Finance Series", "cluster": "finance", "kind": "individual", "pathway": "Corporate Finance" },
+    { "slug": "ftdm", "abbr": "FTDM", "name": "Financial Services Team Decision Making", "cluster": "finance", "kind": "team" },
+
+    { "slug": "pht", "abbr": "PHT", "name": "Principles of Hospitality and Tourism", "cluster": "hospitality", "kind": "principles" },
+    { "slug": "hlm", "abbr": "HLM", "name": "Hotel and Lodging Management Series", "cluster": "hospitality", "kind": "individual", "pathway": "Lodging" },
+    { "slug": "qsrm", "abbr": "QSRM", "name": "Quick Serve Restaurant Management Series", "cluster": "hospitality", "kind": "individual", "pathway": "Restaurant Management" },
+    { "slug": "rfsm", "abbr": "RFSM", "name": "Restaurant and Food Service Management Series", "cluster": "hospitality", "kind": "individual", "pathway": "Restaurant Management" },
+    { "slug": "htdm", "abbr": "HTDM", "name": "Hospitality Services Team Decision Making", "cluster": "hospitality", "kind": "team" },
+    { "slug": "ttdm", "abbr": "TTDM", "name": "Travel and Tourism Team Decision Making", "cluster": "hospitality", "kind": "team" },
+
+    { "slug": "pmk", "abbr": "PMK", "name": "Principles of Marketing", "cluster": "marketing", "kind": "principles" },
+    { "slug": "aam", "abbr": "AAM", "name": "Apparel and Accessories Marketing Series", "cluster": "marketing", "kind": "individual", "pathway": "Merchandising" },
+    { "slug": "asm", "abbr": "ASM", "name": "Automotive Services Marketing Series", "cluster": "marketing", "kind": "individual", "pathway": "Marketing Management" },
+    { "slug": "bsm", "abbr": "BSM", "name": "Business Services Marketing Series", "cluster": "marketing", "kind": "individual", "pathway": "Marketing Management" },
+    { "slug": "fms", "abbr": "FMS", "name": "Food Marketing Series", "cluster": "marketing", "kind": "individual", "pathway": "Marketing Management" },
+    { "slug": "mcs", "abbr": "MCS", "name": "Marketing Communications Series", "cluster": "marketing", "kind": "individual", "pathway": "Marketing Communications" },
+    { "slug": "rms", "abbr": "RMS", "name": "Retail Merchandising Series", "cluster": "marketing", "kind": "individual", "pathway": "Merchandising" },
+    { "slug": "sem", "abbr": "SEM", "name": "Sports and Entertainment Marketing Series", "cluster": "marketing", "kind": "individual", "pathway": "Marketing Management" },
+    { "slug": "btdm", "abbr": "BTDM", "name": "Buying and Merchandising Team Decision Making", "cluster": "marketing", "kind": "team" },
+    { "slug": "mtdm", "abbr": "MTDM", "name": "Marketing Management Team Decision Making", "cluster": "marketing", "kind": "team" },
+    { "slug": "stdm", "abbr": "STDM", "name": "Sports and Entertainment Marketing Team Decision Making", "cluster": "marketing", "kind": "team" },
+
+    { "slug": "pfl", "abbr": "PFL", "name": "Personal Financial Literacy", "cluster": "pfl", "kind": "pfl" }
+  ]
+}
