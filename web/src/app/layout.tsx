@@ -4,6 +4,7 @@ import "./globals.css";
 import Backdrop from "@/components/fx/Backdrop";
 import PageCurtain from "@/components/fx/PageCurtain";
 import FxLayer from "@/components/fx/FxLayer";
+import { Analytics } from "@vercel/analytics/next";
 
 const geist = Geist({
   variable: "--font-geist-sans",
@@ -23,6 +24,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <div className="page-root">{children}</div>
         <FxLayer />
         <PageCurtain />
+        {/* Vercel Web Analytics only exists on Vercel; the GitHub Pages build is static and skips it */}
+        {process.env.NEXT_PUBLIC_STATIC !== "1" && <Analytics />}
       </body>
     </html>
   );

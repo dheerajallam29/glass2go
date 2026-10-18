@@ -420,7 +420,9 @@ export default function GlassFlight() {
       const tiers = [...manifest.tiers].sort((a, b) => a.width - b.width);
       tier = tiers.find((t) => t.name === want) ?? tiers.find((t) => t.width >= vw * 0.95) ?? tiers[tiers.length - 1];
       const bytes = tier.width * tier.height * 4;
-      store = new FrameStore(manifest.frames, (n) => asset(`/flight/${set}/${tier!.name}/${pad4(n)}.webp`), Math.max(28, Math.min(64, Math.floor(380e6 / bytes))));
+      // the frames the page rests on (the waypoints) also exist as full 1920x1200 renders, so they are sharp at rest even though the moving film is 1280 wide
+      const hi = set === "landscape" ? new Set(manifest.waypoints) : null;
+      store = new FrameStore(manifest.frames, (n) => asset(hi?.has(n) ? `/flight/landscape/hi/${pad4(n)}.webp` : `/flight/${set}/${tier!.name}/${pad4(n)}.webp`), Math.max(28, Math.min(64, Math.floor(380e6 / bytes))));
       layout();
 
       await Promise.all(WAYPOINTS.map((n) => store!.fetch(n)));
