@@ -85,7 +85,7 @@ async function HubContent({ params }: { params: PageProps<"/[track]">["params"] 
       {info.events && info.id !== "deca" && (
         <section className={styles.block} aria-labelledby="events">
           <div className={styles.blockHead}>
-            <h2 id="events" className={styles.h2}>Case study and presentation events</h2>
+            <h2 id="events" className={styles.h2}>Presentation events</h2>
             <p className={styles.note}>
               Practise with a timed scenario, then score yourself on a rubric. Timings here are practice timings, so
               check your official event guidelines for the real ones.
@@ -110,54 +110,27 @@ async function HubContent({ params }: { params: PageProps<"/[track]">["params"] 
         </section>
       )}
 
-      {info.id === "deca" ? (
-        <section className={styles.block} aria-labelledby="roleplay">
-          <div className={styles.blockHead}>
-            <h2 id="roleplay" className={styles.h2}>Role-plays</h2>
-            <p className={styles.note}>
-              Choose a career cluster, pick an event, prep, then present on camera and answer the judge. Watch yourself back and score the 2026-27 rubric.
-            </p>
-          </div>
-          <div className={styles.tiles}>
-            <GlassTile index={0} href="/deca/roleplay" icon={<ExamIcon slug="bma" size={32} />} title="Role-plays by career cluster" sub="Principles, Individual Series, Team Decision Making and Personal Financial Literacy" cta="Browse" />
-            <GlassTile index={1} href="/deca/recordings" icon={<ExamIcon slug="marketing" size={32} />} title="Your recordings" sub="Watch your presentations, flag moments and see your scores" cta="Open" />
-          </div>
-        </section>
-      ) : (
-        <section className={styles.block} aria-labelledby="roleplay">
-          <div className={styles.blockHead}>
-            <h2 id="roleplay" className={styles.h2}>Case studies</h2>
-            <p className={styles.note}>Timed like the conference: prep, then present, then score yourself on the rubric.</p>
-          </div>
-          <table className={styles.formats}>
-            <thead>
-              <tr>
-                <th scope="col">Format</th>
-                <th scope="col">Prep</th>
-                <th scope="col">Present</th>
-                <th scope="col">Indicators</th>
-              </tr>
-            </thead>
-            <tbody>
-              {info.roleplay.map((r) => (
-                <tr key={r.name}>
-                  <th scope="row">
-                    {r.name}
-                    <span className={styles.formatNote}>{r.note}</span>
-                  </th>
-                  <td>{r.prep} min</td>
-                  <td>{r.present} min</td>
-                  <td>{r.indicators ?? "Case-based"}</td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-          <Link href={`/${info.id}/roleplay`} className={styles.primary}>
-            Start a practice case
-          </Link>
-        </section>
-
-      )}
+      <section className={styles.block} aria-labelledby="roleplay">
+        <div className={styles.blockHead}>
+          <h2 id="roleplay" className={styles.h2}>Role-plays</h2>
+          <p className={styles.note}>
+            {info.id === "deca"
+              ? "Choose a career cluster, pick an event, prep, then present on camera and answer the judge. Watch yourself back and score the 2026-27 rubric."
+              : "Choose a career cluster and a role play event. You get 20 minutes to prep and 7 minutes to present on camera while the judge plays the other side of the case. Watch yourself back and score the 2026-27 national rating sheet."}
+          </p>
+        </div>
+        <div className={styles.tiles}>
+          <GlassTile
+            index={0}
+            href={`/${info.id}/roleplay`}
+            icon={<ExamIcon slug="bma" size={32} />}
+            title={info.id === "deca" ? "Role-plays by career cluster" : "Role plays by career cluster"}
+            sub={info.id === "deca" ? "Principles, Individual Series, Team Decision Making and Personal Financial Literacy" : "Banking, Business Management, Customer Service, Entrepreneurship, Marketing, Network Design and more"}
+            cta="Browse"
+          />
+          <GlassTile index={1} href={`/${info.id}/recordings`} icon={<ExamIcon slug="marketing" size={32} />} title="Your recordings" sub="Watch your presentations, flag moments and see your scores" cta="Open" />
+        </div>
+      </section>
 
       <section className={styles.block} aria-labelledby="next">
         <h2 id="next" className={styles.h2}>Coming next</h2>

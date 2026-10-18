@@ -2,7 +2,7 @@
 
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { KINDS, clock, type RoleplayEvent, type Scenario } from "@/lib/roleplays";
+import { KINDS, clock, isFbla, type RoleplayEvent, type Scenario } from "@/lib/roleplays";
 import { newId, pickMime, saveRecording } from "@/lib/recordings";
 import styles from "./Studio.module.css";
 
@@ -34,6 +34,8 @@ function useCountdown(endsAt: number | null, onDone: () => void) {
 export default function Studio({ event, scenario }: { event: RoleplayEvent; scenario: Scenario }) {
   const router = useRouter();
   const kind = KINDS[event.kind];
+  const fb = isFbla(event.kind);
+  const [manualCue, setManualCue] = useState<number | null>(null); // FBLA: the judge's line the presenter asked to see
   const [stage, setStage] = useState<Stage>("setup");
   const [cam, setCam] = useState<Cam>("idle");
   const [level, setLevel] = useState(0);
@@ -157,8 +159,8 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
     } catch {
       setError("The recording could not be saved on this device (storage may be full or blocked). Your scores can still be saved without it.");
     }
-    router.push(`/deca/recordings?id=${id}`);
-  }, [event.name, event.slug, router, scenario.id, stopStream]);
+    router.push(`/${event.track}/recordings?id=${id}`);
+  }, [event.name, event.slug, event.track, router, scenario.id, stopStream]);
 
   // ---- stage changes ----
   const go = useCallback(
@@ -179,7 +181,10 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
 
   const left = useCountdown(timed ? endsAt : null, () => {
     if (stage === "prep") go("present");
-    else if (stage === "present") go("ask");
+    else if (stage === "present") {
+      if (fb) void finish();
+      else go("ask");
+    }
     else if (stage === "ask") void finish();
   });
 
@@ -191,9 +196,14 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
     notesRef.current = v;
   };
 
+  // FBLA: the judge plays the second party and speaks during the presentation, at about 1:30, 3:30 and 5:30
+  const elapsed = timed && left !== null ? kind.speak * 60 - left : null;
+  const autoCue = fb && elapsed !== null ? [90, 210, 330].findIndex((t) => elapsed >= t && elapsed < t + 30) : -1;
+  const cue = manualCue ?? (autoCue >= 0 ? autoCue : null);
+
   const meta = (
     <p className={styles.kicker}>
-      {kind.short} · {event.abbr} · {kind.prep} min prep · {kind.speak} min to present · {kind.ask} min for the judge
+      {kind.short} · {event.abbr} · {kind.prep} min prep · {kind.speak} min to present{fb ? " · the judge may step in" : ` · ${kind.ask} min for the judge`}
     </p>
   );
 
@@ -212,8 +222,9 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
         {meta}
         <h1 className={styles.title}>Set up your camera</h1>
         <p className={styles.note}>
-          You will prep with the prompt in front of you. When prep ends, the prompt and the indicators disappear, recording starts, and you present to the camera
-          for {kind.speak} minutes. Then the judge&apos;s questions appear for {kind.ask}. Afterwards you can watch yourself back and score the rubric.
+          {fb
+            ? "You will prep with the case in front of you and room for two note cards of notes. When prep ends, the case disappears, recording starts, and you present to the camera for " + kind.speak + " minutes. The judge plays the second party and steps in with a line or a question as you go. Afterwards you can watch yourself back and score the national rating sheet."
+            : "You will prep with the prompt in front of you. When prep ends, the prompt and the indicators disappear, recording starts, and you present to the camera for " + kind.speak + " minutes. Then the judge's questions appear for " + kind.ask + ". Afterwards you can watch yourself back and score the rubric."}
         </p>
         <div className={styles.setup}>
           <div className={styles.preview} data-state={cam}>
@@ -276,10 +287,10 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
             <p className={styles.crumbs}>
               {event.name} · {scenario.a}
             </p>
-            <h2 className={styles.h2}>Event situation</h2>
+            <h2 className={styles.h2}>{fb ? "Role play case" : "Event situation"}</h2>
             <p className={styles.para}>
               You are to assume the role of <strong>{scenario.r}</strong> for <strong>{scenario.c}</strong>.
-              {event.kind === "team" ? " You and your partner" : ""}
+              {event.kind === "team" ? " You and your partner" : ""}{fb && event.team ? " You may compete alone or as a team of up to three." : ""}
             </p>
             {scenario.s.map((p) => (
               <p key={p} className={styles.para}>{p}</p>
@@ -290,23 +301,34 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
                 <ul className={styles.facts}>{scenario.f.map((f) => <li key={f}>{f}</li>)}</ul>
               </>
             )}
-            <p className={styles.para}>
-              You will {scenario.d} to the {scenario.j} (judge) in a role-play that takes place in {scenario.m}. The {scenario.j} (judge) will begin by greeting you and asking to hear your
-              ideas. After you have presented and answered the {scenario.j}&apos;s (judge&apos;s) questions, the {scenario.j} (judge) will conclude the role-play by thanking you for your work.
-            </p>
-            <h3 className={styles.h3}>Performance indicators</h3>
+            {fb ? (
+              <p className={styles.para}>
+                You will {scenario.d}. The {scenario.j} (judge) plays the other party in the case, in {scenario.m}, and may ask questions or react as you present. Introduce yourself, describe the
+                situation, make your recommendation and summarize.
+              </p>
+            ) : (
+              <p className={styles.para}>
+                You will {scenario.d} to the {scenario.j} (judge) in a role-play that takes place in {scenario.m}. The {scenario.j} (judge) will begin by greeting you and asking to hear your
+                ideas. After you have presented and answered the {scenario.j}&apos;s (judge&apos;s) questions, the {scenario.j} (judge) will conclude the role-play by thanking you for your work.
+              </p>
+            )}
+            <h3 className={styles.h3}>{fb ? "Knowledge areas this case lets you show" : "Performance indicators"}</h3>
             <ul className={styles.pis}>{scenario.p.map((p) => <li key={p}>{p}</li>)}</ul>
             <p className={styles.small}>
-              You are also scored on your solution (Unique, Practical, Effective), the career competencies (Critical Thinking, Communication, Decision Making) and your overall impression.
+              {fb
+                ? event.kind === "fblaService"
+                  ? "You are scored on understanding the case, your position, your solution, empathy and diplomacy, closing the conflict, organization, confidence and how you answer the judge."
+                  : "You are scored on understanding the case, the alternatives you weigh (with pros and cons), your solution and how you would carry it out, how many knowledge areas you show, organization, confidence and how you answer the judge."
+                : "You are also scored on your solution (Unique, Practical, Effective), the career competencies (Critical Thinking, Communication, Decision Making) and your overall impression."}
             </p>
           </article>
           <aside className={styles.aside}>
             <label className={styles.notes}>
-              <span>Your notes</span>
+              <span>{fb ? "Your two note cards (both sides)" : "Your notes"}</span>
               <textarea value={notes} onChange={(e) => onNotes(e.target.value)} rows={12} placeholder="Plan your opening, each indicator, your solution and your close." />
             </label>
             {cam === "ready" && <video ref={attach} className={styles.mini} muted playsInline />}
-            <p className={styles.small}>When prep ends, this page hides the prompt and starts recording. Notes are turned in, just like at a conference.</p>
+            <p className={styles.small}>When prep ends, this page hides the {fb ? "case" : "prompt"} and starts recording. Notes are turned in, just like at a conference.</p>
             <button className={styles.primary} onClick={() => go("present")}>I&apos;m ready, start presenting</button>
           </aside>
         </div>
@@ -328,11 +350,24 @@ export default function Studio({ event, scenario }: { event: RoleplayEvent; scen
           </div>
           <div className={styles.cue}>
             <p>Present to the {scenario.j}.</p>
-            <p className={styles.cueSub}>The prompt is hidden now, just like in the room.</p>
+            <p className={styles.cueSub}>The {fb ? "case" : "prompt"} is hidden now, just like in the room.</p>
           </div>
+          {fb && cue !== null && (
+            <div className={styles.judge} role="status" aria-live="polite">
+              <p className={styles.judgeLabel}>The {scenario.j} (judge) says</p>
+              <p className={styles.judgeQ}>{scenario.q[cue]}</p>
+              <p className={styles.small}>Answer it out loud, then carry on with your presentation.</p>
+              {manualCue !== null && <button className={styles.ghost} onClick={() => setManualCue(null)}>Got it</button>}
+            </div>
+          )}
           {timed && left !== null && left <= 60 && <p className={styles.warn}>One minute left</p>}
           <div className={styles.liveActions}>
-            <button className={styles.primary} onClick={() => go("ask")}>I&apos;m done presenting</button>
+            {fb && (
+              <button className={styles.ghost} onClick={() => setManualCue(cue === null ? 0 : Math.min(scenario.q.length - 1, cue + 1))}>
+                {cue === null ? "Judge steps in" : "Next judge line"}
+              </button>
+            )}
+            <button className={styles.primary} onClick={() => (fb ? void finish() : go("ask"))}>{fb ? "I'm done, finish and review" : "I'm done presenting"}</button>
           </div>
         </div>
       </section>

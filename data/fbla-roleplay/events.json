@@ -1,0 +1,22 @@
+{
+  "clusters": [
+    { "id": "f-fin", "name": "Financial Services", "blurb": "Banking, credit, compliance and the money systems behind them.", "icon": "finance" },
+    { "id": "f-mgmt", "name": "Management + Entrepreneurship", "blurb": "Running a business, starting one, and selling across borders.", "icon": "bma" },
+    { "id": "f-mkt", "name": "Marketing + Sales", "blurb": "Customers, brands and the promise a company keeps.", "icon": "marketing" },
+    { "id": "f-hosp", "name": "Hospitality, Events + Tourism", "blurb": "Events, venues, fans and guests.", "icon": "hospitality" },
+    { "id": "f-tech", "name": "Digital Technology", "blurb": "Networks, systems and the people who keep them running.", "icon": "marketing" }
+  ],
+  "events": [
+    { "slug": "banking-financial-systems", "abbr": "BFS", "name": "Banking & Financial Systems", "cluster": "f-fin", "kind": "fbla", "team": true, "src": "bfs" },
+    { "slug": "business-management", "abbr": "BM", "name": "Business Management", "cluster": "f-mgmt", "kind": "fbla", "team": true, "src": "bm" },
+    { "slug": "entrepreneurship", "abbr": "ENT", "name": "Entrepreneurship", "cluster": "f-mgmt", "kind": "fbla", "team": true, "src": "ent" },
+    { "slug": "international-business", "abbr": "IB", "name": "International Business", "cluster": "f-mgmt", "kind": "fbla", "team": true, "src": "ib" },
+    { "slug": "customer-service", "abbr": "CS", "name": "Customer Service", "cluster": "f-mkt", "kind": "fblaService", "team": false, "src": "cs" },
+    { "slug": "marketing", "abbr": "MKT", "name": "Marketing", "cluster": "f-mkt", "kind": "fbla", "team": true, "src": "mkt" },
+    { "slug": "hospitality-event-management", "abbr": "HEM", "name": "Hospitality & Event Management", "cluster": "f-hosp", "kind": "fbla", "team": true, "src": "hem" },
+    { "slug": "sports-entertainment-management", "abbr": "SEM", "name": "Sports & Entertainment Management", "cluster": "f-hosp", "kind": "fbla", "team": true, "src": "sem" },
+    { "slug": "management-information-systems", "abbr": "MIS", "name": "Management Information Systems", "cluster": "f-tech", "kind": "fbla", "team": true, "src": "mis" },
+    { "slug": "network-design", "abbr": "ND", "name": "Network Design", "cluster": "f-tech", "kind": "fbla", "team": true, "src": "nd" },
+    { "slug": "technology-support-services", "abbr": "TSS", "name": "Technology Support & Services", "cluster": "f-tech", "kind": "fblaService", "team": false, "src": "tss" }
+  ]
+}

@@ -3,15 +3,15 @@
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { LEVELS, clock, eventBySlug, levelFor, rubricFor, totalMax, usesAccurate, KINDS, type RubricRow } from "@/lib/roleplays";
+import { FBLA_LABELS, LEVELS, clock, eventBySlug, fblaLevel, isFbla, levelFor, rubricFor, totalMax, usesAccurate, KINDS, type RubricGroup, type RubricRow, type TrackId } from "@/lib/roleplays";
 import { deleteRecording, getRecording, listRecordings, updateRecording, type Recording } from "@/lib/recordings";
 import styles from "./RoleplayHub.module.css";
 
-const GROUPS = ["Performance indicators", "Solution", "Career competencies", "Overall impression"] as const;
+const GROUPS: RubricGroup[] = ["Performance indicators", "Solution", "Career competencies", "Overall impression", "The problem and your answer", "Delivery"];
 
-export default function Recordings() {
+export default function Recordings({ track = "deca" }: { track?: TrackId }) {
   const id = useSearchParams().get("id");
-  return id ? <Review id={id} /> : <List />;
+  return id ? <Review id={id} /> : <List track={track} />;
 }
 
 const scoreOf = (r: Recording) => {
@@ -23,21 +23,21 @@ const scoreOf = (r: Recording) => {
   return Object.keys(r.scores).length ? { got, max: totalMax(rows) } : null;
 };
 
-function List() {
+function List({ track }: { track: TrackId }) {
   const [items, setItems] = useState<Recording[] | null>(null);
   const router = useRouter();
   useEffect(() => {
     let off = false;
     listRecordings()
-      .then((l) => !off && setItems(l))
+      .then((l) => !off && setItems(l.filter((r) => (eventBySlug(r.eventSlug)?.track ?? "deca") === track)))
       .catch(() => !off && setItems([]));
     return () => {
       off = true;
     };
-  }, []);
+  }, [track]);
   return (
     <section className={styles.page}>
-      <Link href="/deca/roleplay" className={styles.back}>All events</Link>
+      <Link href={`/${track}/roleplay`} className={styles.back}>All events</Link>
       <h1 className={styles.title}>Your recordings</h1>
       <p className={styles.lede}>Saved in this browser only. Clearing your browser data removes them, so download any you want to keep.</p>
       {items === null ? null : items.length === 0 ? (
@@ -48,7 +48,7 @@ function List() {
             const s = scoreOf(r);
             return (
               <li key={r.id}>
-                <Link href={`/deca/recordings?id=${r.id}`} className={styles.recRow}>
+                <Link href={`/${track}/recordings?id=${r.id}`} className={styles.recRow}>
                   <span className={styles.abbr}>{eventBySlug(r.eventSlug)?.abbr ?? "?"}</span>
                   <span className={styles.eventName}>{r.eventName}</span>
                   <span className={styles.eventMeta}>
@@ -138,15 +138,18 @@ function Review({ id }: { id: string }) {
       <section className={styles.page}>
         <h1 className={styles.title}>Recording not found</h1>
         <p className={styles.lede}>It may have been deleted, or it was saved in a different browser.</p>
-        <Link href="/deca/roleplay" className={styles.back}>Back to events</Link>
+        <Link href={`/${rec?.eventSlug && eventBySlug(rec.eventSlug)?.track === "fbla" ? "fbla" : "deca"}/roleplay`} className={styles.back}>Back to events</Link>
       </section>
     );
 
   const kind = KINDS[event.kind];
+  const fb = isFbla(event.kind);
+  const tr = event.track;
+  const groups = GROUPS.filter((g) => rows.some((r) => r.group === g));
 
   return (
     <section className={styles.page}>
-      <Link href="/deca/recordings" className={styles.back}>All recordings</Link>
+      <Link href={`/${tr}/recordings`} className={styles.back}>All recordings</Link>
       <p className={styles.kicker}>{kind.label} · {event.abbr} · {new Date(rec.createdAt).toLocaleString()}</p>
       <h1 className={styles.title}>{event.name}</h1>
 
@@ -207,13 +210,13 @@ function Review({ id }: { id: string }) {
             <p className={styles.small}>{scenario.a} · you were the {scenario.r} for {scenario.c}, presenting to the {scenario.j}.</p>
             {scenario.s.map((p) => <p key={p} className={styles.para}>{p}</p>)}
             {scenario.f && <ul className={styles.list}>{scenario.f.map((f) => <li key={f}>{f}</li>)}</ul>}
-            <h3 className={styles.h3}>Performance indicators</h3>
+            <h3 className={styles.h3}>{fb ? "Knowledge areas this case let you show" : "Performance indicators"}</h3>
             <ul className={styles.list}>{scenario.p.map((p) => <li key={p}>{p}</li>)}</ul>
           </details>
           <details className={styles.details} open>
             <summary>What a strong answer includes</summary>
             <ul className={styles.list}>{scenario.n.map((p) => <li key={p}>{p}</li>)}</ul>
-            <h3 className={styles.h3}>The judge asked</h3>
+            <h3 className={styles.h3}>{fb ? "The judge may have said" : "The judge asked"}</h3>
             <ul className={styles.list}>{scenario.q.map((p) => <li key={p}>{p}</li>)}</ul>
           </details>
           {rec.notes && (
@@ -225,13 +228,13 @@ function Review({ id }: { id: string }) {
         </div>
 
         <div>
-          <h2 className={styles.h2}>Score it on the 2026-27 rubric</h2>
+          <h2 className={styles.h2}>{fb ? "Score it on the 2026-27 national rating sheet" : "Score it on the 2026-27 rubric"}</h2>
           <p className={styles.small}>Watch first, then score each row honestly. Practice scoring only, never a prediction of a real judge.</p>
-          {GROUPS.map((g) => (
+          {groups.map((g) => (
             <fieldset key={g} className={styles.group}>
               <legend>{g}</legend>
               {rows.filter((r) => r.group === g).map((r) => (
-                <RubricRowInput key={r.key} row={r} value={scores[r.key]} onChange={(v) => setScores((s) => ({ ...s, [r.key]: v }))} />
+                <RubricRowInput key={r.key} row={r} fbla={fb} value={scores[r.key]} onChange={(v) => setScores((s) => ({ ...s, [r.key]: v }))} />
               ))}
             </fieldset>
           ))}
@@ -244,13 +247,13 @@ function Review({ id }: { id: string }) {
             <textarea value={reflection} onChange={(e) => setReflection(e.target.value)} rows={5} placeholder="One thing you did well. One thing to fix first." />
           </label>
           <div className={styles.actionsRow}>
-            <Link className={styles.primary} href={`/deca/events/${event.slug}`}>Practise again</Link>
+            <Link className={styles.primary} href={`/${tr}/events/${event.slug}`}>Practise again</Link>
             <button
               className={styles.linkBtn}
               onClick={async () => {
                 if (!confirm("Delete this recording and its scores?")) return;
                 await deleteRecording(id);
-                router.push("/deca/recordings");
+                router.push(`/${tr}/recordings`);
               }}
             >
               Delete recording
@@ -262,14 +265,14 @@ function Review({ id }: { id: string }) {
   );
 }
 
-function RubricRowInput({ row, value, onChange }: { row: RubricRow; value: number | undefined; onChange: (v: number) => void }) {
-  const lvl = value === undefined ? null : levelFor(value, row.max, row.overall);
+function RubricRowInput({ row, value, onChange, fbla = false }: { row: RubricRow; value: number | undefined; onChange: (v: number) => void; fbla?: boolean }) {
+  const lvl = value === undefined ? null : fbla ? fblaLevel(value, row.max) : levelFor(value, row.max, row.overall);
   return (
     <div className={styles.rubricRow}>
       <div className={styles.rubricHead}>
         <span className={styles.rubricLabel}>{row.label}</span>
         <span className={styles.rubricVal} data-level={lvl ? LEVELS.indexOf(lvl) : undefined}>
-          {value === undefined ? "Not scored" : `${value}/${row.max} · ${lvl}`}
+          {value === undefined ? "Not scored" : `${value}/${row.max} · ${fbla && lvl ? FBLA_LABELS[lvl] : lvl}`}
         </span>
       </div>
       {row.hint && <p className={styles.small}>{row.hint}</p>}

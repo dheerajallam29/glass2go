@@ -3,18 +3,19 @@
 import Link from "next/link";
 import { useState } from "react";
 import ExamIcon from "@/components/site/ExamIcon";
-import { CLUSTERS, EVENTS, KINDS, type Kind } from "@/lib/roleplays";
+import { clustersFor, eventsFor, KINDS, type Kind, type TrackId } from "@/lib/roleplays";
 import styles from "./RoleplayHub.module.css";
 
-const ORDER: Kind[] = ["principles", "individual", "team", "pfl"];
+const ORDER: Kind[] = ["principles", "individual", "team", "pfl", "fbla", "fblaService"];
 
 /** Career clusters as cards. Choosing one opens a drop-down with its role-play events. */
-export default function ClusterBrowser() {
+export default function ClusterBrowser({ track = "deca" }: { track?: TrackId }) {
   const [open, setOpen] = useState<string | null>(null);
+  const events_ = eventsFor(track);
   return (
     <div className={styles.clusters}>
-      {CLUSTERS.map((c) => {
-        const events = EVENTS.filter((e) => e.cluster === c.id);
+      {clustersFor(track).map((c) => {
+        const events = events_.filter((e) => e.cluster === c.id);
         const isOpen = open === c.id;
         return (
           <section key={c.id} className={styles.cluster} data-open={isOpen || undefined}>
@@ -26,7 +27,7 @@ export default function ClusterBrowser() {
               onClick={() => setOpen(isOpen ? null : c.id)}
             >
               <span className={styles.clusterIcon}>
-                <ExamIcon slug={c.id === "hospitality" ? "hospitality" : c.id} size={30} />
+                <ExamIcon slug={c.icon ?? (c.id === "hospitality" ? "hospitality" : c.id)} size={30} />
               </span>
               <span className={styles.clusterText}>
                 <span className={styles.clusterName}>{c.name}</span>
@@ -40,16 +41,16 @@ export default function ClusterBrowser() {
               <div className={styles.dropInner}>
                 {ORDER.filter((k) => events.some((e) => e.kind === k)).map((k) => (
                   <div key={k} className={styles.kindGroup}>
-                    <h3 className={styles.kindTitle}>{KINDS[k].label}</h3>
+                    {track === "deca" && <h3 className={styles.kindTitle}>{KINDS[k].label}</h3>}
                     <ul className={styles.eventList}>
                       {events
                         .filter((e) => e.kind === k)
                         .map((e) => (
                           <li key={e.slug}>
-                            <Link href={`/deca/events/${e.slug}`} className={styles.eventRow} tabIndex={isOpen ? 0 : -1}>
+                            <Link href={`/${track}/events/${e.slug}`} className={styles.eventRow} tabIndex={isOpen ? 0 : -1}>
                               <span className={styles.abbr}>{e.abbr}</span>
                               <span className={styles.eventName}>{e.name}</span>
-                              <span className={styles.eventMeta}>{KINDS[e.kind].who === "individual" ? "Individual" : "Team of two"}</span>
+                              <span className={styles.eventMeta}>{e.track === "fbla" ? (e.team ? "Solo or team of 3" : "Individual") : KINDS[e.kind].who === "individual" ? "Individual" : "Team of two"}</span>
                               <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
                                 <path d="M3 8h9M8.5 4l4 4-4 4" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                               </svg>

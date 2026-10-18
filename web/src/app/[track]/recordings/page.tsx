@@ -13,10 +13,10 @@ export default function RecordingsPage({ params }: { params: Promise<{ track: st
 
 async function Content({ params }: { params: Promise<{ track: string }> }) {
   const { track } = await params;
-  if (track !== "deca") notFound();
+  if (track !== "deca" && track !== "fbla") notFound();
   return (
     <Suspense fallback={<div className={styles.pageShell} />}>
-      <Recordings />
+      <Recordings track={track} />
     </Suspense>
   );
 }

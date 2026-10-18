@@ -1,9 +1,11 @@
 import data from "@/data/roleplays.json";
 
-// DECA role-plays, built by tools/build-roleplays.mjs from data/roleplays. Original scenarios; the performance
-// indicators come from DECA's public lists and the scoring follows the published 2026-27 judge's form.
+// DECA and FBLA role-plays, built by tools/build-roleplays.mjs from data/roleplays and data/fbla-roleplay. Original scenarios.
+// DECA indicators come from DECA's public lists and the scoring follows the published 2026-27 judge's form. FBLA events follow
+// the 2026-27 national guidelines: 20 minutes of prep, 7 minutes to present, and the national role play rating sheet.
 
-export type Kind = "principles" | "individual" | "team" | "pfl";
+export type Kind = "principles" | "individual" | "team" | "pfl" | "fbla" | "fblaService";
+export type TrackId = "deca" | "fbla";
 
 export type Scenario = {
   id: string;
@@ -21,8 +23,20 @@ export type Scenario = {
 };
 
 export type KindInfo = { label: string; short: string; pis: number; prep: number; speak: number; ask: number; who: string };
-export type Cluster = { id: string; name: string; blurb: string };
-export type RoleplayEvent = { slug: string; abbr: string; name: string; cluster: string; kind: Kind; pathway?: string; scenarios: Scenario[] };
+export type Cluster = { id: string; name: string; blurb: string; track: TrackId; icon?: string };
+export type KnowledgeArea = { name: string; items: number; obj: string[] };
+export type RoleplayEvent = {
+  slug: string;
+  abbr: string;
+  name: string;
+  cluster: string;
+  kind: Kind;
+  track: TrackId;
+  pathway?: string;
+  team?: boolean; // FBLA: a team of up to three may compete
+  areas?: KnowledgeArea[]; // FBLA: the knowledge areas from the event's study guide
+  scenarios: Scenario[];
+};
 
 const DB = data as unknown as { clusters: Cluster[]; kinds: Record<Kind, KindInfo>; events: RoleplayEvent[] };
 
@@ -31,6 +45,9 @@ export const KINDS = DB.kinds;
 export const EVENTS = DB.events;
 
 export const eventBySlug = (slug: string) => EVENTS.find((e) => e.slug === slug);
+export const clustersFor = (track: TrackId) => CLUSTERS.filter((c) => c.track === track);
+export const eventsFor = (track: TrackId) => EVENTS.filter((e) => e.track === track);
+export const isFbla = (kind: Kind) => kind === "fbla" || kind === "fblaService";
 export const eventsInCluster = (cluster: string) => EVENTS.filter((e) => e.cluster === cluster);
 
 // ---- the 2026-27 judge's evaluation form --------------------------------------------------------------------------
@@ -55,9 +72,50 @@ export const levelFor = (points: number, max: number, overall = false): Level =>
   return points <= b[0] ? "Novice" : points <= b[1] ? "Developing" : points <= b[2] ? "Proficient" : "Exemplary";
 };
 
-export type RubricRow = { key: string; label: string; hint?: string; max: number; group: "Performance indicators" | "Solution" | "Career competencies" | "Overall impression"; overall?: boolean };
+export type RubricGroup = "Performance indicators" | "Solution" | "Career competencies" | "Overall impression" | "The problem and your answer" | "Delivery";
+export type RubricRow = { key: string; label: string; hint?: string; max: number; group: RubricGroup; overall?: boolean };
+
+// ---- the 2026-27 FBLA role play rating sheet (100 points) --------------------------------------------------------------
+// Four levels per row: Not demonstrated (0), Below expectations, Meets expectations, Exceeds expectations. Rows worth 10 are scored
+// 1-6 / 7-8 / 9-10 and rows worth 20 are scored 1-9 / 10-16 / 17-20.
+export const FBLA_LABELS: Record<Level, string> = { Novice: "Not demonstrated", Developing: "Below expectations", Proficient: "Meets expectations", Exemplary: "Exceeds expectations" };
+export const fblaLevel = (points: number, max: number): Level => {
+  if (points <= 0) return "Novice";
+  const [below, meets] = max >= 20 ? [9, 16] : [6, 8];
+  return points <= below ? "Developing" : points <= meets ? "Proficient" : "Exemplary";
+};
+
+function fblaRubric(service: boolean): RubricRow[] {
+  const A = "The problem and your answer" as const;
+  const D = "Delivery" as const;
+  const understand: RubricRow = { key: "understand", label: "Understands the role play and defines the problem(s)", hint: "Describe the situation and say what has to be solved.", max: 10, group: A };
+  const solution = (max: number): RubricRow => ({ key: "solution", label: "Logical solution and how to carry it out", hint: "Give a feasible solution, an implementation plan and the resources it needs.", max, group: A });
+  const tail: RubricRow[] = [
+    { key: "organized", label: "Statements are well organized and clearly stated", hint: "A logical sequence from opening to close.", max: 10, group: D },
+    { key: "confidence", label: "Confidence, poised body language, eye contact and voice projection", hint: "Show all four to score at the top.", max: 10, group: D },
+    { key: "questions", label: "Answers the judge's questions effectively", hint: "Answer completely and interact with the judge.", max: 10, group: D },
+  ];
+  return service
+    ? [
+        understand,
+        { key: "position", label: "Communicates your position on the scenario", hint: "A professional position that relates to the problem.", max: 10, group: A },
+        solution(10),
+        { key: "empathy", label: "Shows empathy and diplomacy", hint: "Respond to the person, not just the problem.", max: 20, group: A },
+        { key: "closure", label: "Resolves the conflict and closes the situation", hint: "End with the judge (the customer) satisfied.", max: 20, group: A },
+        ...tail,
+      ]
+    : [
+        understand,
+        { key: "alternatives", label: "Identifies alternatives and the pros and cons of each", hint: "At least two, with their strengths and weaknesses.", max: 20, group: A },
+        solution(20),
+        { key: "knowledge", label: "Shows the event's knowledge areas", hint: "Four or more areas from the study guide to score at the top.", max: 20, group: A },
+        ...tail,
+      ];
+}
 
 export function rubricFor(kind: Kind, pis: string[], finance = false): RubricRow[] {
+  if (kind === "fbla") return fblaRubric(false);
+  if (kind === "fblaService") return fblaRubric(true);
   const piMax = kind === "principles" ? 12 : kind === "pfl" ? 17 : 10;
   const overallMax = kind === "principles" ? 10 : kind === "pfl" ? 7 : 8;
   return [

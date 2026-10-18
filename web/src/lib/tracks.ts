@@ -60,7 +60,7 @@ export const TRACKS: Record<Track, TrackInfo> = {
   fbla: {
     id: "fbla",
     name: "FBLA",
-    tagline: "Objective tests and case studies, built from FBLA's published competencies.",
+    tagline: "Objective tests and role plays, built from FBLA's published competencies and 2026-27 rating sheets.",
     exams: [
       { slug: "accounting", name: "Accounting", events: ["Accounting"], areas: ["Accounting"] },
       { slug: "business-law", name: "Business Law", events: ["Business Law"], areas: ["Business Law"] },
@@ -73,12 +73,6 @@ export const TRACKS: Record<Track, TrackInfo> = {
       { slug: "intro-business", name: "Introduction to Business Concepts", events: ["Grades 9 and 10 only"], areas: ["Introduction to Business Concepts"] },
     ],
     events: [
-      { kind: "case", slug: "business-management", name: "Business Management" },
-      { kind: "case", slug: "entrepreneurship", name: "Entrepreneurship" },
-      { kind: "case", slug: "hospitality-event-management", name: "Hospitality & Event Management" },
-      { kind: "case", slug: "international-business", name: "International Business" },
-      { kind: "case", slug: "marketing", name: "Marketing" },
-      { kind: "case", slug: "sports-entertainment-management", name: "Sports and Entertainment Management", isNew: true },
       { kind: "presentation", slug: "business-plan", name: "Business Plan" },
       { kind: "presentation", slug: "coding-programming", name: "Coding & Programming" },
       { kind: "presentation", slug: "public-speaking", name: "Public Speaking" },
@@ -87,7 +81,7 @@ export const TRACKS: Record<Track, TrackInfo> = {
     noExam:
       "Case study and presentation events have no objective test. They are judged on a performance, so you practise them with a timed scenario and a self-scoring rubric.",
     roleplay: [
-      { name: "Case study", prep: 20, present: 7, indicators: null, note: "Teams of one to three. Seven minutes includes judge questions." },
+      { name: "Role play", prep: 20, present: 7, indicators: null, note: "Individual or team of up to three, depending on the event. The judge can ask questions as you present." },
     ],
   },
 };

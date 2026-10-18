@@ -1,0 +1,960 @@
+{
+ "bfs": {
+  "id": "bfs",
+  "title": "Banking & Financial Systems",
+  "cluster": "Financial Services",
+  "areas": [
+   {
+    "name": "Fundamental Principles of Money",
+    "items": 5,
+    "obj": [
+     "Describe functions of money (medium of exchange, unit of measure, store of value)",
+     "Explain the time value of money"
+    ]
+   },
+   {
+    "name": "Financial Institutions & Markets",
+    "items": 20,
+    "obj": [
+     "Describe the role of financial institutions",
+     "Explain types of financial markets (e.g., money market, capital market, insurance market, commodities markets)",
+     "Discuss the nature of convergence/consolidation in the finance industry",
+     "Describe types of banking institutions (e.g., central banks, retail banks, universal banks)",
+     "Describe the nature of the national banking system",
+     "Discuss the role of credit unions",
+     "Explain the evolution of commercial banking"
+    ]
+   },
+   {
+    "name": "Financial Analysis & Decision-Making",
+    "items": 10,
+    "obj": [
+     "Explain key ratios/terms in banking",
+     "Compute key banking calculations (e.g., interest, annual percentage rate, exchange rates)",
+     "Calculate the time value of money"
+    ]
+   },
+   {
+    "name": "Regulatory Compliance in Finance",
+    "items": 20,
+    "obj": [
+     "Explain legal responsibilities associated with consumer financial products and services",
+     "Discuss the nature and scope of compliance in the finance industry",
+     "Discuss the responsibilities of regulatory agencies that oversee the banking industry",
+     "Discuss federal regulation of lending functions",
+     "Discuss federal regulation of operations functions in banking services",
+     "Discuss e-compliance issues in banking services",
+     "Discuss legal considerations in the finance industry",
+     "Discuss the role of the Federal Reserve system in banking operations"
+    ]
+   },
+   {
+    "name": "Banking Services & Daily Operations",
+    "items": 15,
+    "obj": [
+     "Describe types of personal banking products and services",
+     "Describe types of banking products and services provided exclusively to businesses",
+     "Discuss procedures for the secure handling of cash",
+     "Discuss the secure handling of checks",
+     "Describe crimes to which a bank could fall victim (e.g., fraud, robbery, phishing)",
+     "Discuss the elements and role of a bank security program"
+    ]
+   },
+   {
+    "name": "Loans & Credit",
+    "items": 10,
+    "obj": [
+     "Explain the purposes and importance of credit",
+     "Discuss the nature of loan products",
+     "Describe the loan application generating process",
+     "Explain the process of credit analysis",
+     "Describe factors affecting loan pricing and loan structuring"
+    ]
+   },
+   {
+    "name": "Customer Relations in Banking",
+    "items": 10,
+    "obj": [
+     "Explain the responsibilities of finance professionals in providing client services",
+     "Discuss the importance of meeting and exceeding customer expectations",
+     "Describe the relationships that institutions providing banking services have with their communities",
+     "Describe basic teller performance standards",
+     "Describe the importance of selling in the banking industry"
+    ]
+   },
+   {
+    "name": "Professional Development in Banking",
+    "items": 10,
+    "obj": [
+     "Discuss considerations in selecting a financial-services provider",
+     "Explain career opportunities in banking services",
+     "Discuss employment opportunities in the finance industry",
+     "Discuss professional designations for banking professionals",
+     "Describe the services of professional organizations in banking services",
+     "Discuss ethical issues in the banking industry"
+    ]
+   }
+  ]
+ },
+ "bm": {
+  "id": "bm",
+  "title": "Business Management",
+  "cluster": "Management & Entrepreneurship",
+  "areas": [
+   {
+    "name": "Business Environment",
+    "items": 15,
+    "obj": [
+     "Explain the role of business in society",
+     "Describe types of business activities",
+     "Describe types of business models",
+     "Discuss the global environment in which businesses operate",
+     "Describe legal issues affecting businesses",
+     "Explain the organizational design of businesses"
+    ]
+   },
+   {
+    "name": "Management Types",
+    "items": 25,
+    "obj": [
+     "Discuss the nature of human resources management",
+     "Explain the nature of project management",
+     "Discuss the nature of information management",
+     "Discuss the nature of customer relationship management",
+     "Discuss the nature of supply chain management",
+     "Explain the nature of change management",
+     "Explain the nature of knowledge management",
+     "Explain the nature of quality management",
+     "Explain the nature of risk management"
+    ]
+   },
+   {
+    "name": "Business Finance",
+    "items": 15,
+    "obj": [
+     "Explain the nature of balance sheets",
+     "Describe the nature of income statements",
+     "Describe the nature of budgets",
+     "Describe the nature of cash flow statements",
+     "Develop company's/department's budget",
+     "Interpret financial statements"
+    ]
+   },
+   {
+    "name": "Operations",
+    "items": 15,
+    "obj": [
+     "Explain the nature of operations",
+     "Discuss the nature of business analysis",
+     "Discuss business process thinking and its impact",
+     "Explain the concept of supply chain",
+     "Explain the impact of supply chains on business performance"
+    ]
+   },
+   {
+    "name": "Strategic Management",
+    "items": 30,
+    "obj": [
+     "Explain the concept of management",
+     "Explain factors that affect management",
+     "Discuss the nature of managerial planning",
+     "Explain managerial considerations in organizing",
+     "Describe managerial considerations in staffing",
+     "Discuss managerial considerations in directing",
+     "Describe the nature of managerial control (control process, types of control, what is controlled)",
+     "Explain the nature of managerial ethics",
+     "Explain the nature of business plans",
+     "Select and apply metrics for measuring organizational success"
+    ]
+   }
+  ]
+ },
+ "cs": {
+  "id": "cs",
+  "title": "Customer Service",
+  "cluster": "Marketing & Sales",
+  "areas": [
+   {
+    "name": "Fostering Positive Relationships",
+    "items": 30,
+    "obj": [
+     "Explain the nature of positive customer relations",
+     "Demonstrate a customer service mindset",
+     "Develop rapport with customers",
+     "Reinforce service orientation through communication",
+     "Respond to customer inquiries",
+     "Interpret business policies to customers/clients",
+     "Adapt communication to the cultural and social differences among clients",
+     "Anticipate unspoken customer needs",
+     "Accommodate special needs/specific requests of customers",
+     "Build and maintain relationships with customers"
+    ]
+   },
+   {
+    "name": "Emotional Intelligence",
+    "items": 15,
+    "obj": [
+     "Build trust in relationships",
+     "Show empathy for others",
+     "Foster open, honest communication",
+     "Treat others with dignity and respect"
+    ]
+   },
+   {
+    "name": "Conflict Resolution",
+    "items": 10,
+    "obj": [
+     "Use conflict-resolution skills",
+     "Handle difficult customers",
+     "Handle customer/client complaints",
+     "Determine strategies for resolving customer-service situations"
+    ]
+   },
+   {
+    "name": "Delivering on a Brand Promise",
+    "items": 15,
+    "obj": [
+     "Identify company's brand promise",
+     "Determine ways of reinforcing the company's image through employee performance",
+     "Explain the importance of meeting and exceeding customer/guest expectations (CR:067) (CS) Customer Service (High School)",
+     "Identify factors associated with positive customer experiences",
+     "Deliver positive moments of truth"
+    ]
+   },
+   {
+    "name": "Customer Relationship Management",
+    "items": 10,
+    "obj": [
+     "Discuss the nature of customer relationship management",
+     "Explain the role of ethics in customer relationship management",
+     "Describe the use of technology in customer relationship management",
+     "Use Customer Relationship Management (CRM) technology"
+    ]
+   },
+   {
+    "name": "Sales Processes and Techniques",
+    "items": 20,
+    "obj": [
+     "Establish relationship with customer/client",
+     "Determine customer/client needs",
+     "Recommend specific products",
+     "Demonstrate good/service",
+     "Convert customer/client objections into selling points",
+     "Close the sale"
+    ]
+   }
+  ]
+ },
+ "ent": {
+  "id": "ent",
+  "title": "Entrepreneurship",
+  "cluster": "Management & Entrepreneurship",
+  "areas": [
+   {
+    "name": "Fundamentals of Entrepreneurship",
+    "items": 10,
+    "obj": [
+     "Describe the nature of entrepreneurship",
+     "Explain the role requirements of entrepreneurs and owners",
+     "Describe the use of business ethics in entrepreneurship",
+     "Describe small-business opportunities in international trade"
+    ]
+   },
+   {
+    "name": "Discovery Strategies",
+    "items": 15,
+    "obj": [
+     "Explain the need for entrepreneurial discovery",
+     "Discuss entrepreneurial discovery processes",
+     "Assess global trends and opportunities for business ventures",
+     "Determine opportunities for venture creation",
+     "Assess opportunities for venture creation",
+     "Generate venture ideas"
+    ]
+   },
+   {
+    "name": "Business Venture Concepts",
+    "items": 20,
+    "obj": [
+     "Describe entrepreneurial planning considerations",
+     "Explain tools used by entrepreneurs for venture planning",
+     "Assess start-up requirements",
+     "Assess risks associated with venture",
+     "Describe external resources useful to entrepreneurs during concept development",
+     "Assess the need to use external resources for concept development",
+     "Select strategies to protect intellectual property",
+     "Use components of business plan to define venture idea"
+    ]
+   },
+   {
+    "name": "Business Venture Resources",
+    "items": 20,
+    "obj": [
+     "Describe processes used to acquire adequate financial resources for venture creation/start-up",
+     "Select sources to finance venture creation/start-up",
+     "Explain factors to consider in determining a venture's human-resources needs",
+     "Explain considerations in making the decision to hire staff",
+     "Describe considerations in selecting capital resources",
+     "Identify capital resources needed for the venture",
+     "Assess the costs/benefits associated with resources"
+    ]
+   },
+   {
+    "name": "New Business Venture Activities",
+    "items": 25,
+    "obj": [
+     "Use external resources to supplement entrepreneur's expertise",
+     "Explain the complexity of business operations",
+     "Evaluate risk-taking opportunities",
+     "Explain the need for business systems and procedures",
+     "Describe the use of operating procedures",
+     "Explain methods/processes for organizing workflow",
+     "Develop and/or provide product/service",
+     "Use creative problem-solving in business activities/decisions",
+     "Explain the impact of resource productivity on venture success"
+    ]
+   },
+   {
+    "name": "Business Law and Regulations",
+    "items": 10,
+    "obj": [
+     "Explain the nature of tax regulations on business",
+     "Develop strategies for legal/government compliance",
+     "Describe legal issues affecting businesses"
+    ]
+   }
+  ]
+ },
+ "hem": {
+  "id": "hem",
+  "title": "Hospitality & Event Management",
+  "cluster": "Hospitality, Events & Tourism",
+  "areas": [
+   {
+    "name": "Customer Relations",
+    "items": 20,
+    "obj": [
+     "Explain the importance of meeting and exceeding customer/guest expectations",
+     "Anticipate unspoken customer needs",
+     "Accommodate special needs/specific requests of customers",
+     "Process customer/guest orders",
+     "Maintain service standards during peaks in demand",
+     "Resolve hospitality and tourism related conflicts for customers",
+     "Explain the nature of guest recovery",
+     "Explain the nature of customer service in the hospitality and tourism industry"
+    ]
+   },
+   {
+    "name": "Economics and Finances",
+    "items": 10,
+    "obj": [
+     "Explain the relationship between the economy and hospitality and tourism",
+     "Discuss considerations in accepting credit-card payments",
+     "Explain cash control procedures (e.g., signature cards, deposit slips, internal/external controls, cash clearing, etc.)"
+    ]
+   },
+   {
+    "name": "Information Management",
+    "items": 10,
+    "obj": [
+     "Describe the impact of mobile technology on the hospitality and tourism industry",
+     "Explain the need for hospitality and tourism business information",
+     "Describe current issues and trends in the hospitality and tourism industry",
+     "Obtain hospitality and tourism information from online sources (e.g., search engines, online databases, blogs, forums, listservs, web analytics, social media, geolocation services)"
+    ]
+   },
+   {
+    "name": "Operations",
+    "items": 5,
+    "obj": [
+     "Explain security considerations in the hospitality and tourism industry",
+     "Explain the concept of place (distribution) in the hospitality and tourism industry",
+     "Identify environmental sustainability issues in hospitality and tourism"
+    ]
+   },
+   {
+    "name": "Professional Development",
+    "items": 10,
+    "obj": [
+     "Describe the nature of the hospitality and tourism industry",
+     "Explain the roles and responsibilities of hospitality and tourism organizations",
+     "Describe the interdependence of segments of the hospitality and tourism industry",
+     "Discuss the role of ethics in hospitality and tourism",
+     "Explain career opportunities in hospitality and tourism"
+    ]
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 10,
+    "obj": [
+     "Explain the concept of product in the hospitality and tourism industry",
+     "Explain guarantees in hospitality and tourism",
+     "Describe services offered by the hospitality and tourism industry"
+    ]
+   },
+   {
+    "name": "Promotion and Selling",
+    "items": 10,
+    "obj": [
+     "Describe the concept of promotion in the hospitality and tourism industry",
+     "Explain promotional methods used by the hospitality and tourism industry",
+     "Establish relationship with hospitality and tourism customer/guest",
+     "Determine hospitality and tourism customer/guest needs",
+     "Explain factors that motivate people to choose a hospitality and tourism site"
+    ]
+   },
+   {
+    "name": "Event Management",
+    "items": 25,
+    "obj": [
+     "Identify factors affecting attendee satisfaction with events",
+     "Describe the nature of event budgeting",
+     "Develop event budget",
+     "Determine staffing needs for events",
+     "Identify alternative staffing options",
+     "Explain the nature of event marketing",
+     "Explain types of events",
+     "Describe the nature of the event industry",
+     "Explain the nature of event planning",
+     "Describe the nature of event management"
+    ]
+   }
+  ]
+ },
+ "ib": {
+  "id": "ib",
+  "title": "International Business",
+  "cluster": "Management & Entrepreneurship",
+  "areas": [
+   {
+    "name": "Fundamental Economic Concepts",
+    "items": 20,
+    "obj": [
+     "Distinguish between economic goods and services",
+     "Explain the concept of economic resources",
+     "Describe the concepts of economics and economic activities",
+     "Determine economic utilities created by business activities",
+     "Explain the principles of supply and demand",
+     "Describe the functions of prices and markets"
+    ]
+   },
+   {
+    "name": "The Nature of Business",
+    "items": 20,
+    "obj": [
+     "Explain the role of business in society",
+     "Discuss the global environment in which businesses operate",
+     "Describe factors that affect the business environment",
+     "Explain the nature of business ethics",
+     "Explain how organizations adapt to today's markets"
+    ]
+   },
+   {
+    "name": "Economic Systems",
+    "items": 20,
+    "obj": [
+     "Explain the types of economic systems",
+     "Identify the impact of small business/entrepreneurship on market economies",
+     "Explain the concept of private enterprise",
+     "Identify factors affecting a business's profit",
+     "Determine factors affecting business's risk",
+     "Explain the concept of competition"
+    ]
+   },
+   {
+    "name": "Impact of Government",
+    "items": 5,
+    "obj": [
+     "Determine the relationship between government and business",
+     "Describe the nature of taxes (EC:072, LAP-EC-072) (SP) International Business (High School)"
+    ]
+   },
+   {
+    "name": "Business Law",
+    "items": 5,
+    "obj": [
+     "Explain the nature of import/export law",
+     "Describe the nature of customs regulations"
+    ]
+   },
+   {
+    "name": "Global Trade",
+    "items": 30,
+    "obj": [
+     "Explain the nature of global trade",
+     "Discuss the impact of globalization on business",
+     "Describe the determinants of exchange rates and their effects on the domestic economy",
+     "Explain cultural considerations that impact global business relations",
+     "Discuss the impact of cultural and social environments on global trade",
+     "Describe the impact of electronic communication tools (e.g., internet, video, and computer-conferencing, webcasts, email) on global business activities",
+     "Explain the impact of major trade alliances on business activities",
+     "Describe the impact of the political environment on world trade",
+     "Explain the impact of geography on world trade",
+     "Describe the impact of a country's history on world trade",
+     "Explain the impact of a country's economic development on world trade",
+     "Discuss the impact of bribery and foreign monetary payments on business",
+     "Identify requirements for international business travel (e.g., passport, visa, proof of citizenship, immunizations, and sponsorship letters)"
+    ]
+   }
+  ]
+ },
+ "mis": {
+  "id": "mis",
+  "title": "Management Information Systems",
+  "cluster": "Digital Technology",
+  "areas": [
+   {
+    "name": "Systems Design and Analysis",
+    "items": 25,
+    "obj": [
+     "Describe typical phases of the Systems Development Life Cycle",
+     "Discuss methods for gathering and analyzing system requirements",
+     "Discuss the Agile methodology for software and project management",
+     "Discuss the Waterfall model of software and project management",
+     "Determine appropriate features for a new system based on gathered requirements",
+     "Describe the use of feasibility studies for financial, technical, and organizational analysis",
+     "Describe terms related to system design (e.g., input, output, controls, procedures)",
+     "Distinguish between validation and verification of a system",
+     "Describe the roles of stakeholders, end users, managers, and developers in system development",
+     "Discuss workflow artifacts used in system design and analysis (e.g., dataflow diagrams, entity relationship diagrams, class diagrams)"
+    ]
+   },
+   {
+    "name": "Object Oriented Programming Concepts",
+    "items": 15,
+    "obj": [
+     "Describe features of object-oriented programming (OOP) languages (e.g., classes, objects, libraries)",
+     "Explain how business requirements can be translated into classes and functions",
+     "Describe key features of object-oriented programming (e.g., encapsulation, abstraction, polymorphism, inheritance)",
+     "Discuss the use and creation of libraries for software development",
+     "Distinguish between classes, objects, methods, and attributes",
+     "Identify modern OOP languages and frameworks",
+     "Analyze the benefits and drawbacks of OOP"
+    ]
+   },
+   {
+    "name": "Data and Information Management",
+    "items": 15,
+    "obj": [
+     "Translate simple user stories and requirements into SQL statements",
+     "Describe terms related to relational database structure (e.g., relations, tuples, fields, records, keys)",
+     "Evaluate database schemas based on business requirements",
+     "Describe the importance of data redundancy",
+     "Describe best practices for data security and integrity (e.g., encryption, access control)",
+     "Describe NoSQL databases",
+     "Discuss the pros and cons of data storage methods (e.g., local, cloud, hybrid)",
+     "Discuss the use of structured, unstructured, and semi-structured data for business intelligence and decision making",
+     "Describe the use of Online Analytical Processing (OLAP)"
+    ]
+   },
+   {
+    "name": "IT Project Management",
+    "items": 15,
+    "obj": [
+     "Describe the use of Agile principles in information systems development",
+     "Describe the processes of Scrum methodology for managing information systems projects",
+     "Describe the use of Waterfall methodology in information systems development",
+     "Discuss Agile methodology tenants (e.g., individuals and interactions, working software)",
+     "Select an appropriate methodology for a software or IT project",
+     "Discuss the consequences of poor IT project management on budget, schedule, and performance (e.g., runaway projects)",
+     "Discuss the steps of the project life cycle",
+     "Describe the use of work products and tools for project management (e.g., kanban boards, user stories, spreadsheets)",
+     "Discuss the roles of end users and stakeholders in IT project development"
+    ]
+   },
+   {
+    "name": "IT Infrastructure",
+    "items": 15,
+    "obj": [
+     "Describe the importance of IT infrastructure to business processes",
+     "Describe components of IT infrastructure (e.g., hardware, software, network components)",
+     "Describe how cloud and virtual components contribute to IT infrastructure",
+     "Discuss the business value of secure IT infrastructure",
+     "Describe the benefits of cloud-based architecture for businesses",
+     "Discuss the performance and cost tradeoffs of network topologies (e.g., mesh, star, bus)",
+     "Identify layers of the OSI and TCP/IP model",
+     "Describe services that contribute to business IT infrastructure (e.g., computing platforms, telecommunications services, data management services)",
+     "Discuss how to avoid common IT security vulnerabilities (e.g., authentication, authorization, access control)"
+    ]
+   },
+   {
+    "name": "Emerging Business Technologies",
+    "items": 15,
+    "obj": [
+     "Discuss the effects of automation on businesses",
+     "Discuss the uses of artificial intelligence for businesses (e.g., customer support, automation, data insights)",
+     "Explain core characteristics of blockchain technology",
+     "Discuss the uses of blockchain for data security and integrity",
+     "Describe the Internet of Things (IoT)",
+     "Describe the characteristics of the cloud",
+     "Identify cloud-based applications and services (e.g., SaaS, IaaS, AWS, Canva)"
+    ]
+   }
+  ]
+ },
+ "mkt": {
+  "id": "mkt",
+  "title": "Marketing",
+  "cluster": "Marketing & Sales",
+  "areas": [
+   {
+    "name": "Marketing Fundamentals",
+    "items": 10,
+    "obj": [
+     "Explain marketing and its importance in a global economy",
+     "Explain the need for professional and ethical standards in marketing",
+     "Discuss actions employees can take to achieve the company's desired results",
+     "Explain factors that influence customer/client/business buying behavior",
+     "Describe connections between company actions and results (e.g., influencing consumer buying behavior, gaining market share, etc.)"
+    ]
+   },
+   {
+    "name": "Market Planning",
+    "items": 10,
+    "obj": [
+     "Explain the concept of marketing strategies",
+     "Explain the concept of market and market identification",
+     "Explain the nature of marketing planning",
+     "Explain the nature of marketing plans",
+     "Explain the role of situation analysis in the marketing planning process"
+    ]
+   },
+   {
+    "name": "Marketing-Information Management",
+    "items": 15,
+    "obj": [
+     "Identify data monitored for marketing decision making",
+     "Explain the nature and scope of the marketing-information management function",
+     "Explain the role of ethics in marketing-information management",
+     "Explain the nature of marketing research",
+     "Describe options businesses use to obtain marketing research data (i.e., primary and secondary research)",
+     "Describe data-collection methods (e.g., observations, mail, diaries, phone, internet, discussion groups, interviews, scanners, tracking tools)"
+    ]
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 25,
+    "obj": [
+     "Explain the nature and scope of the product/service management function",
+     "Explain business ethics in product/service management",
+     "Identify the impact of product life cycles on marketing decisions",
+     "Identify consumer protection provisions of appropriate agencies",
+     "Explain the concept of the product mix",
+     "Describe the nature of product bundling",
+     "Explain the nature of corporate branding",
+     "Describe factors used by businesses to position corporate brands",
+     "Describe factors used by marketers to position products/services",
+     "Explain the nature of product/service branding"
+    ]
+   },
+   {
+    "name": "Channel Management",
+    "items": 10,
+    "obj": [
+     "Explain the nature and scope of channel management",
+     "Explain the nature of channels of distribution",
+     "Describe ethical considerations in channel management"
+    ]
+   },
+   {
+    "name": "Pricing",
+    "items": 10,
+    "obj": [
+     "Explain the nature and scope of the pricing function",
+     "Describe the role of business ethics in pricing",
+     "Explain factors affecting pricing decisions"
+    ]
+   },
+   {
+    "name": "Promotion",
+    "items": 10,
+    "obj": [
+     "Explain the role of promotion as a marketing function",
+     "Identify the elements of the promotional mix",
+     "Describe the use of business ethics in promotion",
+     "Explain types of advertising media"
+    ]
+   },
+   {
+    "name": "Selling",
+    "items": 10,
+    "obj": [
+     "Explain the nature and scope of the selling function",
+     "Explain legal and ethical considerations in selling",
+     "Describe the use of technology in the selling function",
+     "Acquire product information for use in selling",
+     "Analyze product information to identify product features and benefits"
+    ]
+   }
+  ]
+ },
+ "nd": {
+  "id": "nd",
+  "title": "Network Design",
+  "cluster": "Digital Technology",
+  "areas": [
+   {
+    "name": "Network Installation and Configuration",
+    "items": 25,
+    "obj": [
+     "Discuss the functions of routers and modems in home and office networks",
+     "Describe the features of a SOHO router",
+     "Discuss configuration of software and hardware firewalls (e.g., rules, ACLs)",
+     "Describe the range, speed, and requirements for fiber optic cable",
+     "Describe the characteristics of copper cable",
+     "Explain IEEE 802 wireless standards",
+     "Describe the purpose of subnetting, subnet masks, and loopback addresses",
+     "Describe wireless network configuration (e.g., modem, router, network password)",
+     "Discuss server installation and configuration in rack and blade infrastructures",
+     "Discuss the impact of power and temperature on physical network infrastructures (e.g., cooling, uninterruptible power supply)",
+     "Describe configuration options for printing over a network (e.g., printer share, printer connectivity, print servers)",
+     "Describe the functions of access points and gateways"
+    ]
+   },
+   {
+    "name": "Network Security and Recovery",
+    "items": 20,
+    "obj": [
+     "Describe the purpose of disaster recovery plans",
+     "Select plans for disaster recovery and prevention",
+     "Describe network backup solutions (e.g., cloud storage, NAS, external hard drives)",
+     "Describe defensive measures against DoS, phishing, and internal threats (e.g., least privilege, third-party service, security policy)",
+     "Describe methods for mitigating network vulnerabilities (e.g., closing ports, updating OS, maintaining antivirus)",
+     "Discuss best practices for network security (e.g., least privilege, authentication, encryption)",
+     "Describe the benefits of Zero Trust principles",
+     "Explain methods of network access control",
+     "Describe security features of Windows and Linux-based operating systems (e.g., BitLocker, domains, SELinux)",
+     "Describe the use of Intrusion Detection/Prevention Systems (IDS/IPS)",
+     "Discuss wireless security standards (e.g., WPA, access control lists)"
+    ]
+   },
+   {
+    "name": "Network Administration",
+    "items": 20,
+    "obj": [
+     "Discuss the need for network maintenance (e.g., audits, updates, backups, restores)",
+     "Describe user account and permission management",
+     "Explain the purpose and use of Simple Network Management Protocol (SNMP)",
+     "Discuss common network issues (e.g. slow performance, connection issues, IP conflicts)",
+     "Use common network command-line tools (e.g., ping, tracert, ipconfig)",
+     "Discuss the importance of updates and patch management",
+     "Discuss the role of documentation in network maintenance and troubleshooting",
+     "Describe tools for monitoring network traffic and performance",
+     "Describe the use and benefits of load balancing",
+     "Describe procedures for managing network assets (e.g., users, groups, and printers)"
+    ]
+   },
+   {
+    "name": "Network Planning",
+    "items": 15,
+    "obj": [
+     "Match business requirements to appropriate network design decisions (e.g., topology, physical size, users)",
+     "Discuss hardware and performance differences between network types (e.g., LAN, WAN)",
+     "Describe the physical layouts of network topologies (e.g., star, mesh, bus)",
+     "Discuss the use cases of network topologies (e.g., star, mesh, bus)",
+     "Select an appropriate network operating system (Windows Server, Linux-based, etc.)",
+     "Describe the benefits and risks of a peer-to-peer network",
+     "Discuss the benefits of cloud services for network infrastructure",
+     "Describe how business needs can restrict and drive network design decisions (e.g., cost, throughput, availability)",
+     "Explain how network topology decisions impact performance, cost, and availability"
+    ]
+   },
+   {
+    "name": "Network Protocols, Services, and Access",
+    "items": 20,
+    "obj": [
+     "Describe different types of networks (e.g., LAN, WAN)",
+     "Describe basic network security practices (e.g., encryption, VPN, packet sniffing, authentication)",
+     "Describe common network attacks (e.g., phishing, spoofing, poisoning)",
+     "Describe different connectivity technologies (e.g., Ethernet, Wi-Fi, Bluetooth)",
+     "Discuss the functions of common network devices (e.g., modems, routers, switches)",
+     "Discuss types of network environments (e.g., peer-to-peer, client-server, thin client)",
+     "Explain relationships between major network components (e.g., servers, clients, switches)",
+     "Describe each layer of the Open System Interconnection (OSI) model",
+     "Explain basic networking protocols (e.g., TCP/IP, UDP, DHCP, SMP)",
+     "Discuss the characteristics of network topologies (e.g., star, bus, ring)",
+     "Describe tools and procedures for troubleshooting networks (e.g., ping, tracert, checking cable connections)"
+    ]
+   }
+  ]
+ },
+ "sem": {
+  "id": "sem",
+  "title": "Sports & Entertainment Management",
+  "cluster": "Hospitality, Events & Tourism",
+  "areas": [
+   {
+    "name": "Fundamentals of Sports/Entertainment Management & Marketing",
+    "items": 15,
+    "obj": [
+     "Discuss the nature of the sports/event industries",
+     "Describe the impact of sports/events on communities",
+     "Explain the nature of sports marketing",
+     "Explain career opportunities in sports/event marketing",
+     "Explain the concept of management"
+    ]
+   },
+   {
+    "name": "Product/Service Management",
+    "items": 15,
+    "obj": [
+     "Explain elements of the sport/event product",
+     "Determine sports/event features and benefits",
+     "Describe factors that motivate people to participate in/attend sports/events",
+     "Explain the nature of sports/event brand/branding",
+     "Explain the nature of sponsorship in the sports/event industries"
+    ]
+   },
+   {
+    "name": "Pricing",
+    "items": 5,
+    "obj": [
+     "Identify factors affecting pricing of sport/event products (e.g., lead time, market demand, market segmentation, smoothing, responding to competitors)",
+     "Describe pricing issues associated with sport/event products (e.g., cost, value, objectives)"
+    ]
+   },
+   {
+    "name": "Advertising Basics",
+    "items": 10,
+    "obj": [
+     "Explain advertising media used in the sports/event industries",
+     "Explain the components of advertisements",
+     "Discuss types of direct mail tactics",
+     "Describe sports/event industries' utilization of digital media"
+    ]
+   },
+   {
+    "name": "Publicity and Public Relations",
+    "items": 5,
+    "obj": [
+     "Write a press release",
+     "Develop and generate sports/event newsletter",
+     "Explain media relations in the sports/event industries"
+    ]
+   },
+   {
+    "name": "Sales Promotion",
+    "items": 20,
+    "obj": [
+     "Identify \"out-of-the-box\" sales promotion ideas for sports/events",
+     "Implement ticket sales campaign (internet, contests/giveaways, pre-promotion of campaign, video scoreboard announcements, sports/sponsorship partnerships)",
+     "Design program for event",
+     "Create and issue script for game-day promotions",
+     "Identify elements that enhance venue attractiveness (e.g., facility: accessibility, trade area/drawing radius, parking; surrounding area: design/layout, amenities, personnel, sense of security)",
+     "Explain venue signage",
+     "Select event signage",
+     "Maximize/Capitalize on celebrity's appearance at event",
+     "Design logo for sport/event",
+     "Design tickets"
+    ]
+   },
+   {
+    "name": "The Sports/Entertainment Management & Marketing Environment",
+    "items": 5,
+    "obj": [
+     "Explain the role of agents in sports",
+     "Describe legal issues affecting the marketing of sport/event products",
+     "Describe the role of governing bodies in the sport industry"
+    ]
+   },
+   {
+    "name": "Event Planning",
+    "items": 20,
+    "obj": [
+     "Determine merchandising opportunities for a sport/event",
+     "Determine goods and services required for an event",
+     "Establish barter agreements (vendors, media, etc.)",
+     "Explain the need for event insurance",
+     "Conduct a risk assessment of an event",
+     "Develop event contingency plan (e.g., personnel, weather, power outage, damage control)",
+     "Sell advertising space in printed and electronic materials (e.g., program, yearbook, media guide, fan guide, team photo cards, etc.)",
+     "Assess \"product\" readiness for sport/event",
+     "Measure economic impact of sport/event"
+    ]
+   },
+   {
+    "name": "Sports/Event Distribution",
+    "items": 5,
+    "obj": [
+     "Explain distribution systems for the sport/event industries"
+    ]
+   }
+  ]
+ },
+ "tss": {
+  "id": "tss",
+  "title": "Technology Support & Services",
+  "cluster": "Digital Technology",
+  "areas": [
+   {
+    "name": "IT Fundamentals",
+    "items": 25,
+    "obj": [
+     "Describe the responsibilities of each layer of the OSI model",
+     "Discuss features of Windows for personal and enterprise environments",
+     "Discuss features of MacOS for mobile and PC systems",
+     "Apply command-line networking and troubleshooting tools for Windows and Linux (e.g., ipconfig, fsck, ping, tracert)",
+     "Describe computer components (e.g., CPU, motherboard, GPU)",
+     "Interpret software requirements (e.g., 32-bit vs. 64-bit, memory, storage)",
+     "Describe best practices for digital security and privacy (e.g., VPN, password managers, firewalls)",
+     "Describe common security vulnerabilities and threats (e.g., out-of-date systems, SQL injection, DDoS)",
+     "Explain how information is exchanged between a computer and a network (e.g., packets, requests, servers)",
+     "Describe the functions of DNS and DHCP",
+     "Describe the functions of IP addresses in networked environments",
+     "Describe the key hardware components of a network (e.g., clients and servers, switches, routers, modems)"
+    ]
+   },
+   {
+    "name": "Service Desk Operations",
+    "items": 20,
+    "obj": [
+     "Explain the importance of service and help desk teams in an organization",
+     "Discuss when tickets should be escalated",
+     "Discuss the role of IT Service Management (ITSM) in business",
+     "Discuss the functions of service desk software (e.g., JIRA, Zoho)",
+     "Describe service desk support tiers and their responsibilities",
+     "Discuss methodology for solving tech problems (e.g., identifying problem, testing theories, developing plans of action)",
+     "Describe the role of ticketing systems in IT support",
+     "Describe best practices for identifying and removing malware from systems"
+    ]
+   },
+   {
+    "name": "Hardware and Software Troubleshooting",
+    "items": 30,
+    "obj": [
+     "Apply the best practice methodology to investigate tech problems",
+     "Distinguish between hardware and software problems",
+     "Describe solutions to common printer issues (e.g., connectivity, refillables)",
+     "Discuss common issues with mobile devices (e.g., battery life, overheating, connectivity)",
+     "Describe symptoms of problems with RAM, CPU, and storage",
+     "Describe tools used to fix and troubleshoot devices (e.g., multimeter, freeze spray, compressed air)",
+     "Distinguish between devices that need fixing, upgrading, or replacing",
+     "Troubleshoot common Windows OS problems (e.g., BSOD, crashing, slow performance)",
+     "Describe best practices for removing malware from a system",
+     "Describe indicators of malware on a device",
+     "Describe common solutions to hardware problems (e.g., restarting, unplugging, resting)",
+     "Describe common cable and connector types (e.g., USB, lightning, HDMI)",
+     "Describe types and parts of a liquid crystal display",
+     "Describe the boot process and options for its configuration"
+    ]
+   },
+   {
+    "name": "IT Management and Administration",
+    "items": 25,
+    "obj": [
+     "Describe the role of change management in business and IT management",
+     "Describe elements of change request documents (e.g., time of change, rollout/backout plan, anticipated impact)",
+     "Discuss the use of remote access methods for IT administration (e.g., troubleshooting, testing, installing, updating)",
+     "Describe remote and virtual access software and protocols (e.g., SSH, RMM, RDP, VPN)",
+     "Describe file transfer services and protocols (e.g. FTP, Google Drive, OneDrive)",
+     "Discuss printer configuration settings (e.g., tray settings, duplex, orientation)",
+     "Describe types of printers (e.g., thermal, 3D, inkjet, laser)",
+     "Describe the use of load balancers in cloud environments and physical servers",
+     "Discuss key features of Active Directory",
+     "Describe the characteristics of different cloud services (e.g., SaaS, PaaS, IaaS)",
+     "Discuss spam mitigation and management techniques (e.g., DKIM, SPF, DMARC)"
+    ]
+   }
+  ]
+ }
+}

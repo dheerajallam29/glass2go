@@ -8,8 +8,8 @@ import styles from "../../hub.module.css";
 
 export function generateStaticParams() {
   return [
-    ...EVENT_SCENARIOS.filter((s) => s.track === "fbla").map((s) => ({ track: "fbla", event: s.slug })),
-    ...EVENTS.map((e) => ({ track: "deca", event: e.slug })),
+    ...EVENT_SCENARIOS.filter((s) => s.track === "fbla" && !EVENTS.some((e) => e.track === "fbla" && e.slug === s.slug)).map((s) => ({ track: "fbla", event: s.slug })),
+    ...EVENTS.map((e) => ({ track: e.track, event: e.slug })),
   ];
 }
 
@@ -25,10 +25,8 @@ export default function EventPage({ params }: PageProps<"/[track]/events/[event]
 
 async function EventContent({ params }: { params: Params }) {
   const { track, event } = await params;
-  if (track === "deca") {
-    if (!EVENTS.some((e) => e.slug === event)) notFound();
-    return <EventPractice slug={event} />;
-  }
+  if (EVENTS.some((e) => e.track === track && e.slug === event)) return <EventPractice slug={event} />;
+  if (track === "deca") notFound();
   const scenario = eventScenarioFor(track, event);
   if (!scenario) notFound();
   return <RoleplayRunner scenario={scenario} />;
