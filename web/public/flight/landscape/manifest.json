@@ -11,11 +11,6 @@
  ],
  "tiers": [
   {
-   "name": "xl",
-   "width": 1920,
-   "height": 1200
-  },
-  {
    "name": "m",
    "width": 1280,
    "height": 800

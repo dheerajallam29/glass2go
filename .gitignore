@@ -27,3 +27,4 @@ web/scripts/*.png
 .DS_Store
 Thumbs.db
 .next-test/
+tools/interp/flight_backup2/
