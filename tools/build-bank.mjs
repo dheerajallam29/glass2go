@@ -63,6 +63,11 @@ try {
     if (o.rt) q.right = [o.rt, q.right[1]]; // new wording for the right answer, keeping its reason
     if (o.w) q.wrong = o.w;
     if (o.map) q.wrong = q.wrong.map(([t, why]) => [o.map[t] ?? t, why]); // reword wrong options by their old text, keeping their reasons
+    if (o.wt) q.wrong = q.wrong.map(([t, why], i) => [o.wt[i] ?? t, why]); // reword wrong options by position (null keeps one), keeping their reasons
+    if (o.ext) { // append a clause to the longest wrong option (or to the wrong option at position o.at), keeping its reason
+      const at = o.at ?? q.wrong.reduce((m, w, i) => (w[0].length > q.wrong[m][0].length ? i : m), 0);
+      q.wrong = q.wrong.map(([t, why], i) => [i === at ? t + o.ext : t, why]);
+    }
     if (o.q) q.q = o.q;
   }
 } catch (e) { if (e.code !== "ENOENT") throw e; }
@@ -80,6 +85,14 @@ const dupeFiles = {};
     all[w++] = q;
   }
   all.length = w;
+}
+
+// --worklist: write the questions whose correct answer is longer than every wrong answer to renders/length-worklist.json (wrong answers in source order)
+if (process.argv.includes("--worklist")) {
+  const ratio = (x) => x.right[0].length / Math.max(...x.wrong.map((w) => w[0].length));
+  const list = all.filter((x) => ratio(x) > 1).sort((p, q) => p.track.localeCompare(q.track) || p.pool.localeCompare(q.pool) || ratio(q) - ratio(p)).map((x) => ({ id: x.id, q: x.q, r: x.right[0], w: x.wrong.map((w) => w[0]), ratio: +ratio(x).toFixed(2) }));
+  writeFileSync(join(root, "renders", "length-worklist.json"), JSON.stringify(list));
+  console.log(list.length + " questions where the correct answer is longer than every wrong answer");
 }
 
 // place the correct answer: every block of four questions in a pool uses each of A-D exactly once
