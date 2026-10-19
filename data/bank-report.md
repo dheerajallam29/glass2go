@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7004** (DECA 2322, FBLA 4682)
+Total questions: **7117** (DECA 2322, FBLA 4795)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -16,7 +16,7 @@ Total questions: **7004** (DECA 2322, FBLA 4682)
 | FBLA business-law | 692 |
 | FBLA economics | 613 |
 | FBLA personal-finance | 409 |
-| FBLA securities | 380 |
+| FBLA securities | 493 |
 | FBLA leadership | 474 |
 | FBLA data-science-ai | 452 |
 | FBLA healthcare-administration | 481 |
@@ -154,32 +154,32 @@ Total questions: **7004** (DECA 2322, FBLA 4682)
 | fbla/personal-finance/Saving and Investing | 18 |
 | fbla/personal-finance/Taxes | 20 |
 | fbla/securities/Bonds | 10 |
-| fbla/securities/Financial Markets | 73 |
+| fbla/securities/Financial Markets | 100 |
 | fbla/securities/Funds and Products | 7 |
 | fbla/securities/Investing Principles | 8 |
-| fbla/securities/Investment Analysis | 65 |
+| fbla/securities/Investment Analysis | 92 |
 | fbla/securities/Markets | 9 |
 | fbla/securities/Principles of Money | 15 |
 | fbla/securities/Regulation | 4 |
-| fbla/securities/Securities & Investments Industry | 53 |
-| fbla/securities/Securities Products | 71 |
-| fbla/securities/Selecting Investments | 54 |
+| fbla/securities/Securities & Investments Industry | 67 |
+| fbla/securities/Securities Products | 85 |
+| fbla/securities/Selecting Investments | 85 |
 | fbla/securities/Stocks | 11 |
 
 ## By difficulty
 | Difficulty | Count |
 |---|---|
-| 1 | 420 |
-| 2 | 4656 |
-| 3 | 1928 |
+| 1 | 424 |
+| 2 | 4676 |
+| 3 | 2017 |
 
 ## Correct-answer position
-A: 1751, B: 1751, C: 1752, D: 1750
+A: 1779, B: 1779, C: 1780, D: 1779
 
 ## Hard errors (0)
 none
 
-## Flags to review (1295)
+## Flags to review (1333)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -810,6 +810,42 @@ none
 - fbla-securities-selecting-investments-056 (fbla-securities.07.jsonl:166): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-selecting-investments-057 (fbla-securities.07.jsonl:167): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-selecting-investments-058 (fbla-securities.07.jsonl:168): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-093 (fbla-securities.08.jsonl:1): prompt is very similar to fbla-personal-finance-investment-strategies-008
+- fbla-securities-securities-products-095 (fbla-securities.08.jsonl:3): prompt is very similar to fbla-personal-finance-investment-strategies-013
+- fbla-securities-securities-products-096 (fbla-securities.08.jsonl:4): prompt is very similar to fbla-personal-finance-investment-strategies-010
+- fbla-securities-securities-products-101 (fbla-securities.08.jsonl:9): prompt is very similar to fbla-securities-securities-products-014
+- fbla-securities-securities-products-101 (fbla-securities.08.jsonl:9): prompt is very similar to fbla-securities-bonds-001
+- fbla-securities-securities-products-101 (fbla-securities.08.jsonl:9): prompt is very similar to fbla-securities-investment-analysis-072
+- fbla-securities-securities-products-105 (fbla-securities.08.jsonl:13): prompt is very similar to fbla-personal-finance-financial-services-providers-014
+- fbla-securities-securities-products-107 (fbla-securities.08.jsonl:15): prompt is very similar to fbla-personal-finance-investment-strategies-003
+- fbla-securities-securities-products-112 (fbla-securities.08.jsonl:20): prompt is very similar to fbla-personal-finance-investment-strategies-050
+- fbla-securities-financial-markets-104 (fbla-securities.08.jsonl:35): prompt is very similar to fbla-securities-financial-markets-057
+- fbla-securities-financial-markets-110 (fbla-securities.08.jsonl:41): prompt is very similar to fbla-securities-financial-markets-034
+- fbla-securities-financial-markets-121 (fbla-securities.08.jsonl:52): prompt is very similar to fbla-personal-finance-investment-strategies-002
+- fbla-securities-financial-markets-122 (fbla-securities.08.jsonl:53): prompt is very similar to fbla-personal-finance-investment-strategies-001
+- fbla-securities-financial-markets-125 (fbla-securities.08.jsonl:56): prompt is very similar to fbla-personal-finance-principles-of-money-042
+- fbla-securities-investment-analysis-077 (fbla-securities.08.jsonl:58): prompt is very similar to fbla-personal-finance-investment-strategies-054
+- fbla-securities-investment-analysis-078 (fbla-securities.08.jsonl:59): prompt is very similar to fbla-accounting-financial-reports-063
+- fbla-securities-investment-analysis-078 (fbla-securities.08.jsonl:59): prompt is very similar to fbla-accounting-financial-reports-105
+- fbla-securities-investment-analysis-080 (fbla-securities.08.jsonl:61): prompt is very similar to fbla-securities-investment-analysis-040
+- fbla-securities-investment-analysis-082 (fbla-securities.08.jsonl:63): prompt is very similar to fbla-accounting-financial-reports-102
+- fbla-securities-investment-analysis-094 (fbla-securities.08.jsonl:75): prompt is very similar to fbla-personal-finance-investment-strategies-035
+- fbla-securities-investment-analysis-098 (fbla-securities.08.jsonl:79): prompt is very similar to fbla-personal-finance-investment-strategies-021
+- fbla-securities-securities-investments-industry-065 (fbla-securities.08.jsonl:86): prompt is very similar to fbla-personal-finance-financial-services-providers-002
+- fbla-securities-securities-investments-industry-076 (fbla-securities.08.jsonl:97): prompt is very similar to fbla-business-law-financial-tax-law-059
+- fbla-securities-selecting-investments-061 (fbla-securities.08.jsonl:105): prompt is very similar to fbla-personal-finance-investment-strategies-020
+- fbla-securities-selecting-investments-065 (fbla-securities.08.jsonl:109): prompt is very similar to fbla-personal-finance-investment-strategies-036
+- fbla-securities-selecting-investments-071 (fbla-securities.08.jsonl:115): prompt is very similar to fbla-personal-finance-saving-and-investing-029
+- fbla-securities-selecting-investments-075 (fbla-securities.08.jsonl:119): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-securities-selecting-investments-078 (fbla-securities.08.jsonl:122): prompt is very similar to fbla-accounting-tax-accounting-024
+- fbla-securities-selecting-investments-078 (fbla-securities.08.jsonl:122): prompt is very similar to fbla-personal-finance-investment-strategies-014
+- fbla-securities-investment-analysis-102 (fbla-securities.09.jsonl:1): prompt is very similar to fbla-securities-investment-analysis-003
+- fbla-securities-investment-analysis-113 (fbla-securities.09.jsonl:12): prompt is very similar to fbla-personal-finance-principles-of-money-017
+- fbla-securities-investment-analysis-114 (fbla-securities.09.jsonl:13): prompt is very similar to fbla-securities-financial-markets-061
+- fbla-securities-financial-markets-134 (fbla-securities.09.jsonl:27): prompt is very similar to fbla-economics-economic-indicators-046
+- fbla-securities-securities-investments-industry-094 (fbla-securities.09.jsonl:69): prompt is very similar to fbla-securities-securities-investments-industry-029
+- fbla-securities-securities-investments-industry-097 (fbla-securities.09.jsonl:72): prompt is very similar to fbla-business-law-financial-tax-law-068
+- fbla-securities-securities-investments-industry-097 (fbla-securities.09.jsonl:72): prompt is very similar to fbla-securities-securities-investments-industry-043
 - fbla-leadership-manage-business-relationships-001 (fbla-org-leadership.jsonl:15): prompt is very similar to fbla-economics-nature-of-business-030
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-business-law-business-organizations-015
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-economics-nature-of-business-028
@@ -1322,8 +1358,10 @@ none
 - fbla-intro-business-owning-a-business-023 (fbla-intro-business.02.jsonl:59): prompt is very similar to fbla-accounting-tax-accounting-033
 - fbla-intro-business-owning-a-business-023 (fbla-intro-business.02.jsonl:59): prompt is very similar to fbla-economics-nature-of-business-026
 - fbla-intro-business-owning-a-business-024 (fbla-intro-business.02.jsonl:60): prompt is very similar to fbla-personal-finance-investment-strategies-008
+- fbla-intro-business-owning-a-business-024 (fbla-intro-business.02.jsonl:60): prompt is very similar to fbla-securities-securities-products-093
 - fbla-intro-business-owning-a-business-025 (fbla-intro-business.02.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-owning-a-business-025 (fbla-intro-business.02.jsonl:61): prompt is very similar to fbla-personal-finance-investment-strategies-013
+- fbla-intro-business-owning-a-business-025 (fbla-intro-business.02.jsonl:61): prompt is very similar to fbla-securities-securities-products-095
 - fbla-intro-business-owning-a-business-026 (fbla-intro-business.02.jsonl:62): prompt is very similar to fbla-business-law-business-organizations-037
 - fbla-intro-business-owning-a-business-026 (fbla-intro-business.02.jsonl:62): prompt is very similar to fbla-economics-nature-of-business-017
 - fbla-intro-business-owning-a-business-027 (fbla-intro-business.02.jsonl:63): prompt is very similar to fbla-economics-nature-of-business-037
