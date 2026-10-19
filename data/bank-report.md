@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7514** (DECA 2322, FBLA 5192)
+Total questions: **7719** (DECA 2322, FBLA 5397)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -17,7 +17,7 @@ Total questions: **7514** (DECA 2322, FBLA 5192)
 | FBLA economics | 613 |
 | FBLA personal-finance | 632 |
 | FBLA securities | 493 |
-| FBLA leadership | 474 |
+| FBLA leadership | 679 |
 | FBLA data-science-ai | 511 |
 | FBLA healthcare-administration | 538 |
 | FBLA intro-business | 460 |
@@ -125,19 +125,19 @@ Total questions: **7514** (DECA 2322, FBLA 5192)
 | fbla/intro-business/Nature of Business | 42 |
 | fbla/intro-business/Owning a Business | 71 |
 | fbla/intro-business/Types of Business Activities | 50 |
-| fbla/leadership/Communication | 17 |
-| fbla/leadership/Conflict and Negotiation | 10 |
-| fbla/leadership/Critical-Thinking Skills | 57 |
-| fbla/leadership/Ethics | 9 |
-| fbla/leadership/Human Resources Management | 69 |
-| fbla/leadership/Leadership | 100 |
-| fbla/leadership/Manage Business Relationships | 35 |
-| fbla/leadership/Manage Stressful Situations | 34 |
+| fbla/leadership/Communication | 32 |
+| fbla/leadership/Conflict and Negotiation | 23 |
+| fbla/leadership/Critical-Thinking Skills | 80 |
+| fbla/leadership/Ethics | 20 |
+| fbla/leadership/Human Resources Management | 97 |
+| fbla/leadership/Leadership | 121 |
+| fbla/leadership/Manage Business Relationships | 51 |
+| fbla/leadership/Manage Stressful Situations | 52 |
 | fbla/leadership/Management | 15 |
-| fbla/leadership/Motivation | 12 |
-| fbla/leadership/Planning | 13 |
-| fbla/leadership/Role of Management in Business | 89 |
-| fbla/leadership/Teams | 14 |
+| fbla/leadership/Motivation | 26 |
+| fbla/leadership/Planning | 26 |
+| fbla/leadership/Role of Management in Business | 109 |
+| fbla/leadership/Teams | 27 |
 | fbla/personal-finance/Banking | 30 |
 | fbla/personal-finance/Budgeting | 37 |
 | fbla/personal-finance/Consumer Protection | 25 |
@@ -170,16 +170,16 @@ Total questions: **7514** (DECA 2322, FBLA 5192)
 | Difficulty | Count |
 |---|---|
 | 1 | 425 |
-| 2 | 5022 |
+| 2 | 5227 |
 | 3 | 2067 |
 
 ## Correct-answer position
-A: 1878, B: 1878, C: 1878, D: 1880
+A: 1929, B: 1929, C: 1929, D: 1932
 
 ## Hard errors (0)
 none
 
-## Flags to review (1472)
+## Flags to review (1575)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -1049,6 +1049,104 @@ none
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-accounting-standards-and-compliance-043
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-business-law-international-trade-commerce-law-033
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-business-law-international-trade-commerce-law-060
+- fbla-leadership-leadership-129 (fbla-org-leadership.07.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-130 (fbla-org-leadership.07.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-131 (fbla-org-leadership.07.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-leadership-135 (fbla-org-leadership.07.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-042 (fbla-org-leadership.07.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-048 (fbla-org-leadership.07.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-053 (fbla-org-leadership.07.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-business-relationships-054 (fbla-org-leadership.07.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-086 (fbla-org-leadership.07.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-086 (fbla-org-leadership.07.jsonl:60): prompt is very similar to fbla-business-law-employment-law-018
+- fbla-leadership-human-resources-management-086 (fbla-org-leadership.07.jsonl:60): prompt is very similar to fbla-business-law-employment-law-065
+- fbla-leadership-human-resources-management-087 (fbla-org-leadership.07.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-088 (fbla-org-leadership.07.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-088 (fbla-org-leadership.07.jsonl:62): prompt is very similar to fbla-business-law-employment-law-016
+- fbla-leadership-human-resources-management-088 (fbla-org-leadership.07.jsonl:62): prompt is very similar to fbla-business-law-employment-law-062
+- fbla-leadership-human-resources-management-088 (fbla-org-leadership.07.jsonl:62): prompt is very similar to fbla-economics-government-s-impact-on-business-060
+- fbla-leadership-human-resources-management-089 (fbla-org-leadership.07.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-089 (fbla-org-leadership.07.jsonl:63): prompt is very similar to fbla-business-law-employment-law-009
+- fbla-leadership-human-resources-management-089 (fbla-org-leadership.07.jsonl:63): prompt is very similar to fbla-business-law-employment-law-059
+- fbla-leadership-human-resources-management-091 (fbla-org-leadership.07.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-093 (fbla-org-leadership.07.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-094 (fbla-org-leadership.07.jsonl:68): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-095 (fbla-org-leadership.07.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-097 (fbla-org-leadership.07.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-098 (fbla-org-leadership.07.jsonl:72): prompt is very similar to fbla-personal-finance-investment-strategies-024
+- fbla-leadership-human-resources-management-101 (fbla-org-leadership.07.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-102 (fbla-org-leadership.07.jsonl:76): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-103 (fbla-org-leadership.07.jsonl:77): prompt is very similar to fbla-business-law-employment-law-039
+- fbla-leadership-human-resources-management-104 (fbla-org-leadership.07.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-105 (fbla-org-leadership.07.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-105 (fbla-org-leadership.07.jsonl:79): prompt is very similar to fbla-business-law-employment-law-006
+- fbla-leadership-human-resources-management-107 (fbla-org-leadership.07.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-human-resources-management-110 (fbla-org-leadership.07.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-071 (fbla-org-leadership.07.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-072 (fbla-org-leadership.07.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-079 (fbla-org-leadership.07.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-082 (fbla-org-leadership.07.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-087 (fbla-org-leadership.07.jsonl:103): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-088 (fbla-org-leadership.07.jsonl:104): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-090 (fbla-org-leadership.07.jsonl:106): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-091 (fbla-org-leadership.07.jsonl:107): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-critical-thinking-skills-092 (fbla-org-leadership.07.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-044 (fbla-org-leadership.07.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-045 (fbla-org-leadership.07.jsonl:111): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-046 (fbla-org-leadership.07.jsonl:112): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-047 (fbla-org-leadership.07.jsonl:113): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-048 (fbla-org-leadership.07.jsonl:114): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-051 (fbla-org-leadership.07.jsonl:117): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-053 (fbla-org-leadership.07.jsonl:119): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-054 (fbla-org-leadership.07.jsonl:120): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-057 (fbla-org-leadership.07.jsonl:123): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-058 (fbla-org-leadership.07.jsonl:124): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-060 (fbla-org-leadership.07.jsonl:126): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-061 (fbla-org-leadership.07.jsonl:127): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-manage-stressful-situations-062 (fbla-org-leadership.07.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-017 (fbla-org-leadership.07.jsonl:129): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-024 (fbla-org-leadership.07.jsonl:136): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-025 (fbla-org-leadership.07.jsonl:137): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-026 (fbla-org-leadership.07.jsonl:138): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-teams-026 (fbla-org-leadership.07.jsonl:138): prompt is very similar to fbla-leadership-teams-010
+- fbla-leadership-communication-023 (fbla-org-leadership.07.jsonl:143): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-024 (fbla-org-leadership.07.jsonl:144): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-025 (fbla-org-leadership.07.jsonl:145): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-026 (fbla-org-leadership.07.jsonl:146): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-027 (fbla-org-leadership.07.jsonl:147): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-028 (fbla-org-leadership.07.jsonl:148): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-030 (fbla-org-leadership.07.jsonl:150): prompt is very similar to fbla-leadership-communication-018
+- fbla-leadership-communication-032 (fbla-org-leadership.07.jsonl:152): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-038 (fbla-org-leadership.07.jsonl:158): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-039 (fbla-org-leadership.07.jsonl:159): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-communication-041 (fbla-org-leadership.07.jsonl:161): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-016 (fbla-org-leadership.07.jsonl:167): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-020 (fbla-org-leadership.07.jsonl:171): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-022 (fbla-org-leadership.07.jsonl:173): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-conflict-and-negotiation-023 (fbla-org-leadership.07.jsonl:174): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-017 (fbla-org-leadership.07.jsonl:175): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-019 (fbla-org-leadership.07.jsonl:177): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-020 (fbla-org-leadership.07.jsonl:178): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-022 (fbla-org-leadership.07.jsonl:180): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-023 (fbla-org-leadership.07.jsonl:181): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-025 (fbla-org-leadership.07.jsonl:183): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-planning-028 (fbla-org-leadership.07.jsonl:186): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-020 (fbla-org-leadership.07.jsonl:192): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-021 (fbla-org-leadership.07.jsonl:193): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-021 (fbla-org-leadership.07.jsonl:193): prompt is very similar to fbla-leadership-leadership-031
+- fbla-leadership-motivation-024 (fbla-org-leadership.07.jsonl:196): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-027 (fbla-org-leadership.07.jsonl:199): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-028 (fbla-org-leadership.07.jsonl:200): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-motivation-029 (fbla-org-leadership.07.jsonl:201): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-012 (fbla-org-leadership.07.jsonl:203): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-014 (fbla-org-leadership.07.jsonl:205): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-017 (fbla-org-leadership.07.jsonl:208): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-021 (fbla-org-leadership.07.jsonl:212): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-021 (fbla-org-leadership.07.jsonl:212): prompt is very similar to fbla-business-law-business-ethics-070
+- fbla-leadership-ethics-022 (fbla-org-leadership.07.jsonl:213): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-022 (fbla-org-leadership.07.jsonl:213): prompt is very similar to fbla-business-law-business-ethics-073
+- fbla-leadership-ethics-023 (fbla-org-leadership.07.jsonl:214): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-leadership-ethics-024 (fbla-org-leadership.07.jsonl:215): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-data-literacy-and-foundations-017 (fbla-data-science-ai.jsonl:17): prompt is very similar to fbla-accounting-technology-and-accounting-020
 - fbla-data-science-ai-probability-and-statistics-foundations-003 (fbla-data-science-ai.jsonl:27): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-002
 - fbla-data-science-ai-ai-basics-021 (fbla-data-science-ai.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
@@ -1258,6 +1356,7 @@ none
 - fbla-healthcare-admin-healthcare-organizations-and-structure-055 (fbla-healthcare-admin.06.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-061 (fbla-healthcare-admin.06.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-033 (fbla-healthcare-admin.06.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-033 (fbla-healthcare-admin.06.jsonl:27): prompt is very similar to fbla-leadership-human-resources-management-108
 - fbla-healthcare-admin-staffing-and-training-034 (fbla-healthcare-admin.06.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-034 (fbla-healthcare-admin.06.jsonl:28): prompt is very similar to fbla-leadership-human-resources-management-017
 - fbla-healthcare-admin-staffing-and-training-035 (fbla-healthcare-admin.06.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
@@ -1269,13 +1368,16 @@ none
 - fbla-healthcare-admin-staffing-and-training-048 (fbla-healthcare-admin.06.jsonl:42): prompt is very similar to fbla-business-law-employment-law-016
 - fbla-healthcare-admin-staffing-and-training-048 (fbla-healthcare-admin.06.jsonl:42): prompt is very similar to fbla-business-law-employment-law-062
 - fbla-healthcare-admin-staffing-and-training-048 (fbla-healthcare-admin.06.jsonl:42): prompt is very similar to fbla-economics-government-s-impact-on-business-060
+- fbla-healthcare-admin-staffing-and-training-048 (fbla-healthcare-admin.06.jsonl:42): prompt is very similar to fbla-leadership-human-resources-management-088
 - fbla-healthcare-admin-staffing-and-training-049 (fbla-healthcare-admin.06.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-049 (fbla-healthcare-admin.06.jsonl:43): prompt is very similar to fbla-business-law-employment-law-018
 - fbla-healthcare-admin-staffing-and-training-049 (fbla-healthcare-admin.06.jsonl:43): prompt is very similar to fbla-business-law-employment-law-065
+- fbla-healthcare-admin-staffing-and-training-049 (fbla-healthcare-admin.06.jsonl:43): prompt is very similar to fbla-leadership-human-resources-management-086
 - fbla-healthcare-admin-staffing-and-training-050 (fbla-healthcare-admin.06.jsonl:44): prompt is very similar to fbla-business-law-employment-law-014
 - fbla-healthcare-admin-staffing-and-training-050 (fbla-healthcare-admin.06.jsonl:44): prompt is very similar to fbla-business-law-employment-law-061
 - fbla-healthcare-admin-staffing-and-training-051 (fbla-healthcare-admin.06.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-052 (fbla-healthcare-admin.06.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-staffing-and-training-052 (fbla-healthcare-admin.06.jsonl:46): prompt is very similar to fbla-leadership-human-resources-management-093
 - fbla-healthcare-admin-staffing-and-training-055 (fbla-healthcare-admin.06.jsonl:49): prompt is very similar to fbla-business-law-agency-and-employment-015
 - fbla-healthcare-admin-staffing-and-training-058 (fbla-healthcare-admin.06.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-060 (fbla-healthcare-admin.06.jsonl:54): prompt is very similar to fbla-leadership-human-resources-management-041
@@ -1493,6 +1595,7 @@ none
 - fbla-intro-business-career-planning-024 (fbla-intro-business.02.jsonl:97): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-job-search-skills-018 (fbla-intro-business.02.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-job-search-skills-028 (fbla-intro-business.02.jsonl:110): prompt is very similar to fbla-business-law-employment-law-039
+- fbla-intro-business-job-search-skills-028 (fbla-intro-business.02.jsonl:110): prompt is very similar to fbla-leadership-human-resources-management-103
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-tax-accounting-021
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-tax-accounting-058
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-standards-and-compliance-083
