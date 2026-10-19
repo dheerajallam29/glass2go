@@ -58,6 +58,26 @@ function ordered(qs: Question[], p: Store) {
   return [...shuffle(groups[0]), ...shuffle(groups[1]), ...shuffle(groups[2]), ...groups[3]];
 }
 
+// Like the real exams, which reuse a handful of questions from earlier years, a set mixes in some questions
+// you have already answered once you have worked through a little of this exam. Missed ones come back first.
+const RETURN_AFTER = 30;
+function returningCount(length: number) {
+  if (length >= 20) return 4 + Math.floor(Math.random() * 2);
+  return length >= 10 ? 2 : 0;
+}
+function withReturning(base: Question[], all: Question[], p: Store, wanted: number) {
+  const answered = all.filter((q) => (p.attempts[q.id]?.right ?? 0) + (p.attempts[q.id]?.wrong ?? 0) > 0);
+  if (answered.length < RETURN_AFTER || !wanted) return { deck: base, back: new Set<string>() };
+  const inDeck = new Set(base.map((q) => q.id));
+  const pool = answered.filter((q) => !inDeck.has(q.id));
+  const missed = shuffle(pool.filter((q) => !p.attempts[q.id].lastOk));
+  const rest = shuffle(pool.filter((q) => p.attempts[q.id].lastOk));
+  const back = [...missed, ...rest].slice(0, Math.min(wanted, base.length - 1));
+  const deck = base.slice(0, base.length - back.length);
+  for (const q of back) deck.splice(Math.floor(Math.random() * (deck.length + 1)), 0, q);
+  return { deck, back: new Set(back.map((q) => q.id)) };
+}
+
 export default function Quiz({
   track,
   examName,
@@ -73,6 +93,7 @@ export default function Quiz({
   const [length, setLength] = useState<Length>(10);
   const [timed, setTimed] = useState(false);
   const [deck, setDeck] = useState<Question[]>([]);
+  const [returning, setReturning] = useState<Set<string>>(new Set());
   const [index, setIndex] = useState(0);
   const [picked, setPicked] = useState<number | null>(null);
   const [checked, setChecked] = useState(false);
@@ -92,9 +113,10 @@ export default function Quiz({
   }, [questions, progress]);
 
   const start = useCallback(
-    (qs: Question[], isTimed: boolean) => {
+    (qs: Question[], isTimed: boolean, back: Set<string> = new Set()) => {
       if (!qs.length) return;
       setDeck(qs);
+      setReturning(back);
       setIndex(0);
       setPicked(null);
       setChecked(false);
@@ -108,9 +130,17 @@ export default function Quiz({
 
   const startPractice = () => {
     const pool = ordered(questions.filter((q) => matches(filter, q, progress)), progress);
-    start(length ? pool.slice(0, length) : pool, false);
+    const base = length ? pool.slice(0, length) : pool;
+    const mixed =
+      filter === "all"
+        ? withReturning(base, questions, progress, returningCount(base.length))
+        : { deck: base, back: new Set<string>() };
+    start(mixed.deck, false, mixed.back);
   };
-  const startMini = () => start(shuffle(ordered(questions, progress).slice(0, MINI * 2)).slice(0, MINI), true);
+  const startMini = () => {
+    const mixed = withReturning(shuffle(ordered(questions, progress).slice(0, MINI * 2)).slice(0, MINI), questions, progress, returningCount(MINI));
+    start(mixed.deck, true, mixed.back);
+  };
   const startWeakest = (area: string) =>
     start(ordered(questions.filter((q) => q.area === area), progress).slice(0, 10), false);
 
@@ -418,7 +448,7 @@ export default function Quiz({
       </div>
 
       <div className={styles.areaRow}>
-        <p className={styles.area}>{q.area}{q.gen ? " · AI-generated, unreviewed" : ""}</p>
+        <p className={styles.area}>{q.area}{returning.has(q.id) ? " · Returning question" : ""}{q.gen ? " · AI-generated, unreviewed" : ""}</p>
         <button
           type="button"
           className={styles.flag}
