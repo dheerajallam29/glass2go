@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7117** (DECA 2322, FBLA 4795)
+Total questions: **7175** (DECA 2322, FBLA 4853)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -20,7 +20,7 @@ Total questions: **7117** (DECA 2322, FBLA 4795)
 | FBLA leadership | 474 |
 | FBLA data-science-ai | 452 |
 | FBLA healthcare-administration | 481 |
-| FBLA intro-business | 402 |
+| FBLA intro-business | 460 |
 
 ## By topic
 | Track / pool / topic | Count |
@@ -114,17 +114,17 @@ Total questions: **7117** (DECA 2322, FBLA 4795)
 | fbla/healthcare-admin/Strategic Management | 44 |
 | fbla/intro-business/Business Activities | 4 |
 | fbla/intro-business/Business Nature | 5 |
-| fbla/intro-business/Career Planning | 25 |
+| fbla/intro-business/Career Planning | 29 |
 | fbla/intro-business/Careers | 27 |
 | fbla/intro-business/Cost and Profit | 5 |
-| fbla/intro-business/Cost/Profit Relationships | 45 |
+| fbla/intro-business/Cost/Profit Relationships | 61 |
 | fbla/intro-business/Economic Concepts | 4 |
-| fbla/intro-business/Economic Systems | 41 |
-| fbla/intro-business/Fundamental Economic Concepts | 41 |
-| fbla/intro-business/Job-Search Skills | 50 |
+| fbla/intro-business/Economic Systems | 51 |
+| fbla/intro-business/Fundamental Economic Concepts | 52 |
+| fbla/intro-business/Job-Search Skills | 59 |
 | fbla/intro-business/Nature of Business | 42 |
-| fbla/intro-business/Owning a Business | 67 |
-| fbla/intro-business/Types of Business Activities | 46 |
+| fbla/intro-business/Owning a Business | 71 |
+| fbla/intro-business/Types of Business Activities | 50 |
 | fbla/leadership/Communication | 17 |
 | fbla/leadership/Conflict and Negotiation | 10 |
 | fbla/leadership/Critical-Thinking Skills | 57 |
@@ -169,17 +169,17 @@ Total questions: **7117** (DECA 2322, FBLA 4795)
 ## By difficulty
 | Difficulty | Count |
 |---|---|
-| 1 | 424 |
-| 2 | 4676 |
+| 1 | 425 |
+| 2 | 4733 |
 | 3 | 2017 |
 
 ## Correct-answer position
-A: 1779, B: 1779, C: 1780, D: 1779
+A: 1794, B: 1793, C: 1794, D: 1794
 
 ## Hard errors (0)
 none
 
-## Flags to review (1333)
+## Flags to review (1354)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -1513,3 +1513,24 @@ none
 - fbla-intro-business-job-search-skills-042 (fbla-intro-business.06.jsonl:196): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-job-search-skills-043 (fbla-intro-business.06.jsonl:197): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-job-search-skills-049 (fbla-intro-business.06.jsonl:203): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-065 (fbla-intro-business.07.jsonl:17): prompt is very similar to fbla-economics-cost-profit-relationships-059
+- fbla-intro-business-fundamental-economic-concepts-046 (fbla-intro-business.07.jsonl:24): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-045
+- fbla-intro-business-fundamental-economic-concepts-052 (fbla-intro-business.07.jsonl:30): prompt is very similar to fbla-economics-fundamental-economic-concepts-022
+- fbla-intro-business-fundamental-economic-concepts-053 (fbla-intro-business.07.jsonl:31): prompt is very similar to fbla-economics-fundamental-economic-concepts-099
+- fbla-intro-business-fundamental-economic-concepts-055 (fbla-intro-business.07.jsonl:33): prompt is very similar to fbla-economics-government-s-impact-on-business-025
+- fbla-intro-business-fundamental-economic-concepts-058 (fbla-intro-business.07.jsonl:36): prompt is very similar to fbla-economics-economic-indicators-007
+- fbla-intro-business-fundamental-economic-concepts-064 (fbla-intro-business.07.jsonl:42): prompt is very similar to fbla-business-law-international-trade-commerce-law-012
+- fbla-intro-business-fundamental-economic-concepts-064 (fbla-intro-business.07.jsonl:42): prompt is very similar to fbla-economics-government-s-impact-on-business-005
+- fbla-intro-business-economic-systems-061 (fbla-intro-business.07.jsonl:48): prompt is very similar to fbla-economics-economic-systems-017
+- fbla-intro-business-economic-systems-062 (fbla-intro-business.07.jsonl:49): prompt is very similar to fbla-economics-economic-systems-032
+- fbla-intro-business-economic-systems-063 (fbla-intro-business.07.jsonl:50): prompt is very similar to fbla-economics-economic-systems-033
+- fbla-intro-business-economic-systems-068 (fbla-intro-business.07.jsonl:55): prompt is very similar to fbla-economics-government-s-impact-on-business-068
+- fbla-intro-business-economic-systems-069 (fbla-intro-business.07.jsonl:56): prompt is very similar to fbla-economics-government-s-impact-on-business-067
+- fbla-intro-business-types-of-business-activities-063 (fbla-intro-business.07.jsonl:68): prompt is very similar to fbla-business-law-international-trade-commerce-law-043
+- fbla-intro-business-types-of-business-activities-063 (fbla-intro-business.07.jsonl:68): prompt is very similar to fbla-economics-global-trade-012
+- fbla-intro-business-types-of-business-activities-063 (fbla-intro-business.07.jsonl:68): prompt is very similar to fbla-leadership-human-resources-management-079
+- fbla-intro-business-owning-a-business-108 (fbla-intro-business.07.jsonl:88): prompt is very similar to fbla-economics-fundamental-economic-concepts-011
+- fbla-intro-business-career-planning-040 (fbla-intro-business.07.jsonl:110): prompt is very similar to fbla-leadership-human-resources-management-064
+- fbla-intro-business-job-search-skills-054 (fbla-intro-business.07.jsonl:113): prompt is very similar to fbla-accounting-career-opportunities-035
+- fbla-intro-business-job-search-skills-061 (fbla-intro-business.07.jsonl:120): prompt is very similar to fbla-leadership-human-resources-management-053
+- fbla-intro-business-job-search-skills-062 (fbla-intro-business.07.jsonl:121): prompt is very similar to fbla-accounting-career-opportunities-036
