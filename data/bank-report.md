@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7234** (DECA 2322, FBLA 4912)
+Total questions: **7291** (DECA 2322, FBLA 4969)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -19,7 +19,7 @@ Total questions: **7234** (DECA 2322, FBLA 4912)
 | FBLA securities | 493 |
 | FBLA leadership | 474 |
 | FBLA data-science-ai | 511 |
-| FBLA healthcare-administration | 481 |
+| FBLA healthcare-administration | 538 |
 | FBLA intro-business | 460 |
 
 ## By topic
@@ -103,15 +103,15 @@ Total questions: **7234** (DECA 2322, FBLA 4912)
 | fbla/economics/Money and Banking | 17 |
 | fbla/economics/Nature of Business | 40 |
 | fbla/economics/Scarcity and Choice | 5 |
-| fbla/healthcare-admin/Communication and Leadership | 55 |
-| fbla/healthcare-admin/Healthcare Billing and Insurance | 65 |
-| fbla/healthcare-admin/Healthcare Finances and Budgeting | 59 |
-| fbla/healthcare-admin/Healthcare Organizations and Structure | 50 |
-| fbla/healthcare-admin/Healthcare Policy and Regulation | 56 |
-| fbla/healthcare-admin/Healthcare Technology | 36 |
-| fbla/healthcare-admin/Medical Terminology and Office Procedures | 66 |
-| fbla/healthcare-admin/Staffing and Training | 50 |
-| fbla/healthcare-admin/Strategic Management | 44 |
+| fbla/healthcare-admin/Communication and Leadership | 60 |
+| fbla/healthcare-admin/Healthcare Billing and Insurance | 78 |
+| fbla/healthcare-admin/Healthcare Finances and Budgeting | 68 |
+| fbla/healthcare-admin/Healthcare Organizations and Structure | 52 |
+| fbla/healthcare-admin/Healthcare Policy and Regulation | 67 |
+| fbla/healthcare-admin/Healthcare Technology | 40 |
+| fbla/healthcare-admin/Medical Terminology and Office Procedures | 74 |
+| fbla/healthcare-admin/Staffing and Training | 53 |
+| fbla/healthcare-admin/Strategic Management | 46 |
 | fbla/intro-business/Business Activities | 4 |
 | fbla/intro-business/Business Nature | 5 |
 | fbla/intro-business/Career Planning | 29 |
@@ -170,16 +170,16 @@ Total questions: **7234** (DECA 2322, FBLA 4912)
 | Difficulty | Count |
 |---|---|
 | 1 | 425 |
-| 2 | 4781 |
-| 3 | 2028 |
+| 2 | 4799 |
+| 3 | 2067 |
 
 ## Correct-answer position
-A: 1808, B: 1808, C: 1809, D: 1809
+A: 1822, B: 1822, C: 1823, D: 1824
 
 ## Hard errors (0)
 none
 
-## Flags to review (1380)
+## Flags to review (1392)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -1314,6 +1314,18 @@ none
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-062 (fbla-healthcare-admin.06.jsonl:274): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-063 (fbla-healthcare-admin.06.jsonl:275): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-064 (fbla-healthcare-admin.06.jsonl:276): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-072 (fbla-healthcare-admin.07.jsonl:46): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-016
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-087 (fbla-healthcare-admin.07.jsonl:61): prompt is very similar to fbla-healthcare-admin-strategic-management-048
+- fbla-healthcare-admin-healthcare-technology-063 (fbla-healthcare-admin.07.jsonl:80): prompt is very similar to fbla-healthcare-admin-communication-and-leadership-026
+- fbla-healthcare-admin-healthcare-technology-067 (fbla-healthcare-admin.07.jsonl:84): prompt is very similar to fbla-healthcare-admin-healthcare-technology-046
+- fbla-healthcare-admin-healthcare-organizations-and-structure-064 (fbla-healthcare-admin.07.jsonl:88): prompt is very similar to fbla-accounting-career-opportunities-075
+- fbla-healthcare-admin-healthcare-policy-and-regulation-071 (fbla-healthcare-admin.07.jsonl:117): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-009
+- fbla-healthcare-admin-healthcare-policy-and-regulation-085 (fbla-healthcare-admin.07.jsonl:131): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-062
+- fbla-healthcare-admin-healthcare-policy-and-regulation-089 (fbla-healthcare-admin.07.jsonl:135): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-059
+- fbla-healthcare-admin-communication-and-leadership-064 (fbla-healthcare-admin.07.jsonl:175): prompt is very similar to fbla-healthcare-admin-communication-and-leadership-029
+- fbla-healthcare-admin-communication-and-leadership-067 (fbla-healthcare-admin.07.jsonl:178): prompt is very similar to fbla-healthcare-admin-communication-and-leadership-049
+- fbla-healthcare-admin-communication-and-leadership-073 (fbla-healthcare-admin.07.jsonl:184): prompt is very similar to fbla-leadership-leadership-059
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-104 (fbla-healthcare-admin.07.jsonl:210): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-010
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-007
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-leadership-critical-thinking-skills-047
 - fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-economic-indicators-003
