@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7175** (DECA 2322, FBLA 4853)
+Total questions: **7234** (DECA 2322, FBLA 4912)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -18,7 +18,7 @@ Total questions: **7175** (DECA 2322, FBLA 4853)
 | FBLA personal-finance | 409 |
 | FBLA securities | 493 |
 | FBLA leadership | 474 |
-| FBLA data-science-ai | 452 |
+| FBLA data-science-ai | 511 |
 | FBLA healthcare-administration | 481 |
 | FBLA intro-business | 460 |
 
@@ -76,17 +76,17 @@ Total questions: **7175** (DECA 2322, FBLA 4853)
 | fbla/business-law/Legal Foundations | 92 |
 | fbla/business-law/Property and Torts | 48 |
 | fbla/business-law/Sales and Consumer Law | 32 |
-| fbla/data-science-ai/AI Basics | 47 |
+| fbla/data-science-ai/AI Basics | 49 |
 | fbla/data-science-ai/Data Analysis and Statistics for AI | 21 |
-| fbla/data-science-ai/Data Analysis | 33 |
-| fbla/data-science-ai/Data Literacy and Foundations | 51 |
+| fbla/data-science-ai/Data Analysis | 49 |
+| fbla/data-science-ai/Data Literacy and Foundations | 55 |
 | fbla/data-science-ai/Data Literacy | 4 |
-| fbla/data-science-ai/Machine Learning | 77 |
+| fbla/data-science-ai/Machine Learning | 82 |
 | fbla/data-science-ai/Perception, Representation and Reasoning | 27 |
-| fbla/data-science-ai/Privacy and Ethics | 59 |
+| fbla/data-science-ai/Privacy and Ethics | 70 |
 | fbla/data-science-ai/Probability and Statistics Foundations | 28 |
-| fbla/data-science-ai/Probability and Statistics | 55 |
-| fbla/data-science-ai/Tools for Data and AI | 50 |
+| fbla/data-science-ai/Probability and Statistics | 70 |
+| fbla/data-science-ai/Tools for Data and AI | 56 |
 | fbla/economics/Cost/Profit Relationships | 92 |
 | fbla/economics/Costs and Production | 4 |
 | fbla/economics/Demand and Supply | 8 |
@@ -170,16 +170,16 @@ Total questions: **7175** (DECA 2322, FBLA 4853)
 | Difficulty | Count |
 |---|---|
 | 1 | 425 |
-| 2 | 4733 |
-| 3 | 2017 |
+| 2 | 4781 |
+| 3 | 2028 |
 
 ## Correct-answer position
-A: 1794, B: 1793, C: 1794, D: 1794
+A: 1808, B: 1808, C: 1809, D: 1809
 
 ## Hard errors (0)
 none
 
-## Flags to review (1354)
+## Flags to review (1380)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -1085,6 +1085,30 @@ none
 - fbla-data-science-ai-perception-representation-and-reasoning-029 (fbla-data-science-ai.06.jsonl:246): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-perception-representation-and-reasoning-031 (fbla-data-science-ai.06.jsonl:248): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-perception-representation-and-reasoning-032 (fbla-data-science-ai.06.jsonl:249): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-data-science-ai-probability-and-statistics-069 (fbla-data-science-ai.07.jsonl:2): prompt is very similar to fbla-data-science-ai-probability-and-statistics-002
+- fbla-data-science-ai-probability-and-statistics-070 (fbla-data-science-ai.07.jsonl:3): prompt is very similar to fbla-data-science-ai-probability-and-statistics-022
+- fbla-data-science-ai-probability-and-statistics-072 (fbla-data-science-ai.07.jsonl:5): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-004
+- fbla-data-science-ai-probability-and-statistics-073 (fbla-data-science-ai.07.jsonl:6): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-005
+- fbla-data-science-ai-probability-and-statistics-073 (fbla-data-science-ai.07.jsonl:6): prompt is very similar to fbla-data-science-ai-probability-and-statistics-040
+- fbla-data-science-ai-probability-and-statistics-084 (fbla-data-science-ai.07.jsonl:17): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-data-science-ai-data-analysis-048 (fbla-data-science-ai.07.jsonl:22): prompt is very similar to fbla-data-science-ai-data-analysis-and-statistics-for-ai-004
+- fbla-data-science-ai-data-analysis-049 (fbla-data-science-ai.07.jsonl:23): prompt is very similar to fbla-data-science-ai-data-analysis-017
+- fbla-data-science-ai-data-analysis-051 (fbla-data-science-ai.07.jsonl:25): prompt is very similar to fbla-data-science-ai-data-literacy-002
+- fbla-data-science-ai-data-analysis-062 (fbla-data-science-ai.07.jsonl:36): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-021
+- fbla-data-science-ai-data-analysis-063 (fbla-data-science-ai.07.jsonl:37): prompt is very similar to fbla-accounting-technology-and-accounting-014
+- fbla-data-science-ai-data-analysis-070 (fbla-data-science-ai.07.jsonl:44): prompt is very similar to fbla-data-science-ai-data-analysis-009
+- fbla-data-science-ai-tools-for-data-and-ai-069 (fbla-data-science-ai.07.jsonl:84): prompt is very similar to fbla-accounting-technology-and-accounting-076
+- fbla-data-science-ai-tools-for-data-and-ai-070 (fbla-data-science-ai.07.jsonl:85): prompt is very similar to fbla-accounting-technology-and-accounting-032
+- fbla-data-science-ai-ai-basics-088 (fbla-data-science-ai.07.jsonl:107): prompt is very similar to fbla-data-science-ai-perception-representation-and-reasoning-012
+- fbla-data-science-ai-machine-learning-109 (fbla-data-science-ai.07.jsonl:114): prompt is very similar to fbla-data-science-ai-ai-basics-035
+- fbla-data-science-ai-machine-learning-139 (fbla-data-science-ai.07.jsonl:144): prompt is very similar to fbla-data-science-ai-data-analysis-and-statistics-for-ai-020
+- fbla-data-science-ai-privacy-and-ethics-084 (fbla-data-science-ai.07.jsonl:165): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-006
+- fbla-data-science-ai-privacy-and-ethics-090 (fbla-data-science-ai.07.jsonl:171): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-065
+- fbla-data-science-ai-privacy-and-ethics-093 (fbla-data-science-ai.07.jsonl:174): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-027
+- fbla-data-science-ai-privacy-and-ethics-096 (fbla-data-science-ai.07.jsonl:177): prompt is very similar to fbla-accounting-technology-and-accounting-026
+- fbla-data-science-ai-privacy-and-ethics-096 (fbla-data-science-ai.07.jsonl:177): prompt is very similar to fbla-personal-finance-financial-responsibility-018
+- fbla-data-science-ai-privacy-and-ethics-100 (fbla-data-science-ai.07.jsonl:181): prompt is very similar to fbla-accounting-technology-and-accounting-030
+- fbla-data-science-ai-privacy-and-ethics-101 (fbla-data-science-ai.07.jsonl:182): prompt is very similar to fbla-accounting-technology-and-accounting-029
 - fbla-healthcare-admin-healthcare-organizations-and-structure-024 (fbla-healthcare-admin.jsonl:24): prompt is very similar to fbla-leadership-role-of-management-in-business-045
 - fbla-healthcare-admin-healthcare-organizations-and-structure-025 (fbla-healthcare-admin.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-026 (fbla-healthcare-admin.jsonl:26): prompt is very similar to fbla-personal-finance-insurance-027
@@ -1113,6 +1137,7 @@ none
 - fbla-healthcare-admin-strategic-management-009 (fbla-healthcare-admin.02.jsonl:33): prompt is very similar to fbla-leadership-role-of-management-in-business-057
 - fbla-healthcare-admin-strategic-management-019 (fbla-healthcare-admin.02.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-technology-014 (fbla-healthcare-admin.02.jsonl:58): prompt is very similar to fbla-accounting-technology-and-accounting-032
+- fbla-healthcare-admin-healthcare-technology-014 (fbla-healthcare-admin.02.jsonl:58): prompt is very similar to fbla-data-science-ai-tools-for-data-and-ai-070
 - fbla-healthcare-admin-healthcare-technology-017 (fbla-healthcare-admin.02.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-billing-and-insurance-001 (fbla-healthcare-admin.03.jsonl:1): prompt is very similar to fbla-personal-finance-risk-management-018
 - fbla-healthcare-admin-healthcare-billing-and-insurance-002 (fbla-healthcare-admin.03.jsonl:2): prompt is very similar to fbla-personal-finance-risk-management-008
@@ -1198,6 +1223,7 @@ none
 - fbla-healthcare-admin-healthcare-technology-040 (fbla-healthcare-admin.06.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-technology-041 (fbla-healthcare-admin.06.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-technology-041 (fbla-healthcare-admin.06.jsonl:99): prompt is very similar to fbla-accounting-technology-and-accounting-030
+- fbla-healthcare-admin-healthcare-technology-041 (fbla-healthcare-admin.06.jsonl:99): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-100
 - fbla-healthcare-admin-healthcare-technology-042 (fbla-healthcare-admin.06.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-technology-042 (fbla-healthcare-admin.06.jsonl:100): prompt is very similar to fbla-accounting-technology-and-accounting-025
 - fbla-healthcare-admin-healthcare-technology-042 (fbla-healthcare-admin.06.jsonl:100): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-011
