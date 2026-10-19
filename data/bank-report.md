@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **7719** (DECA 2322, FBLA 5397)
+Total questions: **7885** (DECA 2322, FBLA 5563)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -16,7 +16,7 @@ Total questions: **7719** (DECA 2322, FBLA 5397)
 | FBLA business-law | 692 |
 | FBLA economics | 613 |
 | FBLA personal-finance | 632 |
-| FBLA securities | 493 |
+| FBLA securities | 659 |
 | FBLA leadership | 679 |
 | FBLA data-science-ai | 511 |
 | FBLA healthcare-administration | 538 |
@@ -154,16 +154,16 @@ Total questions: **7719** (DECA 2322, FBLA 5397)
 | fbla/personal-finance/Saving and Investing | 38 |
 | fbla/personal-finance/Taxes | 47 |
 | fbla/securities/Bonds | 10 |
-| fbla/securities/Financial Markets | 100 |
+| fbla/securities/Financial Markets | 135 |
 | fbla/securities/Funds and Products | 7 |
 | fbla/securities/Investing Principles | 8 |
-| fbla/securities/Investment Analysis | 92 |
+| fbla/securities/Investment Analysis | 131 |
 | fbla/securities/Markets | 9 |
 | fbla/securities/Principles of Money | 15 |
 | fbla/securities/Regulation | 4 |
-| fbla/securities/Securities & Investments Industry | 67 |
-| fbla/securities/Securities Products | 85 |
-| fbla/securities/Selecting Investments | 85 |
+| fbla/securities/Securities & Investments Industry | 90 |
+| fbla/securities/Securities Products | 139 |
+| fbla/securities/Selecting Investments | 100 |
 | fbla/securities/Stocks | 11 |
 
 ## By difficulty
@@ -171,15 +171,15 @@ Total questions: **7719** (DECA 2322, FBLA 5397)
 |---|---|
 | 1 | 425 |
 | 2 | 5227 |
-| 3 | 2067 |
+| 3 | 2233 |
 
 ## Correct-answer position
-A: 1929, B: 1929, C: 1929, D: 1932
+A: 1971, B: 1970, C: 1971, D: 1973
 
 ## Hard errors (0)
 none
 
-## Flags to review (1575)
+## Flags to review (1687)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -921,6 +921,116 @@ none
 - fbla-securities-securities-investments-industry-094 (fbla-securities.09.jsonl:69): prompt is very similar to fbla-securities-securities-investments-industry-029
 - fbla-securities-securities-investments-industry-097 (fbla-securities.09.jsonl:72): prompt is very similar to fbla-business-law-financial-tax-law-068
 - fbla-securities-securities-investments-industry-097 (fbla-securities.09.jsonl:72): prompt is very similar to fbla-securities-securities-investments-industry-043
+- fbla-securities-securities-products-141 (fbla-securities.10.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-143 (fbla-securities.10.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-143 (fbla-securities.10.jsonl:9): prompt is very similar to fbla-personal-finance-saving-and-investing-058
+- fbla-securities-securities-products-152 (fbla-securities.10.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-158 (fbla-securities.10.jsonl:24): prompt is very similar to fbla-securities-securities-products-072
+- fbla-securities-securities-products-158 (fbla-securities.10.jsonl:24): prompt is very similar to fbla-securities-securities-products-073
+- fbla-securities-securities-products-163 (fbla-securities.10.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-164 (fbla-securities.10.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-165 (fbla-securities.10.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-168 (fbla-securities.10.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-171 (fbla-securities.10.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-176 (fbla-securities.10.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-177 (fbla-securities.10.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-180 (fbla-securities.10.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-182 (fbla-securities.10.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-184 (fbla-securities.10.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-185 (fbla-securities.10.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-187 (fbla-securities.10.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-188 (fbla-securities.10.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-189 (fbla-securities.10.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-products-190 (fbla-securities.10.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-148 (fbla-securities.10.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-149 (fbla-securities.10.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-149 (fbla-securities.10.jsonl:59): prompt is very similar to fbla-economics-economic-indicators-020
+- fbla-securities-financial-markets-150 (fbla-securities.10.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-150 (fbla-securities.10.jsonl:60): prompt is very similar to fbla-economics-money-and-banking-013
+- fbla-securities-financial-markets-155 (fbla-securities.10.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-159 (fbla-securities.10.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-161 (fbla-securities.10.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-163 (fbla-securities.10.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-164 (fbla-securities.10.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-165 (fbla-securities.10.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-167 (fbla-securities.10.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-168 (fbla-securities.10.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-169 (fbla-securities.10.jsonl:79): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-tax-accounting-021
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-tax-accounting-058
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-standards-and-compliance-083
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-standards-and-compliance-084
+- fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-personal-finance-taxes-051
+- fbla-securities-financial-markets-171 (fbla-securities.10.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-172 (fbla-securities.10.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-173 (fbla-securities.10.jsonl:83): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-173 (fbla-securities.10.jsonl:83): prompt is very similar to fbla-business-law-business-organizations-030
+- fbla-securities-financial-markets-173 (fbla-securities.10.jsonl:83): prompt is very similar to fbla-economics-nature-of-business-035
+- fbla-securities-financial-markets-175 (fbla-securities.10.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-176 (fbla-securities.10.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-177 (fbla-securities.10.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-179 (fbla-securities.10.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-180 (fbla-securities.10.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-181 (fbla-securities.10.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-financial-markets-182 (fbla-securities.10.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-123 (fbla-securities.10.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-124 (fbla-securities.10.jsonl:96): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-126 (fbla-securities.10.jsonl:98): prompt is very similar to fbla-securities-principles-of-money-011
+- fbla-securities-investment-analysis-127 (fbla-securities.10.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-134 (fbla-securities.10.jsonl:106): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-136 (fbla-securities.10.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-137 (fbla-securities.10.jsonl:109): prompt is very similar to fbla-accounting-financial-reports-027
+- fbla-securities-investment-analysis-139 (fbla-securities.10.jsonl:111): prompt is very similar to fbla-securities-investment-analysis-138
+- fbla-securities-investment-analysis-140 (fbla-securities.10.jsonl:112): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-140 (fbla-securities.10.jsonl:112): prompt is very similar to fbla-accounting-financial-reports-095
+- fbla-securities-investment-analysis-141 (fbla-securities.10.jsonl:113): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-142 (fbla-securities.10.jsonl:114): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-143 (fbla-securities.10.jsonl:115): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-144 (fbla-securities.10.jsonl:116): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-145 (fbla-securities.10.jsonl:117): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-146 (fbla-securities.10.jsonl:118): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-148 (fbla-securities.10.jsonl:120): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-151 (fbla-securities.10.jsonl:123): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-153 (fbla-securities.10.jsonl:125): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-155 (fbla-securities.10.jsonl:127): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-156 (fbla-securities.10.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-investment-analysis-160 (fbla-securities.10.jsonl:132): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-097 (fbla-securities.10.jsonl:135): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-098 (fbla-securities.10.jsonl:136): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- fbla-securities-selecting-investments-099 (fbla-securities.10.jsonl:137): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-103 (fbla-securities.10.jsonl:141): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-105 (fbla-securities.10.jsonl:143): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-106 (fbla-securities.10.jsonl:144): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-108 (fbla-securities.10.jsonl:146): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-109 (fbla-securities.10.jsonl:147): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-selecting-investments-112 (fbla-securities.10.jsonl:150): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-100 (fbla-securities.10.jsonl:152): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-101 (fbla-securities.10.jsonl:153): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-101 (fbla-securities.10.jsonl:153): prompt is very similar to fbla-securities-securities-investments-industry-061
+- fbla-securities-securities-investments-industry-102 (fbla-securities.10.jsonl:154): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-103 (fbla-securities.10.jsonl:155): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-104 (fbla-securities.10.jsonl:156): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-105 (fbla-securities.10.jsonl:157): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-106 (fbla-securities.10.jsonl:158): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-107 (fbla-securities.10.jsonl:159): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-108 (fbla-securities.10.jsonl:160): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-108 (fbla-securities.10.jsonl:160): prompt is very similar to fbla-securities-securities-investments-industry-058
+- fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): prompt is very similar to fbla-securities-securities-investments-industry-058
+- fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): prompt is very similar to fbla-securities-securities-investments-industry-108
+- fbla-securities-securities-investments-industry-111 (fbla-securities.10.jsonl:163): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-112 (fbla-securities.10.jsonl:164): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-113 (fbla-securities.10.jsonl:165): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-114 (fbla-securities.10.jsonl:166): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-116 (fbla-securities.10.jsonl:168): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-117 (fbla-securities.10.jsonl:169): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-118 (fbla-securities.10.jsonl:170): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-119 (fbla-securities.10.jsonl:171): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-120 (fbla-securities.10.jsonl:172): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-123 (fbla-securities.10.jsonl:175): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-124 (fbla-securities.10.jsonl:176): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-securities-securities-investments-industry-125 (fbla-securities.10.jsonl:177): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-manage-business-relationships-001 (fbla-org-leadership.jsonl:15): prompt is very similar to fbla-economics-nature-of-business-030
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-business-law-business-organizations-015
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-economics-nature-of-business-028
@@ -1601,11 +1711,13 @@ none
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-standards-and-compliance-083
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-accounting-standards-and-compliance-084
 - fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-personal-finance-taxes-051
+- fbla-intro-business-job-search-skills-031 (fbla-intro-business.02.jsonl:113): prompt is very similar to fbla-securities-financial-markets-170
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-tax-accounting-021
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-tax-accounting-058
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-standards-and-compliance-083
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-accounting-standards-and-compliance-084
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-personal-finance-taxes-051
+- fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-securities-financial-markets-170
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-intro-business-job-search-skills-031
 - fbla-intro-business-economic-concepts-002 (fbla-intro-business.03.jsonl:2): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-009
 - fbla-intro-business-cost-and-profit-005 (fbla-intro-business.03.jsonl:29): prompt is very similar to fbla-economics-cost-profit-relationships-065
