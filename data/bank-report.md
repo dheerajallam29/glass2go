@@ -1,6 +1,6 @@
 # Question bank report
 
-Total questions: **8189** (DECA 2322, FBLA 5867)
+Total questions: **8318** (DECA 2322, FBLA 5996)
 
 ## Questions available per exam
 | Exam | Questions |
@@ -19,7 +19,7 @@ Total questions: **8189** (DECA 2322, FBLA 5867)
 | FBLA securities | 659 |
 | FBLA leadership | 679 |
 | FBLA data-science-ai | 637 |
-| FBLA healthcare-administration | 538 |
+| FBLA healthcare-administration | 667 |
 | FBLA intro-business | 638 |
 
 ## By topic
@@ -106,11 +106,11 @@ Total questions: **8189** (DECA 2322, FBLA 5867)
 | fbla/economics/Scarcity and Choice | 5 |
 | fbla/healthcare-admin/Communication and Leadership | 60 |
 | fbla/healthcare-admin/Healthcare Billing and Insurance | 78 |
-| fbla/healthcare-admin/Healthcare Finances and Budgeting | 68 |
-| fbla/healthcare-admin/Healthcare Organizations and Structure | 52 |
-| fbla/healthcare-admin/Healthcare Policy and Regulation | 67 |
+| fbla/healthcare-admin/Healthcare Finances and Budgeting | 99 |
+| fbla/healthcare-admin/Healthcare Organizations and Structure | 83 |
+| fbla/healthcare-admin/Healthcare Policy and Regulation | 94 |
 | fbla/healthcare-admin/Healthcare Technology | 40 |
-| fbla/healthcare-admin/Medical Terminology and Office Procedures | 74 |
+| fbla/healthcare-admin/Medical Terminology and Office Procedures | 114 |
 | fbla/healthcare-admin/Staffing and Training | 53 |
 | fbla/healthcare-admin/Strategic Management | 46 |
 | fbla/intro-business/Business Activities | 4 |
@@ -171,16 +171,16 @@ Total questions: **8189** (DECA 2322, FBLA 5867)
 | Difficulty | Count |
 |---|---|
 | 1 | 425 |
-| 2 | 5405 |
-| 3 | 2359 |
+| 2 | 5445 |
+| 3 | 2448 |
 
 ## Correct-answer position
-A: 2047, B: 2047, C: 2046, D: 2049
+A: 2080, B: 2079, C: 2079, D: 2080
 
 ## Hard errors (0)
 none
 
-## Flags to review (1959)
+## Flags to review (2087)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
@@ -1714,6 +1714,134 @@ none
 - fbla-healthcare-admin-communication-and-leadership-067 (fbla-healthcare-admin.07.jsonl:178): prompt is very similar to fbla-healthcare-admin-communication-and-leadership-049
 - fbla-healthcare-admin-communication-and-leadership-073 (fbla-healthcare-admin.07.jsonl:184): prompt is very similar to fbla-leadership-leadership-059
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-104 (fbla-healthcare-admin.07.jsonl:210): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-010
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-091 (fbla-healthcare-admin.08.jsonl:1): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-093 (fbla-healthcare-admin.08.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-094 (fbla-healthcare-admin.08.jsonl:4): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-095 (fbla-healthcare-admin.08.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-096 (fbla-healthcare-admin.08.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-097 (fbla-healthcare-admin.08.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-098 (fbla-healthcare-admin.08.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-099 (fbla-healthcare-admin.08.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-100 (fbla-healthcare-admin.08.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-102 (fbla-healthcare-admin.08.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-104 (fbla-healthcare-admin.08.jsonl:14): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-105 (fbla-healthcare-admin.08.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-107 (fbla-healthcare-admin.08.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-108 (fbla-healthcare-admin.08.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-109 (fbla-healthcare-admin.08.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-110 (fbla-healthcare-admin.08.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-111 (fbla-healthcare-admin.08.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-112 (fbla-healthcare-admin.08.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-116 (fbla-healthcare-admin.08.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-117 (fbla-healthcare-admin.08.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-117 (fbla-healthcare-admin.08.jsonl:27): prompt is very similar to fbla-personal-finance-budgeting-010
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-118 (fbla-healthcare-admin.08.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-119 (fbla-healthcare-admin.08.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-finances-and-budgeting-121 (fbla-healthcare-admin.08.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-088 (fbla-healthcare-admin.08.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-089 (fbla-healthcare-admin.08.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-090 (fbla-healthcare-admin.08.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-091 (fbla-healthcare-admin.08.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-092 (fbla-healthcare-admin.08.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-093 (fbla-healthcare-admin.08.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-094 (fbla-healthcare-admin.08.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-096 (fbla-healthcare-admin.08.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-097 (fbla-healthcare-admin.08.jsonl:41): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-098 (fbla-healthcare-admin.08.jsonl:42): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-098 (fbla-healthcare-admin.08.jsonl:42): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-042
+- fbla-healthcare-admin-healthcare-organizations-and-structure-099 (fbla-healthcare-admin.08.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-100 (fbla-healthcare-admin.08.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-101 (fbla-healthcare-admin.08.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-102 (fbla-healthcare-admin.08.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-103 (fbla-healthcare-admin.08.jsonl:47): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-104 (fbla-healthcare-admin.08.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-105 (fbla-healthcare-admin.08.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-106 (fbla-healthcare-admin.08.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-107 (fbla-healthcare-admin.08.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-108 (fbla-healthcare-admin.08.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-109 (fbla-healthcare-admin.08.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-110 (fbla-healthcare-admin.08.jsonl:54): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-111 (fbla-healthcare-admin.08.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-112 (fbla-healthcare-admin.08.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-113 (fbla-healthcare-admin.08.jsonl:57): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-114 (fbla-healthcare-admin.08.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-115 (fbla-healthcare-admin.08.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-116 (fbla-healthcare-admin.08.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-117 (fbla-healthcare-admin.08.jsonl:61): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-118 (fbla-healthcare-admin.08.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-organizations-and-structure-119 (fbla-healthcare-admin.08.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-095 (fbla-healthcare-admin.08.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-096 (fbla-healthcare-admin.08.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-097 (fbla-healthcare-admin.08.jsonl:66): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-098 (fbla-healthcare-admin.08.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-099 (fbla-healthcare-admin.08.jsonl:68): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-074
+- fbla-healthcare-admin-healthcare-policy-and-regulation-100 (fbla-healthcare-admin.08.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-101 (fbla-healthcare-admin.08.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-103 (fbla-healthcare-admin.08.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-104 (fbla-healthcare-admin.08.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-105 (fbla-healthcare-admin.08.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-106 (fbla-healthcare-admin.08.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-108 (fbla-healthcare-admin.08.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-111 (fbla-healthcare-admin.08.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-111 (fbla-healthcare-admin.08.jsonl:80): prompt is very similar to fbla-healthcare-admin-healthcare-policy-and-regulation-040
+- fbla-healthcare-admin-healthcare-policy-and-regulation-112 (fbla-healthcare-admin.08.jsonl:81): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-115 (fbla-healthcare-admin.08.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-116 (fbla-healthcare-admin.08.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-117 (fbla-healthcare-admin.08.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-118 (fbla-healthcare-admin.08.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-119 (fbla-healthcare-admin.08.jsonl:88): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-120 (fbla-healthcare-admin.08.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-120 (fbla-healthcare-admin.08.jsonl:89): prompt is very similar to fbla-business-law-legal-foundations-031
+- fbla-healthcare-admin-healthcare-policy-and-regulation-121 (fbla-healthcare-admin.08.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-122 (fbla-healthcare-admin.08.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-123 (fbla-healthcare-admin.08.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-124 (fbla-healthcare-admin.08.jsonl:93): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-healthcare-policy-and-regulation-125 (fbla-healthcare-admin.08.jsonl:94): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-113 (fbla-healthcare-admin.08.jsonl:99): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-114 (fbla-healthcare-admin.08.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-005
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-006
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-040
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-042
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-043
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-044
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-045
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-122 (fbla-healthcare-admin.08.jsonl:108): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-116
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-123 (fbla-healthcare-admin.08.jsonl:109): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-122
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-124 (fbla-healthcare-admin.08.jsonl:110): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-122
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-005
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-006
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-040
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-042
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-043
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-044
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-045
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-116
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-122
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-123
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-125 (fbla-healthcare-admin.08.jsonl:111): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-124
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-126 (fbla-healthcare-admin.08.jsonl:112): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-122
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-126 (fbla-healthcare-admin.08.jsonl:112): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-125
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-129 (fbla-healthcare-admin.08.jsonl:115): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-128
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-130 (fbla-healthcare-admin.08.jsonl:116): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-128
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-130 (fbla-healthcare-admin.08.jsonl:116): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-129
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-132 (fbla-healthcare-admin.08.jsonl:118): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-012
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-133 (fbla-healthcare-admin.08.jsonl:119): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-133 (fbla-healthcare-admin.08.jsonl:119): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-012
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-133 (fbla-healthcare-admin.08.jsonl:119): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-132
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-135 (fbla-healthcare-admin.08.jsonl:121): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-136 (fbla-healthcare-admin.08.jsonl:122): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-139 (fbla-healthcare-admin.08.jsonl:125): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-141 (fbla-healthcare-admin.08.jsonl:127): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-140
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-142 (fbla-healthcare-admin.08.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-143 (fbla-healthcare-admin.08.jsonl:129): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-144 (fbla-healthcare-admin.08.jsonl:130): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-145 (fbla-healthcare-admin.08.jsonl:131): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-146 (fbla-healthcare-admin.08.jsonl:132): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-149 (fbla-healthcare-admin.08.jsonl:135): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-150 (fbla-healthcare-admin.08.jsonl:136): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-151 (fbla-healthcare-admin.08.jsonl:137): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-healthcare-admin-medical-terminology-and-office-procedures-152 (fbla-healthcare-admin.08.jsonl:138): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-007
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-leadership-critical-thinking-skills-047
 - fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-economic-indicators-003
