@@ -30,7 +30,7 @@ if (cmd === "view") {
       .join("\n");
     const lo = Math.max(1, T - slack0);
     const hi = T + slack0;
-    return `${i + 1} (${lo}-${hi} chars) ${q.q.slice(0, 70)}\n${opts}`;
+    return `${i + 1} (${lo}-${hi} chars) ${q.q.slice(0, 45)}\n${opts}`;
   });
   writeFileSync("renders/eq.json", JSON.stringify(pick.map((q) => ({ id: q.id, answer: q.answer, options: q.options.map((o) => o.t) }))));
   writeFileSync("renders/eq-view.txt", lines.join("\n"));

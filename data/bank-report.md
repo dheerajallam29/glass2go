@@ -180,19 +180,13 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1711)
+## Flags to review (1705)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
-- deca-core-entrepreneurship-022 (deca-core.04.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
 - deca-core-entrepreneurship-031 (deca-core.05.jsonl:48): prompt is very similar to deca-core-entrepreneurship-011
-- deca-core-financial-analysis-032 (deca-core.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-human-resources-management-029 (deca-core.05.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-marketing-023 (deca-core.05.jsonl:71): prompt is very similar to deca-core-marketing-006
 - deca-core-operations-021 (deca-core.05.jsonl:76): prompt is very similar to deca-core-operations-020
-- deca-core-professional-development-036 (deca-core.06.jsonl:30): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-information-management-033 (deca-core.06.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-human-resources-management-033 (deca-core.10.jsonl:2): prompt is very similar to deca-core-human-resources-management-010
 - deca-core-business-law-079 (deca-core.11.jsonl:9): prompt is very similar to deca-core-business-law-025
 - deca-core-entrepreneurship-050 (deca-core.11.jsonl:41): prompt is very similar to deca-core-entrepreneurship-011
