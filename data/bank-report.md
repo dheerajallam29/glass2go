@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1686)
+## Flags to review (1682)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -264,17 +264,13 @@ none
 - deca-pfl-earning-income-052 (deca-pfl.05.jsonl:16): prompt is very similar to deca-pfl-investing-019
 - deca-pfl-earning-income-059 (deca-pfl.05.jsonl:23): prompt is very similar to deca-pfl-earning-income-024
 - deca-pfl-spending-050 (deca-pfl.05.jsonl:39): prompt is very similar to deca-pfl-spending-019
-- deca-pfl-spending-056 (deca-pfl.05.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-spending-056 (deca-pfl.05.jsonl:45): prompt is very similar to deca-pfl-spending-024
 - deca-pfl-spending-057 (deca-pfl.05.jsonl:46): prompt is very similar to deca-pfl-spending-025
 - deca-pfl-spending-064 (deca-pfl.05.jsonl:53): prompt is very similar to deca-core-marketing-050
 - deca-pfl-spending-064 (deca-pfl.05.jsonl:53): prompt is very similar to deca-marketing-promotion-020
 - deca-pfl-managing-risk-051 (deca-pfl.06.jsonl:56): negative wording should use capitals (NOT / EXCEPT / LEAST)
-- deca-pfl-investing-061 (deca-pfl.07.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-investing-063 (deca-pfl.07.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-investing-076 (deca-pfl.07.jsonl:32): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - deca-pfl-investing-100 (deca-pfl.07.jsonl:56): prompt is very similar to deca-pfl-saving-022
-- deca-pfl-investing-108 (deca-pfl.07.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-saving-061 (deca-pfl.08.jsonl:20): prompt is very similar to deca-core-financial-analysis-072
 - deca-pfl-managing-credit-095 (deca-pfl.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-earning-income-071 (deca-pfl.09.jsonl:1): prompt is very similar to deca-core-financial-analysis-077
