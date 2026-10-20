@@ -9,25 +9,27 @@ const [cmd, a, b] = process.argv.slice(2);
 
 if (cmd === "view") {
   const n = Number(a ?? 150);
-  const maxSpread = Number(b ?? 0.18);
+  const maxSpread = Number(b ?? 0.1);
   const pick = [];
   for (const q of bank) {
     const L = q.options.map((o) => o.t.length);
     const mean = L.reduce((x, y) => x + y, 0) / L.length;
     const target = L[q.answer];
     const worst = Math.max(...L.map((l) => Math.abs(l - target))) / Math.max(target, 1);
-    if (worst > maxSpread && (Math.max(...L) - Math.min(...L)) > 6 && mean > 0) pick.push(q);
+    const slack = Math.max(3, Math.round(target * maxSpread));
+    if (Math.max(...L.map((l) => Math.abs(l - target))) > slack && mean > 0) pick.push(q);
     if (pick.length >= n) break;
   }
   const lines = pick.map((q, i) => {
     const T = q.options[q.answer].t.length;
-    const lo0 = Math.round(T * 0.88);
-    const hi0 = Math.round(T * 1.12);
+    const slack0 = Math.max(3, Math.round(T * 0.1));
+    const lo0 = T - slack0;
+    const hi0 = T + slack0;
     const opts = q.options
       .map((o, k) => `   ${k + 1}${k === q.answer ? "*" : " "}${o.t.length < lo0 ? "<" : o.t.length > hi0 ? ">" : " "}[${o.t.length}] ${o.t}`)
       .join("\n");
-    const lo = Math.max(1, Math.round(T * 0.88));
-    const hi = Math.round(T * 1.12);
+    const lo = Math.max(1, T - slack0);
+    const hi = T + slack0;
     return `${i + 1} (${lo}-${hi} chars) ${q.q.slice(0, 70)}\n${opts}`;
   });
   writeFileSync("renders/eq.json", JSON.stringify(pick.map((q) => ({ id: q.id, answer: q.answer, options: q.options.map((o) => o.t) }))));
@@ -52,9 +54,18 @@ if (cmd === "view") {
   for (const o of edits.values()) {
     const it = items.find((x) => x.id === o.id);
     const T = it.options[it.answer].length;
-    for (const [old, nw] of Object.entries(o.map ?? {})) if (Math.abs(nw.length - T) > Math.max(3, T * 0.15)) off++;
+    for (const [old, nw] of Object.entries(o.map ?? {})) if (Math.abs(nw.length - T) > Math.max(3, T * 0.1)) off++;
   }
   console.log(`${off} reworded options still miss the length window by more than 15%`);
+  // never let an edit create two identical options in one question
+  for (const [id, o] of [...edits]) {
+    const it = items.find((x) => x.id === id);
+    const finals = it.options.map((t, k) => (k === it.answer ? o.rt ?? t : o.map?.[t] ?? t).trim().toLowerCase());
+    if (new Set(finals).size < finals.length) {
+      console.log(`dropped (would duplicate an option): ${id}`);
+      edits.delete(id);
+    }
+  }
   const out = [...edits.values()].map((o) => JSON.stringify(o)).join("\n") + "\n";
   writeFileSync(`data/questions/overrides.${a}.jsonl`, out);
   console.log(`${edits.size} questions written to overrides.${a}.jsonl`);

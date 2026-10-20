@@ -180,9 +180,12 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1714)
-- deca-core-business-law-017 (deca-core.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
+## Flags to review (1717)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
+- deca-core-human-resources-management-006 (deca-core.02.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-human-resources-management-009 (deca-core.02.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-information-management-017 (deca-core.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-strategic-management-013 (deca-core.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-information-management-021 (deca-core.04.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
