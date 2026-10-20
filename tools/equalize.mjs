@@ -72,7 +72,7 @@ if (cmd === "view") {
     }
   }
   // when the correct answer would end up strictly longest, lengthen the longest wrong option with a short neutral tail
-  const TAILS = [" overall", " in practice", " in general", " in most cases", " as a rule", " every time", " in this case", " in the end", " too", " often", " usually", " normally"];
+  const TAILS = [" overall", " in practice", " in general", " in most cases", " as a rule", " every time", " in this case", " in the end"];
   const hash = (str) => [...str].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
   for (const o of edits.values()) {
     const it = items.find((x) => x.id === o.id);
