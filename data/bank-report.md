@@ -180,17 +180,13 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1717)
+## Flags to review (1713)
+- deca-core-business-law-017 (deca-core.02.jsonl:12): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
-- deca-core-human-resources-management-006 (deca-core.02.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-human-resources-management-009 (deca-core.02.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-information-management-017 (deca-core.03.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-strategic-management-013 (deca-core.03.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
+- deca-core-customer-relations-022 (deca-core.04.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
+- deca-core-entrepreneurship-022 (deca-core.04.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-entrepreneurship-027 (deca-core.04.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-information-management-021 (deca-core.04.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-marketing-022 (deca-core.04.jsonl:107): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-business-law-046 (deca-core.05.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
 - deca-core-entrepreneurship-031 (deca-core.05.jsonl:48): prompt is very similar to deca-core-entrepreneurship-011
 - deca-core-financial-analysis-032 (deca-core.05.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)

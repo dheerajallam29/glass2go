@@ -2,7 +2,7 @@
 //   node tools/equalize.mjs view [N] [maxSpread]   writes renders/eq.json + renders/eq-view.txt for the next N questions whose options differ too much
 //   node tools/equalize.mjs apply NAME             reads renders/eq.txt lines "idx.k| new text" and writes data/questions/overrides.NAME.jsonl
 // k is the option number shown in the view (1-4). A wrong option is reworded by its old text; the correct one (marked *) with rt.
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, writeFileSync } from "node:fs";
 
 const bank = JSON.parse(readFileSync("web/src/data/bank.json", "utf8"));
 const [cmd, a, b] = process.argv.slice(2);
@@ -50,13 +50,18 @@ if (cmd === "view") {
     edits.set(it.id, o);
   }
   // warn about edits that still miss the target window so they can be redone
-  let off = 0;
+  const misses = [];
   for (const o of edits.values()) {
-    const it = items.find((x) => x.id === o.id);
+    const idx = items.findIndex((x) => x.id === o.id) + 1;
+    const it = items[idx - 1];
     const T = it.options[it.answer].length;
-    for (const [old, nw] of Object.entries(o.map ?? {})) if (Math.abs(nw.length - T) > Math.max(3, T * 0.1)) off++;
+    const w = Math.max(3, Math.round(T * 0.1));
+    for (const [old, nw] of Object.entries(o.map ?? {})) {
+      if (Math.abs(nw.length - T) > w) misses.push(`${idx}.${it.options.indexOf(old) + 1} wants ${T - w}-${T + w}, has ${nw.length}`);
+    }
   }
-  console.log(`${off} reworded options still miss the length window by more than 15%`);
+  console.log(`${misses.length} reworded options still miss the window`);
+  if (misses.length) writeFileSync("renders/eq-misses.txt", misses.join(String.fromCharCode(10)));
   // never let an edit create two identical options in one question
   for (const [id, o] of [...edits]) {
     const it = items.find((x) => x.id === id);
