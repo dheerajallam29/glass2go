@@ -71,6 +71,18 @@ if (cmd === "view") {
       edits.delete(id);
     }
   }
+  // flag edited questions where the correct answer would end up strictly longest
+  const longest = [];
+  for (const o of edits.values()) {
+    const idx = items.findIndex((x) => x.id === o.id) + 1;
+    const it = items[idx - 1];
+    const fin = it.options.map((t, k) => (k === it.answer ? o.rt ?? t : o.map?.[t] ?? t));
+    const T = fin[it.answer].length;
+    const mw = Math.max(...fin.filter((_, k) => k !== it.answer).map((t) => t.length));
+    if (mw < T) longest.push(`${idx} correct ${T}, longest wrong ${mw}`);
+  }
+  console.log(`${longest.length} edited questions leave the correct answer strictly longest (see renders/eq-longest.txt)`);
+  writeFileSync("renders/eq-longest.txt", longest.join(String.fromCharCode(10)));
   const out = [...edits.values()].map((o) => JSON.stringify(o)).join("\n") + "\n";
   writeFileSync(`data/questions/overrides.${a}.jsonl`, out);
   console.log(`${edits.size} questions written to overrides.${a}.jsonl`);
