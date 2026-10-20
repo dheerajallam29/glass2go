@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1682)
+## Flags to review (1675)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -272,15 +272,8 @@ none
 - deca-pfl-investing-076 (deca-pfl.07.jsonl:32): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - deca-pfl-investing-100 (deca-pfl.07.jsonl:56): prompt is very similar to deca-pfl-saving-022
 - deca-pfl-saving-061 (deca-pfl.08.jsonl:20): prompt is very similar to deca-core-financial-analysis-072
-- deca-pfl-managing-credit-095 (deca-pfl.08.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-earning-income-071 (deca-pfl.09.jsonl:1): prompt is very similar to deca-core-financial-analysis-077
-- deca-pfl-earning-income-075 (deca-pfl.09.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-credit-107 (deca-pfl.09.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-risk-079 (deca-pfl.09.jsonl:41): prompt is very similar to deca-core-business-law-100
-- deca-pfl-earning-income-086 (deca-pfl.10.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-credit-112 (deca-pfl.10.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-investing-130 (deca-pfl.10.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-investing-131 (deca-pfl.10.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-earning-income-089 (deca-pfl.12.jsonl:1): prompt is very similar to deca-pfl-earning-income-010
 - deca-pfl-earning-income-090 (deca-pfl.12.jsonl:2): prompt is very similar to deca-core-human-resources-management-016
 - deca-pfl-spending-099 (deca-pfl.12.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
