@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1616)
+## Flags to review (1622)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -328,17 +328,23 @@ none
 - fbla-accounting-standards-and-compliance-084 (fbla-accounting.13.jsonl:124): prompt is very similar to fbla-accounting-tax-accounting-021
 - fbla-accounting-standards-and-compliance-084 (fbla-accounting.13.jsonl:124): prompt is very similar to fbla-accounting-tax-accounting-058
 - fbla-accounting-standards-and-compliance-084 (fbla-accounting.13.jsonl:124): prompt is very similar to fbla-accounting-standards-and-compliance-083
+- fbla-accounting-standards-and-compliance-086 (fbla-accounting.13.jsonl:126): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-088 (fbla-accounting.13.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-090 (fbla-accounting.13.jsonl:130): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-standards-and-compliance-093 (fbla-accounting.13.jsonl:133): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-standards-and-compliance-094 (fbla-accounting.13.jsonl:134): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-tax-accounting-087 (fbla-accounting.13.jsonl:143): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-tax-accounting-089 (fbla-accounting.13.jsonl:145): prompt is very similar to fbla-accounting-tax-accounting-064
 - fbla-accounting-tax-accounting-090 (fbla-accounting.13.jsonl:146): prompt is very similar to fbla-accounting-tax-accounting-057
 - fbla-accounting-tax-accounting-096 (fbla-accounting.13.jsonl:152): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-tax-accounting-099 (fbla-accounting.13.jsonl:155): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-technology-and-accounting-072 (fbla-accounting.13.jsonl:157): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-technology-and-accounting-073 (fbla-accounting.13.jsonl:158): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-technology-and-accounting-078 (fbla-accounting.13.jsonl:163): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-072 (fbla-accounting.13.jsonl:174): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-career-opportunities-073 (fbla-accounting.13.jsonl:175): prompt is very similar to fbla-accounting-career-opportunities-042
+- fbla-accounting-career-opportunities-074 (fbla-accounting.13.jsonl:176): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-076 (fbla-accounting.13.jsonl:178): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-accounting-career-opportunities-077 (fbla-accounting.13.jsonl:179): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-business-ethics-005 (fbla-business-law.jsonl:26): prompt is very similar to fbla-accounting-standards-and-compliance-025
-- fbla-business-law-legal-foundations-012 (fbla-business-law.02.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-business-law-commercial-law-041 (fbla-business-law.03.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-commercial-law-043 (fbla-business-law.03.jsonl:36): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-102
 - fbla-business-law-financial-tax-law-018 (fbla-business-law.05.jsonl:12): prompt is very similar to fbla-business-law-financial-tax-law-016
 - fbla-business-law-financial-tax-law-036 (fbla-business-law.05.jsonl:30): prompt is very similar to fbla-accounting-tax-accounting-072
