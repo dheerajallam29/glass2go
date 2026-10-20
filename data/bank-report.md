@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1656)
+## Flags to review (1647)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -292,20 +292,11 @@ none
 - deca-pfl-spending-148 (deca-pfl.15.jsonl:15): prompt is very similar to deca-pfl-saving-020
 - fbla-accounting-financial-reports-021 (fbla-accounting.05.jsonl:16): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - fbla-accounting-standards-and-compliance-006 (fbla-accounting.06.jsonl:1): prompt is very similar to fbla-accounting-standards-and-compliance-001
-- fbla-accounting-technology-and-accounting-041 (fbla-accounting.08.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-career-opportunities-031 (fbla-accounting.09.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-accounts-payable-and-receivable-059 (fbla-accounting.10.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-accounts-payable-and-receivable-062 (fbla-accounting.10.jsonl:31): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-053
-- fbla-accounting-tax-accounting-055 (fbla-accounting.10.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-tax-accounting-058 (fbla-accounting.10.jsonl:53): prompt is very similar to fbla-accounting-tax-accounting-021
-- fbla-accounting-technology-and-accounting-060 (fbla-accounting.10.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-career-opportunities-058 (fbla-accounting.10.jsonl:64): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-the-accounting-cycle-070 (fbla-accounting.11.jsonl:10): prompt is very similar to fbla-accounting-foundations-of-accounting-045
 - fbla-accounting-the-accounting-cycle-072 (fbla-accounting.11.jsonl:12): prompt is very similar to fbla-accounting-tax-accounting-050
-- fbla-accounting-the-accounting-cycle-073 (fbla-accounting.11.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-the-accounting-cycle-075 (fbla-accounting.11.jsonl:15): prompt is very similar to fbla-accounting-the-accounting-cycle-023
-- fbla-accounting-the-accounting-cycle-076 (fbla-accounting.11.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-accounting-accounts-payable-and-receivable-067 (fbla-accounting.11.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-financial-reports-068 (fbla-accounting.11.jsonl:27): prompt is very similar to fbla-accounting-financial-reports-018
 - fbla-accounting-financial-reports-071 (fbla-accounting.11.jsonl:30): prompt is very similar to fbla-accounting-financial-reports-023
 - fbla-accounting-financial-reports-073 (fbla-accounting.11.jsonl:32): prompt is very similar to fbla-accounting-financial-reports-028
