@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1687)
+## Flags to review (1686)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -212,7 +212,6 @@ none
 - deca-finance-financial-information-management-024 (deca-specialist.03.jsonl:83): prompt is very similar to deca-core-financial-analysis-069
 - deca-finance-financial-information-management-025 (deca-specialist.03.jsonl:84): prompt is very similar to deca-core-financial-analysis-018
 - deca-finance-financial-information-management-035 (deca-specialist.03.jsonl:94): prompt is very similar to deca-core-financial-analysis-012
-- deca-shared-quality-management-042 (deca-specialist.04.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
 - deca-shared-quality-management-042 (deca-specialist.04.jsonl:22): prompt is very similar to deca-core-customer-relations-071
 - deca-finance-financial-information-management-046 (deca-specialist.04.jsonl:52): prompt is very similar to deca-core-operations-054
 - deca-marketing-channel-management-001 (deca-marketing.jsonl:1): prompt is very similar to deca-core-marketing-018
