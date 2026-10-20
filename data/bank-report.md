@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1705)
+## Flags to review (1693)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -191,20 +191,8 @@ none
 - deca-core-business-law-079 (deca-core.11.jsonl:9): prompt is very similar to deca-core-business-law-025
 - deca-core-entrepreneurship-050 (deca-core.11.jsonl:41): prompt is very similar to deca-core-entrepreneurship-011
 - deca-core-operations-051 (deca-core.11.jsonl:68): prompt is very similar to deca-core-operations-020
-- deca-core-emotional-intelligence-054 (deca-core.12.jsonl:2): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-emotional-intelligence-059 (deca-core.12.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-financial-analysis-064 (deca-core.12.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-human-resources-management-045 (deca-core.12.jsonl:24): prompt is very similar to deca-core-human-resources-management-013
-- deca-core-information-management-051 (deca-core.12.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-marketing-047 (deca-core.12.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-operations-054 (deca-core.12.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-operations-056 (deca-core.12.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-operations-057 (deca-core.12.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-customer-relations-057 (deca-core.13.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-human-resources-management-050 (deca-core.13.jsonl:45): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-information-management-059 (deca-core.13.jsonl:49): prompt is very similar to deca-core-information-management-019
-- deca-core-marketing-057 (deca-core.13.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-operations-060 (deca-core.13.jsonl:53): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-economics-079 (deca-core.14.jsonl:27): prompt is very similar to deca-core-economics-031
 - deca-core-professional-development-061 (deca-core.15.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
 - deca-core-communications-078 (deca-core.15.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
