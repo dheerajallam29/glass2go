@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1675)
+## Flags to review (1661)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -276,32 +276,18 @@ none
 - deca-pfl-managing-risk-079 (deca-pfl.09.jsonl:41): prompt is very similar to deca-core-business-law-100
 - deca-pfl-earning-income-089 (deca-pfl.12.jsonl:1): prompt is very similar to deca-pfl-earning-income-010
 - deca-pfl-earning-income-090 (deca-pfl.12.jsonl:2): prompt is very similar to deca-core-human-resources-management-016
-- deca-pfl-spending-099 (deca-pfl.12.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-saving-084 (deca-pfl.12.jsonl:45): prompt is very similar to deca-pfl-saving-015
 - deca-pfl-investing-135 (deca-pfl.12.jsonl:56): negative wording should use capitals (NOT / EXCEPT / LEAST)
-- deca-pfl-investing-139 (deca-pfl.12.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-investing-139 (deca-pfl.12.jsonl:60): prompt is very similar to deca-pfl-investing-017
-- deca-pfl-investing-141 (deca-pfl.12.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-credit-117 (deca-pfl.12.jsonl:68): prompt is very similar to deca-pfl-managing-credit-012
 - deca-pfl-managing-credit-117 (deca-pfl.12.jsonl:68): prompt is very similar to deca-pfl-managing-credit-052
-- deca-pfl-managing-credit-121 (deca-pfl.12.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-credit-122 (deca-pfl.12.jsonl:73): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-credit-122 (deca-pfl.12.jsonl:73): prompt is very similar to deca-pfl-managing-credit-015
 - deca-pfl-managing-risk-102 (deca-pfl.12.jsonl:92): prompt is very similar to deca-shared-risk-management-019
 - deca-pfl-spending-117 (deca-pfl.13.jsonl:18): prompt is very similar to deca-pfl-spending-016
 - deca-pfl-spending-125 (deca-pfl.13.jsonl:26): prompt is very similar to deca-pfl-spending-087
-- deca-pfl-saving-100 (deca-pfl.13.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-saving-105 (deca-pfl.13.jsonl:42): prompt is very similar to deca-core-financial-analysis-065
-- deca-pfl-managing-credit-133 (deca-pfl.13.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-risk-113 (deca-pfl.13.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-risk-115 (deca-pfl.13.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-risk-118 (deca-pfl.13.jsonl:74): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-risk-118 (deca-pfl.13.jsonl:74): prompt is very similar to deca-core-financial-analysis-070
-- deca-pfl-earning-income-128 (deca-pfl.14.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-spending-136 (deca-pfl.14.jsonl:18): prompt is very similar to deca-pfl-spending-019
-- deca-pfl-saving-109 (deca-pfl.14.jsonl:28): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-saving-114 (deca-pfl.14.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-saving-116 (deca-pfl.14.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-credit-148 (deca-pfl.14.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-risk-122 (deca-pfl.14.jsonl:56): prompt is very similar to deca-shared-risk-management-006
 - deca-pfl-managing-risk-128 (deca-pfl.14.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
