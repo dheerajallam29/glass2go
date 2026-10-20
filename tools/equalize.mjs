@@ -71,6 +71,26 @@ if (cmd === "view") {
       edits.delete(id);
     }
   }
+  // when the correct answer would end up strictly longest, lengthen the longest wrong option with a short neutral tail
+  const TAILS = [" overall", " in practice", " in general", " in most cases", " as a rule", " every time", " in this case", " in the end"];
+  const hash = (str) => [...str].reduce((a, c) => (a * 31 + c.charCodeAt(0)) >>> 0, 7);
+  for (const o of edits.values()) {
+    const it = items.find((x) => x.id === o.id);
+    const fin = it.options.map((t, k) => (k === it.answer ? o.rt ?? t : o.map?.[t] ?? t));
+    const T = fin[it.answer].length;
+    const slack = Math.max(4, Math.round(T * 0.12));
+    let wi = -1;
+    fin.forEach((t, k) => { if (k !== it.answer && (wi < 0 || t.length > fin[wi].length)) wi = k; });
+    if (wi < 0 || fin[wi].length >= T || !/[A-Za-z]$/.test(fin[wi])) continue;
+    const start = hash(o.id);
+    for (let j = 0; j < TAILS.length; j++) {
+      const cand = fin[wi] + TAILS[(start + j) % TAILS.length];
+      if (cand.length >= T && cand.length <= T + slack) {
+        (o.map ??= {})[it.options[wi]] = cand;
+        break;
+      }
+    }
+  }
   // flag edited questions where the correct answer would end up strictly longest
   const longest = [];
   for (const o of edits.values()) {

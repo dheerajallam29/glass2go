@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1661)
+## Flags to review (1656)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -288,13 +288,8 @@ none
 - deca-pfl-saving-105 (deca-pfl.13.jsonl:42): prompt is very similar to deca-core-financial-analysis-065
 - deca-pfl-managing-risk-118 (deca-pfl.13.jsonl:74): prompt is very similar to deca-core-financial-analysis-070
 - deca-pfl-spending-136 (deca-pfl.14.jsonl:18): prompt is very similar to deca-pfl-spending-019
-- deca-pfl-managing-credit-148 (deca-pfl.14.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-risk-122 (deca-pfl.14.jsonl:56): prompt is very similar to deca-shared-risk-management-006
-- deca-pfl-managing-risk-128 (deca-pfl.14.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-spending-148 (deca-pfl.15.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-spending-148 (deca-pfl.15.jsonl:15): prompt is very similar to deca-pfl-saving-020
-- deca-pfl-investing-167 (deca-pfl.15.jsonl:29): correct answer is much longer than every wrong answer (gives itself away)
-- deca-pfl-managing-risk-131 (deca-pfl.15.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-accounting-financial-reports-021 (fbla-accounting.05.jsonl:16): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - fbla-accounting-standards-and-compliance-006 (fbla-accounting.06.jsonl:1): prompt is very similar to fbla-accounting-standards-and-compliance-001
 - fbla-accounting-technology-and-accounting-041 (fbla-accounting.08.jsonl:36): correct answer is much longer than every wrong answer (gives itself away)
