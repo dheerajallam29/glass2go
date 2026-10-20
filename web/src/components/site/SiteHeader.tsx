@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Track } from "@/lib/questions";
 import Logo from "./Logo";
+import AccountButton from "./AccountButton";
 import RankBadge from "./RankBadge";
 import styles from "./Site.module.css";
 
@@ -18,7 +19,10 @@ export default function SiteHeader({ track }: { track: Track }) {
           </Link>
         ))}
       </nav>
-      <RankBadge />
+      <div className={styles.right}>
+        <RankBadge />
+        <AccountButton />
+      </div>
     </header>
   );
 }

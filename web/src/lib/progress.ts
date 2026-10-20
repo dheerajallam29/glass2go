@@ -24,6 +24,12 @@ const OLD = "g2g-progress-v1";
 const EVENT = "g2g-progress";
 const EMPTY: Store = { firstCorrect: [], attempts: {}, topics: {} };
 
+// Signing in (src/lib/auth.ts) registers a hook so every local change is also saved to the cloud.
+let pushHook: ((s: Store) => void) | null = null;
+export function setPushHook(fn: ((s: Store) => void) | null) {
+  pushHook = fn;
+}
+
 let cacheRaw: string | null = null;
 let cache: Store = EMPTY;
 
@@ -47,7 +53,7 @@ function read(): Store {
   return EMPTY;
 }
 
-function write(s: Store) {
+function write(s: Store, push = true) {
   try {
     const raw = JSON.stringify(s);
     localStorage.setItem(KEY, raw);
@@ -58,6 +64,7 @@ function write(s: Store) {
     cacheRaw = null;
   }
   dispatchEvent(new Event(EVENT));
+  if (push) pushHook?.(s);
 }
 
 function subscribe(cb: () => void) {
@@ -124,4 +131,42 @@ export function masteryOf(history: string | undefined): { label: Mastery; pct: n
   if (n < 3) return { label: "Not started", pct: 0, n };
   const pct = Math.round(([...history!].filter((c) => c === "1").length / n) * 100);
   return { label: pct >= 85 ? "Strong" : pct >= 65 ? "Solid" : "Needs work", pct, n };
+}
+
+// ---- cloud sync helpers ----
+export function getStore(): Store {
+  return read();
+}
+
+/** Combine two copies of the progress: nothing answered on either device is ever lost. */
+export function mergeStores(a: Store, b: Store): Store {
+  const attempts: Record<string, Rec> = {};
+  for (const id of new Set([...Object.keys(a.attempts), ...Object.keys(b.attempts)])) {
+    const x = a.attempts[id];
+    const y = b.attempts[id];
+    if (!x || !y) {
+      attempts[id] = { ...(x ?? y) };
+      continue;
+    }
+    const latest = x.last >= y.last ? x : y;
+    attempts[id] = {
+      right: Math.max(x.right, y.right),
+      wrong: Math.max(x.wrong, y.wrong),
+      last: latest.last,
+      lastOk: latest.lastOk,
+      flag: x.flag || y.flag || undefined,
+    };
+  }
+  const topics: Record<string, string> = {};
+  for (const k of new Set([...Object.keys(a.topics), ...Object.keys(b.topics)])) {
+    const x = a.topics[k] ?? "";
+    const y = b.topics[k] ?? "";
+    topics[k] = x.length >= y.length ? x : y;
+  }
+  return { firstCorrect: Array.from(new Set([...a.firstCorrect, ...b.firstCorrect])), attempts, topics };
+}
+
+/** Replace the local copy (used after merging with the cloud) without pushing it straight back. */
+export function applyStore(s: Store) {
+  write(s, false);
 }
