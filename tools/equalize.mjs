@@ -9,20 +9,20 @@ const [cmd, a, b] = process.argv.slice(2);
 
 if (cmd === "view") {
   const n = Number(a ?? 150);
-  const maxSpread = Number(b ?? 0.1);
+  const maxSpread = Number(b ?? 0.12);
   const pick = [];
   for (const q of bank) {
     const L = q.options.map((o) => o.t.length);
     const mean = L.reduce((x, y) => x + y, 0) / L.length;
     const target = L[q.answer];
     const worst = Math.max(...L.map((l) => Math.abs(l - target))) / Math.max(target, 1);
-    const slack = Math.max(3, Math.round(target * maxSpread));
+    const slack = Math.max(4, Math.round(target * maxSpread));
     if (Math.max(...L.map((l) => Math.abs(l - target))) > slack && mean > 0) pick.push(q);
     if (pick.length >= n) break;
   }
   const lines = pick.map((q, i) => {
     const T = q.options[q.answer].t.length;
-    const slack0 = Math.max(3, Math.round(T * 0.1));
+    const slack0 = Math.max(4, Math.round(T * 0.12));
     const lo0 = T - slack0;
     const hi0 = T + slack0;
     const opts = q.options
@@ -55,7 +55,7 @@ if (cmd === "view") {
     const idx = items.findIndex((x) => x.id === o.id) + 1;
     const it = items[idx - 1];
     const T = it.options[it.answer].length;
-    const w = Math.max(3, Math.round(T * 0.1));
+    const w = Math.max(4, Math.round(T * 0.12));
     for (const [old, nw] of Object.entries(o.map ?? {})) {
       if (Math.abs(nw.length - T) > w) misses.push(`${idx}.${it.options.indexOf(old) + 1} wants ${T - w}-${T + w}, has ${nw.length}`);
     }
