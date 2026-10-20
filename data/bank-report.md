@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1693)
+## Flags to review (1687)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -194,12 +194,6 @@ none
 - deca-core-human-resources-management-045 (deca-core.12.jsonl:24): prompt is very similar to deca-core-human-resources-management-013
 - deca-core-information-management-059 (deca-core.13.jsonl:49): prompt is very similar to deca-core-information-management-019
 - deca-core-economics-079 (deca-core.14.jsonl:27): prompt is very similar to deca-core-economics-031
-- deca-core-professional-development-061 (deca-core.15.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-communications-078 (deca-core.15.jsonl:46): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-entrepreneurship-071 (deca-core.16.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-information-management-066 (deca-core.16.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-professional-development-064 (deca-core.16.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
-- deca-core-strategic-management-054 (deca-core.16.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
 - deca-shared-quality-management-001 (deca-specialist.jsonl:18): prompt is very similar to deca-core-operations-019
 - deca-shared-knowledge-management-017 (deca-specialist.02.jsonl:12): prompt is very similar to deca-core-information-management-040
 - deca-shared-quality-management-018 (deca-specialist.02.jsonl:45): prompt is very similar to deca-core-strategic-management-016
