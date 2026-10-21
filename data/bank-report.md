@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1290)
+## Flags to review (1285)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -645,14 +645,9 @@ none
 - fbla-leadership-human-resources-management-098 (fbla-org-leadership.07.jsonl:72): prompt is very similar to fbla-personal-finance-investment-strategies-024
 - fbla-leadership-human-resources-management-103 (fbla-org-leadership.07.jsonl:77): prompt is very similar to fbla-business-law-employment-law-039
 - fbla-leadership-human-resources-management-105 (fbla-org-leadership.07.jsonl:79): prompt is very similar to fbla-business-law-employment-law-006
-- fbla-leadership-manage-stressful-situations-045 (fbla-org-leadership.07.jsonl:111): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-manage-stressful-situations-061 (fbla-org-leadership.07.jsonl:127): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-teams-026 (fbla-org-leadership.07.jsonl:138): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-teams-026 (fbla-org-leadership.07.jsonl:138): prompt is very similar to fbla-leadership-teams-010
-- fbla-leadership-communication-024 (fbla-org-leadership.07.jsonl:144): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-communication-030 (fbla-org-leadership.07.jsonl:150): prompt is very similar to fbla-leadership-communication-018
 - fbla-leadership-motivation-021 (fbla-org-leadership.07.jsonl:193): prompt is very similar to fbla-leadership-leadership-031
-- fbla-leadership-motivation-024 (fbla-org-leadership.07.jsonl:196): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-ethics-021 (fbla-org-leadership.07.jsonl:212): prompt is very similar to fbla-business-law-business-ethics-070
 - fbla-leadership-ethics-022 (fbla-org-leadership.07.jsonl:213): prompt is very similar to fbla-business-law-business-ethics-073
 - fbla-data-science-ai-data-literacy-and-foundations-017 (fbla-data-science-ai.jsonl:17): prompt is very similar to fbla-accounting-technology-and-accounting-020
