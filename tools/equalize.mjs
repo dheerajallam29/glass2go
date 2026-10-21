@@ -57,7 +57,7 @@ if (cmd === "view") {
     const T = it.options[it.answer].length;
     const w = Math.max(4, Math.round(T * 0.12));
     for (const [old, nw] of Object.entries(o.map ?? {})) {
-      if (Math.abs(nw.length - T) > w) misses.push(`${idx}.${it.options.indexOf(old) + 1} wants ${T - w}-${T + w}, has ${nw.length}`);
+      if (Math.abs(nw.length - T) > w) misses.push(`${idx}.${it.options.indexOf(old) + 1} wants ${T - w}-${T + w}, has ${nw.length}| ${nw}`);
     }
   }
   console.log(`${misses.length} reworded options still miss the window`);

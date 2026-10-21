@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1173)
+## Flags to review (1160)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -748,25 +748,12 @@ none
 - fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-role-of-management-in-business-005
 - fbla-healthcare-admin-communication-and-leadership-020 (fbla-healthcare-admin.04.jsonl:20): prompt is very similar to fbla-leadership-leadership-040
 - fbla-healthcare-admin-communication-and-leadership-022 (fbla-healthcare-admin.04.jsonl:22): prompt is very similar to fbla-leadership-leadership-020
-- fbla-healthcare-admin-communication-and-leadership-023 (fbla-healthcare-admin.04.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-communication-and-leadership-023 (fbla-healthcare-admin.04.jsonl:23): prompt is very similar to fbla-leadership-manage-stressful-situations-005
-- fbla-healthcare-admin-medical-terminology-and-office-procedures-022 (fbla-healthcare-admin.04.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-034 (fbla-healthcare-admin.05.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-034 (fbla-healthcare-admin.05.jsonl:6): prompt is very similar to fbla-healthcare-admin-healthcare-organizations-and-structure-006
-- fbla-healthcare-admin-strategic-management-022 (fbla-healthcare-admin.05.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-billing-and-insurance-035 (fbla-healthcare-admin.05.jsonl:39): prompt is very similar to fbla-personal-finance-insurance-011
-- fbla-healthcare-admin-healthcare-billing-and-insurance-039 (fbla-healthcare-admin.05.jsonl:43): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-027 (fbla-healthcare-admin.05.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-policy-and-regulation-027 (fbla-healthcare-admin.05.jsonl:52): prompt is very similar to fbla-business-law-employment-law-072
 - fbla-healthcare-admin-healthcare-policy-and-regulation-027 (fbla-healthcare-admin.05.jsonl:52): prompt is very similar to fbla-data-science-ai-privacy-and-ethics-015
-- fbla-healthcare-admin-healthcare-policy-and-regulation-034 (fbla-healthcare-admin.05.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-042 (fbla-healthcare-admin.06.jsonl:5): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-044 (fbla-healthcare-admin.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-046 (fbla-healthcare-admin.06.jsonl:9): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-050 (fbla-healthcare-admin.06.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-050 (fbla-healthcare-admin.06.jsonl:13): prompt is very similar to fbla-leadership-role-of-management-in-business-021
-- fbla-healthcare-admin-healthcare-organizations-and-structure-052 (fbla-healthcare-admin.06.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-organizations-and-structure-053 (fbla-healthcare-admin.06.jsonl:16): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-055 (fbla-healthcare-admin.06.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-061 (fbla-healthcare-admin.06.jsonl:24): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-staffing-and-training-033 (fbla-healthcare-admin.06.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
