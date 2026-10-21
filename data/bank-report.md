@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1397)
+## Flags to review (1385)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -597,22 +597,10 @@ none
 - fbla-securities-investment-analysis-139 (fbla-securities.10.jsonl:111): prompt is very similar to fbla-securities-investment-analysis-138
 - fbla-securities-investment-analysis-140 (fbla-securities.10.jsonl:112): prompt is very similar to fbla-accounting-financial-reports-095
 - fbla-securities-selecting-investments-098 (fbla-securities.10.jsonl:136): negative wording should use capitals (NOT / EXCEPT / LEAST)
-- fbla-securities-selecting-investments-103 (fbla-securities.10.jsonl:141): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-selecting-investments-109 (fbla-securities.10.jsonl:147): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-100 (fbla-securities.10.jsonl:152): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-101 (fbla-securities.10.jsonl:153): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-securities-investments-industry-101 (fbla-securities.10.jsonl:153): prompt is very similar to fbla-securities-securities-investments-industry-061
-- fbla-securities-securities-investments-industry-105 (fbla-securities.10.jsonl:157): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-106 (fbla-securities.10.jsonl:158): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-securities-investments-industry-108 (fbla-securities.10.jsonl:160): prompt is very similar to fbla-securities-securities-investments-industry-058
-- fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): prompt is very similar to fbla-securities-securities-investments-industry-058
 - fbla-securities-securities-investments-industry-110 (fbla-securities.10.jsonl:162): prompt is very similar to fbla-securities-securities-investments-industry-108
-- fbla-securities-securities-investments-industry-113 (fbla-securities.10.jsonl:165): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-114 (fbla-securities.10.jsonl:166): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-118 (fbla-securities.10.jsonl:170): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-123 (fbla-securities.10.jsonl:175): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-securities-investments-industry-125 (fbla-securities.10.jsonl:177): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-manage-business-relationships-001 (fbla-org-leadership.jsonl:15): prompt is very similar to fbla-economics-nature-of-business-030
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-business-law-business-organizations-015
 - fbla-leadership-role-of-management-in-business-019 (fbla-org-leadership.02.jsonl:12): prompt is very similar to fbla-economics-nature-of-business-028
