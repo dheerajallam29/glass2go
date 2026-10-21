@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1182)
+## Flags to review (1173)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -717,7 +717,6 @@ none
 - fbla-healthcare-admin-healthcare-organizations-and-structure-026 (fbla-healthcare-admin.jsonl:26): prompt is very similar to fbla-personal-finance-insurance-027
 - fbla-healthcare-admin-healthcare-organizations-and-structure-027 (fbla-healthcare-admin.jsonl:27): prompt is very similar to fbla-personal-finance-insurance-028
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-003 (fbla-healthcare-admin.jsonl:31): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-015
-- fbla-healthcare-admin-healthcare-finances-and-budgeting-007 (fbla-healthcare-admin.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-011 (fbla-healthcare-admin.jsonl:39): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-006
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-012 (fbla-healthcare-admin.jsonl:40): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-007
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-024 (fbla-healthcare-admin.jsonl:52): prompt is very similar to fbla-personal-finance-risk-management-009
@@ -743,16 +742,8 @@ none
 - fbla-healthcare-admin-healthcare-billing-and-insurance-002 (fbla-healthcare-admin.03.jsonl:2): prompt is very similar to fbla-personal-finance-risk-management-008
 - fbla-healthcare-admin-healthcare-billing-and-insurance-003 (fbla-healthcare-admin.03.jsonl:3): prompt is very similar to fbla-personal-finance-risk-management-021
 - fbla-healthcare-admin-healthcare-billing-and-insurance-004 (fbla-healthcare-admin.03.jsonl:4): prompt is very similar to fbla-personal-finance-risk-management-011
-- fbla-healthcare-admin-healthcare-billing-and-insurance-017 (fbla-healthcare-admin.03.jsonl:17): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-billing-and-insurance-023 (fbla-healthcare-admin.03.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-billing-and-insurance-025 (fbla-healthcare-admin.03.jsonl:25): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-024
-- fbla-healthcare-admin-healthcare-billing-and-insurance-033 (fbla-healthcare-admin.03.jsonl:33): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-010 (fbla-healthcare-admin.03.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-policy-and-regulation-011 (fbla-healthcare-admin.03.jsonl:45): negative wording should use capitals (NOT / EXCEPT / LEAST)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-014 (fbla-healthcare-admin.03.jsonl:48): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-015 (fbla-healthcare-admin.03.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-018 (fbla-healthcare-admin.03.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-healthcare-policy-and-regulation-024 (fbla-healthcare-admin.03.jsonl:58): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-communication-and-leadership-002 (fbla-healthcare-admin.04.jsonl:2): prompt is very similar to fbla-leadership-leadership-022
 - fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-role-of-management-in-business-005
 - fbla-healthcare-admin-communication-and-leadership-020 (fbla-healthcare-admin.04.jsonl:20): prompt is very similar to fbla-leadership-leadership-040
