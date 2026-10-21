@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1202)
+## Flags to review (1187)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -710,25 +710,10 @@ none
 - fbla-data-science-ai-privacy-and-ethics-101 (fbla-data-science-ai.07.jsonl:182): prompt is very similar to fbla-accounting-technology-and-accounting-029
 - fbla-data-science-ai-machine-learning-143 (fbla-data-science-ai.08.jsonl:2): prompt is very similar to fbla-data-science-ai-machine-learning-142
 - fbla-data-science-ai-machine-learning-194 (fbla-data-science-ai.08.jsonl:53): prompt is very similar to fbla-data-science-ai-machine-learning-193
-- fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): prompt is very similar to fbla-data-science-ai-probability-and-statistics-016
 - fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): prompt is very similar to fbla-data-science-ai-machine-learning-040
-- fbla-data-science-ai-probability-and-statistics-097 (fbla-data-science-ai.08.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-probability-and-statistics-100 (fbla-data-science-ai.08.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-data-analysis-for-ai-008 (fbla-data-science-ai.08.jsonl:90): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-data-analysis-for-ai-019 (fbla-data-science-ai.08.jsonl:101): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-data-analysis-for-ai-021 (fbla-data-science-ai.08.jsonl:103): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-data-analysis-for-ai-023 (fbla-data-science-ai.08.jsonl:105): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-109 (fbla-data-science-ai.08.jsonl:115): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-110 (fbla-data-science-ai.08.jsonl:116): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-112 (fbla-data-science-ai.08.jsonl:118): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-113 (fbla-data-science-ai.08.jsonl:119): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-114 (fbla-data-science-ai.08.jsonl:120): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-privacy-and-ethics-118 (fbla-data-science-ai.08.jsonl:124): prompt is very similar to fbla-business-law-employment-law-076
-- fbla-data-science-ai-privacy-and-ethics-119 (fbla-data-science-ai.08.jsonl:125): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-privacy-and-ethics-122 (fbla-data-science-ai.08.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-024 (fbla-healthcare-admin.jsonl:24): prompt is very similar to fbla-leadership-role-of-management-in-business-045
-- fbla-healthcare-admin-healthcare-organizations-and-structure-025 (fbla-healthcare-admin.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-organizations-and-structure-026 (fbla-healthcare-admin.jsonl:26): prompt is very similar to fbla-personal-finance-insurance-027
 - fbla-healthcare-admin-healthcare-organizations-and-structure-027 (fbla-healthcare-admin.jsonl:27): prompt is very similar to fbla-personal-finance-insurance-028
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-003 (fbla-healthcare-admin.jsonl:31): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-015
