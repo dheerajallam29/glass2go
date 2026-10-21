@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1511)
+## Flags to review (1509)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -390,8 +390,6 @@ none
 - fbla-economics-government-s-impact-on-business-057 (fbla-economics.07.jsonl:15): prompt is very similar to fbla-business-law-property-and-torts-019
 - fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): prompt is very similar to fbla-business-law-employment-law-016
 - fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): prompt is very similar to fbla-business-law-employment-law-062
-- fbla-economics-economic-indicators-049 (fbla-economics.07.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-global-trade-027 (fbla-economics.07.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): prompt is very similar to fbla-economics-fundamental-economic-concepts-069
 - fbla-economics-demand-and-supply-004 (fbla-economics.08.jsonl:9): prompt is very similar to fbla-economics-fundamental-economic-concepts-020
