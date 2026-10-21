@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1284)
+## Flags to review (1281)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -656,13 +656,10 @@ none
 - fbla-data-science-ai-tools-for-data-and-ai-003 (fbla-data-science-ai.02.jsonl:32): prompt is very similar to fbla-accounting-technology-and-accounting-010
 - fbla-data-science-ai-machine-learning-023 (fbla-data-science-ai.03.jsonl:23): prompt is very similar to fbla-data-science-ai-ai-basics-007
 - fbla-data-science-ai-perception-representation-and-reasoning-007 (fbla-data-science-ai.03.jsonl:45): prompt is very similar to fbla-leadership-critical-thinking-skills-021
-- fbla-data-science-ai-privacy-and-ethics-008 (fbla-data-science-ai.04.jsonl:8): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-privacy-and-ethics-010 (fbla-data-science-ai.04.jsonl:10): prompt is very similar to fbla-accounting-technology-and-accounting-024
 - fbla-data-science-ai-privacy-and-ethics-011 (fbla-data-science-ai.04.jsonl:11): prompt is very similar to fbla-accounting-technology-and-accounting-025
-- fbla-data-science-ai-privacy-and-ethics-013 (fbla-data-science-ai.04.jsonl:13): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-privacy-and-ethics-014 (fbla-data-science-ai.04.jsonl:14): prompt is very similar to fbla-business-law-sales-and-consumer-law-033
 - fbla-data-science-ai-privacy-and-ethics-015 (fbla-data-science-ai.04.jsonl:15): prompt is very similar to fbla-business-law-employment-law-072
-- fbla-data-science-ai-privacy-and-ethics-025 (fbla-data-science-ai.04.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-accounting-technology-and-accounting-027
 - fbla-data-science-ai-privacy-and-ethics-036 (fbla-data-science-ai.04.jsonl:36): prompt is very similar to fbla-personal-finance-financial-literacy-006
 - fbla-data-science-ai-data-literacy-and-foundations-027 (fbla-data-science-ai.04.jsonl:43): prompt is very similar to fbla-leadership-critical-thinking-skills-033
