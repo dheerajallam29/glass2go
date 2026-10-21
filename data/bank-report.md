@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1285)
+## Flags to review (1284)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -652,7 +652,6 @@ none
 - fbla-leadership-ethics-022 (fbla-org-leadership.07.jsonl:213): prompt is very similar to fbla-business-law-business-ethics-073
 - fbla-data-science-ai-data-literacy-and-foundations-017 (fbla-data-science-ai.jsonl:17): prompt is very similar to fbla-accounting-technology-and-accounting-020
 - fbla-data-science-ai-probability-and-statistics-foundations-003 (fbla-data-science-ai.jsonl:27): prompt is very similar to fbla-data-science-ai-probability-and-statistics-foundations-002
-- fbla-data-science-ai-ai-basics-021 (fbla-data-science-ai.02.jsonl:21): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-tools-for-data-and-ai-002 (fbla-data-science-ai.02.jsonl:31): prompt is very similar to fbla-accounting-technology-and-accounting-009
 - fbla-data-science-ai-tools-for-data-and-ai-003 (fbla-data-science-ai.02.jsonl:32): prompt is very similar to fbla-accounting-technology-and-accounting-010
 - fbla-data-science-ai-machine-learning-023 (fbla-data-science-ai.03.jsonl:23): prompt is very similar to fbla-data-science-ai-ai-basics-007
