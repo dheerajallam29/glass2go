@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1385)
+## Flags to review (1380)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -579,9 +579,7 @@ none
 - fbla-securities-securities-products-158 (fbla-securities.10.jsonl:24): prompt is very similar to fbla-securities-securities-products-072
 - fbla-securities-securities-products-158 (fbla-securities.10.jsonl:24): prompt is very similar to fbla-securities-securities-products-073
 - fbla-securities-financial-markets-149 (fbla-securities.10.jsonl:59): prompt is very similar to fbla-economics-economic-indicators-020
-- fbla-securities-financial-markets-150 (fbla-securities.10.jsonl:60): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-financial-markets-150 (fbla-securities.10.jsonl:60): prompt is very similar to fbla-economics-money-and-banking-013
-- fbla-securities-financial-markets-167 (fbla-securities.10.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-tax-accounting-021
 - fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-tax-accounting-058
 - fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-accounting-standards-and-compliance-083
@@ -589,9 +587,6 @@ none
 - fbla-securities-financial-markets-170 (fbla-securities.10.jsonl:80): prompt is very similar to fbla-personal-finance-taxes-051
 - fbla-securities-financial-markets-173 (fbla-securities.10.jsonl:83): prompt is very similar to fbla-business-law-business-organizations-030
 - fbla-securities-financial-markets-173 (fbla-securities.10.jsonl:83): prompt is very similar to fbla-economics-nature-of-business-035
-- fbla-securities-financial-markets-175 (fbla-securities.10.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-financial-markets-176 (fbla-securities.10.jsonl:86): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-securities-financial-markets-177 (fbla-securities.10.jsonl:87): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-securities-investment-analysis-126 (fbla-securities.10.jsonl:98): prompt is very similar to fbla-securities-principles-of-money-011
 - fbla-securities-investment-analysis-137 (fbla-securities.10.jsonl:109): prompt is very similar to fbla-accounting-financial-reports-027
 - fbla-securities-investment-analysis-139 (fbla-securities.10.jsonl:111): prompt is very similar to fbla-securities-investment-analysis-138
