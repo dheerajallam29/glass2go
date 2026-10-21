@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1293)
+## Flags to review (1290)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -632,7 +632,6 @@ none
 - fbla-leadership-ethics-008 (fbla-org-leadership.06.jsonl:250): prompt is very similar to fbla-business-law-financial-tax-law-032
 - fbla-leadership-ethics-008 (fbla-org-leadership.06.jsonl:250): prompt is very similar to fbla-securities-securities-investments-industry-031
 - fbla-leadership-ethics-009 (fbla-org-leadership.06.jsonl:251): prompt is very similar to fbla-business-law-business-ethics-014
-- fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-accounting-standards-and-compliance-043
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-business-law-international-trade-commerce-law-033
 - fbla-leadership-ethics-010 (fbla-org-leadership.06.jsonl:252): prompt is very similar to fbla-business-law-international-trade-commerce-law-060
@@ -643,8 +642,6 @@ none
 - fbla-leadership-human-resources-management-088 (fbla-org-leadership.07.jsonl:62): prompt is very similar to fbla-economics-government-s-impact-on-business-060
 - fbla-leadership-human-resources-management-089 (fbla-org-leadership.07.jsonl:63): prompt is very similar to fbla-business-law-employment-law-009
 - fbla-leadership-human-resources-management-089 (fbla-org-leadership.07.jsonl:63): prompt is very similar to fbla-business-law-employment-law-059
-- fbla-leadership-human-resources-management-091 (fbla-org-leadership.07.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-human-resources-management-093 (fbla-org-leadership.07.jsonl:67): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-human-resources-management-098 (fbla-org-leadership.07.jsonl:72): prompt is very similar to fbla-personal-finance-investment-strategies-024
 - fbla-leadership-human-resources-management-103 (fbla-org-leadership.07.jsonl:77): prompt is very similar to fbla-business-law-employment-law-039
 - fbla-leadership-human-resources-management-105 (fbla-org-leadership.07.jsonl:79): prompt is very similar to fbla-business-law-employment-law-006
