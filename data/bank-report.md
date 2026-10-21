@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1209)
+## Flags to review (1202)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -709,14 +709,7 @@ none
 - fbla-data-science-ai-privacy-and-ethics-100 (fbla-data-science-ai.07.jsonl:181): prompt is very similar to fbla-accounting-technology-and-accounting-030
 - fbla-data-science-ai-privacy-and-ethics-101 (fbla-data-science-ai.07.jsonl:182): prompt is very similar to fbla-accounting-technology-and-accounting-029
 - fbla-data-science-ai-machine-learning-143 (fbla-data-science-ai.08.jsonl:2): prompt is very similar to fbla-data-science-ai-machine-learning-142
-- fbla-data-science-ai-machine-learning-159 (fbla-data-science-ai.08.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-machine-learning-163 (fbla-data-science-ai.08.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-machine-learning-167 (fbla-data-science-ai.08.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-machine-learning-179 (fbla-data-science-ai.08.jsonl:38): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-machine-learning-181 (fbla-data-science-ai.08.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-machine-learning-194 (fbla-data-science-ai.08.jsonl:53): prompt is very similar to fbla-data-science-ai-machine-learning-193
-- fbla-data-science-ai-machine-learning-196 (fbla-data-science-ai.08.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-data-science-ai-machine-learning-200 (fbla-data-science-ai.08.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): prompt is very similar to fbla-data-science-ai-probability-and-statistics-016
 - fbla-data-science-ai-probability-and-statistics-094 (fbla-data-science-ai.08.jsonl:69): prompt is very similar to fbla-data-science-ai-machine-learning-040
