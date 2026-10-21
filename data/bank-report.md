@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1509)
+## Flags to review (1478)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -390,50 +390,19 @@ none
 - fbla-economics-government-s-impact-on-business-057 (fbla-economics.07.jsonl:15): prompt is very similar to fbla-business-law-property-and-torts-019
 - fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): prompt is very similar to fbla-business-law-employment-law-016
 - fbla-economics-government-s-impact-on-business-060 (fbla-economics.07.jsonl:18): prompt is very similar to fbla-business-law-employment-law-062
-- fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-scarcity-and-choice-003 (fbla-economics.08.jsonl:3): prompt is very similar to fbla-economics-fundamental-economic-concepts-069
 - fbla-economics-demand-and-supply-004 (fbla-economics.08.jsonl:9): prompt is very similar to fbla-economics-fundamental-economic-concepts-020
 - fbla-economics-macroeconomics-006 (fbla-economics.08.jsonl:46): prompt is very similar to fbla-economics-fundamental-economic-concepts-077
 - fbla-economics-macroeconomics-006 (fbla-economics.08.jsonl:46): prompt is very similar to fbla-economics-fundamental-economic-concepts-080
 - fbla-economics-macroeconomics-010 (fbla-economics.08.jsonl:50): prompt is very similar to fbla-economics-fundamental-economic-concepts-046
-- fbla-economics-macroeconomics-011 (fbla-economics.08.jsonl:51): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-macroeconomics-015 (fbla-economics.08.jsonl:55): prompt is very similar to fbla-economics-fundamental-economic-concepts-084
 - fbla-economics-international-trade-001 (fbla-economics.08.jsonl:58): prompt is very similar to fbla-business-law-international-trade-commerce-law-038
 - fbla-economics-international-trade-003 (fbla-economics.08.jsonl:60): prompt is very similar to fbla-business-law-international-trade-commerce-law-001
 - fbla-economics-international-trade-004 (fbla-economics.08.jsonl:61): prompt is very similar to fbla-business-law-international-trade-commerce-law-010
 - fbla-economics-international-trade-006 (fbla-economics.08.jsonl:63): prompt is very similar to fbla-business-law-international-trade-commerce-law-014
 - fbla-economics-macroeconomics-028 (fbla-economics.09.jsonl:11): prompt is very similar to fbla-economics-economic-indicators-044
-- fbla-economics-fundamental-economic-concepts-112 (fbla-economics.11.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-fundamental-economic-concepts-116 (fbla-economics.11.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-fundamental-economic-concepts-117 (fbla-economics.11.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-fundamental-economic-concepts-121 (fbla-economics.11.jsonl:27): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-cost-profit-relationships-082 (fbla-economics.11.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-cost-profit-relationships-086 (fbla-economics.11.jsonl:44): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-070 (fbla-economics.11.jsonl:56): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-073 (fbla-economics.11.jsonl:59): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-076 (fbla-economics.11.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-083 (fbla-economics.11.jsonl:69): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-084 (fbla-economics.11.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-government-s-impact-on-business-085 (fbla-economics.11.jsonl:71): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-systems-043 (fbla-economics.11.jsonl:72): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-systems-046 (fbla-economics.11.jsonl:75): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-systems-051 (fbla-economics.11.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-systems-053 (fbla-economics.11.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-global-trade-054 (fbla-economics.11.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-economic-indicators-052 (fbla-economics.11.jsonl:99): prompt is very similar to fbla-economics-fundamental-economic-concepts-033
-- fbla-economics-economic-indicators-054 (fbla-economics.11.jsonl:101): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-indicators-060 (fbla-economics.11.jsonl:107): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-economic-indicators-061 (fbla-economics.11.jsonl:108): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-money-and-banking-010 (fbla-economics.11.jsonl:114): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-money-and-banking-012 (fbla-economics.11.jsonl:116): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-macroeconomics-033 (fbla-economics.11.jsonl:126): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-macroeconomics-034 (fbla-economics.11.jsonl:127): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-macroeconomics-035 (fbla-economics.11.jsonl:128): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-macroeconomics-038 (fbla-economics.11.jsonl:131): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-economics-macroeconomics-047 (fbla-economics.11.jsonl:140): prompt is very similar to fbla-economics-government-s-impact-on-business-015
-- fbla-economics-microeconomics-012 (fbla-economics.11.jsonl:145): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-microeconomics-014 (fbla-economics.11.jsonl:147): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-economics-microeconomics-021 (fbla-economics.11.jsonl:154): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-personal-finance-financial-literacy-006 (fbla-personal-finance.jsonl:34): prompt is very similar to fbla-accounting-technology-and-accounting-027
 - fbla-personal-finance-financial-services-providers-036 (fbla-personal-finance.02.jsonl:56): prompt is very similar to fbla-business-law-commercial-law-070
 - fbla-personal-finance-principles-of-money-020 (fbla-personal-finance.03.jsonl:13): prompt is very similar to fbla-business-law-financial-tax-law-011
