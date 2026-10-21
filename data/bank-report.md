@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1380)
+## Flags to review (1360)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -606,34 +606,14 @@ none
 - fbla-leadership-planning-005 (fbla-org-leadership.05.jsonl:33): prompt is very similar to fbla-personal-finance-financial-needs-and-goals-012
 - fbla-leadership-management-001 (fbla-org-leadership.05.jsonl:37): prompt is very similar to fbla-leadership-role-of-management-in-business-009
 - fbla-leadership-management-007 (fbla-org-leadership.05.jsonl:43): prompt is very similar to fbla-leadership-role-of-management-in-business-055
-- fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): prompt is very similar to fbla-accounting-standards-and-compliance-025
 - fbla-leadership-ethics-001 (fbla-org-leadership.05.jsonl:50): prompt is very similar to fbla-business-law-business-ethics-005
 - fbla-leadership-ethics-003 (fbla-org-leadership.05.jsonl:52): prompt is very similar to fbla-business-law-business-ethics-011
 - fbla-leadership-role-of-management-in-business-064 (fbla-org-leadership.06.jsonl:1): prompt is very similar to fbla-leadership-management-001
 - fbla-leadership-role-of-management-in-business-065 (fbla-org-leadership.06.jsonl:2): prompt is very similar to fbla-leadership-role-of-management-in-business-010
-- fbla-leadership-role-of-management-in-business-069 (fbla-org-leadership.06.jsonl:6): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-070 (fbla-org-leadership.06.jsonl:7): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-073 (fbla-org-leadership.06.jsonl:10): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-081 (fbla-org-leadership.06.jsonl:18): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-083 (fbla-org-leadership.06.jsonl:20): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-086 (fbla-org-leadership.06.jsonl:23): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-088 (fbla-org-leadership.06.jsonl:25): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-089 (fbla-org-leadership.06.jsonl:26): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-094 (fbla-org-leadership.06.jsonl:31): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-097 (fbla-org-leadership.06.jsonl:34): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-100 (fbla-org-leadership.06.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-role-of-management-in-business-102 (fbla-org-leadership.06.jsonl:39): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-leadership-070 (fbla-org-leadership.06.jsonl:40): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-070 (fbla-org-leadership.06.jsonl:40): prompt is very similar to fbla-leadership-leadership-009
-- fbla-leadership-leadership-079 (fbla-org-leadership.06.jsonl:49): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-081 (fbla-org-leadership.06.jsonl:51): prompt is very similar to fbla-leadership-leadership-025
-- fbla-leadership-leadership-082 (fbla-org-leadership.06.jsonl:52): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-leadership-085 (fbla-org-leadership.06.jsonl:55): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-leadership-092 (fbla-org-leadership.06.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-092 (fbla-org-leadership.06.jsonl:62): prompt is very similar to fbla-leadership-leadership-024
-- fbla-leadership-leadership-093 (fbla-org-leadership.06.jsonl:63): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-leadership-leadership-095 (fbla-org-leadership.06.jsonl:65): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-107 (fbla-org-leadership.06.jsonl:77): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-108 (fbla-org-leadership.06.jsonl:78): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-leadership-leadership-110 (fbla-org-leadership.06.jsonl:80): correct answer is much longer than every wrong answer (gives itself away)
