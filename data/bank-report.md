@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (1023)
+## Flags to review (1014)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -847,10 +847,6 @@ none
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-133 (fbla-healthcare-admin.08.jsonl:119): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-012
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-133 (fbla-healthcare-admin.08.jsonl:119): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-132
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-141 (fbla-healthcare-admin.08.jsonl:127): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-140
-- fbla-healthcare-admin-medical-terminology-and-office-procedures-143 (fbla-healthcare-admin.08.jsonl:129): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-medical-terminology-and-office-procedures-144 (fbla-healthcare-admin.08.jsonl:130): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-medical-terminology-and-office-procedures-150 (fbla-healthcare-admin.08.jsonl:136): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-healthcare-admin-medical-terminology-and-office-procedures-152 (fbla-healthcare-admin.08.jsonl:138): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-economics-fundamental-economic-concepts-007
 - fbla-intro-business-fundamental-economic-concepts-004 (fbla-intro-business.jsonl:4): prompt is very similar to fbla-leadership-critical-thinking-skills-047
 - fbla-intro-business-fundamental-economic-concepts-020 (fbla-intro-business.jsonl:20): prompt is very similar to fbla-economics-economic-indicators-003
@@ -883,14 +879,9 @@ none
 - fbla-intro-business-owning-a-business-008 (fbla-intro-business.jsonl:68): prompt is very similar to fbla-economics-nature-of-business-014
 - fbla-intro-business-owning-a-business-009 (fbla-intro-business.jsonl:69): prompt is very similar to fbla-business-law-legal-foundations-057
 - fbla-intro-business-owning-a-business-009 (fbla-intro-business.jsonl:69): prompt is very similar to fbla-economics-nature-of-business-015
-- fbla-intro-business-types-of-business-activities-006 (fbla-intro-business.jsonl:84): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-intro-business-types-of-business-activities-014 (fbla-intro-business.jsonl:92): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-types-of-business-activities-014 (fbla-intro-business.jsonl:92): prompt is very similar to fbla-leadership-manage-business-relationships-008
 - fbla-intro-business-types-of-business-activities-015 (fbla-intro-business.jsonl:93): prompt is very similar to fbla-business-law-international-trade-commerce-law-008
 - fbla-intro-business-types-of-business-activities-016 (fbla-intro-business.jsonl:94): prompt is very similar to fbla-business-law-international-trade-commerce-law-007
-- fbla-intro-business-career-planning-001 (fbla-intro-business.jsonl:95): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-intro-business-career-planning-004 (fbla-intro-business.jsonl:98): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-intro-business-career-planning-006 (fbla-intro-business.jsonl:100): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-career-planning-009 (fbla-intro-business.jsonl:103): prompt is very similar to fbla-accounting-career-opportunities-049
 - fbla-intro-business-career-planning-010 (fbla-intro-business.jsonl:104): prompt is very similar to fbla-accounting-career-opportunities-032
 - fbla-intro-business-job-search-skills-006 (fbla-intro-business.jsonl:114): prompt is very similar to fbla-accounting-career-opportunities-047
