@@ -32,14 +32,11 @@ if (cmd === "view") {
     const w = Math.max(4, Math.round(T * 0.12));
     const opts = q.options
       .map((o, k) => `  ${k + 1}${k === q.answer ? "*" : " "}${Math.abs(o.t.length - T) > w ? (o.t.length < T ? "<" : ">") : " "}[${o.t.length}] ${o.t}`)
-      .join("
-");
-    return `${i + 1} (${T - w}-${T + w}) [${q.area}] ${q.q}
-${opts}`;
+      .join("\n");
+    return `${i + 1} (${T - w}-${T + w}) [${q.area}] ${q.q}\n${opts}`;
   });
   writeFileSync(`renders/why-${tag}.json`, JSON.stringify(pick.map((q) => ({ id: q.id, answer: q.answer, options: q.options.map((o) => o.t) }))));
-  writeFileSync(`renders/why-${tag}-view.txt`, lines.join("
-"));
+  writeFileSync(`renders/why-${tag}-view.txt`, lines.join("\n"));
   console.log(`${pick.length} questions in renders/why-${tag}-view.txt`);
 } else if (cmd === "apply") {
   const tag = b; // optional: apply NAME TAG reads renders/why-TAG.json and renders/why-TAG.txt
