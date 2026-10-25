@@ -483,3 +483,75 @@
   pointer-events: none;
   transition: opacity 260ms ease-out !important;
 }
+
+/* sign-in offer shown when a trophy is clicked */
+.offer {
+  position: fixed;
+  inset: 0;
+  z-index: 80;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(3, 5, 13, 0.72);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.offerCard {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: min(400px, 100%);
+  padding: 28px;
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  background: #0b0f1a;
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.6);
+}
+
+.offerCard h2 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.offerCard p {
+  margin: 0 0 6px;
+  color: var(--ink-soft);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.offerPrimary,
+.offerSkip {
+  min-height: 44px;
+  border-radius: var(--radius-pill);
+  font: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.offerPrimary {
+  border: 0;
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.offerSkip {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-soft);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .offerPrimary:hover {
+    background: var(--accent-strong);
+  }
+
+  .offerSkip:hover {
+    color: var(--ink);
+    border-color: rgba(143, 181, 255, 0.5);
+  }
+}

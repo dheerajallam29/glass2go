@@ -1,12 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useRouter } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { asset } from "@/lib/asset";
 import type { CSSProperties } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./GlassFlight.module.css";
 import RankIcon from "@/components/site/RankIcon";
+import { authEnabled, signInWithGoogle, useAuth } from "@/lib/auth";
 import { FrameStore } from "./frames";
 import {
   CHAPTERS,
@@ -76,7 +77,10 @@ export default function GlassFlight() {
   const [missing, setMissing] = useState(false);
   const [bounds, setBounds] = useState<Bounds | null>(null);
   const [zooming, setZooming] = useState<Trophy | null>(null);
+  const auth = useAuth();
+  const [askSignIn, setAskSignIn] = useState<Trophy | null>(null); // trophy waiting behind the sign-in offer
   const router = useRouter();
+  const pathname = usePathname();
 
   /** Step into a trophy: the film drifts toward the glass and fades out, then the next page settles in. */
   const zoomInto = useCallback(
@@ -106,6 +110,25 @@ export default function GlassFlight() {
     },
     [bounds, router, zooming],
   );
+
+  // Coming back to the homepage (browser back, or the logo) must undo the zoom-out: the page can be kept alive while it is
+  // hidden, which left the film faded to black with the zoom state still set.
+  useEffect(() => {
+    const restore = () => {
+      const canvas = canvasRef.current;
+      if (canvas) {
+        canvas.style.transition = "none";
+        canvas.style.transform = "";
+        canvas.style.opacity = "";
+      }
+      setZooming(null);
+      setAskSignIn(null);
+    };
+    restore();
+    const onShow = (e: PageTransitionEvent) => e.persisted && restore();
+    window.addEventListener("pageshow", onShow);
+    return () => window.removeEventListener("pageshow", onShow);
+  }, [pathname]);
 
   // where the trophies sit in the finale, for hit areas
   useEffect(() => {
@@ -552,6 +575,15 @@ export default function GlassFlight() {
             onClick={(e) => {
               if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
               e.preventDefault();
+              let offered = false;
+              try {
+                offered = sessionStorage.getItem("g2g-signin-offer") === "1";
+              } catch {}
+              // offer sign-in once per visit, only when it is switched on and the student is not already signed in
+              if (authEnabled && auth.ready && !auth.user && !offered) {
+                setAskSignIn(k);
+                return;
+              }
               zoomInto(k);
             }}
             onPointerEnter={() => (nudgeCancel.current = true)}
@@ -573,6 +605,46 @@ export default function GlassFlight() {
           </Link>
         ))}
       </nav>
+
+      {askSignIn && (
+        <div
+          className={styles.offer}
+          role="dialog"
+          aria-modal="true"
+          aria-labelledby="g2g-offer-title"
+          onKeyDown={(e) => e.key === "Escape" && setAskSignIn(null)}
+        >
+          <div className={styles.offerCard}>
+            <h2 id="g2g-offer-title">Save your progress</h2>
+            <p>Sign in with Google and your answers and rank follow you to any phone or computer.</p>
+            <button
+              className={styles.offerPrimary}
+              autoFocus
+              onClick={() => {
+                try {
+                  sessionStorage.setItem("g2g-signin-offer", "1");
+                } catch {}
+                void signInWithGoogle();
+              }}
+            >
+              Sign in with Google
+            </button>
+            <button
+              className={styles.offerSkip}
+              onClick={() => {
+                const k = askSignIn;
+                try {
+                  sessionStorage.setItem("g2g-signin-offer", "1");
+                } catch {}
+                setAskSignIn(null);
+                zoomInto(k);
+              }}
+            >
+              Continue to {askSignIn.toUpperCase()} without signing in
+            </button>
+          </div>
+        </div>
+      )}
 
       <p className={styles.fine} data-on={onFinale || undefined}>
         Independent student project. Not affiliated with DECA Inc. or FBLA.

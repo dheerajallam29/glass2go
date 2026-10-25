@@ -7,7 +7,9 @@ import styles from "./Site.module.css";
 const SHOW = authEnabled || process.env.NODE_ENV !== "production";
 const SYNC_LABEL = { idle: "", syncing: "Saving…", synced: "Progress saved to your account", error: "Could not save. Will retry on your next answer." } as const;
 
-export default function AccountButton() {
+type Props = { className?: string; signClassName?: string; avatarClassName?: string };
+
+export default function AccountButton({ className, signClassName, avatarClassName }: Props = {}) {
   const { user, ready, sync } = useAuth();
   const [open, setOpen] = useState(false);
   const box = useRef<HTMLDivElement>(null);
@@ -31,7 +33,7 @@ export default function AccountButton() {
     return (
       <div className={styles.account} ref={box}>
         <button
-          className={styles.signIn}
+          className={className ? `${className} ${signClassName ?? ""}` : styles.signIn}
           onClick={() => (authEnabled ? void signInWithGoogle() : setOpen((o) => !o))}
           disabled={authEnabled && !ready}
         >
@@ -49,7 +51,7 @@ export default function AccountButton() {
   const initial = (user.name || user.email || "?").trim()[0]?.toUpperCase();
   return (
     <div className={styles.account} ref={box}>
-      <button className={styles.avatar} onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label={`Account: ${user.name}`}>
+      <button className={className ? `${className} ${avatarClassName ?? ""}` : styles.avatar} onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label={`Account: ${user.name}`}>
         {user.avatar ? <img src={user.avatar} alt="" referrerPolicy="no-referrer" /> : initial}
       </button>
       {open && (

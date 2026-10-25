@@ -9,7 +9,8 @@
   pointer-events: none;
 }
 
-.bar a {
+.bar a,
+.bar button {
   pointer-events: auto;
 }
 
@@ -25,19 +26,73 @@
 
 .skip {
   display: flex;
-  gap: 22px;
+  align-items: center;
+  gap: 2px;
+  padding: 4px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-pill);
+  background: rgba(11, 16, 32, 0.55);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
   font-size: var(--t-sm);
-  font-weight: 550;
+  font-weight: 600;
 }
 
-.skip a {
+/* DECA, FBLA and Sign in share one look so they read as a single control */
+.navItem {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 34px;
+  padding: 0 16px;
+  border: 0;
+  border-radius: var(--radius-pill);
+  background: transparent;
   color: var(--ink-soft);
+  font: inherit;
   text-decoration: none;
-  transition: color 160ms var(--ease-out);
+  cursor: pointer;
+  transition:
+    color 160ms var(--ease-out),
+    background 160ms var(--ease-out);
+}
+
+.navItem:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 1px;
+}
+
+/* sign in is the one filled item, so it reads as the main action without leaving the group */
+.signItem {
+  background: var(--accent);
+  color: var(--accent-ink);
+}
+
+.avatarItem {
+  width: 34px;
+  height: 34px;
+  min-height: 0;
+  padding: 0;
+  overflow: hidden;
+  background: var(--surface-2);
+  color: var(--ink);
+  font-weight: 700;
 }
 
 @media (hover: hover) and (pointer: fine) {
-  .skip a:hover {
+  .navItem:hover {
     color: var(--ink);
+    background: rgba(143, 181, 255, 0.14);
+  }
+
+  .signItem:hover {
+    background: var(--accent-strong);
+    color: var(--accent-ink);
+  }
+}
+
+@media (max-width: 480px) {
+  .navItem {
+    padding: 0 12px;
   }
 }

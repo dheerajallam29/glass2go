@@ -55,15 +55,18 @@ export default function Backdrop() {
     let shards: Shard[] = [];
     let motes: Mote[] = [];
     const blurOK = typeof ctx.filter === "string";
+    let calm = 1; // phones get fewer, smaller, fainter shards so they never crowd the text
 
     const seed = () => {
-      const n = Math.max(10, Math.min(24, Math.round((w * h) / 100000)));
+      const phone = w < 700;
+      calm = phone ? 0.45 : 1;
+      const n = phone ? 4 : Math.max(10, Math.min(24, Math.round((w * h) / 100000)));
       shards = Array.from({ length: n }, () => ({
         x: Math.random(), y: Math.random(), z: rnd(0.2, 1),
         ...makeShard(),
         rot: rnd(0, 6.28), vr: rnd(-0.18, 0.18),
         flip: rnd(0, 6.28), vflip: rnd(0.15, 0.5) * (Math.random() < 0.5 ? -1 : 1),
-        drift: rnd(6, 16), phase: rnd(0, 6.28), hue: rnd(206, 226), size: rnd(46, 130),
+        drift: rnd(6, 16), phase: rnd(0, 6.28), hue: rnd(206, 226), size: phone ? rnd(30, 70) : rnd(46, 130),
       }));
       shards.sort((p, q) => p.z - q.z); // far shards first so near ones overlap them
       motes = Array.from({ length: n * 2 }, () => ({ x: Math.random(), y: Math.random(), z: rnd(0.2, 1), s: rnd(0.8, 2.2), ph: rnd(0, 6.28) }));
@@ -145,7 +148,7 @@ export default function Backdrop() {
       const turn = Math.cos(s.flip + time * s.vflip); // 1 face-on, 0 edge-on
       const sx = (0.18 + 0.82 * Math.abs(turn)) * sc;
       const light = 0.5 + 0.5 * turn * Math.sin(s.rot + time * s.vr); // how squarely it catches the light
-      ctx.globalAlpha = Math.min(1, 0.65 + 0.7 * light);
+      ctx.globalAlpha = Math.min(1, 0.65 + 0.7 * light) * calm;
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       ctx.translate(px, py);
       ctx.rotate(s.rot + time * s.vr + mouse.x * 0.4 * s.z);
