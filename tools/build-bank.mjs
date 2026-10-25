@@ -69,6 +69,8 @@ try {
       q.wrong = q.wrong.map(([t, why], i) => [i === at ? t + o.ext : t, why]);
     }
     if (o.q) q.q = o.q;
+    if (o.rw) q.right = [q.right[0], o.rw]; // fuller reason for the right answer
+    if (o.ww) q.wrong = q.wrong.map(([t, why]) => [t, o.ww[t] ?? why]); // fuller reasons for wrong options, keyed by their final text
   }
 } catch (e) { if (e.code !== "ENOENT") throw e; }
 
