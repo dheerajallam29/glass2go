@@ -52,7 +52,7 @@ export default function AccountButton({ className, signClassName, avatarClassNam
   return (
     <div className={styles.account} ref={box}>
       <button className={className ? `${className} ${avatarClassName ?? ""}` : styles.avatar} onClick={() => setOpen((o) => !o)} aria-expanded={open} aria-label={`Account: ${user.name}`}>
-        {user.avatar ? <img src={user.avatar} alt="" referrerPolicy="no-referrer" /> : initial}
+        {user.avatar ? <img src={user.avatar} alt="" referrerPolicy="no-referrer" style={{ display: "block", width: "100%", height: "100%", objectFit: "cover", borderRadius: "50%" }} /> : initial}
       </button>
       {open && (
         <div className={styles.accountMenu}>

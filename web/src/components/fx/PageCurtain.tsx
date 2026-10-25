@@ -4,15 +4,16 @@ import { usePathname, useRouter } from "next/navigation";
 import { useEffect, useRef } from "react";
 import { BASE_PATH } from "@/lib/asset";
 
-const LEAVE_MS = 200;
+const LEAVE_MS = 220;
 
 /** A clean page-to-page transition: the current page fades and lifts away, then the next one settles in.
- *  It works on `.page-root` (see globals.css), so the floating backdrop behind it never blinks. */
+ *  A glass glint sweeps across as it happens. It works on `.page-root` (see globals.css), so the floating backdrop behind it never blinks. */
 export default function PageCurtain() {
   const router = useRouter();
   const path = usePathname();
   const prev = useRef(path);
   const pending = useRef(false);
+  const sheen = useRef<HTMLDivElement>(null);
 
   // new page: settle in
   useEffect(() => {
@@ -41,6 +42,12 @@ export default function PageCurtain() {
       e.preventDefault();
       if (pending.current) return;
       pending.current = true;
+      const g = sheen.current;
+      if (g) {
+        g.removeAttribute("data-run");
+        void g.offsetWidth; // restart the animation
+        g.setAttribute("data-run", "1");
+      }
       const rel = BASE_PATH && url.pathname.startsWith(BASE_PATH) ? url.pathname.slice(BASE_PATH.length) || "/" : url.pathname;
       document.querySelector<HTMLElement>(".page-root")?.setAttribute("data-leaving", "1");
       window.setTimeout(() => router.push(rel + url.search + url.hash), LEAVE_MS);
@@ -49,5 +56,5 @@ export default function PageCurtain() {
     return () => document.removeEventListener("click", onClick, true);
   }, [router]);
 
-  return null;
+  return <div ref={sheen} className="page-sheen" aria-hidden="true" onAnimationEnd={(e) => e.currentTarget.removeAttribute("data-run")} />;
 }

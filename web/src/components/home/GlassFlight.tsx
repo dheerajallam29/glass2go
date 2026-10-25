@@ -32,7 +32,7 @@ import {
 type Trophy = "deca" | "fbla";
 const TROPHIES: Trophy[] = ["deca", "fbla"];
 const CANVAS_COLOUR = "#05070d";
-const LOOK = 26; // frames decoded ahead of the playhead (the film is 48 fps)
+const LOOK = 40; // frames decoded ahead of the playhead (the film is 48 fps)
 const LOCK_MS = 700; // ignore input right after a move lands (trackpad inertia)
 
 const zoneVars = (id: ChapterId, set: SetName): CSSProperties => {
@@ -65,6 +65,7 @@ export default function GlassFlight() {
   const stageRef = useRef<HTMLDivElement>(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const goRef = useRef<(to: number) => void>(() => {});
+  const resetRef = useRef<() => void>(() => {});
   const tiltTarget = useRef({ deca: 0, fbla: 0 });
   const nudgeCancel = useRef(false);
 
@@ -123,6 +124,7 @@ export default function GlassFlight() {
       }
       setZooming(null);
       setAskSignIn(null);
+      if (pathname === "/") resetRef.current();
     };
     restore();
     const onShow = (e: PageTransitionEvent) => e.persisted && restore();
@@ -304,7 +306,7 @@ export default function GlassFlight() {
         setWaiting(false);
       }
       const dir: 1 | -1 = b > a ? 1 : -1;
-      await Promise.all(Array.from({ length: 10 }, (_, i) => store!.decode(Math.min(hi, Math.max(lo, a + dir * i)))));
+      await Promise.all(Array.from({ length: 24 }, (_, i) => store!.decode(Math.min(hi, Math.max(lo, a + dir * i)))));
       if (dead) return;
       E.dir = dir;
       E.origin = a;
@@ -314,8 +316,25 @@ export default function GlassFlight() {
       E.playing = true;
     };
     goRef.current = go;
+    // back to the first stop (used when the homepage is shown again after visiting another page)
+    resetRef.current = () => {
+      E.pos = 1;
+      E.target = 1;
+      E.origin = 1;
+      E.index = 0;
+      E.playing = false;
+      E.moving = false;
+      E.fade = null;
+      E.dirty = true;
+      tiltTarget.current.deca = 0;
+      tiltTarget.current.fbla = 0;
+      setWaiting(false);
+      setIndex(0);
+      setActive(0);
+    };
 
     let raf = 0;
+    let heldAt = 0;
     const tick = (now: number) => {
       const dt = Math.min(0.05, (now - E.lastT) / 1000);
       E.lastT = now;
@@ -324,7 +343,19 @@ export default function GlassFlight() {
         // ease in and out: the camera eases away from each stop and settles into the next, instead of starting and ending at full speed
         const edge = Math.min(Math.abs(E.pos - E.origin), Math.abs(E.target - E.pos));
         const ease = Math.min(1, 0.3 + 0.7 * Math.sin((Math.min(edge, FPS * 0.4) / (FPS * 0.4)) * Math.PI * 0.5));
-        E.pos += E.dir * E.speed * ease * FPS * dt;
+        // never run ahead of the decoder: if the next frames are not ready yet, hold this picture for a tick
+        // (a short hold is far less visible than the picture jumping back to an older frame)
+        const f0 = Math.floor(E.pos);
+        const wait =
+          !!store &&
+          [1, 2, 3].some((i) => {
+            const n = Math.max(1, Math.min(FRAME_COUNT, f0 + E.dir * i));
+            return store!.has(n) && !store!.peek(n);
+          });
+        // ...but never hold for long: a frame that fails to decode must not freeze the film
+        if (!wait) heldAt = 0;
+        else if (!heldAt) heldAt = now;
+        if (!wait || now - heldAt > 220) E.pos += E.dir * E.speed * ease * FPS * dt;
         const done = E.dir > 0 ? E.pos >= E.target : E.pos <= E.target;
         if (done) {
           E.pos = E.target;
@@ -333,7 +364,7 @@ export default function GlassFlight() {
         if (store) {
           const f = Math.floor(E.pos);
           for (let i = 0; i <= LOOK; i++) void store.decode(Math.max(1, Math.min(FRAME_COUNT, f + E.dir * i)));
-          store.trim(f - 40, f + 40);
+          store.trim(E.dir > 0 ? f - 40 : f - LOOK - 8, E.dir > 0 ? f + LOOK + 8 : f + 40);
         }
         E.dirty = true;
       }
@@ -446,7 +477,7 @@ export default function GlassFlight() {
       const bytes = tier.width * tier.height * 4;
       // the frames the page rests on (the waypoints) also exist as full 1920x1200 renders, so they are sharp at rest even though the moving film is 1280 wide
       const hi = set === "landscape" ? new Set(manifest.waypoints) : null;
-      store = new FrameStore(manifest.frames, (n) => asset(hi?.has(n) ? `/flight/landscape/hi/${pad4(n)}.webp` : `/flight/${set}/${tier!.name}/${pad4(n)}.webp`), Math.max(28, Math.min(64, Math.floor(380e6 / bytes))));
+      store = new FrameStore(manifest.frames, (n) => asset(hi?.has(n) ? `/flight/landscape/hi/${pad4(n)}.webp` : `/flight/${set}/${tier!.name}/${pad4(n)}.webp`), Math.max(28, Math.min(88, Math.floor(380e6 / bytes))));
       layout();
 
       await Promise.all(WAYPOINTS.map((n) => store!.fetch(n)));
