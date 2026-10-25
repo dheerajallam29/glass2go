@@ -578,7 +578,7 @@ export default function GlassFlight() {
         <ol className={styles.ladder} aria-label="Ranks, lowest to highest">
           {["Bronze", "Silver", "Gold", "Platinum", "Diamond", "Glass"].map((r) => (
             <li key={r} className={r === "Glass" ? styles.top : undefined}>
-              <RankIcon rank={r} size={26} />
+              <RankIcon rank={r} size={32} />
               {r}
             </li>
           ))}
