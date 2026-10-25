@@ -43,7 +43,7 @@ if (cmd === "view") {
   const items = JSON.parse(readFileSync(tag ? `renders/why-${tag}.json` : "renders/why.json", "utf8"));
   const why = new Map(); // id -> {k: text}
   const edit = new Map();
-  for (const line of readFileSync("renders/why.txt", "utf8").split(/\r?\n/)) {
+  for (const line of readFileSync(tag ? `renders/why-${tag}.txt` : "renders/why.txt", "utf8").split(/\r?\n/)) {
     const m = line.match(/^(\d+)\.(\d)(=?)\|\s*(.+)$/);
     if (!m) continue;
     const it = items[Number(m[1]) - 1];
