@@ -32,8 +32,8 @@ import {
 type Trophy = "deca" | "fbla";
 const TROPHIES: Trophy[] = ["deca", "fbla"];
 const CANVAS_COLOUR = "#05070d";
-const LOOK = 40; // frames decoded ahead of the playhead (the film is 48 fps)
-const LOCK_MS = 700; // ignore input right after a move lands (trackpad inertia)
+const LOOK = 56; // frames decoded ahead of the playhead (the film is 48 fps)
+const LOCK_MS = 450; // ignore input right after a move lands (trackpad inertia)
 
 const zoneVars = (id: ChapterId, set: SetName): CSSProperties => {
   const z = ZONES[id][set];
@@ -189,7 +189,7 @@ export default function GlassFlight() {
 
     const layout = () => {
       if (!tier) return;
-      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      dpr = Math.min(window.devicePixelRatio || 1, 1.5);
       const vw = stage.clientWidth;
       const vh = stage.clientHeight;
       cw = Math.round(vw * dpr);
@@ -211,7 +211,7 @@ export default function GlassFlight() {
       ctx.fillStyle = CANVAS_COLOUR;
       ctx.fillRect(0, 0, cw, ch);
       ctx.imageSmoothingEnabled = true;
-      ctx.imageSmoothingQuality = "high";
+      ctx.imageSmoothingQuality = E.playing ? "low" : "high";
       const dx = pl.ox * dpr, dy = pl.oy * dpr, dw = pl.w * dpr, dh = pl.h * dpr;
 
       if (E.fade) {
@@ -232,7 +232,7 @@ export default function GlassFlight() {
       const mix = E.pos - f0;
       const A = store.peek(f0) ?? store.nearest(f0);
       if (A) ctx.drawImage(A, dx, dy, dw, dh);
-      const B = mix > 0.01 && f0 < FRAME_COUNT ? store.peek(f0 + 1) : undefined;
+      const B = undefined as ImageBitmap | undefined; // no cross-blend: at 48 fps it only doubles the draw cost
       if (B) {
         ctx.globalAlpha = mix;
         ctx.drawImage(B, dx, dy, dw, dh);
@@ -311,7 +311,7 @@ export default function GlassFlight() {
       E.dir = dir;
       E.origin = a;
       E.target = b;
-      E.speed = Math.abs(to - from) > 1 ? 1.7 : 1;
+      E.speed = Math.max(1.8, Math.abs(b - a) / (FPS * 2.2));
       E.lastT = performance.now();
       E.playing = true;
     };
@@ -435,6 +435,7 @@ export default function GlassFlight() {
       }
     };
     const onKey = (e: KeyboardEvent) => {
+
       if (e.metaKey || e.ctrlKey || e.altKey) return;
       const el = e.target as HTMLElement | null;
       const interactive = !!el?.closest("a,button,input,textarea,select,[role=button]");
@@ -491,7 +492,7 @@ export default function GlassFlight() {
         const order: number[] = [];
         for (let n = 1; n <= FRAME_COUNT; n++) if (!WAYPOINTS.includes(n as (typeof WAYPOINTS)[number])) order.push(n);
         void store
-          .fetchAll(order, 6, () => {
+          .fetchAll(order, 8, () => {
             if (store && store.loaded % 6 === 0) setProgress(store.loaded / FRAME_COUNT);
           })
           .then(() => !dead && setProgress(1));
