@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (985)
+## Flags to review (980)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -943,26 +943,22 @@ none
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-securities-financial-markets-170
 - fbla-intro-business-job-search-skills-032 (fbla-intro-business.02.jsonl:114): prompt is very similar to fbla-intro-business-job-search-skills-031
 - fbla-intro-business-economic-concepts-002 (fbla-intro-business.03.jsonl:2): prompt is very similar to fbla-intro-business-fundamental-economic-concepts-009
-- fbla-intro-business-economic-systems-025 (fbla-intro-business.03.jsonl:15): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-cost-and-profit-005 (fbla-intro-business.03.jsonl:29): prompt is very similar to fbla-economics-cost-profit-relationships-065
 - fbla-intro-business-cost-and-profit-009 (fbla-intro-business.03.jsonl:33): prompt is very similar to fbla-economics-cost-profit-relationships-029
 - fbla-intro-business-cost-and-profit-009 (fbla-intro-business.03.jsonl:33): prompt is very similar to fbla-intro-business-cost-profit-relationships-013
 - fbla-intro-business-careers-004 (fbla-intro-business.03.jsonl:56): prompt is very similar to fbla-leadership-manage-business-relationships-014
 - fbla-intro-business-careers-011 (fbla-intro-business.03.jsonl:63): prompt is very similar to fbla-leadership-human-resources-management-010
 - fbla-intro-business-careers-011 (fbla-intro-business.03.jsonl:63): prompt is very similar to fbla-healthcare-admin-staffing-and-training-002
-- fbla-intro-business-nature-of-business-049 (fbla-intro-business.06.jsonl:22): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-nature-of-business-050 (fbla-intro-business.06.jsonl:23): prompt is very similar to fbla-leadership-role-of-management-in-business-026
 - fbla-intro-business-nature-of-business-050 (fbla-intro-business.06.jsonl:23): prompt is very similar to fbla-healthcare-admin-strategic-management-001
 - fbla-intro-business-nature-of-business-057 (fbla-intro-business.06.jsonl:30): prompt is very similar to fbla-leadership-ethics-004
 - fbla-intro-business-nature-of-business-057 (fbla-intro-business.06.jsonl:30): prompt is very similar to fbla-intro-business-nature-of-business-024
-- fbla-intro-business-nature-of-business-059 (fbla-intro-business.06.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-nature-of-business-059 (fbla-intro-business.06.jsonl:32): prompt is very similar to fbla-economics-global-trade-006
 - fbla-intro-business-types-of-business-activities-047 (fbla-intro-business.06.jsonl:48): prompt is very similar to fbla-leadership-human-resources-management-008
 - fbla-intro-business-types-of-business-activities-051 (fbla-intro-business.06.jsonl:52): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-009
 - fbla-intro-business-types-of-business-activities-052 (fbla-intro-business.06.jsonl:53): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-008
 - fbla-intro-business-owning-a-business-050 (fbla-intro-business.06.jsonl:61): prompt is very similar to fbla-business-law-business-organizations-009
 - fbla-intro-business-owning-a-business-050 (fbla-intro-business.06.jsonl:61): prompt is very similar to fbla-economics-nature-of-business-023
-- fbla-intro-business-owning-a-business-051 (fbla-intro-business.06.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-owning-a-business-051 (fbla-intro-business.06.jsonl:62): prompt is very similar to fbla-business-law-business-organizations-001
 - fbla-intro-business-owning-a-business-051 (fbla-intro-business.06.jsonl:62): prompt is very similar to fbla-economics-nature-of-business-022
 - fbla-intro-business-owning-a-business-054 (fbla-intro-business.06.jsonl:65): prompt is very similar to fbla-business-law-business-organizations-011
@@ -972,14 +968,11 @@ none
 - fbla-intro-business-owning-a-business-056 (fbla-intro-business.06.jsonl:67): prompt is very similar to fbla-economics-nature-of-business-027
 - fbla-intro-business-owning-a-business-056 (fbla-intro-business.06.jsonl:67): prompt is very similar to fbla-intro-business-owning-a-business-005
 - fbla-intro-business-owning-a-business-057 (fbla-intro-business.06.jsonl:68): prompt is very similar to fbla-business-law-business-organizations-004
-- fbla-intro-business-owning-a-business-059 (fbla-intro-business.06.jsonl:70): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-owning-a-business-059 (fbla-intro-business.06.jsonl:70): prompt is very similar to fbla-business-law-business-organizations-015
 - fbla-intro-business-owning-a-business-059 (fbla-intro-business.06.jsonl:70): prompt is very similar to fbla-economics-nature-of-business-028
 - fbla-intro-business-owning-a-business-059 (fbla-intro-business.06.jsonl:70): prompt is very similar to fbla-leadership-role-of-management-in-business-019
 - fbla-intro-business-owning-a-business-061 (fbla-intro-business.06.jsonl:72): prompt is very similar to fbla-economics-nature-of-business-038
 - fbla-intro-business-owning-a-business-065 (fbla-intro-business.06.jsonl:76): prompt is very similar to fbla-economics-nature-of-business-036
-- fbla-intro-business-owning-a-business-071 (fbla-intro-business.06.jsonl:82): correct answer is much longer than every wrong answer (gives itself away)
-- fbla-intro-business-owning-a-business-074 (fbla-intro-business.06.jsonl:85): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-owning-a-business-074 (fbla-intro-business.06.jsonl:85): prompt is very similar to fbla-accounting-tax-accounting-055
 - fbla-intro-business-owning-a-business-078 (fbla-intro-business.06.jsonl:89): prompt is very similar to fbla-business-law-legal-foundations-052
 - fbla-intro-business-owning-a-business-079 (fbla-intro-business.06.jsonl:90): prompt is very similar to fbla-intro-business-owning-a-business-033
@@ -989,6 +982,7 @@ none
 - fbla-intro-business-owning-a-business-085 (fbla-intro-business.06.jsonl:96): prompt is very similar to fbla-accounting-foundations-of-accounting-122
 - fbla-intro-business-owning-a-business-088 (fbla-intro-business.06.jsonl:99): prompt is very similar to fbla-intro-business-cost-profit-relationships-019
 - fbla-intro-business-owning-a-business-093 (fbla-intro-business.06.jsonl:104): prompt is very similar to fbla-economics-cost-profit-relationships-031
+- fbla-intro-business-cost-profit-relationships-031 (fbla-intro-business.06.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-cost-profit-relationships-036 (fbla-intro-business.06.jsonl:115): prompt is very similar to fbla-economics-cost-profit-relationships-022
 - fbla-intro-business-cost-profit-relationships-037 (fbla-intro-business.06.jsonl:116): prompt is very similar to fbla-economics-cost-profit-relationships-025
 - fbla-intro-business-cost-profit-relationships-038 (fbla-intro-business.06.jsonl:117): prompt is very similar to fbla-economics-costs-and-production-006
@@ -1011,6 +1005,7 @@ none
 - fbla-intro-business-economic-systems-045 (fbla-intro-business.06.jsonl:147): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-economic-systems-045 (fbla-intro-business.06.jsonl:147): prompt is very similar to fbla-economics-macroeconomics-001
 - fbla-intro-business-economic-systems-049 (fbla-intro-business.06.jsonl:151): prompt is very similar to fbla-economics-macroeconomics-012
+- fbla-intro-business-economic-systems-050 (fbla-intro-business.06.jsonl:152): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-economic-systems-050 (fbla-intro-business.06.jsonl:152): prompt is very similar to fbla-economics-macroeconomics-014
 - fbla-intro-business-economic-systems-051 (fbla-intro-business.06.jsonl:153): prompt is very similar to fbla-personal-finance-principles-of-money-061
 - fbla-intro-business-economic-systems-053 (fbla-intro-business.06.jsonl:155): correct answer is much longer than every wrong answer (gives itself away)
