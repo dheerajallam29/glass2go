@@ -311,7 +311,7 @@ export default function GlassFlight() {
       E.dir = dir;
       E.origin = a;
       E.target = b;
-      E.speed = Math.max(1.8, Math.abs(b - a) / (FPS * 2.2));
+      E.speed = Math.max(1.3, Math.abs(b - a) / (FPS * 3));
       E.lastT = performance.now();
       E.playing = true;
     };
@@ -486,11 +486,18 @@ export default function GlassFlight() {
       await Promise.all(WAYPOINTS.map((n) => store!.decode(n)));
       if (dead) return;
       E.dirty = true;
+      // the first move must never stall: have its frames in before the page is handed over
+      if (!reduced) {
+        const first: number[] = [];
+        for (let n = WAYPOINTS[0] + 1; n < WAYPOINTS[1]; n++) first.push(n);
+        await store.fetchAll(first, 8);
+        if (dead) return;
+      }
       setReady(true);
 
       if (!reduced) {
         const order: number[] = [];
-        for (let n = 1; n <= FRAME_COUNT; n++) if (!WAYPOINTS.includes(n as (typeof WAYPOINTS)[number])) order.push(n);
+        for (let n = 1; n <= FRAME_COUNT; n++) if (!WAYPOINTS.includes(n as (typeof WAYPOINTS)[number]) && !store.has(n)) order.push(n);
         void store
           .fetchAll(order, 8, () => {
             if (store && store.loaded % 6 === 0) setProgress(store.loaded / FRAME_COUNT);
