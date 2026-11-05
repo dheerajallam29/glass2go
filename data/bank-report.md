@@ -180,7 +180,7 @@ A: 2080, B: 2079, C: 2079, D: 2080
 ## Hard errors (0)
 none
 
-## Flags to review (980)
+## Flags to review (987)
 - deca-core-financial-analysis-010 (deca-core.02.jsonl:61): prompt is very similar to deca-core-financial-analysis-003
 - deca-core-business-law-030 (deca-core.04.jsonl:7): prompt is very similar to deca-core-business-law-016
 - deca-core-business-law-050 (deca-core.05.jsonl:9): prompt is very similar to deca-core-business-law-005
@@ -269,10 +269,12 @@ none
 - deca-pfl-spending-064 (deca-pfl.05.jsonl:53): prompt is very similar to deca-core-marketing-050
 - deca-pfl-spending-064 (deca-pfl.05.jsonl:53): prompt is very similar to deca-marketing-promotion-020
 - deca-pfl-managing-risk-051 (deca-pfl.06.jsonl:56): negative wording should use capitals (NOT / EXCEPT / LEAST)
+- deca-pfl-managing-risk-057 (deca-pfl.06.jsonl:62): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-investing-076 (deca-pfl.07.jsonl:32): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - deca-pfl-investing-100 (deca-pfl.07.jsonl:56): prompt is very similar to deca-pfl-saving-022
 - deca-pfl-saving-061 (deca-pfl.08.jsonl:20): prompt is very similar to deca-core-financial-analysis-072
 - deca-pfl-earning-income-071 (deca-pfl.09.jsonl:1): prompt is very similar to deca-core-financial-analysis-077
+- deca-pfl-spending-081 (deca-pfl.09.jsonl:19): correct answer is much longer than every wrong answer (gives itself away)
 - deca-pfl-managing-risk-079 (deca-pfl.09.jsonl:41): prompt is very similar to deca-core-business-law-100
 - deca-pfl-earning-income-089 (deca-pfl.12.jsonl:1): prompt is very similar to deca-pfl-earning-income-010
 - deca-pfl-earning-income-090 (deca-pfl.12.jsonl:2): prompt is very similar to deca-core-human-resources-management-016
@@ -360,8 +362,10 @@ none
 - fbla-business-law-international-trade-commerce-law-060 (fbla-business-law.10.jsonl:103): prompt is very similar to fbla-business-law-international-trade-commerce-law-033
 - fbla-business-law-legal-foundations-065 (fbla-business-law.10.jsonl:110): prompt is very similar to fbla-business-law-legal-foundations-022
 - fbla-business-law-business-ethics-063 (fbla-business-law.10.jsonl:119): prompt is very similar to fbla-business-law-business-ethics-020
+- fbla-business-law-sales-and-consumer-law-030 (fbla-business-law.11.jsonl:35): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-sales-and-consumer-law-035 (fbla-business-law.11.jsonl:40): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - fbla-business-law-agency-and-employment-020 (fbla-business-law.11.jsonl:71): prompt is very similar to fbla-business-law-agency-and-employment-018
+- fbla-business-law-financial-tax-law-068 (fbla-business-law.12.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-business-law-financial-tax-law-073 (fbla-business-law.12.jsonl:37): prompt is very similar to fbla-accounting-tax-accounting-096
 - fbla-economics-government-s-impact-on-business-005 (fbla-economics.jsonl:23): prompt is very similar to fbla-business-law-international-trade-commerce-law-012
 - fbla-economics-global-trade-005 (fbla-economics.jsonl:40): prompt is very similar to fbla-business-law-international-trade-commerce-law-069
@@ -743,6 +747,7 @@ none
 - fbla-healthcare-admin-healthcare-billing-and-insurance-003 (fbla-healthcare-admin.03.jsonl:3): prompt is very similar to fbla-personal-finance-risk-management-021
 - fbla-healthcare-admin-healthcare-billing-and-insurance-004 (fbla-healthcare-admin.03.jsonl:4): prompt is very similar to fbla-personal-finance-risk-management-011
 - fbla-healthcare-admin-healthcare-billing-and-insurance-025 (fbla-healthcare-admin.03.jsonl:25): prompt is very similar to fbla-healthcare-admin-healthcare-billing-and-insurance-024
+- fbla-healthcare-admin-healthcare-policy-and-regulation-003 (fbla-healthcare-admin.03.jsonl:37): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-healthcare-policy-and-regulation-011 (fbla-healthcare-admin.03.jsonl:45): negative wording should use capitals (NOT / EXCEPT / LEAST)
 - fbla-healthcare-admin-communication-and-leadership-002 (fbla-healthcare-admin.04.jsonl:2): prompt is very similar to fbla-leadership-leadership-022
 - fbla-healthcare-admin-communication-and-leadership-018 (fbla-healthcare-admin.04.jsonl:18): prompt is very similar to fbla-leadership-role-of-management-in-business-005
@@ -794,6 +799,7 @@ none
 - fbla-healthcare-admin-communication-and-leadership-045 (fbla-healthcare-admin.06.jsonl:187): prompt is very similar to fbla-leadership-leadership-015
 - fbla-healthcare-admin-communication-and-leadership-046 (fbla-healthcare-admin.06.jsonl:188): prompt is very similar to fbla-leadership-leadership-010
 - fbla-healthcare-admin-communication-and-leadership-047 (fbla-healthcare-admin.06.jsonl:189): prompt is very similar to fbla-leadership-leadership-012
+- fbla-healthcare-admin-communication-and-leadership-056 (fbla-healthcare-admin.06.jsonl:198): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-059 (fbla-healthcare-admin.06.jsonl:229): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-012
 - fbla-healthcare-admin-medical-terminology-and-office-procedures-065 (fbla-healthcare-admin.06.jsonl:235): prompt is very similar to fbla-healthcare-admin-medical-terminology-and-office-procedures-016
 - fbla-healthcare-admin-healthcare-finances-and-budgeting-041 (fbla-healthcare-admin.06.jsonl:253): prompt is very similar to fbla-healthcare-admin-healthcare-finances-and-budgeting-009
@@ -953,6 +959,7 @@ none
 - fbla-intro-business-nature-of-business-050 (fbla-intro-business.06.jsonl:23): prompt is very similar to fbla-healthcare-admin-strategic-management-001
 - fbla-intro-business-nature-of-business-057 (fbla-intro-business.06.jsonl:30): prompt is very similar to fbla-leadership-ethics-004
 - fbla-intro-business-nature-of-business-057 (fbla-intro-business.06.jsonl:30): prompt is very similar to fbla-intro-business-nature-of-business-024
+- fbla-intro-business-nature-of-business-059 (fbla-intro-business.06.jsonl:32): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-nature-of-business-059 (fbla-intro-business.06.jsonl:32): prompt is very similar to fbla-economics-global-trade-006
 - fbla-intro-business-types-of-business-activities-047 (fbla-intro-business.06.jsonl:48): prompt is very similar to fbla-leadership-human-resources-management-008
 - fbla-intro-business-types-of-business-activities-051 (fbla-intro-business.06.jsonl:52): prompt is very similar to fbla-accounting-accounts-payable-and-receivable-009
@@ -982,7 +989,6 @@ none
 - fbla-intro-business-owning-a-business-085 (fbla-intro-business.06.jsonl:96): prompt is very similar to fbla-accounting-foundations-of-accounting-122
 - fbla-intro-business-owning-a-business-088 (fbla-intro-business.06.jsonl:99): prompt is very similar to fbla-intro-business-cost-profit-relationships-019
 - fbla-intro-business-owning-a-business-093 (fbla-intro-business.06.jsonl:104): prompt is very similar to fbla-economics-cost-profit-relationships-031
-- fbla-intro-business-cost-profit-relationships-031 (fbla-intro-business.06.jsonl:110): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-cost-profit-relationships-036 (fbla-intro-business.06.jsonl:115): prompt is very similar to fbla-economics-cost-profit-relationships-022
 - fbla-intro-business-cost-profit-relationships-037 (fbla-intro-business.06.jsonl:116): prompt is very similar to fbla-economics-cost-profit-relationships-025
 - fbla-intro-business-cost-profit-relationships-038 (fbla-intro-business.06.jsonl:117): prompt is very similar to fbla-economics-costs-and-production-006
@@ -1101,6 +1107,7 @@ none
 - fbla-intro-business-cost-profit-relationships-093 (fbla-intro-business.08.jsonl:88): prompt is very similar to fbla-accounting-financial-reports-027
 - fbla-intro-business-cost-profit-relationships-093 (fbla-intro-business.08.jsonl:88): prompt is very similar to fbla-securities-investment-analysis-137
 - fbla-intro-business-cost-profit-relationships-094 (fbla-intro-business.08.jsonl:89): correct answer is much longer than every wrong answer (gives itself away)
+- fbla-intro-business-cost-profit-relationships-096 (fbla-intro-business.08.jsonl:91): correct answer is much longer than every wrong answer (gives itself away)
 - fbla-intro-business-cost-profit-relationships-098 (fbla-intro-business.08.jsonl:93): prompt is very similar to fbla-accounting-foundations-of-accounting-021
 - fbla-intro-business-cost-profit-relationships-098 (fbla-intro-business.08.jsonl:93): prompt is very similar to fbla-accounting-foundations-of-accounting-122
 - fbla-intro-business-cost-profit-relationships-098 (fbla-intro-business.08.jsonl:93): prompt is very similar to fbla-intro-business-owning-a-business-085
