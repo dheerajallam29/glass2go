@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 import { authEnabled, signInWithGoogle, signOut, useAuth } from "@/lib/auth";
 import styles from "./Site.module.css";
 
-const SHOW = authEnabled || process.env.NODE_ENV !== "production";
+const SHOW = authEnabled;
 const SYNC_LABEL = { idle: "", syncing: "Saving…", synced: "Progress saved to your account", error: "Could not save. Will retry on your next answer." } as const;
 
 type Props = { className?: string; signClassName?: string; avatarClassName?: string };

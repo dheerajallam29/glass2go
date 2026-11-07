@@ -9,7 +9,8 @@ import { applyStore, getStore, mergeStores, setPushHook, type Store } from "./pr
 const URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const KEY = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY;
 
-export const authEnabled = !!URL && !!KEY;
+// Sign-in is switched off for now. To bring it back, set this to `!!URL && !!KEY` once the Supabase project is working.
+export const authEnabled = false;
 
 export type SyncState = "idle" | "syncing" | "synced" | "error";
 export type AuthState = {
